@@ -1,6 +1,6 @@
 # AutoMechInterp: Automated Mechanistic Interpretability via Deterministic Evaluation
 
-> Public docs website: **redacted for NeurIPS 2026 double-blind review.** The URL is restored after the review window closes.
+> Public docs website: **redacted for double-blind review.** The URL is restored after the review window closes.
 
 Auto-MechInterp is a verification harness for mechanistic interpretability claims. It separates *hypothesis generation* (from human analysts, circuit heuristics, automated neuron explanation systems, or SAE-based autointerp pipelines) from *verification*, which is performed by a deterministic stage-gate of causal interventions, negative controls, robustness checks, method-sensitivity analysis, and integrity/provenance requirements.
 
