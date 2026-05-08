@@ -1,0 +1,279 @@
+{
+  "bundle_hashes": {
+    "evaluation_result.json": "4eada46e910994d475c019b85a786b1d088ed07961081cfb476ef9329a65bc2d",
+    "hypothesis.jsonl": "f3cebff887fe0287ff03dfd2b22edc771f822d61bfd941a0236a16c7e2990444",
+    "protocol.yaml": "2b8d26952c7888cdccc6529bd24927556e6fd95f6b133be7bca0839d9e97a2cc"
+  },
+  "claim_reports": [
+    {
+      "checks": {
+        "baseline_superiority": true,
+        "bidirectional": true,
+        "causal_effect": false,
+        "confirmatory_ci": false,
+        "confirmatory_firewall": true,
+        "confirmatory_present": true,
+        "cross_model_transfer": "not_evaluated",
+        "effect_size_practical": false,
+        "execution_coverage": true,
+        "governance_valid": true,
+        "method_sensitivity": true,
+        "multiplicity": false,
+        "negative_controls": true,
+        "power_adequacy": false,
+        "rank_stability": true,
+        "robustness": false
+      },
+      "evidence_tier": "rejected",
+      "failed_checks": [
+        "causal_effect",
+        "robustness",
+        "confirmatory_ci",
+        "multiplicity",
+        "power_adequacy",
+        "effect_size_practical"
+      ],
+      "gate_outcomes": {
+        "baseline_superiority": "pass",
+        "bidirectional": "pass",
+        "causal_effect": "fail",
+        "confirmatory_ci": "fail",
+        "confirmatory_firewall": "pass",
+        "confirmatory_present": "pass",
+        "cross_model_transfer": "not_evaluated",
+        "effect_size_practical": "fail",
+        "execution_coverage": "pass",
+        "governance_valid": "pass",
+        "method_sensitivity": "pass",
+        "multiplicity": "fail",
+        "negative_controls": "pass",
+        "power_adequacy": "fail",
+        "rank_stability": "pass",
+        "robustness": "fail"
+      },
+      "hypothesis_id": "h_neuron_ioi_v0_001",
+      "metrics": {
+        "cohens_d": -0.14474186614024948,
+        "compensation_warning": true,
+        "confirmatory_ci_high": 0.010015434688991971,
+        "confirmatory_ci_low": -0.03673140460221225,
+        "control_abs_mean": 0.0022841436522347586,
+        "expected_cells": 54,
+        "exploratory_present": true,
+        "governance_issues": [
+          "exception_expiry_hours=168"
+        ],
+        "holm_adjusted_p": 0.591940805919408,
+        "method_sensitivity_std": 0.02798567746758613,
+        "method_sensitivity_type": "direction_reversal",
+        "missing_cells": [],
+        "n_cells": 54,
+        "observed_cells": 54,
+        "p_value_permutation": 0.29527047295270475,
+        "prompt_variant_consistency": 0.3333333333333333,
+        "q_value": 0.443955604439556,
+        "resample_consistency": 0.0,
+        "seed_consistency": 0.0,
+        "specificity_ratio": 5.6298654483146855,
+        "treatment_effect_mean": -0.012859421432333647,
+        "undeclared_cells": []
+      },
+      "not_evaluated_checks": [
+        "cross_model_transfer"
+      ],
+      "not_evaluated_guidance": {
+        "cross_model_transfer": {
+          "how_to_run": "Run run_cross_model_transfer() with a second model family",
+          "impact": "Prevents cross_model_confirmed tier; single_model_confirmed still achievable",
+          "why_missing": "No cross-model transfer data in bundle"
+        }
+      },
+      "passed": false
+    },
+    {
+      "checks": {
+        "baseline_superiority": true,
+        "bidirectional": true,
+        "causal_effect": false,
+        "confirmatory_ci": false,
+        "confirmatory_firewall": true,
+        "confirmatory_present": true,
+        "cross_model_transfer": "not_evaluated",
+        "effect_size_practical": false,
+        "execution_coverage": true,
+        "governance_valid": true,
+        "method_sensitivity": true,
+        "multiplicity": false,
+        "negative_controls": true,
+        "power_adequacy": false,
+        "rank_stability": true,
+        "robustness": false
+      },
+      "evidence_tier": "rejected",
+      "failed_checks": [
+        "causal_effect",
+        "robustness",
+        "confirmatory_ci",
+        "multiplicity",
+        "power_adequacy",
+        "effect_size_practical"
+      ],
+      "gate_outcomes": {
+        "baseline_superiority": "pass",
+        "bidirectional": "pass",
+        "causal_effect": "fail",
+        "confirmatory_ci": "fail",
+        "confirmatory_firewall": "pass",
+        "confirmatory_present": "pass",
+        "cross_model_transfer": "not_evaluated",
+        "effect_size_practical": "fail",
+        "execution_coverage": "pass",
+        "governance_valid": "pass",
+        "method_sensitivity": "pass",
+        "multiplicity": "fail",
+        "negative_controls": "pass",
+        "power_adequacy": "fail",
+        "rank_stability": "pass",
+        "robustness": "fail"
+      },
+      "hypothesis_id": "h_neuron_ioi_v0_002",
+      "metrics": {
+        "cohens_d": 0.06838558655748857,
+        "compensation_warning": true,
+        "confirmatory_ci_high": 0.018856858450268944,
+        "confirmatory_ci_low": -0.011889385798620799,
+        "control_abs_mean": 0.0010962763791361814,
+        "expected_cells": 54,
+        "exploratory_present": true,
+        "governance_issues": [
+          "exception_expiry_hours=168"
+        ],
+        "holm_adjusted_p": 0.6212378762123788,
+        "method_sensitivity_std": 0.003926433437061443,
+        "method_sensitivity_type": "direction_reversal",
+        "missing_cells": [],
+        "n_cells": 54,
+        "observed_cells": 54,
+        "p_value_permutation": 0.6222377762223777,
+        "prompt_variant_consistency": 0.3333333333333333,
+        "q_value": 0.6212378762123788,
+        "resample_consistency": 0.0,
+        "seed_consistency": 0.0,
+        "specificity_ratio": 3.665057231963656,
+        "treatment_effect_mean": 0.00401791567524905,
+        "undeclared_cells": []
+      },
+      "not_evaluated_checks": [
+        "cross_model_transfer"
+      ],
+      "not_evaluated_guidance": {
+        "cross_model_transfer": {
+          "how_to_run": "Run run_cross_model_transfer() with a second model family",
+          "impact": "Prevents cross_model_confirmed tier; single_model_confirmed still achievable",
+          "why_missing": "No cross-model transfer data in bundle"
+        }
+      },
+      "passed": false
+    },
+    {
+      "checks": {
+        "baseline_superiority": true,
+        "bidirectional": true,
+        "causal_effect": false,
+        "confirmatory_ci": true,
+        "confirmatory_firewall": true,
+        "confirmatory_present": true,
+        "cross_model_transfer": "not_evaluated",
+        "effect_size_practical": true,
+        "execution_coverage": true,
+        "governance_valid": true,
+        "method_sensitivity": true,
+        "multiplicity": true,
+        "negative_controls": true,
+        "power_adequacy": false,
+        "rank_stability": true,
+        "robustness": false
+      },
+      "evidence_tier": "rejected",
+      "failed_checks": [
+        "causal_effect",
+        "robustness",
+        "power_adequacy"
+      ],
+      "gate_outcomes": {
+        "baseline_superiority": "pass",
+        "bidirectional": "pass",
+        "causal_effect": "fail",
+        "confirmatory_ci": "pass",
+        "confirmatory_firewall": "pass",
+        "confirmatory_present": "pass",
+        "cross_model_transfer": "not_evaluated",
+        "effect_size_practical": "pass",
+        "execution_coverage": "pass",
+        "governance_valid": "pass",
+        "method_sensitivity": "pass",
+        "multiplicity": "pass",
+        "negative_controls": "pass",
+        "power_adequacy": "fail",
+        "rank_stability": "pass",
+        "robustness": "fail"
+      },
+      "hypothesis_id": "h_neuron_ioi_v0_003",
+      "metrics": {
+        "cohens_d": -0.29962353413087695,
+        "compensation_warning": true,
+        "confirmatory_ci_high": -0.0038827411712162073,
+        "confirmatory_ci_low": -0.030234849011456524,
+        "control_abs_mean": 0.001088420865396974,
+        "expected_cells": 54,
+        "exploratory_present": true,
+        "governance_issues": [
+          "exception_expiry_hours=168"
+        ],
+        "holm_adjusted_p": 0.08849115088491151,
+        "method_sensitivity_std": 0.017665268631187902,
+        "method_sensitivity_type": "direction_reversal",
+        "missing_cells": [],
+        "n_cells": 54,
+        "observed_cells": 54,
+        "p_value_permutation": 0.028197180281971802,
+        "prompt_variant_consistency": 0.0,
+        "q_value": 0.08849115088491151,
+        "resample_consistency": 0.0,
+        "seed_consistency": 0.0,
+        "specificity_ratio": 13.101046067562427,
+        "treatment_effect_mean": -0.014259451911562965,
+        "undeclared_cells": []
+      },
+      "not_evaluated_checks": [
+        "cross_model_transfer"
+      ],
+      "not_evaluated_guidance": {
+        "cross_model_transfer": {
+          "how_to_run": "Run run_cross_model_transfer() with a second model family",
+          "impact": "Prevents cross_model_confirmed tier; single_model_confirmed still achievable",
+          "why_missing": "No cross-model transfer data in bundle"
+        }
+      },
+      "passed": false
+    }
+  ],
+  "overall": {
+    "accepted_count": 0,
+    "all_pass": false,
+    "cross_method_rank_tau": 0.11111111111111112,
+    "hypothesis_count": 3,
+    "rejected_count": 3,
+    "tier_order": [
+      "cross_model_confirmed",
+      "single_model_confirmed",
+      "causal_plus_robustness",
+      "causal_tested_unstable",
+      "suggestive",
+      "rejected"
+    ],
+    "unstable_count": 0
+  },
+  "protocol_hash": "2b8d26952c7888cdccc6529bd24927556e6fd95f6b133be7bca0839d9e97a2cc",
+  "protocol_id": "multilane_B_ioi_v0_gpt2-small_prompt_variant_repair_v1"
+}

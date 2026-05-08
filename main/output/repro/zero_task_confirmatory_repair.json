@@ -1,0 +1,988 @@
+{
+  "aggregate": {
+    "accepted_after_mock_total": 27,
+    "accepted_before_total": 0,
+    "bundles_repaired": 10,
+    "confirmatory_ci_failures_after_mock": 0,
+    "confirmatory_ci_failures_before": 23,
+    "confirmatory_present_failures_after_mock": 0,
+    "confirmatory_present_failures_before": 0,
+    "tasks_with_any_mock_accepted_after": [
+      "arithmetic_v0",
+      "docstring_v0",
+      "fact_recall_v0",
+      "gendered_pronoun_v0",
+      "greater_than_v0"
+    ]
+  },
+  "bundles": [
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/arithmetic_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/arithmetic_v0_gpt2-small",
+      "task": "arithmetic_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "worded"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 2,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 3,
+        "robustness": 2
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/arithmetic_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/arithmetic_v0_pythia-70m",
+      "task": "arithmetic_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "worded"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "negative_controls": 1,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/docstring_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/docstring_v0_gpt2-small",
+      "task": "docstring_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "detailed"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/docstring_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/docstring_v0_pythia-70m",
+      "task": "docstring_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "detailed"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/fact_recall_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/fact_recall_v0_gpt2-small",
+      "task": "fact_recall_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "negative_controls": 1,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/fact_recall_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/fact_recall_v0_pythia-70m",
+      "task": "fact_recall_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/gendered_pronoun_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/gendered_pronoun_v0_gpt2-small",
+      "task": "gendered_pronoun_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 2,
+      "accepted_before": 0,
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 2,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {
+        "causal_effect": 1,
+        "robustness": 1
+      },
+      "failed_gates_before": {
+        "confirmatory_ci": 2,
+        "method_sensitivity": 3,
+        "multiplicity": 3
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/gendered_pronoun_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/gendered_pronoun_v0_pythia-70m",
+      "task": "gendered_pronoun_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 2,
+      "accepted_before": 0,
+      "bundle": "greater_than_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 0,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {
+        "causal_effect": 1,
+        "robustness": 1
+      },
+      "failed_gates_before": {
+        "cross_model_transfer": 3,
+        "method_sensitivity": 2,
+        "multiplicity": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/greater_than_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/greater_than_v0_gpt2-small",
+      "task": "greater_than_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 2,
+      "accepted_before": 0,
+      "bundle": "greater_than_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 1,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {
+        "causal_effect": 1,
+        "robustness": 1
+      },
+      "failed_gates_before": {
+        "causal_effect": 2,
+        "confirmatory_ci": 1,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "robustness": 2
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/greater_than_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/greater_than_v0_pythia-70m",
+      "task": "greater_than_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    }
+  ],
+  "fast_stat_budget": {
+    "bootstrap_resamples": 256,
+    "permutation_iterations": 256
+  },
+  "generated_by": "main/zero_task_confirmatory_repair.py",
+  "rows": [
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/arithmetic_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/arithmetic_v0_gpt2-small",
+      "task": "arithmetic_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "worded"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 2,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 3,
+        "robustness": 2
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/arithmetic_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/arithmetic_v0_pythia-70m",
+      "task": "arithmetic_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "worded"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "negative_controls": 1,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/docstring_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/docstring_v0_gpt2-small",
+      "task": "docstring_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "detailed"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/docstring_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/docstring_v0_pythia-70m",
+      "task": "docstring_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "detailed"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/fact_recall_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/fact_recall_v0_gpt2-small",
+      "task": "fact_recall_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "negative_controls": 1,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/fact_recall_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/fact_recall_v0_pythia-70m",
+      "task": "fact_recall_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 3,
+      "accepted_before": 0,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {},
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/gendered_pronoun_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/gendered_pronoun_v0_gpt2-small",
+      "task": "gendered_pronoun_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 2,
+      "accepted_before": 0,
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 2,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {
+        "causal_effect": 1,
+        "robustness": 1
+      },
+      "failed_gates_before": {
+        "confirmatory_ci": 2,
+        "method_sensitivity": 3,
+        "multiplicity": 3
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/gendered_pronoun_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/gendered_pronoun_v0_pythia-70m",
+      "task": "gendered_pronoun_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 2,
+      "accepted_before": 0,
+      "bundle": "greater_than_v0_gpt2-small",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 0,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {
+        "causal_effect": 1,
+        "robustness": 1
+      },
+      "failed_gates_before": {
+        "cross_model_transfer": 3,
+        "method_sensitivity": 2,
+        "multiplicity": 3
+      },
+      "mode": "mock",
+      "model": "gpt2-small",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/greater_than_v0_gpt2-small",
+      "source_bundle": "main/output/real_multi_task/greater_than_v0_gpt2-small",
+      "task": "greater_than_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_mock": 2,
+      "accepted_before": 0,
+      "bundle": "greater_than_v0_pythia-70m",
+      "confirmatory_ci_failures_after_mock": 0,
+      "confirmatory_ci_failures_before": 1,
+      "confirmatory_present_failures_after_mock": 0,
+      "confirmatory_present_failures_before": 0,
+      "failed_gates_after_mock": {
+        "causal_effect": 1,
+        "robustness": 1
+      },
+      "failed_gates_before": {
+        "causal_effect": 2,
+        "confirmatory_ci": 1,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "robustness": 2
+      },
+      "mode": "mock",
+      "model": "pythia-70m",
+      "notes": [
+        "Mock-mode repair candidate only. No scientific claim promotion is justified from this artifact.",
+        "Useful question answered: does confirmatory-stage plumbing remain a blocker once the protocol is upgraded?"
+      ],
+      "repaired_bundle": "main/output/zero_task_confirmatory_repair/greater_than_v0_pythia-70m",
+      "source_bundle": "main/output/real_multi_task/greater_than_v0_pythia-70m",
+      "task": "greater_than_v0",
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    }
+  ],
+  "warning": "Engineering rehearsal only. Mock-mode accepted counts do NOT change released headline numbers and must not be cited as scientific evidence."
+}

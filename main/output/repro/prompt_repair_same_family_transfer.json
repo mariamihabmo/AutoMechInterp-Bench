@@ -1,0 +1,194 @@
+{
+  "accepted_claims_missing_transfer_rows": 0,
+  "accepted_claims_with_transfer_rows": 20,
+  "bundles_summarized": 11,
+  "bundles_updated": 0,
+  "claim_boundary": "Cached summary of same-family transfer rows for prompt-repaired canonical bundles. This mode performs no live model inference and is suitable for the materialized audit.",
+  "generated_by": "main/prompt_repair_same_family_transfer.py",
+  "mode": "summarize_existing",
+  "rows": [
+    {
+      "accepted_claims": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "bundle": "arithmetic_v0_gpt2-small",
+      "bundle_dir": "main/output/prompt_variant_repair/arithmetic_v0_gpt2-small",
+      "existing_transfer_rows": 4,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_arithmetic_v0_002"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_arithmetic_v0_002"
+      ],
+      "bundle": "arithmetic_v0_pythia-70m",
+      "bundle_dir": "main/output/prompt_variant_repair/arithmetic_v0_pythia-70m",
+      "existing_transfer_rows": 4,
+      "missing_hypotheses": [],
+      "source_model": "pythia-70m",
+      "target_model": "pythia-160m",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_a",
+      "existing_transfer_rows": 5,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_b",
+      "existing_transfer_rows": 1,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_c",
+      "existing_transfer_rows": 5,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_a",
+      "existing_transfer_rows": 5,
+      "missing_hypotheses": [],
+      "source_model": "pythia-70m",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_c",
+      "existing_transfer_rows": 5,
+      "missing_hypotheses": [],
+      "source_model": "pythia-70m",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_ioi_v0_001"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_ioi_v0_001"
+      ],
+      "bundle": "ioi_v0_gpt2-small",
+      "bundle_dir": "main/output/prompt_variant_repair/ioi_v0_gpt2-small",
+      "existing_transfer_rows": 1,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "bundle_dir": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_a",
+      "existing_transfer_rows": 1,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_dla_ioi_v0_002"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_dla_ioi_v0_002"
+      ],
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "bundle_dir": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_c",
+      "existing_transfer_rows": 1,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_003"
+      ],
+      "accepted_claims_with_transfer_rows": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_003"
+      ],
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "bundle_dir": "main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c",
+      "existing_transfer_rows": 3,
+      "missing_hypotheses": [],
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "sentiment_v0"
+    }
+  ]
+}

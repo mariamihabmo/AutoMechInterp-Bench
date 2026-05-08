@@ -1,0 +1,61 @@
+{
+  "problem_id": "P0025",
+  "source_id": "AF-2.3",
+  "title": "Number comparison (continuing common sequences)",
+  "task_id": "greater_than_v0",
+  "model_id": "gpt2-small",
+  "n_examples": 10,
+  "top_10_heads": [
+    {
+      "layer": 10,
+      "head": 7,
+      "mean_effect": -0.06160669326782227
+    },
+    {
+      "layer": 10,
+      "head": 1,
+      "mean_effect": 0.05504150390625
+    },
+    {
+      "layer": 4,
+      "head": 11,
+      "mean_effect": 0.044384002685546875
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "mean_effect": -0.025769996643066406
+    },
+    {
+      "layer": 3,
+      "head": 6,
+      "mean_effect": 0.023036670684814454
+    },
+    {
+      "layer": 4,
+      "head": 7,
+      "mean_effect": -0.02167987823486328
+    },
+    {
+      "layer": 5,
+      "head": 10,
+      "mean_effect": -0.0191009521484375
+    },
+    {
+      "layer": 8,
+      "head": 9,
+      "mean_effect": -0.018668746948242186
+    },
+    {
+      "layer": 6,
+      "head": 4,
+      "mean_effect": -0.017931461334228516
+    },
+    {
+      "layer": 2,
+      "head": 2,
+      "mean_effect": 0.015885162353515624
+    }
+  ],
+  "known_component_check": []
+}

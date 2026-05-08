@@ -1,0 +1,89 @@
+[
+  {
+    "hypothesis_id": "h_fact_recall_v0_001",
+    "source_model": "pythia-70m",
+    "transfer_model": "pythia-160m",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 3,
+        "head": 3
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 6,
+        "head": 3
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "head",
+    "transfer_effect": 0.006474151611328125,
+    "n_examples": 100,
+    "source_effect_mean": 0.576693454209496,
+    "cross_model_effect_floor": 0.02,
+    "transfer_above_floor": false,
+    "transfer_same_direction": true,
+    "transfer_contract_pass": false,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_fact_recall_v0_002",
+    "source_model": "pythia-70m",
+    "transfer_model": "pythia-160m",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 2,
+        "head": 3
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 4,
+        "head": 3
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "head",
+    "transfer_effect": 0.018165149688720704,
+    "n_examples": 100,
+    "source_effect_mean": 0.06290324996499454,
+    "cross_model_effect_floor": 0.02,
+    "transfer_above_floor": false,
+    "transfer_same_direction": true,
+    "transfer_contract_pass": false,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_fact_recall_v0_003",
+    "source_model": "pythia-70m",
+    "transfer_model": "pythia-160m",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 0,
+        "head": 1
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 0,
+        "head": 1
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "head",
+    "transfer_effect": -0.0010226249694824218,
+    "n_examples": 100,
+    "source_effect_mean": 0.07460081226685468,
+    "cross_model_effect_floor": 0.02,
+    "transfer_above_floor": false,
+    "transfer_same_direction": false,
+    "transfer_contract_pass": false,
+    "transfer_positive": false
+  }
+]

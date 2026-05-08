@@ -1,0 +1,437 @@
+[
+  {
+    "hypothesis_id": "sweep_gpt2-small_L0H0",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L0H0 causally contributes to ioi_v0 (logit_diff)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 0,
+        "head": 0,
+        "site": "z"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.0741,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "effect may be distributed across adjacent heads",
+      "backup heads may compensate on ablation"
+    ],
+    "intervention_level": "head",
+    "discovery_lane": "circuits_sweep",
+    "provider_id": "circuits_sweep",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "sweep_gpt2-small_L4H5",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L4H5 causally contributes to ioi_v0 (logit_diff)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 4,
+        "head": 5,
+        "site": "z"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.0736,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "effect may be distributed across adjacent heads",
+      "backup heads may compensate on ablation"
+    ],
+    "intervention_level": "head",
+    "discovery_lane": "circuits_sweep",
+    "provider_id": "circuits_sweep",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "sweep_gpt2-small_L10H4",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L10H4 causally contributes to ioi_v0 (logit_diff)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 4,
+        "site": "z"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.0728,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "effect may be distributed across adjacent heads",
+      "backup heads may compensate on ablation"
+    ],
+    "intervention_level": "head",
+    "discovery_lane": "circuits_sweep",
+    "provider_id": "circuits_sweep",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "sweep_gpt2-small_L5H10",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L5H10 causally contributes to ioi_v0 (logit_diff)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 5,
+        "head": 10,
+        "site": "z"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.0727,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "effect may be distributed across adjacent heads",
+      "backup heads may compensate on ablation"
+    ],
+    "intervention_level": "head",
+    "discovery_lane": "circuits_sweep",
+    "provider_id": "circuits_sweep",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "sweep_gpt2-small_L5H11",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L5H11 causally contributes to ioi_v0 (logit_diff)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 5,
+        "head": 11,
+        "site": "z"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.0726,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "effect may be distributed across adjacent heads",
+      "backup heads may compensate on ablation"
+    ],
+    "intervention_level": "head",
+    "discovery_lane": "circuits_sweep",
+    "provider_id": "circuits_sweep",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "oai_neuron_L5N200_0",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L5N200 causally contributes to ioi_v0 \u2014 explanation: Fires on closing brackets and parentheses",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 5,
+        "neuron": 200,
+        "site": "mlp_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "neuron may be polysemantic \u2014 explanation covers only one sense",
+      "simulation score may not correlate with causal importance"
+    ],
+    "intervention_level": "mlp_neuron",
+    "explanation_text": "Fires on closing brackets and parentheses",
+    "discovery_lane": "openai_autointerp",
+    "simulation_score": 0.85,
+    "provider_id": "openai_autointerp",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "oai_neuron_L7N412_1",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L7N412 causally contributes to ioi_v0 \u2014 explanation: Activates on proper names in object position",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 7,
+        "neuron": 412,
+        "site": "mlp_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "neuron may be polysemantic \u2014 explanation covers only one sense",
+      "simulation score may not correlate with causal importance"
+    ],
+    "intervention_level": "mlp_neuron",
+    "explanation_text": "Activates on proper names in object position",
+    "discovery_lane": "openai_autointerp",
+    "simulation_score": 0.72,
+    "provider_id": "openai_autointerp",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "oai_neuron_L3N89_2",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L3N89 causally contributes to ioi_v0 \u2014 explanation: Responds to sentiment-bearing adjectives",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 3,
+        "neuron": 89,
+        "site": "mlp_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "neuron may be polysemantic \u2014 explanation covers only one sense",
+      "simulation score may not correlate with causal importance"
+    ],
+    "intervention_level": "mlp_neuron",
+    "explanation_text": "Responds to sentiment-bearing adjectives",
+    "discovery_lane": "openai_autointerp",
+    "simulation_score": 0.68,
+    "provider_id": "openai_autointerp",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "eff_neuron_L5N200_default_0",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L5N200 causally contributes to ioi_v0 (prompt_family=baseline)",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 5,
+        "neuron": 200,
+        "site": "mlp_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "prompt-tuned explanation may overfit surface pattern",
+      "causal importance may not track explanation quality"
+    ],
+    "intervention_level": "mlp_neuron",
+    "explanation_text": "Fires on closing brackets and parentheses",
+    "prompt_family": "baseline",
+    "discovery_lane": "efficient_neuron_explanations",
+    "simulation_score": 0.85,
+    "provider_id": "efficient_neuron_explanations",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "eff_neuron_L7N412_default_1",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L7N412 causally contributes to ioi_v0 (prompt_family=baseline)",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 7,
+        "neuron": 412,
+        "site": "mlp_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "prompt-tuned explanation may overfit surface pattern",
+      "causal importance may not track explanation quality"
+    ],
+    "intervention_level": "mlp_neuron",
+    "explanation_text": "Activates on proper names in object position",
+    "prompt_family": "baseline",
+    "discovery_lane": "efficient_neuron_explanations",
+    "simulation_score": 0.72,
+    "provider_id": "efficient_neuron_explanations",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "eff_neuron_L3N89_default_2",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L3N89 causally contributes to ioi_v0 (prompt_family=baseline)",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 3,
+        "neuron": 89,
+        "site": "mlp_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "prompt-tuned explanation may overfit surface pattern",
+      "causal importance may not track explanation quality"
+    ],
+    "intervention_level": "mlp_neuron",
+    "explanation_text": "Responds to sentiment-bearing adjectives",
+    "prompt_family": "baseline",
+    "discovery_lane": "efficient_neuron_explanations",
+    "simulation_score": 0.68,
+    "provider_id": "efficient_neuron_explanations",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "sae_gpt2_resid_sae_L6F1234_0",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "SAE feature gpt2_resid_sae:L6:F1234 causally affects ioi_v0 \u2014 Detects indirect object position",
+    "candidate_components": [
+      {
+        "component_type": "sae_feature",
+        "sae_id": "gpt2_resid_sae",
+        "layer": 6,
+        "feature_id": 1234,
+        "site": "resid_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "feature may detect surface correlate, not causal mechanism",
+      "SAE reconstruction error may confound ablation",
+      "feature may be polysemantic across unrelated tasks"
+    ],
+    "intervention_level": "sae_feature",
+    "sae_id": "gpt2_resid_sae",
+    "sae_site": "resid_post",
+    "explanation_text": "Detects indirect object position",
+    "discovery_lane": "sae_autointerp",
+    "provider_id": "sae_autointerp",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "sae_gpt2_resid_sae_L8F5678_1",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "SAE feature gpt2_resid_sae:L8:F5678 causally affects ioi_v0 \u2014 Tracks name binding across clauses",
+    "candidate_components": [
+      {
+        "component_type": "sae_feature",
+        "sae_id": "gpt2_resid_sae",
+        "layer": 8,
+        "feature_id": 5678,
+        "site": "resid_post"
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "feature may detect surface correlate, not causal mechanism",
+      "SAE reconstruction error may confound ablation",
+      "feature may be polysemantic across unrelated tasks"
+    ],
+    "intervention_level": "sae_feature",
+    "sae_id": "gpt2_resid_sae",
+    "sae_site": "resid_post",
+    "explanation_text": "Tracks name binding across clauses",
+    "discovery_lane": "sae_autointerp",
+    "provider_id": "sae_autointerp",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "petri_head_0",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "alignment_faking_auroc",
+    "claim_text": "head component {'component_type': 'head', 'layer': 9, 'head': 6, 'site': 'z', 'predicted_direction': 'increase', 'min_effect': 0.05} causally affects alignment_faking_auroc on petri_generated transcripts",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 6,
+        "site": "z",
+        "predicted_direction": "increase",
+        "min_effect": 0.05
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.05,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "behavioral metric may not isolate the targeted behavior",
+      "transcript distribution may not be representative",
+      "multiple components may jointly cause the effect"
+    ],
+    "intervention_level": "head",
+    "discovery_lane": "petri_behavioral",
+    "provider_id": "petri_behavioral",
+    "provider_version": "0.1.0"
+  },
+  {
+    "hypothesis_id": "petri_mlp_neuron_1",
+    "protocol_id": "lane_comparison_001",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "alignment_faking_auroc",
+    "claim_text": "mlp_neuron component {'component_type': 'mlp_neuron', 'layer': 4, 'neuron': 300, 'predicted_direction': 'increase', 'min_effect': 0.02} causally affects alignment_faking_auroc on petri_generated transcripts",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 4,
+        "neuron": 300,
+        "predicted_direction": "increase",
+        "min_effect": 0.02
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "behavioral metric may not isolate the targeted behavior",
+      "transcript distribution may not be representative",
+      "multiple components may jointly cause the effect"
+    ],
+    "intervention_level": "mlp_neuron",
+    "discovery_lane": "petri_behavioral",
+    "provider_id": "petri_behavioral",
+    "provider_version": "0.1.0"
+  }
+]

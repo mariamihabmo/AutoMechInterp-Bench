@@ -1,0 +1,1461 @@
+{
+  "hypothesis_results": [
+    {
+      "hypothesis_id": "h_greater_than_v0_001",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": -0.0011207716805594309,
+            "mismatched_source": -0.057872159140450616,
+            "random_component": -0.06043577194213867,
+            "shuffled_token": -0.04669451713562012,
+            "wrong_layer": 0.00026287351335797993,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1516153376,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.06043577194213867
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.0012892554788028494,
+            "mismatched_source": -0.04476339676800896,
+            "random_component": -0.04598889631383559,
+            "shuffled_token": 0.35204121645759134,
+            "wrong_layer": -9.660159840303309e-05,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1516153376,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.04598889631383559
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.011140619005475725,
+            "mismatched_source": -0.1197363989693778,
+            "random_component": -0.1197363989693778,
+            "shuffled_token": -1.0436833586011613,
+            "wrong_layer": -0.0009529250008719308,
+            "wrong_position": -0.000301292964390346
+          },
+          "dataset_seed": 3873749058,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.2097252437046596
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.011720545151654412,
+            "mismatched_source": -0.12094926834106445,
+            "random_component": -0.12094926834106445,
+            "shuffled_token": -0.5753906193901511,
+            "wrong_layer": -0.0008905354668112362,
+            "wrong_position": -0.0003088221830480239
+          },
+          "dataset_seed": 3873749058,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.22798866384169636
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0649559838431222,
+            "mismatched_source": 0.013873304639543806,
+            "random_component": 0.0014750616891043527,
+            "shuffled_token": 0.43397412981305805,
+            "wrong_layer": 0.004283360072544643,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2269294481,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.012180328369140625
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.07382479835959042,
+            "mismatched_source": 0.010592460632324219,
+            "random_component": 0.001379994785084444,
+            "shuffled_token": 0.6716987806207994,
+            "wrong_layer": 0.004240989685058594,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2269294481,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.006458366618436926
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.03729282106672015,
+            "mismatched_source": 0.1329857281276158,
+            "random_component": 0.1329857281276158,
+            "shuffled_token": -0.44610200609479633,
+            "wrong_layer": -0.07499333790370397,
+            "wrong_position": -0.0006380762372698103
+          },
+          "dataset_seed": 1589768736,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -3.0313219342912945e-05
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.04642040589276482,
+            "mismatched_source": 0.1324914763955509,
+            "random_component": 0.1324914763955509,
+            "shuffled_token": -0.5489918624653536,
+            "wrong_layer": -0.07382303125718061,
+            "wrong_position": -0.0006845979129566866
+          },
+          "dataset_seed": 1589768736,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.016779002021340764
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.0013371876307896205,
+            "mismatched_source": -0.056981563568115234,
+            "random_component": -0.001880918230329241,
+            "shuffled_token": 0.024385247911725725,
+            "wrong_layer": 0.00019890921456473215,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1924301054,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.059730938502720425
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.0017209053039550781,
+            "mismatched_source": -0.047434329986572266,
+            "random_component": -0.0016483138589298025,
+            "shuffled_token": 0.17204898946425495,
+            "wrong_layer": 6.737428552964154e-05,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1924301054,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.04948240167954389
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.008722100939069475,
+            "mismatched_source": -0.27891383852277485,
+            "random_component": -0.27891383852277485,
+            "shuffled_token": -0.29872407232012066,
+            "wrong_layer": -0.0008014270237513951,
+            "wrong_position": -0.0003062656947544643
+          },
+          "dataset_seed": 2334677892,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.2250725201198033
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.01202235502355239,
+            "mismatched_source": -0.3027554399826947,
+            "random_component": -0.3027554399826947,
+            "shuffled_token": -0.3285621474770939,
+            "wrong_layer": -0.0009249518899356618,
+            "wrong_position": -0.0003018659703871783
+          },
+          "dataset_seed": 2334677892,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.22606586007510915
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.05403028215680804,
+            "mismatched_source": 0.02884946550641741,
+            "random_component": 0.013940606798444475,
+            "shuffled_token": 0.5812474318913051,
+            "wrong_layer": 0.004952635083879743,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3911352824,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.02195685250418527
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0420992795158835,
+            "mismatched_source": 0.035663604736328125,
+            "random_component": 0.00879831875071806,
+            "shuffled_token": 0.602695479112513,
+            "wrong_layer": 0.005132198333740234,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3911352824,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.03263229482314166
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.04429858071463449,
+            "mismatched_source": 0.03463942664010184,
+            "random_component": 0.03463942664010184,
+            "shuffled_token": -0.26005121639796663,
+            "wrong_layer": -0.07711390086582728,
+            "wrong_position": -0.0006833757672991071
+          },
+          "dataset_seed": 751666368,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.011920997074672155
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.04452189277200138,
+            "mismatched_source": 0.043207897859461164,
+            "random_component": 0.043207897859461164,
+            "shuffled_token": -0.4300052698920755,
+            "wrong_layer": -0.07486994126263787,
+            "wrong_position": -0.0007189862868365119
+          },
+          "dataset_seed": 751666368,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.02598700803868911
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_greater_than_v0_002",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": -8.521761213030134e-05,
+            "mismatched_source": -0.0015365055629185268,
+            "random_component": -3.6784580775669643e-06,
+            "shuffled_token": 0.7060269968850272,
+            "wrong_layer": 6.519045148577009e-05,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 448904524,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.0016578946794782365
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.00026571049409754137,
+            "mismatched_source": -0.0012247702654670266,
+            "random_component": -1.1612387264476102e-05,
+            "shuffled_token": 0.678491143619313,
+            "wrong_layer": -0.0001263898961684283,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 448904524,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.0012822992661420036
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.06331580025809151,
+            "mismatched_source": 0.02536065237862723,
+            "random_component": 0.02536065237862723,
+            "shuffled_token": -0.7534622124263218,
+            "wrong_layer": 0.08574942180088588,
+            "wrong_position": 0.038570949009486606
+          },
+          "dataset_seed": 1247470793,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.0443310056413923
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.05013244292315315,
+            "mismatched_source": 0.028853388393626493,
+            "random_component": 0.028853388393626493,
+            "shuffled_token": -0.561310796176686,
+            "wrong_layer": 0.09147315866806928,
+            "wrong_position": 0.03936624526977539
+          },
+          "dataset_seed": 1247470793,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.05916923635146197
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0006301743643624442,
+            "mismatched_source": 3.8078853062220984e-05,
+            "random_component": -0.004397800990513393,
+            "shuffled_token": 0.3482015814099993,
+            "wrong_layer": -0.00035272325788225444,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2701403733,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.00011157989501953125
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0014472568736356847,
+            "mismatched_source": 4.759956808651195e-05,
+            "random_component": -0.007742461036233341,
+            "shuffled_token": 0.6333462631001192,
+            "wrong_layer": 0.0005354881286621094,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2701403733,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 9.374057545381434e-05
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.14910875047956193,
+            "mismatched_source": -0.01779801504952567,
+            "random_component": -0.01779801504952567,
+            "shuffled_token": -0.3529838834490095,
+            "wrong_layer": -0.02364063262939453,
+            "wrong_position": 0.12993417467389787
+          },
+          "dataset_seed": 211355890,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.22687394278390066
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.15438921311322382,
+            "mismatched_source": -0.018535838407628676,
+            "random_component": -0.018535838407628676,
+            "shuffled_token": -0.39951220680685606,
+            "wrong_layer": -0.021532507503733915,
+            "wrong_position": 0.12548051160924575
+          },
+          "dataset_seed": 211355890,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.2393519177156336
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.00023378644670758928,
+            "mismatched_source": -0.0023140907287597656,
+            "random_component": -7.288796561104911e-06,
+            "shuffled_token": 0.7895197527749198,
+            "wrong_layer": -0.00023971285138811384,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1841430619,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.0023598670959472656
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.00036752925199620863,
+            "mismatched_source": -0.0017896259532255284,
+            "random_component": -1.584782319910386e-05,
+            "shuffled_token": 0.5190014979418587,
+            "wrong_layer": 0.0004581563612994026,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1841430619,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.0017769476946662454
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.05095481872558594,
+            "mismatched_source": -0.10016093935285296,
+            "random_component": -0.10016093935285296,
+            "shuffled_token": -0.1162334850856236,
+            "wrong_layer": 0.08995628356933594,
+            "wrong_position": 0.04921252386910575
+          },
+          "dataset_seed": 2030316973,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.0617027963910784
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.04662132263183594,
+            "mismatched_source": -0.09293157914105583,
+            "random_component": -0.09293157914105583,
+            "shuffled_token": -0.4307545633877025,
+            "wrong_layer": 0.0943756944992963,
+            "wrong_position": 0.040327717276180494
+          },
+          "dataset_seed": 2030316973,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.060729419483857995
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.00041096551077706475,
+            "mismatched_source": 6.062643868582589e-06,
+            "random_component": 0.016769817897251675,
+            "shuffled_token": 0.7715790952954974,
+            "wrong_layer": 0.000369957515171596,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2151776812,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 6.403241838727678e-05
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0012169164769789752,
+            "mismatched_source": 6.353153901941637e-05,
+            "random_component": 0.012186302858240464,
+            "shuffled_token": 0.7282076723435346,
+            "wrong_layer": -5.9099758372587315e-05,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2151776812,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 9.822845458984375e-05
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.1574601445879255,
+            "mismatched_source": -0.009943553379603795,
+            "random_component": -0.009943553379603795,
+            "shuffled_token": -0.6383919375283378,
+            "wrong_layer": -0.01961714880807059,
+            "wrong_position": 0.11195945739746094
+          },
+          "dataset_seed": 494236970,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.2567897524152483
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.14623260498046875,
+            "mismatched_source": -0.008140956654268153,
+            "random_component": -0.008140956654268153,
+            "shuffled_token": -0.46751898877760945,
+            "wrong_layer": -0.022508424871108112,
+            "wrong_position": 0.11167184044333066
+          },
+          "dataset_seed": 494236970,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.2070745860829073
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_greater_than_v0_003",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.001511028834751674,
+            "mismatched_source": 0.01107379368373326,
+            "random_component": -0.00033364977155412944,
+            "shuffled_token": 0.5826811109270368,
+            "wrong_layer": -0.004989147186279297,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2431819930,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.015386308942522322
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.003946725059958065,
+            "mismatched_source": 0.014723833869485295,
+            "random_component": 0.0012739405912511488,
+            "shuffled_token": 0.5651331789353314,
+            "wrong_layer": -0.006052409901338465,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2431819930,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.019232329200295842
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.14278629847935267,
+            "mismatched_source": 0.20176574162074498,
+            "random_component": 0.20176574162074498,
+            "shuffled_token": -0.734133277620588,
+            "wrong_layer": -0.021625382559640065,
+            "wrong_position": -0.007681029183523995
+          },
+          "dataset_seed": 1987368663,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.12259728567940849
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.148832685807172,
+            "mismatched_source": 0.2089822993558996,
+            "random_component": 0.2089822993558996,
+            "shuffled_token": -0.8850330605226404,
+            "wrong_layer": -0.02133812623865464,
+            "wrong_position": -0.00724489548627068
+          },
+          "dataset_seed": 1987368663,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.12394397399004768
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.01827103751046317,
+            "mismatched_source": 0.1252138274056571,
+            "random_component": 0.012698037283761161,
+            "shuffled_token": 0.9591127463749477,
+            "wrong_layer": 0.010596479688371931,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2299053007,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.12862845829554967
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.013913210700539982,
+            "mismatched_source": 0.1140430394340964,
+            "random_component": 0.0030656982870662913,
+            "shuffled_token": 0.8531953026266659,
+            "wrong_layer": 0.011148705201990464,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2299053007,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.11556563657872818
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.2560744285583496,
+            "mismatched_source": 0.16563524518694198,
+            "random_component": 0.16563524518694198,
+            "shuffled_token": -0.7134984561375209,
+            "wrong_layer": -0.009628023420061384,
+            "wrong_position": -0.004548617771693638
+          },
+          "dataset_seed": 2518446387,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.11422967910766602
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.2871594709508559,
+            "mismatched_source": 0.16512023701387293,
+            "random_component": 0.16512023701387293,
+            "shuffled_token": -0.7895510196685791,
+            "wrong_layer": -0.004514357622931986,
+            "wrong_position": -0.004166126251220703
+          },
+          "dataset_seed": 2518446387,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.10327499053057503
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.004280567169189453,
+            "mismatched_source": -0.005032811846051898,
+            "random_component": -0.0005321502685546875,
+            "shuffled_token": 0.2833187239510672,
+            "wrong_layer": -0.006052357809884208,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2589787834,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -3.079005650111607e-05
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.002835385939654182,
+            "mismatched_source": 0.01482074400957893,
+            "random_component": -0.0007589003619025735,
+            "shuffled_token": 0.577187229605282,
+            "wrong_layer": -0.0032946362214929916,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2589787834,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.01904731638291303
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.12042597361973353,
+            "mismatched_source": -0.02030250004359654,
+            "random_component": -0.02030250004359654,
+            "shuffled_token": -0.22799781390598842,
+            "wrong_layer": -0.020239557538713728,
+            "wrong_position": -0.0076939719063895086
+          },
+          "dataset_seed": 3979783558,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.08699205943516322
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.1216899366939769,
+            "mismatched_source": -0.020707719466265512,
+            "random_component": -0.020707719466265512,
+            "shuffled_token": -0.6714659578659955,
+            "wrong_layer": -0.021427238688749427,
+            "wrong_position": -0.008061577292049633
+          },
+          "dataset_seed": 3979783558,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.11215092154110179
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.013370718274797713,
+            "mismatched_source": 0.08435801097324916,
+            "random_component": 0.004003729139055524,
+            "shuffled_token": 0.8306064605712891,
+            "wrong_layer": 0.015606743948800223,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 924841146,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.09157357897077288
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.018644192639519188,
+            "mismatched_source": 0.13296985626220703,
+            "random_component": 0.002747479607077206,
+            "shuffled_token": 0.9615945816040039,
+            "wrong_layer": 0.009472285999971278,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 924841146,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.13067071578081915
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.26798186983381,
+            "mismatched_source": -0.023042474474225725,
+            "random_component": -0.023042474474225725,
+            "shuffled_token": -0.3931718553815569,
+            "wrong_layer": -0.003646101270403181,
+            "wrong_position": -0.004643985203334263
+          },
+          "dataset_seed": 2244129209,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.12656443459647043
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.2708714148577522,
+            "mismatched_source": -0.023899471058565026,
+            "random_component": -0.023899471058565026,
+            "shuffled_token": -0.7283830221961526,
+            "wrong_layer": -0.0020371044383329503,
+            "wrong_position": -0.0045323932872099034
+          },
+          "dataset_seed": 2244129209,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_count": "1",
+            "gpu_name": "NVIDIA A10",
+            "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+            "python_version": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+            "torch_version": "2.7.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "paraphrase",
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.1293958495644962
+        }
+      ]
+    }
+  ],
+  "protocol_id": "real_greater_than_v0_pythia-70m_confirmatory_repair_real",
+  "protocol_sha256": "490cca76b31be20708f145b74c02844ad0c67282b5d8cb6f63790895767709e7"
+}

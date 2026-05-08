@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Why It Matters · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Public Overview</span>
+    <h1>Why AutoMechInterp Matters</h1>
+    <p>AutoMechInterp helps researchers and developers evaluate interpretability claims with a consistent, reproducible verification contract.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Core Scientific Question</h2>
+      <p><strong>When do mechanistic-interpretability claims fail under principled controls, robustness checks, and preregistered statistical policy?</strong></p>
+      <p>AutoMechInterp is the instrument that lets this question be answered repeatedly across tasks, models, and lanes.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Understand Real Failure Patterns</h3>
+        <pre><code>python main/field_level_findings.py</code></pre>
+        <p>Produces stratified outcomes by task, model, claim family, lane, and provider, plus top failure gates and policy sensitivity outputs.</p>
+      </article>
+      <article class="card">
+        <h3>Test Robustness with Stress Suites</h3>
+        <pre><code>python main/stress_test_ablation.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/stress_test_agnostic.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/stress_test_red_team.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small</code></pre>
+        <p>Runs complementary stress tests to show how robust your claim-evaluation setup is under different failure pressures.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Why This Matters for Practitioners</h2>
+      <ul>
+        <li>It prevents publishing fragile interpretability claims that do not survive controls.</li>
+        <li>It gives clear failure reasons so teams know what experiment to run next.</li>
+        <li>It makes results auditable and comparable across different discovery methods.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Explore Next</h2>
+      <p>Start with the <a href="quickstart.html">Quickstart</a>, then move to <a href="community-submissions.html">Community Submissions</a> and <a href="standards.html">Standards</a> for interoperability details.</p>
+    </section>
+  </main>
+
+  <footer>
+    This page is backed by reproducible outputs under <code>main/output/repro</code>.
+  </footer>
+</body>
+</html>

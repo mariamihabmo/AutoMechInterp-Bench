@@ -1,0 +1,21 @@
+{
+  "bundle_source": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "copied_files": [
+    "evaluation_result.json",
+    "hypothesis.jsonl",
+    "manifest.json",
+    "protocol.yaml"
+  ],
+  "generated_files": [
+    "claim_ledger.json",
+    "stage_gate_report.md",
+    "protocol_critic_report.md",
+    "README_reviewer.md",
+    "reproduce.sh"
+  ],
+  "reproduction_requirements": {
+    "env_var_for_repo_checkout": "AUTOMECHINTERP_REPO_ROOT",
+    "supports_installed_package": true,
+    "supports_repo_checkout": true
+  }
+}

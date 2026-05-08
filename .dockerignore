@@ -1,0 +1,33 @@
+# .dockerignore — keep the reproducibility container small and the build
+# context free of caches / large weights / scratch debug output.
+#
+# Mirrors the export-ignore rules in .gitattributes so a Docker build context
+# never ships things that the source tarball already excludes.
+.git/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+**/__pycache__/
+**/*.pyc
+
+# Large model caches (multi-GB Hugging Face weights).
+model_cache/
+
+# Scratch debug output excluded by .gitattributes (see final_gpt_audit F14).
+main/output/tmp_debug_repair/
+main/output/tmp_debug_repair2/
+
+# Built site (regenerated on demand by mkdocs).
+site/
+_site/
+site_build/
+
+# Local IDE / OS noise.
+.vscode/
+.idea/
+.DS_Store
+
+# Generated paper outputs (LaTeX intermediate + pdfs are committed; the
+# scratch build directories are not).
+papers/submissions/*/build/

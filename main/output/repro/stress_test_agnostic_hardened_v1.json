@@ -1,0 +1,24 @@
+{
+  "contract_hardening_v1": {
+    "min_causal_effect": 0.15,
+    "min_effect_floor": 0.15,
+    "min_specificity_ratio": 5.0
+  },
+  "false_accept_rate": 0.0,
+  "false_accept_rate_ci95": {
+    "high": 0.018846005918320894,
+    "label": "[0.0%, 1.9%]",
+    "low": 0.0
+  },
+  "generated_by": "main/contract_hardening_v1.py",
+  "generator_regime": "fresh_v2",
+  "leaked": 0,
+  "negatives": 200,
+  "seed_namespace": "rotated_2026q2",
+  "statistical_budget": {
+    "bootstrap_resamples": null,
+    "permutation_iterations": null
+  },
+  "stress_source": "internal_maintainer",
+  "stress_source_note": "'agnostic' = evaluator-internals-blind (no suite labels / no threshold lookups), NOT author-independent. The generator is maintainer-authored; see methodology/independent_agnostic_stress_protocol.md for the future external-author protocol."
+}

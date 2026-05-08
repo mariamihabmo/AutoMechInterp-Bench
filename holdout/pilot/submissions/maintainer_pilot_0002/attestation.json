@@ -1,0 +1,12 @@
+{
+  "attestation_signature": "PILOT-NO-SIGNATURE: maintainer pilots use a literal sentinel in place of a Custodian-scheme signature because they are never counted as external evidence.",
+  "attestation_text": "PILOT, NOT BLINDED. This submission is authored by the AutoMechInterp maintainers for the sole purpose of exercising the Custodian evaluation pipeline end-to-end (schema validation, tarball SHA-256, contract-pin audit, evaluator re-run, and results aggregation). It does NOT satisfy the independence requirements of methodology/blinded_holdout_protocol.md and MUST NOT be counted as external evidence. The payload is a maintainer-authored bundle re-sealed from `country_capital_v0_gpt2-small_lane_c`.",
+  "author_institution": "AutoMechInterp maintainers (pilot; NOT an external blinded author)",
+  "contract_pin": {
+    "constants_sha256": "3e31b9654b31757be447b1aa7583ab675f38a41f55c68c7e6c90b7f4f491c3c5",
+    "evaluator_version": "automechinterp-evaluator==0.1.0"
+  },
+  "submission_id": "maintainer_pilot_0002",
+  "submission_kind": "maintainer_pilot",
+  "submitted_at_utc": "2026-04-23T08:44:16+00:00"
+}

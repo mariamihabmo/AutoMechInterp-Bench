@@ -1,0 +1,622 @@
+{
+  "n_cells": 16,
+  "n_nonzero_acceptance_cells": 11,
+  "n_zero_acceptance_cells": 5,
+  "nonzero_acceptance_cells": [
+    {
+      "closest_to_pass": null,
+      "failed_gate_counts": {},
+      "model": "gpt2-small",
+      "n_accepted": 3,
+      "n_claims": 3,
+      "n_rejected": 0,
+      "task": "arithmetic_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "arithmetic_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "causal_effect",
+          "confirmatory_ci",
+          "multiplicity",
+          "negative_controls",
+          "robustness"
+        ],
+        "hypothesis_id": "h_arithmetic_v0_003",
+        "n_failed_gates": 5,
+        "n_not_evaluated_gates": 0,
+        "not_evaluated_gates": []
+      },
+      "failed_gate_counts": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "cross_model_transfer": 1,
+        "multiplicity": 2,
+        "negative_controls": 2,
+        "robustness": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 1,
+      "n_claims": 3,
+      "n_rejected": 2,
+      "task": "arithmetic_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "country_capital_v0_gpt2-small_lane_b",
+        "discovery_lane": "B",
+        "evidence_tier": "causal_tested_unstable",
+        "failed_gates": [
+          "power_adequacy"
+        ],
+        "hypothesis_id": "h_neuron_country_capital_v0_003",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "causal_effect": 4,
+        "confirmatory_ci": 4,
+        "effect_size_practical": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 4,
+        "power_adequacy": 2,
+        "robustness": 4
+      },
+      "model": "gpt2-small",
+      "n_accepted": 7,
+      "n_claims": 12,
+      "n_rejected": 5,
+      "task": "country_capital_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "country_capital_v0_pythia-70m_lane_a",
+        "discovery_lane": "A",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "baseline_superiority",
+          "negative_controls"
+        ],
+        "hypothesis_id": "h_sweep_country_capital_v0_003",
+        "n_failed_gates": 2,
+        "n_not_evaluated_gates": 0,
+        "not_evaluated_gates": []
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 2,
+        "causal_effect": 7,
+        "confirmatory_ci": 4,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 4,
+        "negative_controls": 2,
+        "power_adequacy": 4,
+        "robustness": 7
+      },
+      "model": "pythia-70m",
+      "n_accepted": 4,
+      "n_claims": 12,
+      "n_rejected": 8,
+      "task": "country_capital_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "docstring_v0_gpt2-small",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity"
+        ],
+        "hypothesis_id": "h_docstring_v0_001",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 2,
+        "causal_effect": 3,
+        "confirmatory_ci": 2,
+        "cross_model_transfer": 2,
+        "effect_size_practical": 2,
+        "method_sensitivity": 3,
+        "multiplicity": 2,
+        "negative_controls": 6,
+        "power_adequacy": 3,
+        "robustness": 3
+      },
+      "model": "gpt2-small",
+      "n_accepted": 2,
+      "n_claims": 12,
+      "n_rejected": 10,
+      "task": "docstring_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "fact_recall_v0_gpt2-small",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity",
+          "cross_model_transfer"
+        ],
+        "hypothesis_id": "h_fact_recall_v0_001",
+        "n_failed_gates": 2,
+        "n_not_evaluated_gates": 0,
+        "not_evaluated_gates": []
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 3,
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 2,
+        "effect_size_practical": 3,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "negative_controls": 3,
+        "power_adequacy": 3,
+        "robustness": 3
+      },
+      "model": "gpt2-small",
+      "n_accepted": 1,
+      "n_claims": 6,
+      "n_rejected": 5,
+      "task": "fact_recall_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "fact_recall_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls",
+          "cross_model_transfer"
+        ],
+        "hypothesis_id": "h_fact_recall_v0_002",
+        "n_failed_gates": 2,
+        "n_not_evaluated_gates": 0,
+        "not_evaluated_gates": []
+      },
+      "failed_gate_counts": {
+        "cross_model_transfer": 2,
+        "negative_controls": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 1,
+      "n_claims": 3,
+      "n_rejected": 2,
+      "task": "fact_recall_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "gendered_pronoun_v0_gpt2-small",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "causal_effect",
+          "robustness",
+          "confirmatory_ci",
+          "multiplicity",
+          "cross_model_transfer"
+        ],
+        "hypothesis_id": "h_gendered_pronoun_v0_001",
+        "n_failed_gates": 5,
+        "n_not_evaluated_gates": 0,
+        "not_evaluated_gates": []
+      },
+      "failed_gate_counts": {
+        "causal_effect": 2,
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 2,
+        "robustness": 2
+      },
+      "model": "gpt2-small",
+      "n_accepted": 1,
+      "n_claims": 3,
+      "n_rejected": 2,
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "greater_than_v0_gpt2-small",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity",
+          "multiplicity",
+          "cross_model_transfer"
+        ],
+        "hypothesis_id": "h_greater_than_v0_001",
+        "n_failed_gates": 3,
+        "n_not_evaluated_gates": 0,
+        "not_evaluated_gates": []
+      },
+      "failed_gate_counts": {
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 2,
+        "method_sensitivity": 2,
+        "multiplicity": 2
+      },
+      "model": "gpt2-small",
+      "n_accepted": 1,
+      "n_claims": 3,
+      "n_rejected": 2,
+      "task": "greater_than_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "ioi_v0_gpt2-small",
+        "discovery_lane": "prompt_variant_repair_v1",
+        "evidence_tier": "causal_tested_unstable",
+        "failed_gates": [
+          "power_adequacy"
+        ],
+        "hypothesis_id": "h_ioi_v0_002",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 6,
+        "causal_effect": 8,
+        "confirmatory_ci": 7,
+        "effect_size_practical": 6,
+        "multiplicity": 7,
+        "negative_controls": 8,
+        "power_adequacy": 13,
+        "robustness": 9
+      },
+      "model": "gpt2-small",
+      "n_accepted": 3,
+      "n_claims": 16,
+      "n_rejected": 13,
+      "task": "ioi_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "sentiment_v0_gpt2-small_lane_a",
+        "discovery_lane": "A",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls"
+        ],
+        "hypothesis_id": "h_sweep_sentiment_v0_003",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 1,
+        "causal_effect": 5,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 4,
+        "negative_controls": 4,
+        "power_adequacy": 4,
+        "robustness": 5
+      },
+      "model": "gpt2-small",
+      "n_accepted": 2,
+      "n_claims": 12,
+      "n_rejected": 10,
+      "task": "sentiment_v0"
+    }
+  ],
+  "priority_targets": [
+    {
+      "closest_to_pass": {
+        "bundle": "docstring_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity"
+        ],
+        "hypothesis_id": "h_docstring_v0_003",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "confirmatory_ci": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "docstring_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "sentiment_v0_pythia-70m_lane_a",
+        "discovery_lane": "A",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls"
+        ],
+        "hypothesis_id": "h_sweep_sentiment_v0_001",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 5,
+        "causal_effect": 9,
+        "confirmatory_ci": 7,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 4,
+        "method_sensitivity": 3,
+        "multiplicity": 7,
+        "negative_controls": 7,
+        "power_adequacy": 4,
+        "robustness": 9
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 12,
+      "n_rejected": 12,
+      "task": "sentiment_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "ioi_v0_pythia-70m",
+        "discovery_lane": "canonical_real",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity",
+          "multiplicity"
+        ],
+        "hypothesis_id": "h_ioi_v0_002",
+        "n_failed_gates": 2,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "causal_effect": 1,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 1
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "ioi_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "greater_than_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls",
+          "method_sensitivity",
+          "multiplicity"
+        ],
+        "hypothesis_id": "h_greater_than_v0_001",
+        "n_failed_gates": 3,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "confirmatory_ci": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 3,
+        "negative_controls": 3
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "greater_than_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "gendered_pronoun_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls",
+          "method_sensitivity",
+          "confirmatory_ci",
+          "multiplicity"
+        ],
+        "hypothesis_id": "h_gendered_pronoun_v0_002",
+        "n_failed_gates": 4,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "negative_controls": 3,
+        "robustness": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "gendered_pronoun_v0"
+    }
+  ],
+  "zero_acceptance_cells": [
+    {
+      "closest_to_pass": {
+        "bundle": "docstring_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity"
+        ],
+        "hypothesis_id": "h_docstring_v0_003",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "confirmatory_ci": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "docstring_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "gendered_pronoun_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls",
+          "method_sensitivity",
+          "confirmatory_ci",
+          "multiplicity"
+        ],
+        "hypothesis_id": "h_gendered_pronoun_v0_002",
+        "n_failed_gates": 4,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "negative_controls": 3,
+        "robustness": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "greater_than_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls",
+          "method_sensitivity",
+          "multiplicity"
+        ],
+        "hypothesis_id": "h_greater_than_v0_001",
+        "n_failed_gates": 3,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "confirmatory_ci": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 3,
+        "negative_controls": 3
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "greater_than_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "ioi_v0_pythia-70m",
+        "discovery_lane": "canonical_real",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity",
+          "multiplicity"
+        ],
+        "hypothesis_id": "h_ioi_v0_002",
+        "n_failed_gates": 2,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "causal_effect": 1,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 1
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "ioi_v0"
+    },
+    {
+      "closest_to_pass": {
+        "bundle": "sentiment_v0_pythia-70m_lane_a",
+        "discovery_lane": "A",
+        "evidence_tier": "rejected",
+        "failed_gates": [
+          "negative_controls"
+        ],
+        "hypothesis_id": "h_sweep_sentiment_v0_001",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "baseline_superiority": 5,
+        "causal_effect": 9,
+        "confirmatory_ci": 7,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 4,
+        "method_sensitivity": 3,
+        "multiplicity": 7,
+        "negative_controls": 7,
+        "power_adequacy": 4,
+        "robustness": 9
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 12,
+      "n_rejected": 12,
+      "task": "sentiment_v0"
+    }
+  ]
+}

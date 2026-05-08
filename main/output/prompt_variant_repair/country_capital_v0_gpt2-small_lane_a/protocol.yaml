@@ -1,0 +1,78 @@
+protocol_id: multilane_A_country_capital_v0_gpt2-small_prompt_variant_repair_v1
+protocol_version: '3.0'
+frozen: true
+unit_of_work:
+  task_id: country_capital_v0
+  model_id: gpt2-small
+  model_spec:
+    n_layers: 12
+    n_heads: 12
+    d_model: 768
+  dataset_id: country_capital_v0_templates_v1
+  metric_id: logit_diff
+  clean_corrupt_definition: swap-target-entity
+execution_grid:
+  seeds:
+  - 42
+  - 123
+  - 77
+  - 999
+  - 314
+  - 2025
+  prompt_variants:
+  - base
+  - paraphrase
+  - fill_blank
+  resample_ids:
+  - 0
+  methods:
+  - activation_patching
+  - zero_ablation
+  - mean_ablation
+control_policy:
+  required_families:
+  - wrong_position
+  - wrong_layer
+  - random_component
+  - mismatched_source
+  max_control_abs_mean: 0.5
+stage_gates:
+  min_causal_effect: 0.02
+  min_specificity_ratio: 2.0
+  min_robustness:
+    seed: 0.5
+    prompt_variant: 0.5
+    resample: 0.5
+  max_method_sensitivity_std: 3.0
+  require_confirmatory_ci_excludes_zero: true
+  require_bidirectional: true
+  min_effect_size_d: 0.3
+  min_practical_cohens_d: 0.2
+  baseline_superiority_ratio: 2.0
+  cross_model_rank_stability_tau: 0.3
+statistical_policy:
+  alpha: 0.05
+  fdr_q: 0.1
+  min_effect_floor: 0.02
+  multiplicity_method: benjamini-hochberg
+claim_budget:
+  max_total_claims: 5
+  max_claims_per_task: 5
+language_policy:
+  forbidden_without_pass:
+  - solved
+  - proved
+  - validated
+sample_size_policy:
+  min_examples_per_cell: 10
+  exploratory_fraction: 0.3
+  power_target: 0.8
+  minimum_detectable_effect: 0.3
+  require_confirmatory_split: true
+  min_cells_per_hypothesis: 24
+intervention_levels:
+- head
+governance:
+  protocol_creation_timestamp: '2026-01-01T00:00:00Z'
+  exception_expiry_hours: 168
+  red_team_required: true

@@ -1,0 +1,68 @@
+[
+  {
+    "hypothesis_id": "h_gendered_pronoun_v0_001",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 4,
+        "head": 3
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 8,
+        "head": 3
+      }
+    ],
+    "transfer_effect": -0.0038625717163085936,
+    "n_examples": 10,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_gendered_pronoun_v0_002",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 11,
+        "head": 1
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 22,
+        "head": 1
+      }
+    ],
+    "transfer_effect": -0.0006989479064941406,
+    "n_examples": 10,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_gendered_pronoun_v0_003",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 11,
+        "head": 8
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 22,
+        "head": 8
+      }
+    ],
+    "transfer_effect": 0.0011637687683105468,
+    "n_examples": 10,
+    "transfer_positive": false
+  }
+]

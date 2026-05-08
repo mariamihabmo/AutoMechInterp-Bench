@@ -1,0 +1,74 @@
+[
+  {
+    "hypothesis_id": "h_neuron_ioi_v0_001",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 11,
+        "neuron": 2910
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 22,
+        "neuron": 2910
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "mlp_neuron",
+    "transfer_effect": -3.314018249511719e-05,
+    "n_examples": 20,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_neuron_ioi_v0_002",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 10,
+        "neuron": 1793
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 20,
+        "neuron": 1793
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "mlp_neuron",
+    "transfer_effect": -0.00020012855529785156,
+    "n_examples": 20,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_neuron_ioi_v0_003",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 0,
+        "neuron": 154
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 0,
+        "neuron": 154
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "mlp_neuron",
+    "transfer_effect": 1.2254714965820312e-05,
+    "n_examples": 20,
+    "transfer_positive": false
+  }
+]

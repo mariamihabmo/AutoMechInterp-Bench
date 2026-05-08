@@ -1,0 +1,611 @@
+{
+  "command_timeout_seconds": 900,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "packages/evaluator/tests/test_reproducibility_audit_helpers.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "....                                                                     [100%]\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "packages/evaluator/tests/test_holdout_scaffolding.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": ".........                                                                [100%]\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "packages/evaluator/tests/test_stress_agnostic.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "..                                                                       [100%]\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "packages/runner/tests/test_runner_mock.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "...                                                                      [100%]\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/zero_task_real_repair.py",
+        "--summarize-existing"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/zero_task_real_repair.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/prompt_variant_repair_rerun.py",
+        "--summarize-existing"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/prompt_variant_repair_rerun.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/prompt_variant_validity_audit.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/prompt_variant_validity_audit.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/paired_bundle_cross_model_replication.py",
+        "--bundle-root",
+        "main/output/prompt_variant_repair",
+        "--out-json",
+        "main/output/repro/prompt_variant_repair_paired_bundle_cross_model_replication_summary.json",
+        "--out-md",
+        "main/output/repro/prompt_variant_repair_paired_bundle_cross_model_replication_summary.md",
+        "--preserve-existing-nonpaired"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "main/output/repro/prompt_variant_repair_paired_bundle_cross_model_replication_summary.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/prompt_repair_same_family_transfer.py",
+        "--summarize-existing"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/prompt_repair_same_family_transfer.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/summarize_benchmark_breadth.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/benchmark_breadth_summary.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/field_level_findings.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/field_level_findings.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/breadth_gap_analysis.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/breadth_gap_analysis.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/transfer_results_summary.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/transfer_results_summary.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/transfer_near_miss_analysis.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/transfer_near_miss_analysis.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/runtime_cost_report.py",
+        "--reruns",
+        "3"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/runtime_cost_report.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/community_value_summary.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/community_submissions/community_value_summary.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/figure_inputs.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/figure_inputs.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/co_failure_matrix.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/co_failure_matrix.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/generate_publication_figures.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/release_takeaways.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/prompt_holdout_transfer_control.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/prompt_holdout_transfer_control.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/prompt_holdout_high_power_rerun.py",
+        "--examples-per-cell",
+        "40",
+        "--summarize-existing"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/prompt_holdout_high_power_n40_rerun.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/same_family_transfer_preflight.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/same_family_transfer_preflight.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/transfer_breadth_candidate_table.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/transfer_breadth_candidate_table.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/stress_test_agnostic.py",
+        "--bundle-dir",
+        "main/output/real_multi_task/ioi_v0_gpt2-small",
+        "--count",
+        "200",
+        "--generator-regime",
+        "fresh_v2",
+        "--seed-namespace",
+        "release_grade_2026q2",
+        "--condition",
+        "full_contract",
+        "--json-out",
+        "main/output/repro/stress_test_agnostic_fresh_release_grade.json",
+        "--md-out",
+        "main/output/repro/stress_test_agnostic_fresh_release_grade.md"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "main/output/repro/stress_test_agnostic_fresh_release_grade.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/transfer_failure_breakdown.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/transfer_failure_breakdown.json\n  buckets: {'wrong_direction': 6, 'below_floor_correct_direction': 8, 'zero_or_missing': 0, 'passed': 12, 'other': 0}\n  correct-direction n=8, median |effect|=0.006800, max |effect|=0.013992\n  transfer/source magnitude ratio: median=0.1404, max=2.221 (smaller = more attenuation)\n  within-source stability: stable=4, unstable=22, insufficient_cells=0, median_cv_abs=0.819\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/zero_task_gate_breakdown.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/zero_task_gate_breakdown.json\n  AGGREGATE: n_claims=0, single-gate-only=0, multi-gate=0\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/docstring_method_sensitivity_explorer.py",
+        "--source-dir",
+        "main/output/real_multi_task"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/docstring_method_sensitivity_explorer.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/docstring_distributed_repair.py",
+        "--summarize-existing"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/docstring_distributed_repair.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/repair_legacy_no_split_bundles.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "ia-70m\n[13/36] ioi_v0_gpt2-small\n[14/36] ioi_v0_pythia-70m\n[15/36] sentiment_v0_gpt2-small\n[16/36] sentiment_v0_pythia-70m\n[17/36] country_capital_v0_gpt2-small_lane_a\n[18/36] country_capital_v0_gpt2-small_lane_b\n[19/36] country_capital_v0_gpt2-small_lane_c\n[20/36] country_capital_v0_pythia-70m_lane_a\n[21/36] country_capital_v0_pythia-70m_lane_b\n[22/36] country_capital_v0_pythia-70m_lane_c\n[23/36] docstring_v0_gpt2-small_lane_a\n[24/36] docstring_v0_gpt2-small_lane_b\n[25/36] docstring_v0_gpt2-small_lane_c\n[26/36] fact_recall_v0_gpt2-small_lane_b3\n[27/36] ioi_v0_gpt2-small_lane_a\n[28/36] ioi_v0_gpt2-small_lane_b\n[29/36] ioi_v0_gpt2-small_lane_b3\n[30/36] ioi_v0_gpt2-small_lane_c\n[31/36] sentiment_v0_gpt2-small_lane_a\n[32/36] sentiment_v0_gpt2-small_lane_b\n[33/36] sentiment_v0_gpt2-small_lane_c\n[34/36] sentiment_v0_pythia-70m_lane_a\n[35/36] sentiment_v0_pythia-70m_lane_b\n[36/36] sentiment_v0_pythia-70m_lane_c\n./main/output/repro/legacy_no_split_repair.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/zero_task_confirmatory_repair.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "[1] repairing arithmetic_v0_gpt2-small\n[2] repairing arithmetic_v0_pythia-70m\n[3] repairing docstring_v0_gpt2-small\n[4] repairing docstring_v0_pythia-70m\n[5] repairing fact_recall_v0_gpt2-small\n[6] repairing fact_recall_v0_pythia-70m\n[7] repairing gendered_pronoun_v0_gpt2-small\n[8] repairing gendered_pronoun_v0_pythia-70m\n[9] repairing greater_than_v0_gpt2-small\n[10] repairing greater_than_v0_pythia-70m\n./main/output/repro/zero_task_confirmatory_repair.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/external_evidence_preflight.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/external_evidence_preflight.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "holdout.tools.build_results_summary"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "{\n  \"external_blinded\": {\n    \"n_submissions\": 0,\n    \"n_evaluated\": 0,\n    \"n_accepted_claims\": 0\n  },\n  \"maintainer_pilot\": {\n    \"n_submissions\": 2,\n    \"n_evaluated\": 2\n  },\n  \"summary_json\": \"holdout/results_summary.json\"\n}\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/run_holdout.py",
+        "--rehearsal",
+        "--release-version",
+        "v0-rehearsal",
+        "--use-cached-results"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/holdout_v0-rehearsal.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/contract_hardening_v1.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/contract_hardening_v1_summary.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/run_independent_agnostic_stress.py",
+        "--rehearsal-from-cached",
+        "--contract",
+        "current",
+        "--json-out",
+        "main/output/repro/independent_agnostic_stress_current_rehearsal.json",
+        "--md-out",
+        "main/output/repro/independent_agnostic_stress_current_rehearsal.md"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "main/output/repro/independent_agnostic_stress_current_rehearsal.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/run_independent_agnostic_stress.py",
+        "--rehearsal-from-cached",
+        "--contract",
+        "contract_hardening_v1",
+        "--json-out",
+        "main/output/repro/independent_agnostic_stress_hardened_v1_rehearsal.json",
+        "--md-out",
+        "main/output/repro/independent_agnostic_stress_hardened_v1_rehearsal.md"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "main/output/repro/independent_agnostic_stress_hardened_v1_rehearsal.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/contract_migration_decision.py",
+        "--current",
+        "main/output/repro/independent_agnostic_stress_current_rehearsal.json",
+        "--candidate",
+        "main/output/repro/independent_agnostic_stress_hardened_v1_rehearsal.json",
+        "--retention",
+        "main/output/repro/contract_hardening_v1_summary.json",
+        "--out-md",
+        "methodology/contract_hardening_v1_migration_decision.md",
+        "--out-json",
+        "main/output/repro/contract_hardening_v1_migration_decision.json",
+        "--decision",
+        "defer"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "main/output/repro/contract_hardening_v1_migration_decision.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/release_readiness_report.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/release_readiness_report.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/direct_blocker_closure_report.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/direct_blocker_closure_report.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "scripts/generate_docs_from_json.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "wrote site_docs/generated/benchmark-snapshot.md\nwrote site_docs/generated/leaderboard.md\nwrote site_docs/generated/failure-modes.md\nwrote site_docs/generated/runtime-cost.md\nwrote site_docs/generated/community-impact.md\nwrote site_docs/generated/release-findings.md\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "main/repo_integrity_sweep.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "./main/output/repro/repo_integrity_sweep.json\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_release_overclaims.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "check_release_overclaims: no current-facing release overclaims found (verdict=plausible_but_not_high_confidence_release_quality).\n",
+      "timeout_seconds": 900
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_headline_numbers.py"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": "check_headline_numbers: all headline numbers match the canonical artifacts.\n  bundles=36, claims=109, accepted=26, tasks_with_accepted=8/8, transfer_confirmed=12/26\n",
+      "timeout_seconds": 900
+    }
+  ],
+  "environment_manifest": "main/output/repro/environment_manifest.json",
+  "failed_commands": [],
+  "generated_at": "2023-11-14T22:13:20.000000+00:00",
+  "missing_outputs": [],
+  "outputs": {
+    "accepted_breadth_heatmap_pdf": "papers/submissions/shared/figures/accepted_breadth_heatmap.pdf",
+    "benchmark_breadth_summary_json": "main/output/repro/benchmark_breadth_summary.json",
+    "breadth_gap_analysis_json": "main/output/repro/breadth_gap_analysis.json",
+    "co_failure_matrix_json": "main/output/repro/co_failure_matrix.json",
+    "community_value_summary_json": "main/output/community_submissions/community_value_summary.json",
+    "contract_hardening_v1_migration_decision_json": "main/output/repro/contract_hardening_v1_migration_decision.json",
+    "contract_hardening_v1_migration_decision_md": "methodology/contract_hardening_v1_migration_decision.md",
+    "contract_hardening_v1_summary_json": "main/output/repro/contract_hardening_v1_summary.json",
+    "contract_vs_stress_rates_pdf": "papers/submissions/shared/figures/contract_vs_stress_rates.pdf",
+    "direct_blocker_closure_report_json": "main/output/repro/direct_blocker_closure_report.json",
+    "docstring_distributed_repair_json": "main/output/repro/docstring_distributed_repair.json",
+    "docstring_method_sensitivity_explorer_json": "main/output/repro/docstring_method_sensitivity_explorer.json",
+    "environment_manifest_json": "main/output/repro/environment_manifest.json",
+    "external_evidence_preflight_json": "main/output/repro/external_evidence_preflight.json",
+    "failure_family_counts_pdf": "papers/submissions/shared/figures/failure_family_counts.pdf",
+    "field_level_findings_json": "main/output/repro/field_level_findings.json",
+    "figure_inputs_json": "main/output/repro/figure_inputs.json",
+    "gate_cofailure_heatmap_pdf": "papers/submissions/shared/figures/gate_cofailure_heatmap.pdf",
+    "generated_release_findings_md": "site_docs/generated/release-findings.md",
+    "holdout_pilot_results_summary_json": "holdout/pilot/results_summary.json",
+    "holdout_rehearsal_json": "main/output/repro/holdout_v0-rehearsal.json",
+    "holdout_results_summary_json": "holdout/results_summary.json",
+    "independent_agnostic_stress_current_rehearsal_json": "main/output/repro/independent_agnostic_stress_current_rehearsal.json",
+    "independent_agnostic_stress_hardened_v1_rehearsal_json": "main/output/repro/independent_agnostic_stress_hardened_v1_rehearsal.json",
+    "legacy_no_split_repair_json": "main/output/repro/legacy_no_split_repair.json",
+    "prompt_holdout_high_power_n40_rerun_json": "main/output/repro/prompt_holdout_high_power_n40_rerun.json",
+    "prompt_holdout_transfer_control_json": "main/output/repro/prompt_holdout_transfer_control.json",
+    "prompt_repair_same_family_transfer_json": "main/output/repro/prompt_repair_same_family_transfer.json",
+    "prompt_variant_repair_paired_bundle_cross_model_replication_summary_json": "main/output/repro/prompt_variant_repair_paired_bundle_cross_model_replication_summary.json",
+    "prompt_variant_repair_rerun_json": "main/output/repro/prompt_variant_repair_rerun.json",
+    "prompt_variant_validity_audit_json": "main/output/repro/prompt_variant_validity_audit.json",
+    "repo_integrity_sweep_json": "main/output/repro/repo_integrity_sweep.json",
+    "repo_integrity_sweep_md": "main/output/repro/repo_integrity_sweep.md",
+    "runtime_cost_report_json": "main/output/repro/runtime_cost_report.json",
+    "same_family_transfer_preflight_json": "main/output/repro/same_family_transfer_preflight.json",
+    "release_overclaim_check_json": "main/output/repro/release_overclaim_check.json",
+    "release_overclaim_check_md": "main/output/repro/release_overclaim_check.md",
+    "release_readiness_report_json": "main/output/repro/release_readiness_report.json",
+    "release_takeaways_json": "main/output/repro/release_takeaways.json",
+    "stress_test_agnostic_fresh_release_grade_json": "main/output/repro/stress_test_agnostic_fresh_release_grade.json",
+    "stress_test_agnostic_hardened_v1_json": "main/output/repro/stress_test_agnostic_hardened_v1.json",
+    "stress_test_agnostic_hardened_v1_replicates_json": "main/output/repro/stress_test_agnostic_hardened_v1_replicates.json",
+    "transfer_breadth_candidate_table_json": "main/output/repro/transfer_breadth_candidate_table.json",
+    "transfer_failure_breakdown_json": "main/output/repro/transfer_failure_breakdown.json",
+    "transfer_near_miss_analysis_json": "main/output/repro/transfer_near_miss_analysis.json",
+    "transfer_results_summary_json": "main/output/repro/transfer_results_summary.json",
+    "zero_task_confirmatory_repair_json": "main/output/repro/zero_task_confirmatory_repair.json",
+    "zero_task_gate_breakdown_json": "main/output/repro/zero_task_gate_breakdown.json",
+    "zero_task_real_repair_json": "main/output/repro/zero_task_real_repair.json"
+  },
+  "scope_note": "Materialized audit of the released artifact surface. It regenerates cached-summary, real-repair, diagnostic, contract-hardening, holdout rehearsal, figure, docs, and drift-check outputs without live model reruns.",
+  "stale_outputs": [],
+  "status": "pass"
+}

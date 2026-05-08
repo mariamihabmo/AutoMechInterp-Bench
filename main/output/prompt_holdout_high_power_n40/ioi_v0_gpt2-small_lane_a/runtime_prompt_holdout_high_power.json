@@ -1,0 +1,6 @@
+{
+  "device": "mps",
+  "examples_per_cell": 40,
+  "generated_by": "main/prompt_holdout_high_power_rerun.py",
+  "runtime_seconds": 836.9708008766174
+}

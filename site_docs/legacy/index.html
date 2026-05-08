@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AutoMechInterp Docs</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Verifier-First Benchmark</span>
+    <h1>AutoMechInterp Documentation</h1>
+    <p>Deterministic verification for mechanistic-interpretability claims. Discovery systems propose; the evaluator checks evidence quality and returns clear outcomes for follow-up.</p>
+
+    <div class="cta-row">
+      <a class="btn primary" href="quickstart.html">Start Quickstart</a>
+      <a class="btn secondary" href="community-submissions.html">Submit a Bundle</a>
+      <a class="btn secondary" href="reproducibility.html">Run Audit</a>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>What This Benchmark Contributes</h2>
+      <p>AutoMechInterp is a scientific reliability framework: it measures when mechanistic claims survive causal controls, robustness checks, and statistical policy, not just whether a pipeline can produce candidate explanations.</p>
+      <p><span class="badge">Core output</span> Typed gate outcomes, evidence tiers, and workflow actions that are stable under deterministic reruns.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Independent Submission Workflow</h3>
+        <ol>
+          <li>Initialize bundle contract from template.</li>
+          <li>Run Stage-2 interventions and populate artifacts.</li>
+          <li>Evaluate and generate workflow-oriented submission review.</li>
+          <li>Use failed-gate remediations to plan next experiments.</li>
+        </ol>
+        <p><a href="community-submissions.html">Open full submission guide</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Evidence Tiers</h3>
+        <table>
+          <tr><th>Tier</th><th>Decision</th></tr>
+          <tr><td><code>cross_model_confirmed</code></td><td class="good">Ready to share with transfer evidence</td></tr>
+          <tr><td><code>single_model_confirmed</code></td><td class="good">Ready to share in single-model setting</td></tr>
+          <tr><td><code>causal_tested_unstable</code></td><td class="warn">Hold and run robustness follow-up</td></tr>
+          <tr><td><code>suggestive</code></td><td class="warn">Exploratory only; run confirmatory split</td></tr>
+          <tr><td><code>rejected</code></td><td class="warn">Needs revision before claiming mechanism</td></tr>
+        </table>
+      </article>
+
+      <article class="card">
+        <h3>Open-Source Project Assets</h3>
+        <ul>
+          <li>Stratified field-level findings and failure concentration analysis</li>
+          <li>Evaluator-agnostic and adaptive adversarial stress diagnostics</li>
+          <li>Runtime/cost envelope and exact reproducibility runbook</li>
+          <li>Claim bundle specification + compatibility vectors</li>
+        </ul>
+        <p><a href="significance.html">Why this project matters</a></p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>One Command Rebuild</h2>
+      <pre><code>python main/reproducibility_audit.py</code></pre>
+      <p>This regenerates environment manifests, breadth summaries, field-level findings, stress outputs, runtime/cost diagnostics, and community-value reports under <code>main/output/repro</code>.</p>
+    </section>
+  </main>
+
+  <footer>
+    Source of truth docs: <a href="../reference/BENCHMARK_CONTRACT.md">Benchmark Contract</a> · <a href="../reference/claim_bundle_spec_v1.md">Claim Bundle Spec v1</a> · <a href="../reference/reproducibility_runbook.md">Reproducibility Runbook</a>
+  </footer>
+</body>
+</html>

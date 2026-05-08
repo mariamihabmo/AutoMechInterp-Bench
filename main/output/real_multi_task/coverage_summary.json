@@ -1,0 +1,672 @@
+{
+  "bundles": [
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "country_capital_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "rejected": 3,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "country_capital_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "rejected": 3,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "ioi_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "rejected": 3,
+      "task": "ioi_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "rejected": 2,
+      "task": "docstring_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "rejected": 3,
+      "task": "docstring_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "rejected": 2,
+      "task": "docstring_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 2,
+      "task": "fact_recall_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 2,
+      "task": "fact_recall_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 2,
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 3,
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "greater_than_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 2,
+      "task": "greater_than_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "greater_than_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 3,
+      "task": "greater_than_v0"
+    },
+    {
+      "acceptance_rate": 1.0,
+      "acceptance_rate_pct": "100.0%",
+      "accepted": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 0,
+      "task": "arithmetic_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 2,
+      "task": "arithmetic_v0"
+    },
+    {
+      "acceptance_rate": 1.0,
+      "acceptance_rate_pct": "100.0%",
+      "accepted": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "rejected": 0,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "rejected": 2,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 1.0,
+      "acceptance_rate_pct": "100.0%",
+      "accepted": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "rejected": 0,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.6666666666666666,
+      "acceptance_rate_pct": "66.7%",
+      "accepted": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "rejected": 1,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "rejected": 3,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.6666666666666666,
+      "acceptance_rate_pct": "66.7%",
+      "accepted": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "rejected": 1,
+      "task": "country_capital_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "docstring_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 3,
+      "task": "docstring_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "docstring_v0_pythia-70m",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "rejected": 3,
+      "task": "docstring_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B3": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "sae_autointerp_local": 3
+      },
+      "rejected": 3,
+      "task": "fact_recall_v0"
+    },
+    {
+      "acceptance_rate": 0.25,
+      "acceptance_rate_pct": "25.0%",
+      "accepted": 1,
+      "bundle": "ioi_v0_gpt2-small",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "prompt_variant_repair_v1": 4
+      },
+      "model": "gpt2-small",
+      "n_claims": 4,
+      "provider_counts": {
+        "prompt_variant_repair_v1": 4
+      },
+      "rejected": 3,
+      "task": "ioi_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "rejected": 2,
+      "task": "ioi_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "rejected": 3,
+      "task": "ioi_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B3": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "sae_autointerp_local": 3
+      },
+      "rejected": 3,
+      "task": "ioi_v0"
+    },
+    {
+      "acceptance_rate": 0.3333333333333333,
+      "acceptance_rate_pct": "33.3%",
+      "accepted": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "rejected": 2,
+      "task": "ioi_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.6666666666666666,
+      "acceptance_rate_pct": "66.7%",
+      "accepted": 2,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "n_claims": 3,
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "rejected": 1,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "determinism_match": true,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    },
+    {
+      "acceptance_rate": 0.0,
+      "acceptance_rate_pct": "0.0%",
+      "accepted": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "determinism_match": true,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "pythia-70m",
+      "n_claims": 3,
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "rejected": 3,
+      "task": "sentiment_v0"
+    }
+  ],
+  "n_bundles": 36,
+  "tier_counts": {
+    "causal_tested_unstable": 3,
+    "cross_model_confirmed": 12,
+    "rejected": 67,
+    "single_model_confirmed": 14,
+    "suggestive": 13
+  },
+  "totals": {
+    "acceptance_rate": 0.23853211009174313,
+    "acceptance_rate_ci95": {
+      "high": 0.3265716491399448,
+      "label": "[16.8%, 32.7%]",
+      "low": 0.16829549205620986
+    },
+    "acceptance_rate_pct": "23.9%",
+    "accepted": 26,
+    "claims": 109,
+    "rejected": 83
+  }
+}

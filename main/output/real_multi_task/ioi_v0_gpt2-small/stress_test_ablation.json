@@ -1,0 +1,176 @@
+{
+  "base_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "per_family": 10,
+  "total_negatives": 30,
+  "conditions": {
+    "full_contract": {
+      "disabled_gates": [],
+      "leaked": 0,
+      "total": 30,
+      "false_accept_rate": 0.0,
+      "false_accept_rate_ci95": {
+        "low": 0.0,
+        "high": 0.113517091390478,
+        "label": "[0.0%, 11.4%]"
+      },
+      "per_family": {
+        "plausible_but_wrong": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        },
+        "method_sensitive": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        },
+        "control_leaking": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        }
+      }
+    },
+    "no_stat_rigor": {
+      "disabled_gates": [
+        "confirmatory_ci",
+        "multiplicity",
+        "power_adequacy",
+        "effect_size_practical"
+      ],
+      "leaked": 10,
+      "total": 30,
+      "false_accept_rate": 0.3333333333333333,
+      "false_accept_rate_ci95": {
+        "low": 0.19230295526846194,
+        "high": 0.5122027418616973,
+        "label": "[19.2%, 51.2%]"
+      },
+      "per_family": {
+        "plausible_but_wrong": {
+          "leaked": 10,
+          "total": 10,
+          "far": 1.0
+        },
+        "method_sensitive": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        },
+        "control_leaking": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        }
+      }
+    },
+    "no_robustness_suite": {
+      "disabled_gates": [
+        "robustness",
+        "method_sensitivity",
+        "bidirectional",
+        "rank_stability"
+      ],
+      "leaked": 10,
+      "total": 30,
+      "false_accept_rate": 0.3333333333333333,
+      "false_accept_rate_ci95": {
+        "low": 0.19230295526846194,
+        "high": 0.5122027418616973,
+        "label": "[19.2%, 51.2%]"
+      },
+      "per_family": {
+        "plausible_but_wrong": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        },
+        "method_sensitive": {
+          "leaked": 10,
+          "total": 10,
+          "far": 1.0
+        },
+        "control_leaking": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        }
+      }
+    },
+    "no_controls_suite": {
+      "disabled_gates": [
+        "negative_controls",
+        "baseline_superiority"
+      ],
+      "leaked": 10,
+      "total": 30,
+      "false_accept_rate": 0.3333333333333333,
+      "false_accept_rate_ci95": {
+        "low": 0.19230295526846194,
+        "high": 0.5122027418616973,
+        "label": "[19.2%, 51.2%]"
+      },
+      "per_family": {
+        "plausible_but_wrong": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        },
+        "method_sensitive": {
+          "leaked": 0,
+          "total": 10,
+          "far": 0.0
+        },
+        "control_leaking": {
+          "leaked": 10,
+          "total": 10,
+          "far": 1.0
+        }
+      }
+    },
+    "minimal_gates": {
+      "disabled_gates": [
+        "confirmatory_ci",
+        "multiplicity",
+        "power_adequacy",
+        "effect_size_practical",
+        "robustness",
+        "method_sensitivity",
+        "bidirectional",
+        "rank_stability",
+        "negative_controls",
+        "baseline_superiority",
+        "governance_valid"
+      ],
+      "leaked": 30,
+      "total": 30,
+      "false_accept_rate": 1.0,
+      "false_accept_rate_ci95": {
+        "low": 0.8864829086095221,
+        "high": 1.0,
+        "label": "[88.6%, 100.0%]"
+      },
+      "per_family": {
+        "plausible_but_wrong": {
+          "leaked": 10,
+          "total": 10,
+          "far": 1.0
+        },
+        "method_sensitive": {
+          "leaked": 10,
+          "total": 10,
+          "far": 1.0
+        },
+        "control_leaking": {
+          "leaked": 10,
+          "total": 10,
+          "far": 1.0
+        }
+      }
+    }
+  },
+  "notes": [
+    "All FAR values are computed from evaluator outputs on synthetic raw-cell bundles.",
+    "Ablated conditions modify protocol thresholds rather than mutating evaluated checks post hoc."
+  ]
+}

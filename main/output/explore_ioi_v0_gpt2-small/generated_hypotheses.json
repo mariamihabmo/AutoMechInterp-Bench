@@ -1,0 +1,147 @@
+[
+  {
+    "hypothesis_id": "h_explore_ioi_v0_001",
+    "protocol_id": "explore_ioi_v0_gpt2-small",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L10H7 causally contributes to ioi_v0 via decrease in logit_diff (exploration mean effect: -3.9310)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 7
+      }
+    ],
+    "predicted_effect_direction": "decrease",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation",
+      "task_specificity"
+    ],
+    "provider_id": "exploration_activation_patching",
+    "discovery_lane": "A",
+    "exploration_evidence": {
+      "mean_effect": -3.9310309092203775,
+      "n_examples": 15,
+      "method": "denoising_activation_patching"
+    }
+  },
+  {
+    "hypothesis_id": "h_explore_ioi_v0_002",
+    "protocol_id": "explore_ioi_v0_gpt2-small",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L8H6 causally contributes to ioi_v0 via increase in logit_diff (exploration mean effect: 2.8531)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 8,
+        "head": 6
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation",
+      "task_specificity"
+    ],
+    "provider_id": "exploration_activation_patching",
+    "discovery_lane": "A",
+    "exploration_evidence": {
+      "mean_effect": 2.8530677795410155,
+      "n_examples": 15,
+      "method": "denoising_activation_patching"
+    }
+  },
+  {
+    "hypothesis_id": "h_explore_ioi_v0_003",
+    "protocol_id": "explore_ioi_v0_gpt2-small",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L5H5 causally contributes to ioi_v0 via increase in logit_diff (exploration mean effect: 2.6719)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 5,
+        "head": 5
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation",
+      "task_specificity"
+    ],
+    "provider_id": "exploration_activation_patching",
+    "discovery_lane": "A",
+    "exploration_evidence": {
+      "mean_effect": 2.671924273173014,
+      "n_examples": 15,
+      "method": "denoising_activation_patching"
+    }
+  },
+  {
+    "hypothesis_id": "h_explore_ioi_v0_004",
+    "protocol_id": "explore_ioi_v0_gpt2-small",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L8H10 causally contributes to ioi_v0 via increase in logit_diff (exploration mean effect: 2.6271)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 8,
+        "head": 10
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation",
+      "task_specificity"
+    ],
+    "provider_id": "exploration_activation_patching",
+    "discovery_lane": "A",
+    "exploration_evidence": {
+      "mean_effect": 2.627141253153483,
+      "n_examples": 15,
+      "method": "denoising_activation_patching"
+    }
+  },
+  {
+    "hypothesis_id": "h_explore_ioi_v0_005",
+    "protocol_id": "explore_ioi_v0_gpt2-small",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "Head L9H9 causally contributes to ioi_v0 via increase in logit_diff (exploration mean effect: 2.2355)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 9
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation",
+      "task_specificity"
+    ],
+    "provider_id": "exploration_activation_patching",
+    "discovery_lane": "A",
+    "exploration_evidence": {
+      "mean_effect": 2.2355173110961912,
+      "n_examples": 15,
+      "method": "denoising_activation_patching"
+    }
+  }
+]

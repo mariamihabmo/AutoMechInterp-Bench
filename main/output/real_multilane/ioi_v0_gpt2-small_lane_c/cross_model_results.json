@@ -1,0 +1,89 @@
+[
+  {
+    "hypothesis_id": "h_dla_ioi_v0_001",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 9
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 18,
+        "head": 9
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "head",
+    "transfer_effect": -1.6176551055908204,
+    "n_examples": 100,
+    "source_effect_mean": 0.5796243761792594,
+    "cross_model_effect_floor": 0.02,
+    "transfer_above_floor": true,
+    "transfer_same_direction": false,
+    "transfer_contract_pass": false,
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_dla_ioi_v0_002",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 7
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 20,
+        "head": 7
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "head",
+    "transfer_effect": 0.13764806747436523,
+    "n_examples": 100,
+    "source_effect_mean": -2.021739488766517,
+    "cross_model_effect_floor": 0.02,
+    "transfer_above_floor": true,
+    "transfer_same_direction": false,
+    "transfer_contract_pass": false,
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_dla_ioi_v0_003",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 6
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 18,
+        "head": 6
+      }
+    ],
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_intervention_kind": "head",
+    "transfer_effect": 0.0005181121826171875,
+    "n_examples": 100,
+    "source_effect_mean": -0.4280662065670814,
+    "cross_model_effect_floor": 0.02,
+    "transfer_above_floor": false,
+    "transfer_same_direction": false,
+    "transfer_contract_pass": false,
+    "transfer_positive": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "hypothesis_id": "h_sweep_country_capital_v0_001",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_pythia-70m_lane_a",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "gpt2-small",
+    "transfer_effect": 1.4304799444881486,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "pythia-70m",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_sweep_country_capital_v0_002",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_pythia-70m_lane_a",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "gpt2-small",
+    "transfer_effect": 1.1566747206228751,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "pythia-70m",
+    "transfer_positive": true
+  }
+]

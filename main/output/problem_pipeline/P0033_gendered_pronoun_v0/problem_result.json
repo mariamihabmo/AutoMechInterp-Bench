@@ -1,0 +1,78 @@
+{
+  "problem_id": "P0033",
+  "source_id": "AF-2.11",
+  "title": "Choosing the right pronouns (he vs she vs it vs they)",
+  "task_id": "gendered_pronoun_v0",
+  "model_id": "gpt2-small",
+  "n_examples": 10,
+  "top_10_heads": [
+    {
+      "layer": 4,
+      "head": 3,
+      "mean_effect": 0.4138041019439697
+    },
+    {
+      "layer": 11,
+      "head": 1,
+      "mean_effect": 0.3672978401184082
+    },
+    {
+      "layer": 11,
+      "head": 8,
+      "mean_effect": 0.3158099174499512
+    },
+    {
+      "layer": 10,
+      "head": 9,
+      "mean_effect": 0.3136556625366211
+    },
+    {
+      "layer": 6,
+      "head": 0,
+      "mean_effect": 0.19713740348815917
+    },
+    {
+      "layer": 3,
+      "head": 6,
+      "mean_effect": 0.1582277774810791
+    },
+    {
+      "layer": 9,
+      "head": 7,
+      "mean_effect": 0.14397530555725097
+    },
+    {
+      "layer": 11,
+      "head": 7,
+      "mean_effect": 0.14034228324890136
+    },
+    {
+      "layer": 9,
+      "head": 4,
+      "mean_effect": 0.138045072555542
+    },
+    {
+      "layer": 4,
+      "head": 4,
+      "mean_effect": -0.08797154426574708
+    }
+  ],
+  "known_component_check": [
+    {
+      "component_type": "head",
+      "layer": 9,
+      "head": 9,
+      "note": "Often involved in name/gender tracking",
+      "exploration_rank": 144,
+      "in_top_10": false
+    },
+    {
+      "component_type": "head",
+      "layer": 10,
+      "head": 7,
+      "note": "Name mover analogue for pronouns",
+      "exploration_rank": 112,
+      "in_top_10": false
+    }
+  ]
+}

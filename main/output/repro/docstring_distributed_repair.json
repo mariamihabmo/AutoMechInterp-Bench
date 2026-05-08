@@ -1,0 +1,150 @@
+{
+  "aggregate": {
+    "accepted_after_real_total": 0,
+    "bundles_run": 2,
+    "gate_failures_after_real": {
+      "method_sensitivity": 8,
+      "negative_controls": 1
+    },
+    "tasks_with_any_real_accept_after": []
+  },
+  "generated_by": "main/docstring_distributed_repair.py",
+  "rows": [
+    {
+      "accepted_after_real": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "docstring_v0_gpt2-small",
+      "candidate_bundle": "main/output/docstring_distributed_repair/docstring_v0_gpt2-small",
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after_real": {
+        "method_sensitivity": 4
+      },
+      "method_summary": {
+        "h_docstring_distributed_001": {
+          "confirmatory_ci_high": 1.8561956311975205,
+          "confirmatory_ci_low": 0.49259409223284045,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 0.9370291871683937,
+          "method_sensitivity_type": "magnitude_variation",
+          "passed": false,
+          "specificity_ratio": 4.520479902194451,
+          "tier": "suggestive"
+        },
+        "h_docstring_distributed_002": {
+          "confirmatory_ci_high": 1.9038476416042873,
+          "confirmatory_ci_low": 0.6350465067795344,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 0.8673346187387195,
+          "method_sensitivity_type": "magnitude_variation",
+          "passed": false,
+          "specificity_ratio": 5.344887173943724,
+          "tier": "suggestive"
+        },
+        "h_docstring_distributed_003": {
+          "confirmatory_ci_high": 1.6152802045856203,
+          "confirmatory_ci_low": 0.5709345255579267,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 0.7284633432115827,
+          "method_sensitivity_type": "magnitude_variation",
+          "passed": false,
+          "specificity_ratio": 5.437170656238505,
+          "tier": "suggestive"
+        },
+        "h_docstring_distributed_004": {
+          "confirmatory_ci_high": 2.709514820575714,
+          "confirmatory_ci_low": 0.7573478247438158,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 1.330067959002086,
+          "method_sensitivity_type": "magnitude_variation",
+          "passed": false,
+          "specificity_ratio": 3.825262339950743,
+          "tier": "suggestive"
+        }
+      },
+      "mode": "real",
+      "model": "gpt2-small",
+      "runtime_seconds": 0.0,
+      "stage2_cell_count": 64,
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after_real": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "docstring_v0_pythia-70m",
+      "candidate_bundle": "main/output/docstring_distributed_repair/docstring_v0_pythia-70m",
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after_real": {
+        "method_sensitivity": 4,
+        "negative_controls": 1
+      },
+      "method_summary": {
+        "h_docstring_distributed_001": {
+          "confirmatory_ci_high": 1.835416612454823,
+          "confirmatory_ci_low": 0.17849807824407307,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 1.1402560787541525,
+          "method_sensitivity_type": "direction_reversal",
+          "passed": false,
+          "specificity_ratio": 2.968532433961184,
+          "tier": "suggestive"
+        },
+        "h_docstring_distributed_002": {
+          "confirmatory_ci_high": 1.472341000182288,
+          "confirmatory_ci_low": 0.31645690713609964,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 0.8067569059985024,
+          "method_sensitivity_type": "magnitude_variation",
+          "passed": false,
+          "specificity_ratio": 2.8030662456565394,
+          "tier": "suggestive"
+        },
+        "h_docstring_distributed_003": {
+          "confirmatory_ci_high": 1.260068108354296,
+          "confirmatory_ci_low": 0.2673205290521894,
+          "failed_checks": [
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 0.6999265602656772,
+          "method_sensitivity_type": "magnitude_variation",
+          "passed": false,
+          "specificity_ratio": 3.0465339697131557,
+          "tier": "suggestive"
+        },
+        "h_docstring_distributed_004": {
+          "confirmatory_ci_high": 2.308982130459377,
+          "confirmatory_ci_low": 0.33798901609012055,
+          "failed_checks": [
+            "negative_controls",
+            "method_sensitivity"
+          ],
+          "method_sensitivity_std": 1.3692168542316983,
+          "method_sensitivity_type": "direction_reversal",
+          "passed": false,
+          "specificity_ratio": 2.4805234920608585,
+          "tier": "rejected"
+        }
+      },
+      "mode": "real",
+      "model": "pythia-70m",
+      "runtime_seconds": 0.0,
+      "stage2_cell_count": 64,
+      "task": "docstring_v0"
+    }
+  ],
+  "scientific_question": "Can distributed multi-head docstring claims align sufficiency and necessity under the existing method_sensitivity gate?",
+  "status": "diagnostic real repair; not included in canonical aggregate unless explicitly promoted"
+}

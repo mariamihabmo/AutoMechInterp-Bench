@@ -1,0 +1,29 @@
+{
+  "aggregate": {
+    "acceptance_rate": 0.04081632653061224,
+    "n_accepted": 2,
+    "n_bundles_failed_to_evaluate": 0,
+    "n_bundles_scored": 16,
+    "n_bundles_seen": 16,
+    "n_claims": 49,
+    "tier_counts": {
+      "causal_tested_unstable": 2,
+      "rejected": 36,
+      "single_model_confirmed": 2,
+      "suggestive": 9
+    }
+  },
+  "cached_results_warning": "This run aggregated current/released summary artifacts when available. That is appropriate for fast plumbing rehearsal, but it is not a substitute for a fresh private-suite scoring pass.",
+  "generated_at": "2023-11-14T22:13:20.000000+00:00",
+  "mode": "rehearsal",
+  "policy": {
+    "aggregate_only": true,
+    "per_item_information_emitted": false,
+    "private_suite_path_emitted": false,
+    "see": "docs/reference/holdout_stress_governance_plan.md"
+  },
+  "rehearsal_warning": "This output is from rehearsal mode. The contract has already seen these bundles, so the score is NOT a measure of holdout-hardening. Do not cite this score in any paper as a holdout result.",
+  "release_version": "v0-rehearsal",
+  "schema_version": 1,
+  "scoring_mode": "cached_or_released_summary"
+}

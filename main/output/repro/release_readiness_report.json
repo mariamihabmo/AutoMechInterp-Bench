@@ -1,0 +1,175 @@
+{
+  "generated_by": "main/release_readiness_report.py",
+  "headline": {
+    "accepted_claims": 26,
+    "bundle_count": 36,
+    "claim_count": 109,
+    "contract_hardening_v1_accepted_after": 1,
+    "contract_hardening_v1_accepted_before": 26,
+    "contract_hardening_v1_independent_evidence": false,
+    "contract_hardening_v1_migration_decision_status": "deferred_pending_external_validation",
+    "contract_hardening_v1_namespace_count": 2,
+    "contract_hardening_v1_primary_far": 0.0,
+    "contract_hardening_v1_retention": 0.038461538461538464,
+    "contract_hardening_v1_tasks_with_accepted_after": 1,
+    "contract_hardening_v1_worst_ci95_high": 0.018846005918320894,
+    "docstring_explorer_diagnosis_counts": {},
+    "external_blinded_evaluated": 0,
+    "external_blinded_submissions": 0,
+    "fresh_agnostic_full_contract_far": 0.0,
+    "fresh_agnostic_full_contract_far_ci95": [
+      0.0,
+      0.018846005918320894
+    ],
+    "fresh_agnostic_negatives": 200,
+    "fresh_agnostic_source": "release_grade",
+    "high_power_prompt_holdout_bundles_rerun": 17,
+    "high_power_prompt_holdout_checks_passing": 59,
+    "high_power_prompt_holdout_checks_total": 63,
+    "high_power_prompt_holdout_examples_per_cell": 40,
+    "high_power_prompt_holdout_original_claims_covered": 26,
+    "high_power_prompt_holdout_original_claims_demoted": 3,
+    "high_power_prompt_holdout_original_claims_retained": 23,
+    "high_power_prompt_holdout_planned_bundles": 17,
+    "high_power_prompt_holdout_retained_claims_failing_any": 4,
+    "high_power_prompt_holdout_retained_claims_passing_all": 19,
+    "holdout_rehearsal_exists": true,
+    "legacy_agnostic_full_contract_far": 0.1,
+    "legacy_agnostic_full_contract_far_ci95": [
+      0.03957888759557486,
+      0.23052074380473897
+    ],
+    "prompt_holdout_checks_passing": 63,
+    "prompt_holdout_checks_total": 70,
+    "prompt_holdout_claims_passing_all": 20,
+    "prompt_holdout_claims_tested": 26,
+    "prompt_variant_affected_accepted_claims": 25,
+    "prompt_variant_canonical_affected_accepted_claims": 0,
+    "prompt_variant_canonical_unsupported_files": 0,
+    "prompt_variant_covered_accepted_claims": 25,
+    "prompt_variant_demoted_accepted_claims": 6,
+    "prompt_variant_planned_bundles": 21,
+    "prompt_variant_rerun_bundles": 21,
+    "prompt_variant_retained_accepted_claims": 19,
+    "remaining_zero_tasks": [],
+    "runtime_bundles_measured": 8,
+    "runtime_estimated_minutes": 189.46073472183198,
+    "runtime_estimated_rerun_minutes": 568.382204165496,
+    "runtime_measurement_coverage": 0.2222222222222222,
+    "same_family_already_scored": 4,
+    "same_family_blocked": 13,
+    "same_family_missing_eligible_rows": 0,
+    "same_family_ready_to_run": 0,
+    "task_model_total_cells": 16,
+    "task_model_zero_acceptance_cells": 5,
+    "tasks_total": 8,
+    "tasks_with_accepted": 8,
+    "top_transfer_candidate": {
+      "all_holdouts_pass": true,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "current_transfer_status": "near_miss_below_floor",
+      "floor_fraction": 0.6996111869812012,
+      "holdout_pass_count": 3,
+      "holdout_total": 3,
+      "hypothesis_id": "h_dla_sentiment_v0_001",
+      "priority_reasons": [
+        "non-country-capital task",
+        "passes all prompt-holdout checks",
+        "existing cross-model near miss",
+        "floor_fraction=0.700",
+        "scientifically queued; blocked only by local target-model snapshot",
+        "source effect unstable; transfer result may be harder to interpret"
+      ],
+      "priority_score": 213,
+      "proposed_same_family_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "same_family_eligible_claim_ids_missing_rows": [],
+      "same_family_eligible_claim_ids_with_rows": [
+        "h_dla_sentiment_v0_001"
+      ],
+      "same_family_existing_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002",
+        "h_dla_sentiment_v0_003"
+      ],
+      "same_family_existing_rows": 3,
+      "same_family_status": "blocked_missing_local_model_snapshot",
+      "same_family_target_model": "gpt2-medium",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_sentiment_v0_003"
+      ],
+      "source_effect_cv_abs": 0.8853391545418869,
+      "source_model": "gpt2-small",
+      "source_stability": "unstable",
+      "task": "sentiment_v0",
+      "transfer_effect": 0.013992223739624023,
+      "transfer_to_source_ratio": 0.1036227882952885
+    },
+    "transfer_confirmed_claims": 12,
+    "transfer_non_country_candidate_claims": 11,
+    "transfer_tested_claims": 26,
+    "zero_task_confirmatory_ci_failures_after_real": 9,
+    "zero_task_confirmatory_ci_failures_before": 23,
+    "zero_task_confirmatory_present_failures_after_real": 0,
+    "zero_task_confirmatory_present_failures_before": 0,
+    "zero_task_real_repair_accepted_claims": 7,
+    "zero_task_real_repair_tasks_with_accepts": [
+      "arithmetic_v0",
+      "fact_recall_v0",
+      "gendered_pronoun_v0",
+      "greater_than_v0"
+    ]
+  },
+  "n_additional_count_criteria_needed_for_old_plausible_threshold": 0,
+  "n_release_quality_criteria_satisfied": 3,
+  "prioritized_actions": [
+    {
+      "expected_payoff": "Turns a vague prompt-generalization concern into an artifact-backed field-level fragility finding.",
+      "gap": "prompt-holdout robustness",
+      "next_action": "Treat arithmetic, IOI structural prompts, and one sentiment claim as targeted prompt-robustness weaknesses; do not promote a stronger prompt-robustness claim unless a pre-registered repair rerun improves the full accepted surface.",
+      "priority": 1,
+      "why_open": "The prospective n=40 rerun covered all 26 originally accepted claims across 17/17 accepted bundles. It retained 23/26, demoted 3, and only 19/23 retained claims passed all held-out prompts (59/63 held-out checks)."
+    },
+    {
+      "expected_payoff": "Turns task-level breadth from criterion-satisfying into concrete external-validity evidence.",
+      "gap": "residual breadth",
+      "next_action": "Target zero-accepted task-model cells without changing the contract; prioritize closest-to-pass cells in breadth_gap_analysis.json.",
+      "priority": 2,
+      "why_open": "task-level breadth criterion is now satisfied at 8/8, but remaining_zero_tasks=[], zero_acceptance_task_model_cells=5/16, and accepted evidence is still uneven across the task-model grid. Real zero-task repair contributes 7 accepted claims in ['arithmetic_v0', 'fact_recall_v0', 'gendered_pronoun_v0', 'greater_than_v0']."
+    },
+    {
+      "expected_payoff": "Largest governance credibility gain; scaffolding is already in place, but evidence is still absent.",
+      "gap": "external ecosystem / blinded authorship",
+      "next_action": "Ingest one real external_blinded bundle and run one real private-suite holdout scoring pass with an external custodian.",
+      "priority": 3,
+      "why_open": "external_blinded_submissions=0, external_evaluated=0; maintainer_pilot=2 and holdout_rehearsal_exists=True."
+    },
+    {
+      "expected_payoff": "Closes a named verdict criterion and demonstrates governance, not just tooling.",
+      "gap": "operational holdout",
+      "next_action": "Run the aggregate-only helper on a real private suite with an external custodian and keep it separated from pilot/rehearsal counts.",
+      "priority": 5,
+      "why_open": "holdout_rehearsal_exists=True, external_evaluated=0."
+    }
+  ],
+  "release_quality_blockers": [
+    "no_external_blinded_or_independent_bundle_evaluated",
+    "no_operational_external_custodian_holdout",
+    "residual_task_model_breadth_gap",
+    "high_power_prompt_holdout_frontier_incomplete"
+  ],
+  "release_quality_criteria": {
+    "accepted_claims_in_at_least_5_of_8_tasks": true,
+    "agnostic_far_upper_bound_below_5pct": true,
+    "operational_holdout_execution": false,
+    "second_cross_model_confirmed_claim": true,
+    "second_external_third_party_bundle_accepted": false
+  },
+  "schema_version": 2,
+  "verdict": "plausible_but_not_high_confidence_release_quality",
+  "warning": "This report operationalizes late-stage release criteria but does not certify release readiness by count alone. The fresh agnostic refresh and hardening-candidate stress replicates use benchmark-authored generators, so treat them as release-grade stress/tradeoff evidence, not as independent Goodhart validation."
+}

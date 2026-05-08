@@ -1,0 +1,261 @@
+{
+  "protocol_id": "real_fact_recall_v0_pythia-70m",
+  "protocol_sha256": "28813a7aab3f933efc060804af453bcf687398f2231b02659c8433aa829ff15a",
+  "hypothesis_results": [
+    {
+      "hypothesis_id": "h_fact_recall_v0_001",
+      "raw_cells": [
+        {
+          "seed": 42,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "activation_patching",
+          "slice": "confirmatory",
+          "treatment_effect": 0.7108287811279297,
+          "control_effects": {
+            "random_component": -0.01807098388671875,
+            "wrong_layer": -4.291534423828125e-06,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.13931350708007811
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 42,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 42,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": -1.0000805536905923,
+          "control_effects": {
+            "random_component": -0.01807098388671875,
+            "wrong_layer": -4.291534423828125e-06,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.13931350708007811
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 42,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 123,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "activation_patching",
+          "slice": "confirmatory",
+          "treatment_effect": 1.112005615234375,
+          "control_effects": {
+            "random_component": 0.16540374755859374,
+            "wrong_layer": 0.0,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.8976512908935547
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 123,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 123,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": -0.7970681508382161,
+          "control_effects": {
+            "random_component": 0.16540374755859374,
+            "wrong_layer": 0.0,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.8976512908935547
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 123,
+          "prompt_template_id": "base"
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_fact_recall_v0_002",
+      "raw_cells": [
+        {
+          "seed": 42,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "activation_patching",
+          "slice": "confirmatory",
+          "treatment_effect": 0.15376784006754557,
+          "control_effects": {
+            "random_component": -0.01807098388671875,
+            "wrong_layer": 0.5487674713134766,
+            "wrong_position": 0.0,
+            "mismatched_source": -0.06496162414550781
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 42,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 42,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": -1.1436885197957356,
+          "control_effects": {
+            "random_component": -0.01807098388671875,
+            "wrong_layer": 0.5487674713134766,
+            "wrong_position": 0.0,
+            "mismatched_source": -0.06496162414550781
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 42,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 123,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "activation_patching",
+          "slice": "confirmatory",
+          "treatment_effect": 0.04690287907918294,
+          "control_effects": {
+            "random_component": 0.16540374755859374,
+            "wrong_layer": 1.4657665252685548,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.03783206939697266
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 123,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 123,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": -1.6994789759318034,
+          "control_effects": {
+            "random_component": 0.16540374755859374,
+            "wrong_layer": 1.4657665252685548,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.03783206939697266
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 123,
+          "prompt_template_id": "base"
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_fact_recall_v0_003",
+      "raw_cells": [
+        {
+          "seed": 42,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "activation_patching",
+          "slice": "confirmatory",
+          "treatment_effect": 0.007591438293457031,
+          "control_effects": {
+            "random_component": -0.01807098388671875,
+            "wrong_layer": -0.08052396774291992,
+            "wrong_position": 0.0,
+            "mismatched_source": -0.023559379577636718
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 42,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 42,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": -1.105343182881673,
+          "control_effects": {
+            "random_component": -0.01807098388671875,
+            "wrong_layer": -0.08052396774291992,
+            "wrong_position": 0.0,
+            "mismatched_source": -0.023559379577636718
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 42,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 123,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "activation_patching",
+          "slice": "confirmatory",
+          "treatment_effect": 0.15040454864501954,
+          "control_effects": {
+            "random_component": 0.16540374755859374,
+            "wrong_layer": -0.08975257873535156,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.10817985534667969
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 123,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 123,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": -1.626479403177897,
+          "control_effects": {
+            "random_component": 0.16540374755859374,
+            "wrong_layer": -0.08975257873535156,
+            "wrong_position": 0.0,
+            "mismatched_source": 0.10817985534667969
+          },
+          "runner_id": "real_multi_task_v13",
+          "runner_version": "13.0",
+          "pipeline_sha": "live_experiment",
+          "model_ref": "pythia-70m",
+          "dataset_seed": 123,
+          "prompt_template_id": "base"
+        }
+      ]
+    }
+  ]
+}

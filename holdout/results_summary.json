@@ -1,0 +1,46 @@
+{
+  "external_blinded": {
+    "all_pin_matches": null,
+    "n_accepted_claims": 0,
+    "n_evaluated": 0,
+    "n_submissions": 0,
+    "submissions": []
+  },
+  "generated_at_utc": "2023-11-14T22:13:20+00:00",
+  "maintainer_pilot": {
+    "all_pin_matches": true,
+    "n_evaluated": 2,
+    "n_submissions": 2,
+    "submissions": [
+      {
+        "author_institution": "AutoMechInterp maintainers (pilot; NOT an external blinded author)",
+        "bundle_tarball_sha256": "fe7fe4d8642daa0b9d17d7e899a36b1b807045676e2812351dbe1fda233608ad",
+        "contract_pin_match": true,
+        "evaluated_at_utc": "2026-04-23T08:49:05+00:00",
+        "evaluator_version": "0.1.0",
+        "n_accepted_claims": 2,
+        "n_claims": 4,
+        "status": "evaluated",
+        "submission_dir": "holdout/pilot/submissions/maintainer_pilot_0001",
+        "submission_id": "maintainer_pilot_0001",
+        "submission_kind": "maintainer_pilot",
+        "submitted_at_utc": "2026-04-18T17:39:47+00:00"
+      },
+      {
+        "author_institution": "AutoMechInterp maintainers (pilot; NOT an external blinded author)",
+        "bundle_tarball_sha256": "297243ddb63beba26f23fd646031d2dab75dc85441a1aaa41322d463f1ac6a10",
+        "contract_pin_match": true,
+        "evaluated_at_utc": "2026-04-23T08:49:20+00:00",
+        "evaluator_version": "0.1.0",
+        "n_accepted_claims": 3,
+        "n_claims": 3,
+        "status": "evaluated",
+        "submission_dir": "holdout/pilot/submissions/maintainer_pilot_0002",
+        "submission_id": "maintainer_pilot_0002",
+        "submission_kind": "maintainer_pilot",
+        "submitted_at_utc": "2026-04-23T08:44:16+00:00"
+      }
+    ]
+  },
+  "policy_note": "external_blinded submissions are the only slice that counts as external evidence per methodology/blinded_holdout_protocol.md. maintainer_pilot submissions exist solely to exercise the Custodian pipeline and are NEVER included in external-evidence counts."
+}

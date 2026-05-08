@@ -1,0 +1,140 @@
+{
+  "bundles_rerun": 2,
+  "claim_boundary": "This prospective diagnostic covers every current canonical bundle with accepted claims and multiple prompt variants. It must be reported as a high-power robustness frontier, not as external validation or a silent contract migration.",
+  "completion_status": "complete",
+  "examples_per_cell": 40,
+  "failing_or_demoted_original_claims": [],
+  "generated_by": "main/prompt_holdout_high_power_rerun.py",
+  "original_accepted_claims_covered": 2,
+  "original_accepted_claims_demoted": 0,
+  "original_accepted_claims_retained": 2,
+  "passing_holdout_checks_on_retained_claims": 6,
+  "planned_bundles": 2,
+  "retained_original_accepted_claims_failing_any_holdout": 0,
+  "retained_original_accepted_claims_passing_all_holdouts": 2,
+  "rows": [
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.43054957474981037,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.035136725860695,
+              "same_direction": true,
+              "source_mean": 0.4159349813347771
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.5272959697814215,
+              "holdout_prompt_variant": "detailed",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.4345777852713897,
+              "same_direction": true,
+              "source_mean": 0.36756178381897153
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.30457399288813275,
+              "holdout_prompt_variant": "brief",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.6359563807068515,
+              "same_direction": true,
+              "source_mean": 0.4789227722656159
+            }
+          ],
+          "hypothesis_id": "h_sweep_docstring_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "detailed",
+        "brief"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/docstring_v0_gpt2-small_lane_a",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/real_multilane/docstring_v0_gpt2-small_lane_a",
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.4887052509519789,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.386767246566109,
+              "same_direction": true,
+              "source_mean": 0.35240611008235384
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.48574455579121906,
+              "holdout_prompt_variant": "detailed",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.3726000113125287,
+              "same_direction": true,
+              "source_mean": 0.35388645766273374
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.21906766437348865,
+              "holdout_prompt_variant": "brief",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.44962329071757046,
+              "same_direction": true,
+              "source_mean": 0.487224903371599
+            }
+          ],
+          "hypothesis_id": "h_dla_docstring_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "detailed",
+        "brief"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/docstring_v0_gpt2-small_lane_c",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/real_multilane/docstring_v0_gpt2-small_lane_c",
+      "task": "docstring_v0"
+    }
+  ],
+  "schema_version": 1,
+  "status": "diagnostic high-power prompt-holdout rerun; complete; not a released-contract change",
+  "total_holdout_checks_on_retained_claims": 6
+}

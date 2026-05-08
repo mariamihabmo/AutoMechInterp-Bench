@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quickstart · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">10-Minute Setup</span>
+    <h1>Quickstart</h1>
+    <p>From clean clone to first verified bundle with deterministic workflow outputs.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Step 1: Verify Environment</h2>
+      <pre><code>python -m pytest packages/evaluator/tests -q
+python -m pytest packages/runner/tests -q</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Step 2: Create a Bundle</h2>
+      <pre><code>python -m automechinterp_evaluator.cli init-template \
+  --output-dir /tmp/my_bundle</code></pre>
+      <p>This writes <code>protocol.yaml</code>, <code>hypothesis.jsonl</code>, <code>evaluation_result.json</code>, and <code>manifest.json</code>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Step 3: Generate Candidate Hypotheses (Optional)</h2>
+      <pre><code>python -m automechinterp_evaluator.cli generate-agent-output \
+  --bundle /tmp/my_bundle --count 3 --overwrite
+
+python -m automechinterp_evaluator.cli generate-hypotheses \
+  --bundle /tmp/my_bundle \
+  --agent-output /tmp/my_bundle/agent_output.json \
+  --overwrite</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Step 4: Run Stage-2 and Evaluate</h2>
+      <pre><code>python -m automechinterp_runner.cli run \
+  --bundle /tmp/my_bundle --mode mock --device cpu --examples-per-cell 20
+
+python -m automechinterp_evaluator.cli evaluate \
+  --bundle /tmp/my_bundle --output /tmp/my_bundle/result.json
+
+python -m automechinterp_evaluator.cli report \
+  --bundle /tmp/my_bundle --output /tmp/my_bundle/stage_gate_report.md</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Step 5: Generate Workflow Review</h2>
+      <pre><code>python -m automechinterp_evaluator.cli submission-review \
+  --bundle /tmp/my_bundle --reruns 3 \
+  --output-json /tmp/my_bundle/submission_review.json \
+  --output-md /tmp/my_bundle/submission_review.md</code></pre>
+      <p>Maps failed gates to concrete next actions and verifies deterministic decision stability.</p>
+    </section>
+
+    <section class="card">
+      <h2>Step 6: Compatibility Check</h2>
+      <pre><code>python -m automechinterp_evaluator.cli reference-vectors</code></pre>
+      <p>Validates canonical tiering behavior against shared reference vectors.</p>
+    </section>
+  </main>
+
+  <footer>
+    Continue with <a href="tutorials.html">tutorial workflows</a> or <a href="community-submissions.html">community submission guide</a>.
+  </footer>
+</body>
+</html>

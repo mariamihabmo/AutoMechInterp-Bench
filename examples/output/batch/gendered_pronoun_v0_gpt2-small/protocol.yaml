@@ -1,0 +1,66 @@
+protocol_id: gendered_pronoun_v0_gpt2-small_batch
+protocol_version: '2.0'
+frozen: true
+unit_of_work:
+  task_id: gendered_pronoun_v0
+  model_id: gpt2-small
+  model_spec:
+    n_layers: 12
+    n_heads: 12
+  dataset_id: gendered_pronoun_v0_templates_v1
+  metric_id: logit_diff_io_minus_s
+  clean_corrupt_definition: swap-target-entity
+execution_grid:
+  seeds:
+  - 101
+  - 202
+  prompt_variants:
+  - base
+  - paraphrase
+  resample_ids:
+  - 0
+  - 1
+  methods:
+  - mean_ablation
+  - zero_ablation
+control_policy:
+  required_families:
+  - wrong_position
+  - wrong_layer
+  - random_component
+  - mismatched_source
+  max_control_abs_mean: 0.03
+stage_gates:
+  min_causal_effect: 0.05
+  min_specificity_ratio: 5.0
+  min_robustness:
+    seed: 0.5
+    prompt_variant: 0.5
+    resample: 0.5
+  max_method_sensitivity_std: 0.03
+  require_confirmatory_ci_excludes_zero: true
+  min_practical_cohens_d: 0.5
+  baseline_superiority_ratio: 2.0
+statistical_policy:
+  alpha: 0.05
+  fdr_q: 0.1
+  min_effect_floor: 0.04
+  multiplicity_method: benjamini-hochberg
+claim_budget:
+  max_total_claims: 5
+  max_claims_per_task: 5
+language_policy:
+  forbidden_without_pass:
+  - solved
+  - proved
+  - validated
+  - confirmed
+sample_size_policy:
+  min_examples_per_cell: 20
+  exploratory_fraction: 0.3
+  power_target: 0.8
+  minimum_detectable_effect: 0.5
+  require_confirmatory_split: false
+  min_cells_per_hypothesis: 8
+intervention_levels:
+- head

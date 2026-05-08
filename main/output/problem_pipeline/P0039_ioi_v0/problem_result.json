@@ -1,0 +1,86 @@
+{
+  "problem_id": "P0039",
+  "source_id": "AF-2.17",
+  "title": "IOI in Stanford Mistral models \u2014 does the same circuit arise?",
+  "task_id": "ioi_v0",
+  "model_id": "gpt2-small",
+  "n_examples": 10,
+  "top_10_heads": [
+    {
+      "layer": 10,
+      "head": 7,
+      "mean_effect": -4.166829204559326
+    },
+    {
+      "layer": 8,
+      "head": 6,
+      "mean_effect": 2.683840847015381
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "mean_effect": 2.585529899597168
+    },
+    {
+      "layer": 5,
+      "head": 5,
+      "mean_effect": 2.4192700386047363
+    },
+    {
+      "layer": 9,
+      "head": 9,
+      "mean_effect": 2.172466850280762
+    },
+    {
+      "layer": 11,
+      "head": 10,
+      "mean_effect": -1.8214272499084472
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "mean_effect": 1.4960391998291016
+    },
+    {
+      "layer": 3,
+      "head": 0,
+      "mean_effect": 1.2723307609558105
+    },
+    {
+      "layer": 7,
+      "head": 3,
+      "mean_effect": 1.1530547142028809
+    },
+    {
+      "layer": 10,
+      "head": 0,
+      "mean_effect": 1.083088207244873
+    }
+  ],
+  "known_component_check": [
+    {
+      "component_type": "head",
+      "layer": 9,
+      "head": 9,
+      "note": "Name mover",
+      "exploration_rank": 5,
+      "in_top_10": true
+    },
+    {
+      "component_type": "head",
+      "layer": 9,
+      "head": 6,
+      "note": "Name mover",
+      "exploration_rank": 22,
+      "in_top_10": false
+    },
+    {
+      "component_type": "head",
+      "layer": 10,
+      "head": 0,
+      "note": "Name mover",
+      "exploration_rank": 10,
+      "in_top_10": true
+    }
+  ]
+}

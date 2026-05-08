@@ -1,0 +1,464 @@
+{
+  "affected_accepted_claims_in_existing_artifacts": 25,
+  "canonical_affected_accepted_claims": 0,
+  "canonical_files_with_unsupported_prompt_variants": 0,
+  "canonical_protocol_files_scanned": 36,
+  "canonical_records": [],
+  "claim_boundary": "Unsupported prompt variants in existing artifacts should be treated as prompt-aliasing risk, not evidence of prompt robustness for those nominal variants.",
+  "files_with_unsupported_prompt_variants": 21,
+  "future_runner_policy": "Stage-2 now raises Stage2Error for unsupported prompt variants.",
+  "generated_by": "main/prompt_variant_validity_audit.py",
+  "protocol_files_scanned": 48,
+  "records": [
+    {
+      "accepted_claims_in_bundle": 2,
+      "bundle": "ioi_v0_gpt2-small",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multi_task/ioi_v0_gpt2-small",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural",
+        "adversarial"
+      ],
+      "task_id": "ioi_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_a",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank",
+        "quiz"
+      ],
+      "task_id": "country_capital_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 2,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_b",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank",
+        "quiz"
+      ],
+      "task_id": "country_capital_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_c",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank",
+        "quiz"
+      ],
+      "task_id": "country_capital_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "model_id": "pythia-70m",
+      "path": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_a",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank",
+        "quiz"
+      ],
+      "task_id": "country_capital_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "model_id": "pythia-70m",
+      "path": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_b",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank",
+        "quiz"
+      ],
+      "task_id": "country_capital_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "model_id": "pythia-70m",
+      "path": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_c",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank",
+        "quiz"
+      ],
+      "task_id": "country_capital_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/fact_recall_v0_gpt2-small_lane_b3",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "contextual",
+        "biographical"
+      ],
+      "task_id": "fact_recall_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 2,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_a",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural",
+        "adversarial"
+      ],
+      "task_id": "ioi_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_b",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural",
+        "adversarial"
+      ],
+      "task_id": "ioi_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_b3",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural",
+        "adversarial"
+      ],
+      "task_id": "ioi_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 2,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_c",
+      "supported_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural",
+        "adversarial"
+      ],
+      "task_id": "ioi_v0",
+      "unsupported_prompt_variants": [
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_a",
+      "supported_prompt_variants": [
+        "base",
+        "review",
+        "statement",
+        "contrast"
+      ],
+      "task_id": "sentiment_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase",
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_b",
+      "supported_prompt_variants": [
+        "base",
+        "review",
+        "statement",
+        "contrast"
+      ],
+      "task_id": "sentiment_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase",
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 3,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "model_id": "gpt2-small",
+      "path": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_c",
+      "supported_prompt_variants": [
+        "base",
+        "review",
+        "statement",
+        "contrast"
+      ],
+      "task_id": "sentiment_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase",
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "model_id": "pythia-70m",
+      "path": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_a",
+      "supported_prompt_variants": [
+        "base",
+        "review",
+        "statement",
+        "contrast"
+      ],
+      "task_id": "sentiment_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase",
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "model_id": "pythia-70m",
+      "path": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_b",
+      "supported_prompt_variants": [
+        "base",
+        "review",
+        "statement",
+        "contrast"
+      ],
+      "task_id": "sentiment_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase",
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "model_id": "pythia-70m",
+      "path": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_c",
+      "supported_prompt_variants": [
+        "base",
+        "review",
+        "statement",
+        "contrast"
+      ],
+      "task_id": "sentiment_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase",
+        "varied"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "model_id": "gpt2-small",
+      "path": "main/output/zero_task_real_repair/arithmetic_v0_gpt2-small",
+      "supported_prompt_variants": [
+        "base",
+        "worded",
+        "equation",
+        "story"
+      ],
+      "task_id": "arithmetic_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "model_id": "pythia-70m",
+      "path": "main/output/zero_task_real_repair/arithmetic_v0_pythia-70m",
+      "supported_prompt_variants": [
+        "base",
+        "worded",
+        "equation",
+        "story"
+      ],
+      "task_id": "arithmetic_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "paraphrase"
+      ]
+    },
+    {
+      "accepted_claims_in_bundle": 0,
+      "bundle": "docstring_v0_gpt2-small",
+      "model_id": "gpt2-small",
+      "path": "main/output/zero_task_real_repair/docstring_v0_gpt2-small",
+      "supported_prompt_variants": [
+        "base",
+        "detailed",
+        "brief",
+        "returns"
+      ],
+      "task_id": "docstring_v0",
+      "unsupported_prompt_variants": [
+        "paraphrase"
+      ],
+      "used_prompt_variants": [
+        "base",
+        "paraphrase"
+      ]
+    }
+  ],
+  "remediation": [
+    "Do not upgrade any prompt-robustness claim from affected artifacts until the bundle is rerun with task-supported variants.",
+    "Use task module PROMPT_VARIANTS when constructing future protocols.",
+    "For docstring_v0, use variants such as base+detailed or base+brief rather than paraphrase."
+  ],
+  "status": "warn_legacy_unsupported_prompt_variants_canonical_clean"
+}

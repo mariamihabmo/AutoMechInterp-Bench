@@ -1,0 +1,722 @@
+[
+  {
+    "layer": 8,
+    "head": 8,
+    "mean_effect": 0.14201784133911133
+  },
+  {
+    "layer": 10,
+    "head": 2,
+    "mean_effect": 0.11835098266601562
+  },
+  {
+    "layer": 9,
+    "head": 1,
+    "mean_effect": 0.11236658096313476
+  },
+  {
+    "layer": 9,
+    "head": 9,
+    "mean_effect": 0.06360054016113281
+  },
+  {
+    "layer": 2,
+    "head": 2,
+    "mean_effect": 0.059239864349365234
+  },
+  {
+    "layer": 6,
+    "head": 7,
+    "mean_effect": 0.046751880645751955
+  },
+  {
+    "layer": 8,
+    "head": 11,
+    "mean_effect": 0.03987722396850586
+  },
+  {
+    "layer": 7,
+    "head": 11,
+    "mean_effect": 0.03670969009399414
+  },
+  {
+    "layer": 8,
+    "head": 10,
+    "mean_effect": -0.03607120513916016
+  },
+  {
+    "layer": 4,
+    "head": 4,
+    "mean_effect": -0.029216670989990236
+  },
+  {
+    "layer": 8,
+    "head": 3,
+    "mean_effect": 0.028321170806884767
+  },
+  {
+    "layer": 0,
+    "head": 1,
+    "mean_effect": 0.027883434295654298
+  },
+  {
+    "layer": 10,
+    "head": 7,
+    "mean_effect": -0.027148914337158204
+  },
+  {
+    "layer": 5,
+    "head": 8,
+    "mean_effect": 0.024936962127685546
+  },
+  {
+    "layer": 0,
+    "head": 10,
+    "mean_effect": -0.02418832778930664
+  },
+  {
+    "layer": 8,
+    "head": 9,
+    "mean_effect": -0.023696136474609376
+  },
+  {
+    "layer": 9,
+    "head": 6,
+    "mean_effect": 0.023682594299316406
+  },
+  {
+    "layer": 11,
+    "head": 8,
+    "mean_effect": 0.021468925476074218
+  },
+  {
+    "layer": 5,
+    "head": 2,
+    "mean_effect": -0.02137622833251953
+  },
+  {
+    "layer": 7,
+    "head": 8,
+    "mean_effect": 0.020983505249023437
+  },
+  {
+    "layer": 4,
+    "head": 11,
+    "mean_effect": 0.020415210723876955
+  },
+  {
+    "layer": 6,
+    "head": 6,
+    "mean_effect": -0.018233776092529297
+  },
+  {
+    "layer": 6,
+    "head": 8,
+    "mean_effect": 0.01815032958984375
+  },
+  {
+    "layer": 3,
+    "head": 3,
+    "mean_effect": 0.01807260513305664
+  },
+  {
+    "layer": 5,
+    "head": 6,
+    "mean_effect": 0.015990352630615233
+  },
+  {
+    "layer": 4,
+    "head": 7,
+    "mean_effect": -0.015477561950683593
+  },
+  {
+    "layer": 8,
+    "head": 5,
+    "mean_effect": 0.014257144927978516
+  },
+  {
+    "layer": 3,
+    "head": 6,
+    "mean_effect": 0.013588333129882812
+  },
+  {
+    "layer": 6,
+    "head": 1,
+    "mean_effect": 0.0125701904296875
+  },
+  {
+    "layer": 7,
+    "head": 5,
+    "mean_effect": 0.011951732635498046
+  },
+  {
+    "layer": 9,
+    "head": 3,
+    "mean_effect": 0.011763381958007812
+  },
+  {
+    "layer": 1,
+    "head": 5,
+    "mean_effect": -0.011567974090576172
+  },
+  {
+    "layer": 5,
+    "head": 5,
+    "mean_effect": -0.011560440063476562
+  },
+  {
+    "layer": 7,
+    "head": 6,
+    "mean_effect": -0.010777473449707031
+  },
+  {
+    "layer": 0,
+    "head": 7,
+    "mean_effect": 0.010680007934570312
+  },
+  {
+    "layer": 11,
+    "head": 4,
+    "mean_effect": 0.009850788116455077
+  },
+  {
+    "layer": 6,
+    "head": 5,
+    "mean_effect": -0.00981760025024414
+  },
+  {
+    "layer": 9,
+    "head": 11,
+    "mean_effect": 0.009716320037841796
+  },
+  {
+    "layer": 6,
+    "head": 9,
+    "mean_effect": 0.009662723541259766
+  },
+  {
+    "layer": 4,
+    "head": 8,
+    "mean_effect": 0.009216213226318359
+  },
+  {
+    "layer": 9,
+    "head": 5,
+    "mean_effect": -0.009167289733886719
+  },
+  {
+    "layer": 4,
+    "head": 3,
+    "mean_effect": 0.00915975570678711
+  },
+  {
+    "layer": 4,
+    "head": 1,
+    "mean_effect": -0.008667469024658203
+  },
+  {
+    "layer": 7,
+    "head": 1,
+    "mean_effect": 0.008406639099121094
+  },
+  {
+    "layer": 6,
+    "head": 4,
+    "mean_effect": 0.008341121673583984
+  },
+  {
+    "layer": 3,
+    "head": 9,
+    "mean_effect": 0.008270072937011718
+  },
+  {
+    "layer": 10,
+    "head": 4,
+    "mean_effect": 0.007378387451171875
+  },
+  {
+    "layer": 7,
+    "head": 10,
+    "mean_effect": 0.007257938385009766
+  },
+  {
+    "layer": 2,
+    "head": 1,
+    "mean_effect": -0.007000923156738281
+  },
+  {
+    "layer": 8,
+    "head": 6,
+    "mean_effect": 0.00641927719116211
+  },
+  {
+    "layer": 5,
+    "head": 10,
+    "mean_effect": 0.006330680847167969
+  },
+  {
+    "layer": 3,
+    "head": 10,
+    "mean_effect": -0.0060561180114746095
+  },
+  {
+    "layer": 4,
+    "head": 6,
+    "mean_effect": -0.006019878387451172
+  },
+  {
+    "layer": 3,
+    "head": 0,
+    "mean_effect": -0.005841827392578125
+  },
+  {
+    "layer": 11,
+    "head": 2,
+    "mean_effect": 0.005560111999511719
+  },
+  {
+    "layer": 7,
+    "head": 9,
+    "mean_effect": -0.005536079406738281
+  },
+  {
+    "layer": 0,
+    "head": 9,
+    "mean_effect": 0.005233860015869141
+  },
+  {
+    "layer": 7,
+    "head": 0,
+    "mean_effect": 0.005200958251953125
+  },
+  {
+    "layer": 2,
+    "head": 7,
+    "mean_effect": -0.005194854736328125
+  },
+  {
+    "layer": 2,
+    "head": 9,
+    "mean_effect": -0.005144500732421875
+  },
+  {
+    "layer": 3,
+    "head": 7,
+    "mean_effect": -0.00500020980834961
+  },
+  {
+    "layer": 5,
+    "head": 7,
+    "mean_effect": 0.004959297180175781
+  },
+  {
+    "layer": 8,
+    "head": 2,
+    "mean_effect": -0.0048964500427246095
+  },
+  {
+    "layer": 5,
+    "head": 3,
+    "mean_effect": 0.004679679870605469
+  },
+  {
+    "layer": 7,
+    "head": 3,
+    "mean_effect": 0.004547786712646484
+  },
+  {
+    "layer": 2,
+    "head": 0,
+    "mean_effect": -0.004422569274902343
+  },
+  {
+    "layer": 2,
+    "head": 5,
+    "mean_effect": -0.004312992095947266
+  },
+  {
+    "layer": 3,
+    "head": 4,
+    "mean_effect": -0.004139137268066406
+  },
+  {
+    "layer": 6,
+    "head": 3,
+    "mean_effect": 0.0040683746337890625
+  },
+  {
+    "layer": 6,
+    "head": 2,
+    "mean_effect": -0.0039008140563964845
+  },
+  {
+    "layer": 8,
+    "head": 7,
+    "mean_effect": 0.0038888931274414064
+  },
+  {
+    "layer": 8,
+    "head": 0,
+    "mean_effect": 0.0037532806396484374
+  },
+  {
+    "layer": 9,
+    "head": 7,
+    "mean_effect": -0.003624248504638672
+  },
+  {
+    "layer": 10,
+    "head": 10,
+    "mean_effect": -0.0035799026489257814
+  },
+  {
+    "layer": 1,
+    "head": 0,
+    "mean_effect": 0.0035491943359375
+  },
+  {
+    "layer": 8,
+    "head": 4,
+    "mean_effect": 0.00322418212890625
+  },
+  {
+    "layer": 1,
+    "head": 3,
+    "mean_effect": 0.0030175209045410155
+  },
+  {
+    "layer": 9,
+    "head": 0,
+    "mean_effect": 0.0028844833374023437
+  },
+  {
+    "layer": 0,
+    "head": 6,
+    "mean_effect": -0.0028598785400390627
+  },
+  {
+    "layer": 2,
+    "head": 6,
+    "mean_effect": -0.002858734130859375
+  },
+  {
+    "layer": 3,
+    "head": 5,
+    "mean_effect": 0.002839469909667969
+  },
+  {
+    "layer": 5,
+    "head": 0,
+    "mean_effect": 0.0026887893676757813
+  },
+  {
+    "layer": 10,
+    "head": 6,
+    "mean_effect": 0.0026180267333984373
+  },
+  {
+    "layer": 11,
+    "head": 10,
+    "mean_effect": -0.002514362335205078
+  },
+  {
+    "layer": 0,
+    "head": 11,
+    "mean_effect": -0.0025106430053710937
+  },
+  {
+    "layer": 6,
+    "head": 11,
+    "mean_effect": 0.002485847473144531
+  },
+  {
+    "layer": 5,
+    "head": 11,
+    "mean_effect": -0.002447032928466797
+  },
+  {
+    "layer": 10,
+    "head": 1,
+    "mean_effect": -0.0023319244384765623
+  },
+  {
+    "layer": 11,
+    "head": 7,
+    "mean_effect": 0.002324485778808594
+  },
+  {
+    "layer": 4,
+    "head": 9,
+    "mean_effect": 0.0022268295288085938
+  },
+  {
+    "layer": 10,
+    "head": 0,
+    "mean_effect": 0.0021834373474121094
+  },
+  {
+    "layer": 10,
+    "head": 8,
+    "mean_effect": -0.002095603942871094
+  },
+  {
+    "layer": 5,
+    "head": 9,
+    "mean_effect": -0.001994895935058594
+  },
+  {
+    "layer": 0,
+    "head": 5,
+    "mean_effect": 0.0018157958984375
+  },
+  {
+    "layer": 4,
+    "head": 10,
+    "mean_effect": 0.0017848968505859374
+  },
+  {
+    "layer": 6,
+    "head": 0,
+    "mean_effect": 0.0017307281494140625
+  },
+  {
+    "layer": 1,
+    "head": 1,
+    "mean_effect": 0.0016108512878417968
+  },
+  {
+    "layer": 1,
+    "head": 8,
+    "mean_effect": -0.0015987396240234376
+  },
+  {
+    "layer": 1,
+    "head": 6,
+    "mean_effect": 0.001544952392578125
+  },
+  {
+    "layer": 4,
+    "head": 0,
+    "mean_effect": 0.0015447616577148437
+  },
+  {
+    "layer": 7,
+    "head": 4,
+    "mean_effect": 0.00151214599609375
+  },
+  {
+    "layer": 2,
+    "head": 11,
+    "mean_effect": -0.00146942138671875
+  },
+  {
+    "layer": 1,
+    "head": 4,
+    "mean_effect": -0.0013805389404296874
+  },
+  {
+    "layer": 7,
+    "head": 7,
+    "mean_effect": -0.0013670921325683594
+  },
+  {
+    "layer": 11,
+    "head": 5,
+    "mean_effect": -0.0013566970825195312
+  },
+  {
+    "layer": 11,
+    "head": 0,
+    "mean_effect": -0.0013515472412109375
+  },
+  {
+    "layer": 3,
+    "head": 11,
+    "mean_effect": 0.0012932777404785155
+  },
+  {
+    "layer": 2,
+    "head": 4,
+    "mean_effect": 0.0011853218078613282
+  },
+  {
+    "layer": 7,
+    "head": 2,
+    "mean_effect": 0.0011505126953125
+  },
+  {
+    "layer": 3,
+    "head": 8,
+    "mean_effect": 0.001055908203125
+  },
+  {
+    "layer": 9,
+    "head": 8,
+    "mean_effect": -0.0010075569152832031
+  },
+  {
+    "layer": 0,
+    "head": 2,
+    "mean_effect": 0.0009630203247070312
+  },
+  {
+    "layer": 1,
+    "head": 11,
+    "mean_effect": -0.0009488105773925781
+  },
+  {
+    "layer": 1,
+    "head": 9,
+    "mean_effect": -0.0009448051452636719
+  },
+  {
+    "layer": 5,
+    "head": 4,
+    "mean_effect": 0.000926971435546875
+  },
+  {
+    "layer": 10,
+    "head": 5,
+    "mean_effect": 0.0009097099304199219
+  },
+  {
+    "layer": 8,
+    "head": 1,
+    "mean_effect": 0.0008840560913085938
+  },
+  {
+    "layer": 10,
+    "head": 3,
+    "mean_effect": -0.0007348060607910156
+  },
+  {
+    "layer": 1,
+    "head": 10,
+    "mean_effect": 0.0007336616516113281
+  },
+  {
+    "layer": 2,
+    "head": 3,
+    "mean_effect": 0.0007081985473632813
+  },
+  {
+    "layer": 11,
+    "head": 11,
+    "mean_effect": 0.0006284713745117188
+  },
+  {
+    "layer": 0,
+    "head": 4,
+    "mean_effect": 0.0005829811096191406
+  },
+  {
+    "layer": 1,
+    "head": 2,
+    "mean_effect": -0.0005517959594726563
+  },
+  {
+    "layer": 4,
+    "head": 5,
+    "mean_effect": 0.0005327224731445313
+  },
+  {
+    "layer": 0,
+    "head": 3,
+    "mean_effect": 0.0004978179931640625
+  },
+  {
+    "layer": 3,
+    "head": 2,
+    "mean_effect": 0.0004726409912109375
+  },
+  {
+    "layer": 9,
+    "head": 2,
+    "mean_effect": 0.0004658699035644531
+  },
+  {
+    "layer": 2,
+    "head": 10,
+    "mean_effect": 0.00044651031494140624
+  },
+  {
+    "layer": 5,
+    "head": 1,
+    "mean_effect": 0.00043010711669921875
+  },
+  {
+    "layer": 9,
+    "head": 4,
+    "mean_effect": 0.0003997802734375
+  },
+  {
+    "layer": 11,
+    "head": 3,
+    "mean_effect": 0.0003902435302734375
+  },
+  {
+    "layer": 0,
+    "head": 8,
+    "mean_effect": 0.00038537979125976565
+  },
+  {
+    "layer": 11,
+    "head": 9,
+    "mean_effect": -0.0003825187683105469
+  },
+  {
+    "layer": 9,
+    "head": 10,
+    "mean_effect": 0.00034885406494140626
+  },
+  {
+    "layer": 10,
+    "head": 11,
+    "mean_effect": 0.0003460884094238281
+  },
+  {
+    "layer": 2,
+    "head": 8,
+    "mean_effect": 0.0002850532531738281
+  },
+  {
+    "layer": 6,
+    "head": 10,
+    "mean_effect": -0.00015897750854492186
+  },
+  {
+    "layer": 10,
+    "head": 9,
+    "mean_effect": 0.0001316070556640625
+  },
+  {
+    "layer": 1,
+    "head": 7,
+    "mean_effect": -8.88824462890625e-05
+  },
+  {
+    "layer": 11,
+    "head": 1,
+    "mean_effect": 8.85009765625e-05
+  },
+  {
+    "layer": 11,
+    "head": 6,
+    "mean_effect": -8.7738037109375e-05
+  },
+  {
+    "layer": 0,
+    "head": 0,
+    "mean_effect": 7.0953369140625e-05
+  },
+  {
+    "layer": 3,
+    "head": 1,
+    "mean_effect": -6.208419799804687e-05
+  },
+  {
+    "layer": 4,
+    "head": 2,
+    "mean_effect": -2.231597900390625e-05
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "problem_id": "P0057",
+  "source_id": "AF-2.35",
+  "title": "How does addition work?",
+  "task_id": "arithmetic_v0",
+  "model_id": "gpt2-small",
+  "n_examples": 10,
+  "top_10_heads": [
+    {
+      "layer": 8,
+      "head": 8,
+      "mean_effect": 0.14201784133911133
+    },
+    {
+      "layer": 10,
+      "head": 2,
+      "mean_effect": 0.11835098266601562
+    },
+    {
+      "layer": 9,
+      "head": 1,
+      "mean_effect": 0.11236658096313476
+    },
+    {
+      "layer": 9,
+      "head": 9,
+      "mean_effect": 0.06360054016113281
+    },
+    {
+      "layer": 2,
+      "head": 2,
+      "mean_effect": 0.059239864349365234
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "mean_effect": 0.046751880645751955
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "mean_effect": 0.03987722396850586
+    },
+    {
+      "layer": 7,
+      "head": 11,
+      "mean_effect": 0.03670969009399414
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "mean_effect": -0.03607120513916016
+    },
+    {
+      "layer": 4,
+      "head": 4,
+      "mean_effect": -0.029216670989990236
+    }
+  ],
+  "known_component_check": []
+}

@@ -1,0 +1,68 @@
+{
+  "bundles_rerun": 1,
+  "claim_boundary": "This prospective diagnostic covers every current canonical bundle with accepted claims and multiple prompt variants. It must be reported as a high-power robustness frontier, not as external validation or a silent contract migration.",
+  "completion_status": "complete",
+  "examples_per_cell": 100,
+  "failing_or_demoted_original_claims": [],
+  "generated_by": "main/prompt_holdout_high_power_rerun.py",
+  "original_accepted_claims_covered": 1,
+  "original_accepted_claims_demoted": 0,
+  "original_accepted_claims_retained": 1,
+  "passing_holdout_checks_on_retained_claims": 2,
+  "planned_bundles": 1,
+  "retained_original_accepted_claims_failing_any_holdout": 0,
+  "retained_original_accepted_claims_passing_all_holdouts": 1,
+  "rows": [
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 100,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.3391165426799229,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 4.088678888633872,
+              "same_direction": true,
+              "source_mean": 0.08294037069593158
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.08294037069593158,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.24457777860225274,
+              "same_direction": true,
+              "source_mean": 0.3391165426799229
+            }
+          ],
+          "hypothesis_id": "h_gendered_pronoun_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n100/gendered_pronoun_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/zero_task_real_repair/gendered_pronoun_v0_gpt2-small",
+      "task": "gendered_pronoun_v0"
+    }
+  ],
+  "schema_version": 1,
+  "status": "diagnostic high-power prompt-holdout rerun; complete; not a released-contract change",
+  "total_holdout_checks_on_retained_claims": 2
+}

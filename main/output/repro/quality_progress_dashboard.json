@@ -1,0 +1,530 @@
+{
+  "baseline_generated_at_utc": "2026-05-04T20:53:56+00:00",
+  "baseline_path": "main/output/repro/quality_dashboard_baseline_2026-05-04_pre_final_pass.json",
+  "claim_boundary": "This dashboard tracks local artifact quality progress. It does not convert maintainer-authored runs into external blinded submissions, external-custodian holdout executions, or independent Goodhart validation.",
+  "comparisons": {
+    "accepted_claims": {
+      "baseline": {
+        "den": 109,
+        "num": 26,
+        "value": 0.23853211009174313
+      },
+      "current": {
+        "den": 109,
+        "num": 26,
+        "value": 0.23853211009174313
+      },
+      "direction": "neutral",
+      "label": "Accepted claims",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "bundles": {
+      "baseline": {
+        "den": null,
+        "num": 36,
+        "value": 36.0
+      },
+      "current": {
+        "den": null,
+        "num": 36,
+        "value": 36.0
+      },
+      "direction": "neutral",
+      "label": "Evaluated bundles",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "claims": {
+      "baseline": {
+        "den": null,
+        "num": 109,
+        "value": 109.0
+      },
+      "current": {
+        "den": null,
+        "num": 109,
+        "value": 109.0
+      },
+      "direction": "neutral",
+      "label": "Evaluated claims",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "compile_check": {
+      "baseline": {
+        "status": "pass",
+        "value": 1.0
+      },
+      "current": {
+        "status": "not_run",
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "Python compile check",
+      "movement": "down",
+      "quality_effect": "worsened"
+    },
+    "external_blinded_evaluated": {
+      "baseline": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "current": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "External blinded submissions evaluated",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "external_holdout_executions": {
+      "baseline": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "current": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "External-custodian holdout executions",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "fresh_agnostic_far": {
+      "baseline": {
+        "den": 200,
+        "num": 42,
+        "value": 0.21
+      },
+      "current": {
+        "den": 200,
+        "num": 0,
+        "value": 0.0
+      },
+      "direction": "lower",
+      "label": "Release-grade fresh agnostic FAR (full budget, release_grade_2026q2)",
+      "movement": "down",
+      "quality_effect": "improved"
+    },
+    "fresh_agnostic_far_reduced_rehearsal": {
+      "baseline": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "current": {
+        "den": 200,
+        "num": 49,
+        "value": 0.245
+      },
+      "direction": "lower",
+      "label": "Reduced-rehearsal fresh agnostic FAR (128/128, rotated_2026q2)",
+      "movement": "up",
+      "quality_effect": "worsened"
+    },
+    "headline_check": {
+      "baseline": {
+        "status": "pass",
+        "value": 1.0
+      },
+      "current": {
+        "status": "not_run",
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "Headline/prose drift check",
+      "movement": "down",
+      "quality_effect": "worsened"
+    },
+    "independent_goodhart_validations": {
+      "baseline": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "current": {
+        "den": null,
+        "num": 0,
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "Independent Goodhart validations",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "overclaim_check": {
+      "baseline": {
+        "status": "pass",
+        "value": 1.0
+      },
+      "current": {
+        "status": "not_run",
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "Release overclaim guard",
+      "movement": "down",
+      "quality_effect": "worsened"
+    },
+    "prompt_high_power_all_holdouts": {
+      "baseline": {
+        "den": 22,
+        "num": 18,
+        "value": 0.8181818181818182
+      },
+      "current": {
+        "den": 23,
+        "num": 19,
+        "value": 0.8260869565217391
+      },
+      "direction": "higher",
+      "label": "High-power retained claims passing all holdouts",
+      "movement": "up",
+      "quality_effect": "improved"
+    },
+    "prompt_high_power_checks_pass": {
+      "baseline": {
+        "den": 61,
+        "num": 57,
+        "value": 0.9344262295081968
+      },
+      "current": {
+        "den": 63,
+        "num": 59,
+        "value": 0.9365079365079365
+      },
+      "direction": "higher",
+      "label": "High-power held-out checks passing",
+      "movement": "up",
+      "quality_effect": "improved"
+    },
+    "prompt_high_power_covered": {
+      "baseline": {
+        "den": null,
+        "num": 25,
+        "value": 25.0
+      },
+      "current": {
+        "den": null,
+        "num": 26,
+        "value": 26.0
+      },
+      "direction": "higher",
+      "label": "High-power prompt claims covered",
+      "movement": "up",
+      "quality_effect": "improved"
+    },
+    "prompt_high_power_demoted": {
+      "baseline": {
+        "den": 25,
+        "num": 3,
+        "value": 0.12
+      },
+      "current": {
+        "den": 26,
+        "num": 3,
+        "value": 0.11538461538461539
+      },
+      "direction": "lower",
+      "label": "High-power prompt demoted claims",
+      "movement": "down",
+      "quality_effect": "improved"
+    },
+    "prompt_high_power_retained": {
+      "baseline": {
+        "den": 25,
+        "num": 22,
+        "value": 0.88
+      },
+      "current": {
+        "den": 26,
+        "num": 23,
+        "value": 0.8846153846153846
+      },
+      "direction": "higher",
+      "label": "High-power prompt retained claims",
+      "movement": "up",
+      "quality_effect": "improved"
+    },
+    "prompt_n100_completion": {
+      "baseline": {
+        "den": 14,
+        "num": 2,
+        "value": 0.14285714285714285
+      },
+      "current": {
+        "den": 17,
+        "num": 5,
+        "value": 0.29411764705882354
+      },
+      "direction": "higher",
+      "label": "n=100 prompt-holdout completion",
+      "movement": "up",
+      "quality_effect": "improved"
+    },
+    "prompt_release_claims_pass": {
+      "baseline": {
+        "den": 26,
+        "num": 20,
+        "value": 0.7692307692307693
+      },
+      "current": {
+        "den": 26,
+        "num": 20,
+        "value": 0.7692307692307693
+      },
+      "direction": "higher",
+      "label": "Released prompt-holdout claims passing",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "pytest_check": {
+      "baseline": {
+        "status": "pass",
+        "value": 1.0
+      },
+      "current": {
+        "status": "not_run",
+        "value": 0.0
+      },
+      "direction": "higher",
+      "label": "Evaluator+runner tests",
+      "movement": "down",
+      "quality_effect": "worsened"
+    },
+    "runtime_coverage": {
+      "baseline": {
+        "den": 36.0,
+        "num": 7.0,
+        "value": 0.19444444444444445
+      },
+      "current": {
+        "den": 36.0,
+        "num": 8.0,
+        "value": 0.2222222222222222
+      },
+      "direction": "higher",
+      "label": "Measured runtime coverage",
+      "movement": "up",
+      "quality_effect": "improved"
+    },
+    "tasks_with_accepted": {
+      "baseline": {
+        "den": 8,
+        "num": 8,
+        "value": 1.0
+      },
+      "current": {
+        "den": 8,
+        "num": 8,
+        "value": 1.0
+      },
+      "direction": "higher",
+      "label": "Tasks with accepted claims",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "transfer_confirmed": {
+      "baseline": {
+        "den": 26,
+        "num": 12,
+        "value": 0.46153846153846156
+      },
+      "current": {
+        "den": 26,
+        "num": 12,
+        "value": 0.46153846153846156
+      },
+      "direction": "higher",
+      "label": "Transfer-confirmed accepted claims",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    },
+    "v1_retained_claims": {
+      "baseline": {
+        "den": 26,
+        "num": 15,
+        "value": 0.5769230769230769
+      },
+      "current": {
+        "den": 26,
+        "num": 1,
+        "value": 0.038461538461538464
+      },
+      "direction": "higher",
+      "label": "V1 retained accepted claims",
+      "movement": "down",
+      "quality_effect": "worsened"
+    },
+    "v1_tasks_retained": {
+      "baseline": {
+        "den": 8,
+        "num": 4,
+        "value": 0.5
+      },
+      "current": {
+        "den": 8,
+        "num": 1,
+        "value": 0.125
+      },
+      "direction": "higher",
+      "label": "V1 retained task breadth",
+      "movement": "down",
+      "quality_effect": "worsened"
+    },
+    "zero_task_model_cells": {
+      "baseline": {
+        "den": 16,
+        "num": 5,
+        "value": 0.3125
+      },
+      "current": {
+        "den": 16,
+        "num": 5,
+        "value": 0.3125
+      },
+      "direction": "lower",
+      "label": "Zero-accepted task-model cells",
+      "movement": "unchanged",
+      "quality_effect": "unchanged"
+    }
+  },
+  "generated_at_utc": "2023-11-14T22:13:20+00:00",
+  "generated_by": "main/quality_progress_dashboard.py",
+  "health_checks": {},
+  "metrics": {
+    "accepted_claims": {
+      "den": 109,
+      "num": 26,
+      "value": 0.23853211009174313
+    },
+    "bundles": {
+      "den": null,
+      "num": 36,
+      "value": 36.0
+    },
+    "claims": {
+      "den": null,
+      "num": 109,
+      "value": 109.0
+    },
+    "compile_check": {
+      "status": "not_run",
+      "value": 0.0
+    },
+    "external_blinded_evaluated": {
+      "den": null,
+      "num": 0,
+      "value": 0.0
+    },
+    "external_holdout_executions": {
+      "den": null,
+      "num": 0,
+      "value": 0.0
+    },
+    "fresh_agnostic_far": {
+      "den": 200,
+      "num": 0,
+      "value": 0.0
+    },
+    "fresh_agnostic_far_reduced_rehearsal": {
+      "den": 200,
+      "num": 49,
+      "value": 0.245
+    },
+    "headline_check": {
+      "status": "not_run",
+      "value": 0.0
+    },
+    "independent_goodhart_validations": {
+      "den": null,
+      "num": 0,
+      "value": 0.0
+    },
+    "overclaim_check": {
+      "status": "not_run",
+      "value": 0.0
+    },
+    "prompt_high_power_all_holdouts": {
+      "den": 23,
+      "num": 19,
+      "value": 0.8260869565217391
+    },
+    "prompt_high_power_checks_pass": {
+      "den": 63,
+      "num": 59,
+      "value": 0.9365079365079365
+    },
+    "prompt_high_power_covered": {
+      "den": null,
+      "num": 26,
+      "value": 26.0
+    },
+    "prompt_high_power_demoted": {
+      "den": 26,
+      "num": 3,
+      "value": 0.11538461538461539
+    },
+    "prompt_high_power_retained": {
+      "den": 26,
+      "num": 23,
+      "value": 0.8846153846153846
+    },
+    "prompt_n100_completion": {
+      "den": 17,
+      "num": 5,
+      "value": 0.29411764705882354
+    },
+    "prompt_release_claims_pass": {
+      "den": 26,
+      "num": 20,
+      "value": 0.7692307692307693
+    },
+    "pytest_check": {
+      "status": "not_run",
+      "value": 0.0
+    },
+    "runtime_coverage": {
+      "den": 36.0,
+      "num": 8.0,
+      "value": 0.2222222222222222
+    },
+    "tasks_with_accepted": {
+      "den": 8,
+      "num": 8,
+      "value": 1.0
+    },
+    "transfer_confirmed": {
+      "den": 26,
+      "num": 12,
+      "value": 0.46153846153846156
+    },
+    "v1_retained_claims": {
+      "den": 26,
+      "num": 1,
+      "value": 0.038461538461538464
+    },
+    "v1_tasks_retained": {
+      "den": 8,
+      "num": 1,
+      "value": 0.125
+    },
+    "zero_task_model_cells": {
+      "den": 16,
+      "num": 5,
+      "value": 0.3125
+    }
+  },
+  "no_human_provenance_blockers": [
+    "external_blinded_evaluated",
+    "external_holdout_executions",
+    "independent_goodhart_validations"
+  ]
+}

@@ -1,0 +1,63 @@
+protocol_id: real_arithmetic_v0_gpt2-small_confirmatory_repair_mock
+protocol_version: '3.0'
+frozen: true
+unit_of_work:
+  task_id: arithmetic_v0
+  model_id: gpt2-small
+  model_spec:
+    n_layers: 12
+    n_heads: 12
+    d_model: 768
+  dataset_id: arithmetic_v0_templates_v1
+  metric_id: logit_diff
+  clean_corrupt_definition: swap-target-entity
+execution_grid:
+  seeds:
+  - 42
+  - 123
+  prompt_variants:
+  - base
+  - worded
+  resample_ids:
+  - 0
+  methods:
+  - activation_patching
+  - zero_ablation
+control_policy:
+  required_families:
+  - wrong_position
+  - wrong_layer
+  - random_component
+  - mismatched_source
+  max_control_abs_mean: 0.5
+stage_gates:
+  min_causal_effect: 0.02
+  min_specificity_ratio: 2.0
+  min_robustness:
+    seed: 0.3
+    prompt_variant: 0.3
+    resample: 0.3
+  max_method_sensitivity_std: 0.05
+  require_confirmatory_ci_excludes_zero: true
+statistical_policy:
+  alpha: 0.05
+  fdr_q: 0.1
+  min_effect_floor: 0.02
+  multiplicity_method: benjamini-hochberg
+claim_budget:
+  max_total_claims: 5
+  max_claims_per_task: 5
+language_policy:
+  forbidden_without_pass:
+  - solved
+  - proved
+  - validated
+sample_size_policy:
+  min_examples_per_cell: 10
+  exploratory_fraction: 0.3
+  power_target: 0.8
+  minimum_detectable_effect: 0.5
+  require_confirmatory_split: true
+  min_cells_per_hypothesis: 8
+intervention_levels:
+- head

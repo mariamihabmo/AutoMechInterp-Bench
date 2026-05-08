@@ -1,0 +1,62 @@
+{
+  "author_path_readiness": {
+    "external_evidence_playbook_present": true,
+    "package_tool_present": true,
+    "preflight_tool_present": true,
+    "quickstart_present": true
+  },
+  "blocked_reasons": [
+    "no_external_blinded_submission_present",
+    "no_external_submission_evaluated",
+    "no_external_accepted_claims_recorded"
+  ],
+  "external_blinded": {
+    "all_pin_matches": null,
+    "n_accepted_claims": 0,
+    "n_evaluated": 0,
+    "n_submissions": 0
+  },
+  "generated_by": "main/external_evidence_preflight.py",
+  "holdout_rehearsal": {
+    "aggregate": {
+      "acceptance_rate": 0.04081632653061224,
+      "n_accepted": 2,
+      "n_bundles_failed_to_evaluate": 0,
+      "n_bundles_scored": 16,
+      "n_bundles_seen": 16,
+      "n_claims": 49,
+      "tier_counts": {
+        "causal_tested_unstable": 2,
+        "rejected": 36,
+        "single_model_confirmed": 2,
+        "suggestive": 9
+      }
+    },
+    "artifact_exists": true,
+    "mode": "rehearsal",
+    "release_version": "v0-rehearsal"
+  },
+  "maintainer_pilot": {
+    "all_pin_matches": true,
+    "n_evaluated": 2,
+    "n_submissions": 2
+  },
+  "next_actions": [
+    "Ingest one real external_blinded bundle through the submission-review pipeline.",
+    "Score one real private-suite holdout run with an external custodian.",
+    "Keep maintainer pilot and rehearsal artifacts separated from external evidence counts in every report.",
+    "Use holdout/tools/package_holdout_submission.py plus holdout/tools/preflight_submission.py to reduce author-side packaging friction.",
+    "Use docs/reference/independent_researcher_external_evidence_playbook.md as the operational recruiting, custody, and Goodhart-validation checklist."
+  ],
+  "notes": [
+    "Maintainer pilot and rehearsal artifacts exercise plumbing only; they do not count as external evidence.",
+    "This report deliberately emits no private-suite path or per-item holdout information."
+  ],
+  "schema_version": 1,
+  "status": {
+    "counts_as_external_evidence_now": false,
+    "has_evaluated_external_submission": false,
+    "has_external_accepted_bundle": false,
+    "has_real_external_submission": false
+  }
+}

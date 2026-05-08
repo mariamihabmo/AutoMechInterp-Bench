@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Standards and Governance · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Interoperability + Governance</span>
+    <h1>Standards and Governance</h1>
+    <p>Specification, compatibility vectors, semantic version policy, and contributor governance for a portable benchmark ecosystem.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Claim Bundle Spec v1.0</h2>
+      <p>Canonical bundle contract for independent submissions and compatible evaluators.</p>
+      <ul>
+        <li><code>protocol.yaml</code></li>
+        <li><code>hypothesis.jsonl</code></li>
+        <li><code>evaluation_result.json</code></li>
+        <li><code>manifest.json</code></li>
+      </ul>
+      <p><a href="../reference/claim_bundle_spec_v1.md">Open claim bundle spec</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Compatibility Vectors</h2>
+      <pre><code>python -m automechinterp_evaluator.cli reference-vectors</code></pre>
+      <p>Checks canonical tier-classification behavior and helps third-party implementations validate compatibility.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Protocol Version Governance</h3>
+        <p>Semantic versioning and no-silent-drift policy for gate and threshold changes.</p>
+        <p><a href="../reference/protocol_governance_and_migrations.md">Open migration policy</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Holdout Stress Governance</h3>
+        <p>Roadmap for hidden stress families and authorship separation to reduce benchmark-target overfitting.</p>
+        <p><a href="../reference/holdout_stress_governance_plan.md">Open holdout governance plan</a></p>
+      </article>
+
+      <article class="card">
+        <h3>External Evidence Playbook</h3>
+        <p>Operational steps for external blinded submissions, external-custodian holdout execution, and independent Goodhart validation.</p>
+        <p><a href="../reference/independent_researcher_external_evidence_playbook.md">Open external evidence playbook</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Standards docs are designed for external users, not only this repository.
+  </footer>
+</body>
+</html>

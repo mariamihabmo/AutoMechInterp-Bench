@@ -1,0 +1,38 @@
+[
+  {
+    "hypothesis_id": "h_dla_sentiment_v0_001",
+    "n_examples": 54,
+    "paired_bundle": "sentiment_v0_gpt2-small_lane_c",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.17283642144850742,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_dla_sentiment_v0_002",
+    "n_examples": 54,
+    "paired_bundle": "sentiment_v0_gpt2-small_lane_c",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": -0.21422186015564718,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_dla_sentiment_v0_003",
+    "n_examples": 54,
+    "paired_bundle": "sentiment_v0_gpt2-small_lane_c",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.22480459566469546,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  }
+]

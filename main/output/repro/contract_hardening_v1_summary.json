@@ -1,0 +1,705 @@
+{
+  "accepted_claim_retention_rate": 0.038461538461538464,
+  "accepted_claims_after_total": 1,
+  "accepted_claims_before_total": 26,
+  "bundles": [
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "country_capital_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "country_capital_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "ioi_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_docstring_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_fact_recall_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "greater_than_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_greater_than_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "greater_than_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "greater_than_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "greater_than_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_arithmetic_v0_002"
+      ],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_ioi_v0_001"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_ioi_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 2,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    }
+  ],
+  "bundles_changed": [
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_docstring_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_fact_recall_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "greater_than_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_greater_than_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "greater_than_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_arithmetic_v0_002"
+      ],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "model": "pythia-70m",
+      "newly_promoted_hypotheses": [],
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_ioi_v0_001"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_ioi_v0_002"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 2,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "cross_model_confirmed_after": 0,
+      "demoted_hypotheses": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_003"
+      ],
+      "model": "gpt2-small",
+      "newly_promoted_hypotheses": [],
+      "task": "sentiment_v0"
+    }
+  ],
+  "contract_hardening_v1": {
+    "min_causal_effect": 0.15,
+    "min_effect_floor": 0.15,
+    "min_specificity_ratio": 5.0
+  },
+  "criteria_closed_under_v1": {
+    "agnostic_far_upper_bound_below_5pct": true,
+    "second_cross_model_confirmed_claim": false
+  },
+  "cross_model_confirmed_after_total": 0,
+  "fresh_agnostic_hardened_v1": {
+    "contract_hardening_v1": {
+      "min_causal_effect": 0.15,
+      "min_effect_floor": 0.15,
+      "min_specificity_ratio": 5.0
+    },
+    "false_accept_rate": 0.0,
+    "false_accept_rate_ci95": {
+      "high": 0.018846005918320894,
+      "label": "[0.0%, 1.9%]",
+      "low": 0.0
+    },
+    "generated_by": "main/contract_hardening_v1.py",
+    "generator_regime": "fresh_v2",
+    "leaked": 0,
+    "negatives": 200,
+    "seed_namespace": "rotated_2026q2",
+    "statistical_budget": {
+      "bootstrap_resamples": null,
+      "permutation_iterations": null
+    },
+    "stress_source": "internal_maintainer",
+    "stress_source_note": "'agnostic' = evaluator-internals-blind (no suite labels / no threshold lookups), NOT author-independent. The generator is maintainer-authored; see methodology/independent_agnostic_stress_protocol.md for the future external-author protocol."
+  },
+  "fresh_agnostic_hardened_v1_replicates": {
+    "all_ci95_upper_bounds_below_5pct": true,
+    "namespace_count": 2,
+    "replicates": [
+      {
+        "contract_hardening_v1": {
+          "min_causal_effect": 0.15,
+          "min_effect_floor": 0.15,
+          "min_specificity_ratio": 5.0
+        },
+        "false_accept_rate": 0.0,
+        "false_accept_rate_ci95": {
+          "high": 0.018846005918320894,
+          "label": "[0.0%, 1.9%]",
+          "low": 0.0
+        },
+        "generated_by": "main/contract_hardening_v1.py",
+        "generator_regime": "fresh_v2",
+        "leaked": 0,
+        "negatives": 200,
+        "seed_namespace": "rotated_2026q2",
+        "statistical_budget": {
+          "bootstrap_resamples": null,
+          "permutation_iterations": null
+        },
+        "stress_source": "internal_maintainer",
+        "stress_source_note": "'agnostic' = evaluator-internals-blind (no suite labels / no threshold lookups), NOT author-independent. The generator is maintainer-authored; see methodology/independent_agnostic_stress_protocol.md for the future external-author protocol."
+      },
+      {
+        "contract_hardening_v1": {
+          "min_causal_effect": 0.15,
+          "min_effect_floor": 0.15,
+          "min_specificity_ratio": 5.0
+        },
+        "false_accept_rate": 0.0,
+        "false_accept_rate_ci95": {
+          "high": 0.018846005918320894,
+          "label": "[0.0%, 1.9%]",
+          "low": 0.0
+        },
+        "generated_by": "main/contract_hardening_v1.py",
+        "generator_regime": "fresh_v2",
+        "leaked": 0,
+        "negatives": 200,
+        "seed_namespace": "rotated_2026q3",
+        "statistical_budget": {
+          "bootstrap_resamples": null,
+          "permutation_iterations": null
+        },
+        "stress_source": "internal_maintainer",
+        "stress_source_note": "'agnostic' = evaluator-internals-blind (no suite labels / no threshold lookups), NOT author-independent. The generator is maintainer-authored; see methodology/independent_agnostic_stress_protocol.md for the future external-author protocol."
+      }
+    ],
+    "worst_ci95_high": 0.018846005918320894
+  },
+  "generated_by": "main/contract_hardening_v1.py",
+  "tasks_with_accepted_after": [
+    "fact_recall_v0"
+  ],
+  "tasks_with_accepted_after_count": 1
+}

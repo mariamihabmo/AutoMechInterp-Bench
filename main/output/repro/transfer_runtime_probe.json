@@ -1,0 +1,44 @@
+{
+  "diagnosis": {
+    "online_model_resolution_available": true,
+    "software_stack_ready": true,
+    "target_snapshots_present": true
+  },
+  "generated_by": "main/transfer_runtime_probe.py",
+  "runtime": {
+    "huggingface_dns_resolves": true,
+    "python_version": "3.12.7",
+    "runtime_ready_for_transfer": true,
+    "search_roots": [
+      "~/.cache/huggingface/hub",
+      "models",
+      "model_cache",
+      "artifacts/models",
+      "/models",
+      "/root/.cache/huggingface/hub"
+    ],
+    "transformer_lens_importable": true,
+    "transformers_importable": true
+  },
+  "targets": {
+    "gpt2-medium": {
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da",
+        "model_cache/gpt2-medium"
+      ],
+      "loadable_local_dirs": [
+        "model_cache/gpt2-medium"
+      ]
+    },
+    "pythia-160m": {
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ]
+    }
+  }
+}

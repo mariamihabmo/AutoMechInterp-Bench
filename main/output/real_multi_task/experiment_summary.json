@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "task": "ioi_v0",
+      "model": "gpt2-small",
+      "hypotheses": 4,
+      "accepted": 2,
+      "rejected": 2,
+      "tiers": {
+        "h_ioi_v0_001": "single_model_confirmed",
+        "h_ioi_v0_002": "rejected",
+        "h_ioi_v0_003": "rejected",
+        "h_ioi_v0_mlp_001": "single_model_confirmed"
+      },
+      "time_seconds": 248.06570506095886
+    }
+  ],
+  "errors": [],
+  "config": {
+    "tasks": [
+      "ioi_v0"
+    ],
+    "models": [
+      "gpt2-small"
+    ],
+    "n_examples": 15,
+    "top_k": 3
+  }
+}

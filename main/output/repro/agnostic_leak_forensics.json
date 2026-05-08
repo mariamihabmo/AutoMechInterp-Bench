@@ -1,0 +1,342 @@
+{
+  "applied_contract_changes": [],
+  "per_condition": {
+    "full_contract": {
+      "false_accept_rate": 0.1,
+      "false_accept_rate_ci95": {
+        "high": 0.23052074380473897,
+        "label": "[4.0%, 23.1%]",
+        "low": 0.03957888759557486
+      },
+      "latent_confirmatory_decay": {
+        "max": 1.1118227462544623,
+        "mean": 0.7147955225000147,
+        "median": 0.5882920993231917,
+        "min": 0.5707751450992131,
+        "n": 4
+      },
+      "latent_control": {
+        "max": 0.05185470158044592,
+        "mean": 0.028636300459885113,
+        "median": 0.025819298549513172,
+        "min": 0.011051903160068184,
+        "n": 4
+      },
+      "latent_direction_flip": {
+        "n": 4,
+        "n_false": 4,
+        "n_true": 0
+      },
+      "latent_method_dispersion": {
+        "max": 0.2862559374273419,
+        "mean": 0.190087244526387,
+        "median": 0.1853266089014538,
+        "min": 0.10343982287529851,
+        "n": 4
+      },
+      "latent_signal": {
+        "max": 0.06870183886697094,
+        "mean": 0.04961974165044254,
+        "median": 0.05862304696664751,
+        "min": 0.012531033801504186,
+        "n": 4
+      },
+      "leaked": 4,
+      "leaked_count_with_per_leak_data": 4,
+      "leaked_negatives": [
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m5_d4_stable"
+          ],
+          "hypothesis_id": "latent_018",
+          "latent_confirmatory_decay": 0.5847588383091518,
+          "latent_control": 0.026574331078812095,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.15271190266420875,
+          "latent_signal": 0.05293504213516951
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ],
+          "hypothesis_id": "latent_028",
+          "latent_confirmatory_decay": 0.5707751450992131,
+          "latent_control": 0.011051903160068184,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.10343982287529851,
+          "latent_signal": 0.012531033801504186
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m7_d7_stable"
+          ],
+          "hypothesis_id": "latent_031",
+          "latent_confirmatory_decay": 1.1118227462544623,
+          "latent_control": 0.02506426602021425,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.21794131513869885,
+          "latent_signal": 0.06431105179812552
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m9_d4_stable"
+          ],
+          "hypothesis_id": "latent_032",
+          "latent_confirmatory_decay": 0.5918253603372317,
+          "latent_control": 0.05185470158044592,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.2862559374273419,
+          "latent_signal": 0.06870183886697094
+        }
+      ],
+      "total": 40
+    },
+    "no_controls_suite": {
+      "false_accept_rate": 0.125,
+      "false_accept_rate_ci95": {
+        "high": 0.26112420670238146,
+        "label": "[5.5%, 26.1%]",
+        "low": 0.05459419773541284
+      },
+      "latent_confirmatory_decay": {
+        "max": 1.1118227462544623,
+        "mean": 0.7019144965573014,
+        "median": 0.5918253603372317,
+        "min": 0.5707751450992131,
+        "n": 5
+      },
+      "latent_control": {
+        "max": 0.05185470158044592,
+        "mean": 0.02743644074570305,
+        "median": 0.02506426602021425,
+        "min": 0.011051903160068184,
+        "n": 5
+      },
+      "latent_direction_flip": {
+        "n": 5,
+        "n_false": 5,
+        "n_true": 0
+      },
+      "latent_method_dispersion": {
+        "max": 0.2862559374273419,
+        "mean": 0.1751763860637267,
+        "median": 0.15271190266420875,
+        "min": 0.10343982287529851,
+        "n": 5
+      },
+      "latent_signal": {
+        "max": 0.06870183886697094,
+        "mean": 0.04175482003524779,
+        "median": 0.05293504213516951,
+        "min": 0.010295133574468814,
+        "n": 5
+      },
+      "leaked": 5,
+      "leaked_count_with_per_leak_data": 5,
+      "leaked_negatives": [
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ],
+          "hypothesis_id": "latent_008",
+          "latent_confirmatory_decay": 0.6503903927864485,
+          "latent_control": 0.022637001888974807,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.11553295221308547,
+          "latent_signal": 0.010295133574468814
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m5_d4_stable"
+          ],
+          "hypothesis_id": "latent_018",
+          "latent_confirmatory_decay": 0.5847588383091518,
+          "latent_control": 0.026574331078812095,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.15271190266420875,
+          "latent_signal": 0.05293504213516951
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ],
+          "hypothesis_id": "latent_028",
+          "latent_confirmatory_decay": 0.5707751450992131,
+          "latent_control": 0.011051903160068184,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.10343982287529851,
+          "latent_signal": 0.012531033801504186
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m7_d7_stable"
+          ],
+          "hypothesis_id": "latent_031",
+          "latent_confirmatory_decay": 1.1118227462544623,
+          "latent_control": 0.02506426602021425,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.21794131513869885,
+          "latent_signal": 0.06431105179812552
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m9_d4_stable"
+          ],
+          "hypothesis_id": "latent_032",
+          "latent_confirmatory_decay": 0.5918253603372317,
+          "latent_control": 0.05185470158044592,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.2862559374273419,
+          "latent_signal": 0.06870183886697094
+        }
+      ],
+      "total": 40
+    },
+    "no_robustness_suite": {
+      "false_accept_rate": 0.1,
+      "false_accept_rate_ci95": {
+        "high": 0.23052074380473897,
+        "label": "[4.0%, 23.1%]",
+        "low": 0.03957888759557486
+      },
+      "latent_confirmatory_decay": {
+        "max": 1.1118227462544623,
+        "mean": 0.7147955225000147,
+        "median": 0.5882920993231917,
+        "min": 0.5707751450992131,
+        "n": 4
+      },
+      "latent_control": {
+        "max": 0.05185470158044592,
+        "mean": 0.028636300459885113,
+        "median": 0.025819298549513172,
+        "min": 0.011051903160068184,
+        "n": 4
+      },
+      "latent_direction_flip": {
+        "n": 4,
+        "n_false": 4,
+        "n_true": 0
+      },
+      "latent_method_dispersion": {
+        "max": 0.2862559374273419,
+        "mean": 0.190087244526387,
+        "median": 0.1853266089014538,
+        "min": 0.10343982287529851,
+        "n": 4
+      },
+      "latent_signal": {
+        "max": 0.06870183886697094,
+        "mean": 0.04961974165044254,
+        "median": 0.05862304696664751,
+        "min": 0.012531033801504186,
+        "n": 4
+      },
+      "leaked": 4,
+      "leaked_count_with_per_leak_data": 4,
+      "leaked_negatives": [
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m5_d4_stable"
+          ],
+          "hypothesis_id": "latent_018",
+          "latent_confirmatory_decay": 0.5847588383091518,
+          "latent_control": 0.026574331078812095,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.15271190266420875,
+          "latent_signal": 0.05293504213516951
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ],
+          "hypothesis_id": "latent_028",
+          "latent_confirmatory_decay": 0.5707751450992131,
+          "latent_control": 0.011051903160068184,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.10343982287529851,
+          "latent_signal": 0.012531033801504186
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m7_d7_stable"
+          ],
+          "hypothesis_id": "latent_031",
+          "latent_confirmatory_decay": 1.1118227462544623,
+          "latent_control": 0.02506426602021425,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.21794131513869885,
+          "latent_signal": 0.06431105179812552
+        },
+        {
+          "evidence_tier": "single_model_confirmed",
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m9_d4_stable"
+          ],
+          "hypothesis_id": "latent_032",
+          "latent_confirmatory_decay": 0.5918253603372317,
+          "latent_control": 0.05185470158044592,
+          "latent_direction_flip": false,
+          "latent_method_dispersion": 0.2862559374273419,
+          "latent_signal": 0.06870183886697094
+        }
+      ],
+      "total": 40
+    }
+  },
+  "source_artifact": "main/output/real_multi_task/ioi_v0_gpt2-small/stress_test_agnostic.json",
+  "suggested_addenda_for_design_discussion_only": [
+    {
+      "candidate_addendum": "Tighten the practical-effect-size floor or require confirmatory evidence at >= max(signal) latent magnitude before granting single_model_confirmed. NOT APPLIED -- applying this against the leak set would risk overfitting the contract to the agnostic generator's known sample.",
+      "observation": "Full-contract leaks have latent_signal in [0.0125, 0.0687] (median 0.0586). The latent generator's signal range is [0.01, 0.08]."
+    },
+    {
+      "candidate_addendum": "Add a control-leakage floor that disqualifies any claim whose control effect exceeds a tighter fraction of its treatment effect. NOT APPLIED for the same Goodhart reason.",
+      "observation": "Full-contract leaks have latent_control in [0.0111, 0.0519] (median 0.0258)."
+    },
+    {
+      "candidate_addendum": "This is informative for diagnosis but does NOT motivate a contract addendum: the stable-direction subset is precisely what a true positive should look like. Tightening here would weaken the benchmark, not strengthen it.",
+      "observation": "All full-contract leaks have latent_direction_flip = False, i.e. the direction was stable relative to the source."
+    }
+  ],
+  "total_negatives": 40,
+  "warning": "Suggestions in 'suggested_addenda_for_design_discussion_only' are structural observations from the released leak set. Applying them as actual gate changes would tune the contract to the agnostic generator's known leaks, which is the exact Goodhart trap the agnostic regime exists to detect. Any future contract change motivated by these observations should be designed against a *new* generator that did not produce the leaks, with the original generator preserved as a regression check."
+}

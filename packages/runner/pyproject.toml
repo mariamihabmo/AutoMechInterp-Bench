@@ -1,0 +1,27 @@
+[project]
+name = "automechinterp-runner"
+version = "0.2.0"
+description = "Stage-2 real intervention runner for Auto-MechInterp"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0",
+  "transformer-lens>=2.0.0",
+  "torch>=2.0.0",
+]
+
+[project.scripts]
+automechinterp-runner = "automechinterp_runner.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "../packages/evaluator/src"]
+addopts = "-q"

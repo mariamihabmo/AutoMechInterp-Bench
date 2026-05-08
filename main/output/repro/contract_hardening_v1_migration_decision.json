@@ -1,0 +1,49 @@
+{
+  "adoptable_under_preregistered_criteria": false,
+  "candidate_contract_stress": {
+    "false_accept_rate": 0.0,
+    "false_accept_rate_ci95": {
+      "high": 0.018846005918320894,
+      "label": "[0.0%, 1.9%]",
+      "low": 0.0
+    },
+    "false_accepts": 0,
+    "negatives": 200,
+    "source_artifact": "main/output/repro/contract_hardening_v1_summary.json",
+    "status": "benchmark_authored_rehearsal_not_independent_evidence"
+  },
+  "claim_boundary": "V1 is not adopted by this artifact unless decision=adopt_next_major and all pre-registered criteria are met. Rehearsal or benchmark-authored stress is not independent validation.",
+  "criteria": {
+    "accepted_claim_retention_at_least_60pct": false,
+    "accepted_task_retention_documented": true,
+    "candidate_ci_upper_below_5pct": true,
+    "current_ci_lower_above_candidate_point": false,
+    "independent_evidence": false
+  },
+  "current_contract_stress": {
+    "false_accept_rate": 0.0,
+    "false_accept_rate_ci95": {
+      "high": 0.018846005918320894,
+      "label": "[0.0%, 1.9%]",
+      "low": 0.0
+    },
+    "false_accepts": 0,
+    "negatives": 200,
+    "source_artifact": "main/output/repro/stress_test_agnostic_fresh_release_grade.json",
+    "status": "benchmark_authored_rehearsal_not_independent_evidence"
+  },
+  "decision": "defer",
+  "decision_status": "deferred_pending_external_validation",
+  "generated_by": "main/contract_migration_decision.py",
+  "human_rationale": "Defer adoption until an externally authored negative set or external custodian run validates the stress reduction under the pre-registered protocol.",
+  "retention_tradeoff": {
+    "accepted_claim_retention_rate": 0.038461538461538464,
+    "accepted_claims_after": 1,
+    "accepted_claims_before": 26,
+    "bundles_changed_count": 16,
+    "tasks_with_accepted_after": [
+      "fact_recall_v0"
+    ],
+    "tasks_with_accepted_after_count": 1
+  }
+}

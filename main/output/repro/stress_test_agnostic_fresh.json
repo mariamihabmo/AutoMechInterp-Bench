@@ -1,0 +1,816 @@
+{
+  "base_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "negatives": 200,
+  "seed_namespace": "rotated_2026q2",
+  "generator_regime": "fresh_v2",
+  "statistical_budget": {
+    "bootstrap_resamples": 128,
+    "permutation_iterations": 128
+  },
+  "namespace_budget_confound_pair": "stress_test_agnostic_fresh_release_grade.json",
+  "namespace_budget_confound_warning": "Quote alongside the paired artifact named in namespace_budget_confound_pair: this files leak rate reflects a specific (seed_namespace, statistical_budget) cell and is not a stand-alone Goodhart-resistance number.",
+  "conditions": {
+    "full_contract": {
+      "leaked": 49,
+      "total": 200,
+      "false_accept_rate": 0.245,
+      "false_accept_rate_ci95": {
+        "low": 0.19056777914685893,
+        "high": 0.3090436838714848,
+        "label": "[19.1%, 30.9%]"
+      },
+      "leaked_negatives": [
+        {
+          "hypothesis_id": "latent_002",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05696400060946215,
+          "latent_control": 0.016519943243246512,
+          "latent_method_dispersion": 0.12771288957859225,
+          "latent_confirmatory_decay": 0.26638468697582945,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.03660447372743033,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m4_d1_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_006",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05337581981168497,
+          "latent_control": 0.015492665423195032,
+          "latent_method_dispersion": 0.3099860549811242,
+          "latent_confirmatory_decay": 1.1569259437748523,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.022297769880922927,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d8_p2_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_012",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05502908609109677,
+          "latent_control": 0.01846050644956075,
+          "latent_method_dispersion": 0.06348764753748841,
+          "latent_confirmatory_decay": 0.6053129198740499,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.07358372862999879,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m2_d4_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_014",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0537035994263607,
+          "latent_control": 0.013486505797711785,
+          "latent_method_dispersion": 0.2387730003913802,
+          "latent_confirmatory_decay": 1.0086922912063758,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.024622126169181927,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d7_p2_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_016",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07317613911190446,
+          "latent_control": 0.020837270089154425,
+          "latent_method_dispersion": 0.16387368676575687,
+          "latent_confirmatory_decay": 0.3779215207504857,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.06621713179541219,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d2_p6_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_017",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05525782826362593,
+          "latent_control": 0.009266617898658527,
+          "latent_method_dispersion": 0.2963804647946685,
+          "latent_confirmatory_decay": 1.387556974598569,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.03514638754193354,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d9_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_031",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0733825829074212,
+          "latent_control": 0.014945235971814309,
+          "latent_method_dispersion": 0.2360427287421289,
+          "latent_confirmatory_decay": 0.5844020905518909,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.0727249558602285,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d4_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_034",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.018225717632618203,
+          "latent_control": 0.010720342688895842,
+          "latent_method_dispersion": 0.24202937081736267,
+          "latent_confirmatory_decay": 0.7559963722378007,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.051912646359278045,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d5_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_036",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07146681672461955,
+          "latent_control": 0.009518429152555397,
+          "latent_method_dispersion": 0.2791827604382259,
+          "latent_confirmatory_decay": 1.1065869234634067,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.043532694250702095,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d7_p4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_045",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.013392957538224979,
+          "latent_control": 0.030073624572268132,
+          "latent_method_dispersion": 0.20660036158203157,
+          "latent_confirmatory_decay": 0.5208152173019049,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.05390663405039968,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m6_d3_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_051",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05184353450006887,
+          "latent_control": 0.03468097655328013,
+          "latent_method_dispersion": 0.3021843548566533,
+          "latent_confirmatory_decay": 0.31025300777057485,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.0576997993066208,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d2_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_053",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05425308966991796,
+          "latent_control": 0.025521273022871764,
+          "latent_method_dispersion": 0.21955876650976922,
+          "latent_confirmatory_decay": 0.3078436781088458,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.04848949602769909,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d2_p4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_056",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.04210535314681599,
+          "latent_control": 0.01346009058841972,
+          "latent_method_dispersion": 0.08970440597732188,
+          "latent_confirmatory_decay": 0.6713393641336214,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.038833415235586796,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m2_d4_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_057",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07507219392225895,
+          "latent_control": 0.047521630237466105,
+          "latent_method_dispersion": 0.23631491500100002,
+          "latent_confirmatory_decay": 0.36699284455203285,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.036454777649244006,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d2_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_058",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0493819126240867,
+          "latent_control": 0.027928778234154166,
+          "latent_method_dispersion": 0.23327314583660877,
+          "latent_confirmatory_decay": 0.37993490922496065,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.08577655928111089,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d2_p8_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_059",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.050830162528629916,
+          "latent_control": 0.01007431752748655,
+          "latent_method_dispersion": 0.11875055206211996,
+          "latent_confirmatory_decay": 0.49087562371065735,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.05218204607306562,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m3_d3_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_063",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06767441434847993,
+          "latent_control": 0.010278215220961305,
+          "latent_method_dispersion": 0.28653257819277533,
+          "latent_confirmatory_decay": 0.26630407952850316,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.07157173400315729,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d1_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_071",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.03571078056602524,
+          "latent_control": 0.009883983897716735,
+          "latent_method_dispersion": 0.11589330032605057,
+          "latent_confirmatory_decay": 0.882381494676783,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.0711416620344719,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m3_d6_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_075",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07105247443682805,
+          "latent_control": 0.059661595758437554,
+          "latent_method_dispersion": 0.28432779140172715,
+          "latent_confirmatory_decay": 0.2661504562981777,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.06600113009475198,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d1_p6_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_079",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.04517703700232716,
+          "latent_control": 0.05285774125085625,
+          "latent_method_dispersion": 0.23828422964743437,
+          "latent_confirmatory_decay": 0.27233419663327146,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.020275077952601733,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d1_p2_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_089",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.08130861600309344,
+          "latent_control": 0.019220709970505144,
+          "latent_method_dispersion": 0.1601741104503568,
+          "latent_confirmatory_decay": 1.0133891417094014,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.02257432448039165,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d7_p2_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_091",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06457291087707805,
+          "latent_control": 0.010044818581092362,
+          "latent_method_dispersion": 0.29607927742090057,
+          "latent_confirmatory_decay": 1.1253016360861485,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.05982204484981998,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d8_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_094",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05808859072697549,
+          "latent_control": 0.02133390869627099,
+          "latent_method_dispersion": 0.10856680906344364,
+          "latent_confirmatory_decay": 0.354103351478489,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.04394616854236139,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m3_d2_p4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_096",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.049813598047432864,
+          "latent_control": 0.03347060342749362,
+          "latent_method_dispersion": 0.2762990368637953,
+          "latent_confirmatory_decay": 0.8028128078213922,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.059979008317454494,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d5_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_104",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05080983833428701,
+          "latent_control": 0.016237102430601863,
+          "latent_method_dispersion": 0.15008324001917694,
+          "latent_confirmatory_decay": 0.42536619929023234,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.03154916033650496,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d3_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_108",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.026037973220468958,
+          "latent_control": 0.016369163123045385,
+          "latent_method_dispersion": 0.30956482942205965,
+          "latent_confirmatory_decay": 0.3650283977191496,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.031433097408486786,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d2_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_111",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0366151089364698,
+          "latent_control": 0.02470699198886449,
+          "latent_method_dispersion": 0.210490479054975,
+          "latent_confirmatory_decay": 0.44896894340612203,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.05480984930992356,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d3_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_112",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.02302820882364833,
+          "latent_control": 0.019473766948672422,
+          "latent_method_dispersion": 0.25887833939606286,
+          "latent_confirmatory_decay": 0.7930716662767975,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.05618600876214589,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d5_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_113",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0726025298371917,
+          "latent_control": 0.010111379383623456,
+          "latent_method_dispersion": 0.2815390345760479,
+          "latent_confirmatory_decay": 1.2720176152703393,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.07681599959424137,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d9_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_116",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05338596210661017,
+          "latent_control": 0.03771407078083466,
+          "latent_method_dispersion": 0.22313192033048998,
+          "latent_confirmatory_decay": 0.36812117852226856,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.04696712774153965,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d2_p4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_119",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07471898658194556,
+          "latent_control": 0.05883852354456636,
+          "latent_method_dispersion": 0.2249660059425435,
+          "latent_confirmatory_decay": 0.3462003641170916,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.06310492464646346,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d2_p6_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_123",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06721262467378113,
+          "latent_control": 0.05872993122989543,
+          "latent_method_dispersion": 0.26992699353022664,
+          "latent_confirmatory_decay": 0.4238301916336245,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.06252673705400125,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d3_p6_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_137",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.029436276390784482,
+          "latent_control": 0.037557541522560065,
+          "latent_method_dispersion": 0.17827070913935797,
+          "latent_confirmatory_decay": 0.28783444681620096,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.078547340032772,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d2_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_142",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0653966035403769,
+          "latent_control": 0.019956497902738977,
+          "latent_method_dispersion": 0.1858903778893618,
+          "latent_confirmatory_decay": 0.4778643820616101,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.03223952565859992,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m6_d3_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_144",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.04634820851645158,
+          "latent_control": 0.019454834485532445,
+          "latent_method_dispersion": 0.1553695658606872,
+          "latent_confirmatory_decay": 0.4560631377753017,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.042814320352118074,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d3_p4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_150",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06789012407602046,
+          "latent_control": 0.02640277205999074,
+          "latent_method_dispersion": 0.30253220271145276,
+          "latent_confirmatory_decay": 0.7384269050062696,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.07759769160011729,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d5_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_151",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.034919437910411376,
+          "latent_control": 0.03335256029929792,
+          "latent_method_dispersion": 0.11882000523824711,
+          "latent_confirmatory_decay": 0.3895235435430714,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.05264353289330461,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m3_d2_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_152",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07076002952078358,
+          "latent_control": 0.008674889752565624,
+          "latent_method_dispersion": 0.06114353285896208,
+          "latent_confirmatory_decay": 0.5214794021149816,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.03767486885834366,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m2_d3_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_154",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.03321984483469739,
+          "latent_control": 0.018538850634018625,
+          "latent_method_dispersion": 0.26443842016031005,
+          "latent_confirmatory_decay": 0.6941976263174316,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.058543757975228074,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d4_p5_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_155",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.02250416607305039,
+          "latent_control": 0.017439867993220656,
+          "latent_method_dispersion": 0.15210111616228267,
+          "latent_confirmatory_decay": 0.3652014249039817,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.01581067063049662,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d2_p1_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_159",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.01605164808594893,
+          "latent_control": 0.012768041627194741,
+          "latent_method_dispersion": 0.16669494098441093,
+          "latent_confirmatory_decay": 0.46672444082021813,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.020001000112388517,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m5_d3_p2_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_165",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.016270580009154642,
+          "latent_control": 0.01121747642783855,
+          "latent_method_dispersion": 0.29607868338610954,
+          "latent_confirmatory_decay": 0.6115887958583395,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.060805864662585286,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m9_d4_p6_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_176",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07595896335806673,
+          "latent_control": 0.05630307309359849,
+          "latent_method_dispersion": 0.19809548470380145,
+          "latent_confirmatory_decay": 0.33644733798840254,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.015578806513356698,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m6_d2_p1_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_183",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.01075831887911966,
+          "latent_control": 0.022622241042000765,
+          "latent_method_dispersion": 0.2530899605395016,
+          "latent_confirmatory_decay": 0.38826412356883844,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.06203246823792171,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d2_p6_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_187",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.016648418968927214,
+          "latent_control": 0.01818962995037195,
+          "latent_method_dispersion": 0.23517634660126094,
+          "latent_confirmatory_decay": 0.36262763702837464,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.08145871357793423,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d2_p8_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_189",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07911633593358947,
+          "latent_control": 0.015877408604341888,
+          "latent_method_dispersion": 0.2212699123451649,
+          "latent_confirmatory_decay": 0.8497096950187603,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.07207066382795355,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m7_d6_p7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_190",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.0466503459859291,
+          "latent_control": 0.02016323106949293,
+          "latent_method_dispersion": 0.2628802308516764,
+          "latent_confirmatory_decay": 0.5659731252505381,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.036998240432468764,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d4_p3_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_196",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05904837696441644,
+          "latent_control": 0.016845754211965425,
+          "latent_method_dispersion": 0.13576127125550091,
+          "latent_confirmatory_decay": 0.7301889903797276,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.08547399733110192,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m4_d5_p8_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_197",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.07659901725398355,
+          "latent_control": 0.04282554563899188,
+          "latent_method_dispersion": 0.26595346801820063,
+          "latent_confirmatory_decay": 0.2956148919755628,
+          "latent_direction_flip": false,
+          "latent_prompt_instability": 0.06377869815886456,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "generator_fresh_v2",
+            "profile_s0_c0_m8_d2_p6_stable"
+          ]
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Latent factors control signal strength, control leakage, confirmatory decay, and method dispersion.",
+    "This generator is less suite-labeled than the targeted stress regime, but it is still benchmark-authored synthetic data.",
+    "fresh_v2 adds prompt-instability structure and rotated RNG namespaces for a less overfit latent stress refresh.",
+    "Statistical budget was temporarily reduced for this local rehearsal run. Treat the artifact as refresh-direction evidence, not as a release-grade final number."
+  ]
+}

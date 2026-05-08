@@ -1,0 +1,6 @@
+{
+  "device": "cuda",
+  "examples_per_cell": 100,
+  "generated_by": "main/prompt_holdout_high_power_rerun.py",
+  "runtime_seconds": 477.7191994190216
+}

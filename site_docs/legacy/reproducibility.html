@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reproducibility · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Audit-First Reproducibility</span>
+    <h1>Reproducibility</h1>
+    <p>Exact commands, deterministic rerun checks, and machine-readable command/exit ledgers.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>One-Command Rebuild</h2>
+      <pre><code>python main/reproducibility_audit.py</code></pre>
+      <p>Runs tests, environment manifest capture, coverage and failure analyses, breadth summaries, stress suites, field findings, and runtime/cost reporting.</p>
+    </section>
+
+    <section class="card">
+      <h2>Primary Outputs</h2>
+      <ul>
+        <li><code>main/output/repro/reproducibility_audit.json</code></li>
+        <li><code>main/output/repro/reproducibility_audit.md</code></li>
+        <li><code>main/output/repro/environment_manifest.json</code></li>
+        <li><code>main/output/repro/benchmark_breadth_summary.json</code></li>
+        <li><code>main/output/repro/field_level_findings.json</code></li>
+        <li><code>main/output/repro/runtime_cost_report.json</code></li>
+        <li><code>main/output/community_submissions/community_value_summary.json</code></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Determinism Definition</h2>
+      <p>For fixed code, artifacts, seeds, and environment versions, evaluator outputs should match across reruns. Decision-hash checks compare per-claim <code>(passed, tier, checks)</code> views.</p>
+    </section>
+
+    <section class="card">
+      <h2>Manual Command Sequence</h2>
+      <pre><code>python -m pytest packages/evaluator/tests -q
+python -m pytest packages/runner/tests -q
+python main/environment_manifest.py --output main/output/repro/environment_manifest.json
+python main/summarize_real_multi_task.py
+python main/analyze_real_bundle_failures.py
+python main/build_multilane_real_bundles.py
+python main/run_community_submission_demo.py
+python main/summarize_benchmark_breadth.py
+python main/field_level_findings.py
+python main/runtime_cost_report.py --reruns 3
+python main/stress_test_ablation.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/stress_test_agnostic.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/stress_test_red_team.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python -m automechinterp_evaluator.cli reference-vectors</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    Full runbook: <a href="../reference/reproducibility_runbook.md">Reproducibility Runbook</a>.
+  </footer>
+</body>
+</html>

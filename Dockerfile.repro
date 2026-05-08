@@ -1,0 +1,64 @@
+# Dockerfile.repro — full-audit reproducibility container.
+#
+# Closes final_gpt_audit F7 / final_critical_audit_v2 §F7.
+#
+# Differs from the package-test ``Dockerfile`` (which only copies
+# ``packages/``, ``main/``, and ``README.md`` and runs the unit-test
+# battery): this image copies the full audit surface and runs the
+# materializing reproducibility audit so an external reviewer can verify
+# every committed artifact regenerates byte-identically.
+#
+# Build:
+#   docker build -t automechinterp-repro -f Dockerfile.repro .
+#
+# Verify (read-only check, exit non-zero on drift):
+#   docker run --rm automechinterp-repro --check
+#
+# Regenerate (writes into the container's /app working tree only):
+#   docker run --rm automechinterp-repro
+#
+# Same base image and pin set as Dockerfile (audit-final §1.13 / 2.F.2).
+FROM python:3.12-slim@sha256:46cb7cc2877e60fbd5e21a9ae6115c30ace7a077b9f8772da879e4590c18c2e3
+
+WORKDIR /app
+
+# Determinism env (mirrors Dockerfile + Makefile).
+ENV PYTHONHASHSEED=0
+ENV SOURCE_DATE_EPOCH=1700000000
+
+# System deps. ``git`` is required by ``main/reproducibility_audit.py``
+# command discovery for the documented git-clean preflight invocation.
+RUN apt-get update && apt-get install -y --no-install-recommends git && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install dependencies from hash-pinned lockfiles BEFORE the editable
+# install so the editable install only resolves intra-repo packages.
+COPY requirements-stage1.lock.txt requirements-stage2-cpu.lock.txt /app/
+RUN pip install --no-cache-dir --require-hashes -r /app/requirements-stage1.lock.txt && \
+    pip install --no-cache-dir --require-hashes -r /app/requirements-stage2-cpu.lock.txt
+
+# Copy the full audit surface. Order matches the artifact-include set in
+# .gitattributes; ``model_cache/`` and ``main/output/tmp_debug_repair*/``
+# are excluded by .dockerignore.
+COPY packages/ /app/packages/
+COPY main/ /app/main/
+COPY methodology/ /app/methodology/
+COPY tools/ /app/tools/
+COPY site_docs/ /app/site_docs/
+COPY holdout/ /app/holdout/
+COPY scripts/ /app/scripts/
+COPY pytest.ini conftest.py Makefile README.md /app/
+
+# Install editable packages without resolving dependencies (already pinned).
+RUN pip install --no-cache-dir --no-deps -e /app/packages/evaluator && \
+    pip install --no-cache-dir --no-deps -e /app/packages/runner
+
+# Validate pre-audit invariants on build.
+RUN python -m compileall -q /app/packages /app/main /app/tools && \
+    python /app/tools/check_headline_numbers.py && \
+    python /app/tools/check_spotlight_overclaims.py
+
+# Default: run the materializing audit. Pass ``--check`` for the read-only
+# verifier (added per final_gpt_audit F5).
+ENTRYPOINT ["python", "/app/main/reproducibility_audit.py"]
+CMD []

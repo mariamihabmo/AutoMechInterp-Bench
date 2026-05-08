@@ -1,0 +1,113 @@
+[
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_sweep_country_capital_v0_003",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 0,
+        "layer": 20
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 0,
+        "layer": 10
+      }
+    ],
+    "source_effect_mean": 1.4135701189596186,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 0.010134110450744629,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  },
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_sweep_country_capital_v0_001",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 8,
+        "layer": 18
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 8,
+        "layer": 9
+      }
+    ],
+    "source_effect_mean": 2.2490443294010465,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 0.004022107124328613,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  },
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_sweep_country_capital_v0_002",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 2,
+        "layer": 22
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 2,
+        "layer": 11
+      }
+    ],
+    "source_effect_mean": 0.768434864503366,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": true,
+    "transfer_contract_pass": false,
+    "transfer_effect": -0.025952463150024415,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": true,
+    "transfer_same_direction": false
+  },
+  {
+    "hypothesis_id": "h_sweep_country_capital_v0_001",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_pythia-70m_lane_a",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "gpt2-small",
+    "transfer_effect": 1.3250283387602952,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "pythia-70m",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_sweep_country_capital_v0_002",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_pythia-70m_lane_a",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "gpt2-small",
+    "transfer_effect": 1.1153568098784754,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "pythia-70m",
+    "transfer_positive": true
+  }
+]

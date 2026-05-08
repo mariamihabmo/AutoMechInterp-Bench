@@ -1,0 +1,744 @@
+{
+  "accepted_after_sum": 20,
+  "accepted_before_in_rerun_bundles": 25,
+  "bundles_rerun": 21,
+  "claim_boundary": "These reruns test whether affected accepted claims survive real task-supported prompt variants. They repair the canonical release only after the canonical bundle-discovery layer promotes the candidate bundles; legacy unsupported-prompt artifacts remain historical evidence of the repaired failure mode.",
+  "generated_by": "main/prompt_variant_repair_rerun.py",
+  "new_promoted": 1,
+  "planned_affected_bundles_with_accepts": 11,
+  "planned_unsupported_prompt_bundles": 21,
+  "previously_accepted_demoted": 6,
+  "previously_accepted_retained": 19,
+  "retention_rate_in_rerun_bundles": 0.76,
+  "rows": [
+    {
+      "accepted_after": 3,
+      "accepted_before": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "candidate_bundle": "main/output/prompt_variant_repair/arithmetic_v0_gpt2-small",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "cross_model_transfer": 2
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/zero_task_real_repair/arithmetic_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 0,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "candidate_bundle": "main/output/prompt_variant_repair/arithmetic_v0_pythia-70m",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "cross_model_transfer": 1,
+        "multiplicity": 2,
+        "negative_controls": 2,
+        "robustness": 2
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "newly_promoted": [
+        "h_arithmetic_v0_002"
+      ],
+      "old_prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/zero_task_real_repair/arithmetic_v0_pythia-70m",
+      "stage2_cell_count": 48,
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 3,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "candidate_bundle": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_a",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "cross_model_transfer": 1
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_a",
+      "stage2_cell_count": 324,
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "candidate_bundle": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_b",
+      "demoted_previously_accepted": [
+        "h_neuron_country_capital_v0_003"
+      ],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "causal_effect": 1,
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 1,
+        "multiplicity": 1,
+        "power_adequacy": 2,
+        "robustness": 1
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_b",
+      "stage2_cell_count": 324,
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 3,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "candidate_bundle": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_c",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "cross_model_transfer": 1
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_c",
+      "stage2_cell_count": 324,
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 2,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "candidate_bundle": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_a",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 1,
+        "negative_controls": 1
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_a",
+      "stage2_cell_count": 324,
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "candidate_bundle": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_b",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "causal_effect": 3,
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 1,
+        "multiplicity": 1,
+        "power_adequacy": 3,
+        "robustness": 3
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_b",
+      "stage2_cell_count": 324,
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 2,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "candidate_bundle": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_c",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 1,
+        "causal_effect": 1,
+        "negative_controls": 1,
+        "power_adequacy": 1,
+        "robustness": 1
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_c",
+      "stage2_cell_count": 324,
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "docstring_v0_gpt2-small",
+      "candidate_bundle": "main/output/prompt_variant_repair/docstring_v0_gpt2-small",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "method_sensitivity": 3
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "detailed"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/zero_task_real_repair/docstring_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "candidate_bundle": "main/output/prompt_variant_repair/fact_recall_v0_gpt2-small_lane_b3",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 3,
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "effect_size_practical": 3,
+        "multiplicity": 3,
+        "negative_controls": 3,
+        "power_adequacy": 3,
+        "robustness": 3
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "contextual"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/fact_recall_v0_gpt2-small_lane_b3",
+      "stage2_cell_count": 324,
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 2,
+      "bundle": "ioi_v0_gpt2-small",
+      "candidate_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small",
+      "demoted_previously_accepted": [
+        "h_ioi_v0_mlp_001"
+      ],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 1,
+        "causal_effect": 1,
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 1,
+        "multiplicity": 1,
+        "negative_controls": 1,
+        "power_adequacy": 3,
+        "robustness": 1
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_ioi_v0_001"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+      "stage2_cell_count": 432,
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 2,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "candidate_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_a",
+      "demoted_previously_accepted": [
+        "h_sweep_ioi_v0_003"
+      ],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "cross_model_transfer": 1,
+        "negative_controls": 2,
+        "power_adequacy": 2
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/ioi_v0_gpt2-small_lane_a",
+      "stage2_cell_count": 324,
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "candidate_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_b",
+      "demoted_previously_accepted": [
+        "h_neuron_ioi_v0_002"
+      ],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "causal_effect": 3,
+        "confirmatory_ci": 2,
+        "effect_size_practical": 2,
+        "multiplicity": 2,
+        "power_adequacy": 3,
+        "robustness": 3
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/ioi_v0_gpt2-small_lane_b",
+      "stage2_cell_count": 324,
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "candidate_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_b3",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 3,
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "effect_size_practical": 3,
+        "multiplicity": 3,
+        "negative_controls": 3,
+        "power_adequacy": 3,
+        "robustness": 3
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/ioi_v0_gpt2-small_lane_b3",
+      "stage2_cell_count": 324,
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 2,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "candidate_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_c",
+      "demoted_previously_accepted": [
+        "h_dla_ioi_v0_001"
+      ],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 2,
+        "causal_effect": 1,
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 1,
+        "multiplicity": 1,
+        "negative_controls": 2,
+        "power_adequacy": 2,
+        "robustness": 2
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_dla_ioi_v0_002"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/ioi_v0_gpt2-small_lane_c",
+      "stage2_cell_count": 324,
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "candidate_bundle": "main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_a",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 1,
+        "negative_controls": 3,
+        "power_adequacy": 2
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_a",
+      "stage2_cell_count": 324,
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "candidate_bundle": "main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_b",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "causal_effect": 3,
+        "confirmatory_ci": 1,
+        "effect_size_practical": 1,
+        "multiplicity": 1,
+        "power_adequacy": 2,
+        "robustness": 3
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_b",
+      "stage2_cell_count": 324,
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 2,
+      "accepted_before": 3,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "candidate_bundle": "main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c",
+      "demoted_previously_accepted": [
+        "h_dla_sentiment_v0_002"
+      ],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "cross_model_transfer": 2,
+        "negative_controls": 1
+      },
+      "model": "gpt2-small",
+      "new_prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_003"
+      ],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_c",
+      "stage2_cell_count": 324,
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "candidate_bundle": "main/output/prompt_variant_repair/sentiment_v0_pythia-70m_lane_a",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 1,
+        "negative_controls": 3
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_a",
+      "stage2_cell_count": 324,
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "candidate_bundle": "main/output/prompt_variant_repair/sentiment_v0_pythia-70m_lane_b",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 2,
+        "causal_effect": 3,
+        "confirmatory_ci": 2,
+        "effect_size_practical": 2,
+        "multiplicity": 2,
+        "negative_controls": 2,
+        "power_adequacy": 2,
+        "robustness": 3
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_b",
+      "stage2_cell_count": 324,
+      "task": "sentiment_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 0,
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "candidate_bundle": "main/output/prompt_variant_repair/sentiment_v0_pythia-70m_lane_c",
+      "demoted_previously_accepted": [],
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after": {
+        "baseline_superiority": 2,
+        "causal_effect": 3,
+        "confirmatory_ci": 2,
+        "cross_model_transfer": 1,
+        "effect_size_practical": 2,
+        "multiplicity": 2,
+        "negative_controls": 2,
+        "power_adequacy": 2,
+        "robustness": 3
+      },
+      "model": "pythia-70m",
+      "new_prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "newly_promoted": [],
+      "old_prompt_variants": [
+        "base",
+        "varied",
+        "paraphrase"
+      ],
+      "retained_previously_accepted": [],
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_c",
+      "stage2_cell_count": 324,
+      "task": "sentiment_v0"
+    }
+  ],
+  "status": "diagnostic repair reruns; canonical only when promoted through main/_bundle_analysis.py and documented in the methodology update"
+}

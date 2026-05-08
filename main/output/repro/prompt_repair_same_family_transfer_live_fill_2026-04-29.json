@@ -1,0 +1,111 @@
+{
+  "bundles_updated": 6,
+  "claim_boundary": "This fills missing same-family transfer rows for prompt-repaired canonical bundles. It preserves existing paired-bundle rows and does not lower the transfer gate.",
+  "device": "mps",
+  "generated_by": "main/prompt_repair_same_family_transfer.py",
+  "n_examples": 100,
+  "rows": [
+    {
+      "accepted_claims": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "bundle": "arithmetic_v0_gpt2-small",
+      "bundle_dir": "main/output/prompt_variant_repair/arithmetic_v0_gpt2-small",
+      "existing_rows_before": 3,
+      "filled_missing_hypotheses": [
+        "h_arithmetic_v0_002"
+      ],
+      "merged_rows_after": 4,
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_arithmetic_v0_002"
+      ],
+      "bundle": "arithmetic_v0_pythia-70m",
+      "bundle_dir": "main/output/prompt_variant_repair/arithmetic_v0_pythia-70m",
+      "existing_rows_before": 3,
+      "filled_missing_hypotheses": [
+        "h_arithmetic_v0_002"
+      ],
+      "merged_rows_after": 4,
+      "source_model": "pythia-70m",
+      "target_model": "pythia-160m",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_a",
+      "existing_rows_before": 3,
+      "filled_missing_hypotheses": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "merged_rows_after": 5,
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_c",
+      "existing_rows_before": 3,
+      "filled_missing_hypotheses": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "merged_rows_after": 5,
+      "source_model": "gpt2-small",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_a",
+      "existing_rows_before": 3,
+      "filled_missing_hypotheses": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "merged_rows_after": 5,
+      "source_model": "pythia-70m",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "bundle_dir": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_c",
+      "existing_rows_before": 3,
+      "filled_missing_hypotheses": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "merged_rows_after": 5,
+      "source_model": "pythia-70m",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0"
+    }
+  ]
+}

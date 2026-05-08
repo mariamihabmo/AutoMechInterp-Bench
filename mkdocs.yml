@@ -1,0 +1,126 @@
+site_name: AutoMechInterp
+site_description: Open-source benchmark for deterministic verification of mechanistic-interpretability claims.
+# NeurIPS 2026 double-blind anonymisation: do not reintroduce a personal
+# `site_url` / `repo_url` / `repo_name` until after the review window
+# closes. The keys below intentionally point at placeholder anonymous slugs
+# so the rendered site cannot deanonymise the authors via "Edit on GitHub"
+# or canonical URL metadata.
+site_url: https://anonymous.example.org/automechinterp/
+repo_url: https://anonymous.example.org/automechinterp
+repo_name: anonymous/automechinterp
+# `edit_uri` deliberately empty: the `content.action.edit` feature is
+# disabled below to suppress per-page "Edit on GitHub" links during the
+# anonymous review window.
+edit_uri: ""
+
+docs_dir: site_docs
+site_dir: site_build
+
+strict: true
+
+theme:
+  name: material
+  language: en
+  font: false
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    # `content.action.edit` intentionally disabled (NeurIPS double-blind).
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+
+nav:
+  - Start Here:
+      - Home: index.md
+      - What's New: whats-new.md
+      - Quickstart (10 min): quickstart.md
+      - Release Findings: generated/release-findings.md
+      - Setup: setup.md
+      - Demo (2-5 min): demo.md
+      - Concepts: concepts.md
+      - FAQ: faq.md
+  - Using The Benchmark:
+      - Run The Evaluator: run.md
+      - Interpret Results: interpret.md
+      - Reproducibility Audit: repro-audit.md
+  - Generated Reports:
+      - Benchmark Snapshot: generated/benchmark-snapshot.md
+      - Leaderboard: generated/leaderboard.md
+      - Failure Modes: generated/failure-modes.md
+      - Runtime And Cost: generated/runtime-cost.md
+      - Community Impact: generated/community-impact.md
+  - Submissions:
+      - Submitting A Claim Bundle: submit.md
+      - Bundle Checklist: bundle-checklist.md
+      - Artifact Spec Overview: spec.md
+      - Bundle Page Template: results/bundle-template.md
+  - Contract (Explanation):
+      - The Benchmark Contract: contract.md
+      - Evidence Tiers: tiers.md
+      - Gates And Suites: gates.md
+      - Determinism And Integrity: determinism.md
+  - Stress Testing:
+      - Overview: stress/index.md
+      - Suite-Targeted Ablations: stress/ablations.md
+      - Evaluator-Agnostic Latent Stress: stress/latent.md
+      - Red-Team Probes: stress/redteam.md
+  - Reference:
+      - CLI Reference: reference/cli.md
+      - File Formats And Schemas: reference/schemas.md
+      - Metrics And Statistics: reference/stats.md
+      - Compatibility Vectors: reference/compat.md
+  - Tutorials:
+      - "Tutorial: First Run": tutorials/first-run.md
+      - "Tutorial: Create A Bundle": tutorials/make-bundle.md
+  - How-To Guides:
+      - Add A New Task: how-to/add-task.md
+      - Add A New Gate: how-to/add-gate.md
+      - Run In CI: how-to/ci.md
+  - Comparisons:
+      - Benchmark Positioning: comparisons/positioning.md
+      - Compared To MIB: comparisons/mib.md
+      - Compared To Discovery Tools: comparisons/tools.md
+  - Community:
+      - Contributing: community/contributing.md
+      - Issue Templates: community/issues.md
+  - Project:
+      - Governance And Migrations: governance.md
+      - Changelog: changelog.md
+      - Cite: cite.md
+      - Legacy Site (v1): legacy-site.md

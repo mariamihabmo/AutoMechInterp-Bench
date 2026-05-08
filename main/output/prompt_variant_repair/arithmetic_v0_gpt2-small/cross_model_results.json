@@ -1,0 +1,101 @@
+[
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_arithmetic_v0_001",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 8,
+        "layer": 16
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 8,
+        "layer": 8
+      }
+    ],
+    "source_effect_mean": 0.04794190185410636,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 6.918907165527343e-05,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  },
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_arithmetic_v0_003",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 1,
+        "layer": 18
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 1,
+        "layer": 9
+      }
+    ],
+    "source_effect_mean": 0.04418064866747175,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 2.567291259765625e-05,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  },
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_arithmetic_v0_002",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 2,
+        "layer": 20
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 2,
+        "layer": 10
+      }
+    ],
+    "source_effect_mean": 0.13997723375047957,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": -0.00010916709899902344,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": false,
+    "transfer_same_direction": false
+  },
+  {
+    "hypothesis_id": "h_arithmetic_v0_002",
+    "n_examples": 8,
+    "paired_bundle": "arithmetic_v0_pythia-70m",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "gpt2-small",
+    "transfer_effect": 0.08625364303588867,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "pythia-70m",
+    "transfer_positive": true
+  }
+]

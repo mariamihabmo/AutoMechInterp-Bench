@@ -1,0 +1,35 @@
+{
+  "attestation_file_sha256": "b640b2650dc4dffb04d00dea3f3a273912dcf7ab0eaad8d6d5cf0849e2908a7d",
+  "author_institution": "AutoMechInterp maintainers (pilot; NOT an external blinded author)",
+  "bundle_tarball_sha256": "fe7fe4d8642daa0b9d17d7e899a36b1b807045676e2812351dbe1fda233608ad",
+  "contract_pin": {
+    "constants_sha256": "3e31b9654b31757be447b1aa7583ab675f38a41f55c68c7e6c90b7f4f491c3c5",
+    "evaluator_version": "automechinterp-evaluator==0.1.0"
+  },
+  "contract_pin_match": true,
+  "evaluated_at_utc": "2026-04-23T08:49:05+00:00",
+  "evaluator_version": "0.1.0",
+  "n_accepted_claims": 2,
+  "n_claims": 4,
+  "overall": {
+    "accepted_count": 2,
+    "all_pass": false,
+    "cross_method_rank_tau": 0.5555555555555556,
+    "hypothesis_count": 4,
+    "rejected_count": 2,
+    "tier_order": [
+      "cross_model_confirmed",
+      "single_model_confirmed",
+      "causal_plus_robustness",
+      "causal_tested_unstable",
+      "suggestive",
+      "rejected"
+    ],
+    "unstable_count": 0
+  },
+  "protocol_hash": "2cf9391768fcc170931f8224eb50009edde4e328ae068c6389e398b9f8a15fba",
+  "protocol_id": "real_ioi_v0_gpt2-small",
+  "repo_constants_sha256": "3e31b9654b31757be447b1aa7583ab675f38a41f55c68c7e6c90b7f4f491c3c5",
+  "submission_id": "maintainer_pilot_0001",
+  "submission_kind": "maintainer_pilot"
+}

@@ -1,0 +1,226 @@
+{
+  "accepted_after_total": 0,
+  "accepted_before_total": 0,
+  "bundles": [
+    {
+      "bundle": "arithmetic_v0_gpt2-small",
+      "path": "main/output/real_multi_task/arithmetic_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "arithmetic_v0_pythia-70m",
+      "path": "main/output/real_multi_task/arithmetic_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small",
+      "path": "main/output/real_multi_task/country_capital_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m",
+      "path": "main/output/real_multi_task/country_capital_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small",
+      "path": "main/output/real_multi_task/docstring_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "docstring_v0_pythia-70m",
+      "path": "main/output/real_multi_task/docstring_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small",
+      "path": "main/output/real_multi_task/fact_recall_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "fact_recall_v0_pythia-70m",
+      "path": "main/output/real_multi_task/fact_recall_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "path": "main/output/real_multi_task/gendered_pronoun_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "path": "main/output/real_multi_task/gendered_pronoun_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "greater_than_v0_gpt2-small",
+      "path": "main/output/real_multi_task/greater_than_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "greater_than_v0_pythia-70m",
+      "path": "main/output/real_multi_task/greater_than_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small",
+      "path": "main/output/real_multi_task/ioi_v0_gpt2-small",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "ioi_v0_pythia-70m",
+      "path": "main/output/real_multi_task/ioi_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small",
+      "path": "main/output/real_multi_task/sentiment_v0_gpt2-small",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m",
+      "path": "main/output/real_multi_task/sentiment_v0_pythia-70m",
+      "reason": "raw_slices=['confirmatory']",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "path": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_a",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "path": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_b",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "path": "main/output/real_multilane/country_capital_v0_gpt2-small_lane_c",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "path": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_a",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "path": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_b",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "path": "main/output/real_multilane/country_capital_v0_pythia-70m_lane_c",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "path": "main/output/real_multilane/docstring_v0_gpt2-small_lane_a",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "path": "main/output/real_multilane/docstring_v0_gpt2-small_lane_b",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "path": "main/output/real_multilane/docstring_v0_gpt2-small_lane_c",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "path": "main/output/real_multilane/fact_recall_v0_gpt2-small_lane_b3",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_a",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_b",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_b3",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "path": "main/output/real_multilane/ioi_v0_gpt2-small_lane_c",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "path": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_a",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "path": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_b",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "path": "main/output/real_multilane/sentiment_v0_gpt2-small_lane_c",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "path": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_a",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "path": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_b",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "path": "main/output/real_multilane/sentiment_v0_pythia-70m_lane_c",
+      "reason": "require_confirmatory_split_not_false",
+      "status": "skipped"
+    }
+  ],
+  "bundles_repaired": 0,
+  "bundles_scanned": 36,
+  "bundles_skipped": 36,
+  "generated_by": "main/repair_legacy_no_split_bundles.py"
+}

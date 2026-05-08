@@ -1,0 +1,58 @@
+{
+  "docstring_zero_cells": [
+    {
+      "closest_to_pass": {
+        "bundle": "docstring_v0_pythia-70m",
+        "discovery_lane": "canonical_real_repair_v1",
+        "evidence_tier": "suggestive",
+        "failed_gates": [
+          "method_sensitivity"
+        ],
+        "hypothesis_id": "h_docstring_v0_003",
+        "n_failed_gates": 1,
+        "n_not_evaluated_gates": 1,
+        "not_evaluated_gates": [
+          "cross_model_transfer"
+        ]
+      },
+      "failed_gate_counts": {
+        "confirmatory_ci": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 2
+      },
+      "model": "pythia-70m",
+      "n_accepted": 0,
+      "n_claims": 3,
+      "n_rejected": 3,
+      "task": "docstring_v0"
+    }
+  ],
+  "generated_by": "main/docstring_method_sensitivity_explorer.py",
+  "ranked_claims": [],
+  "recommended_program": [
+    "Do not relax method_sensitivity for docstring_v0 post hoc.",
+    "Start with single-gate-only method_sensitivity failures whose zero-ablation effect has the same sign as activation patching.",
+    "Use pilot cells to search for components or positions that increase the zero-ablation/activation-patching absolute ratio before running full Stage-2.",
+    "Treat direction-reversal cases as metric/intervention-mapping failures until proven otherwise.",
+    "If no necessity-aligned pilot exists, propose a versioned sufficiency-only docstring claim type rather than accepting current claims under the existing tier."
+  ],
+  "requested_source_dir": "main/output/real_multi_task",
+  "source_artifacts": [
+    "main/output/repro/zero_task_gate_breakdown.json",
+    "main/output/repro/docstring_distributed_repair.json",
+    "main/output/repro/breadth_gap_analysis.json"
+  ],
+  "status": "diagnostic_queue_only_not_new_model_evidence",
+  "summary": {
+    "diagnosis_counts": {},
+    "distributed_repair_accepted_claims": 0,
+    "distributed_repair_gate_failures": {
+      "method_sensitivity": 8,
+      "negative_controls": 1
+    },
+    "docstring_method_sensitivity_failed_claims": 0,
+    "docstring_zero_acceptance_cells": 1,
+    "single_gate_only_method_sensitivity": 0,
+    "top_repair_candidate": null
+  }
+}

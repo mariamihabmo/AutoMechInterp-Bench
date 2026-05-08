@@ -1,0 +1,49 @@
+{
+  "base_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "adaptive": {
+    "attempts": 10,
+    "successes": 3,
+    "success_rate": 0.3,
+    "success_rate_ci95": {
+      "low": 0.10778928748621183,
+      "high": 0.6032267800204347,
+      "label": "[10.8%, 60.3%]"
+    }
+  },
+  "near_miss": {
+    "count": 5,
+    "accepted": 0,
+    "acceptance_rate": 0.0,
+    "acceptance_rate_ci95": {
+      "low": 0.0,
+      "high": 0.43449149475208104,
+      "label": "[0.0%, 43.4%]"
+    }
+  },
+  "bundle_hacking": {
+    "missing_slice": {
+      "blocked": true,
+      "error": null,
+      "accepted": false
+    },
+    "single_direction": {
+      "blocked": true,
+      "error": null,
+      "accepted": false
+    },
+    "coverage_hole": {
+      "blocked": true,
+      "error": null,
+      "accepted": false
+    },
+    "protocol_hash_mismatch": {
+      "blocked": true,
+      "error": "evaluation_result.protocol_sha256 mismatch",
+      "accepted": false
+    }
+  },
+  "notes": [
+    "Adaptive search is a black-box random search over latent factors, not a direct gate-targeted optimizer.",
+    "Bundle-hacking probes modify serialized artifacts before evaluation and are counted as blocked if they error or fail acceptance."
+  ]
+}

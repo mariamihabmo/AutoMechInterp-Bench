@@ -1,0 +1,96 @@
+[
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_dla_country_capital_v0_001",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 6,
+        "layer": 8
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 6,
+        "layer": 4
+      }
+    ],
+    "source_effect_mean": 1.3495428726155922,
+    "source_model": "pythia-70m",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 0.00020965576171875,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "pythia-160m",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  },
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_dla_country_capital_v0_002",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 4,
+        "layer": 8
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 4,
+        "layer": 4
+      }
+    ],
+    "source_effect_mean": 1.1068578447614397,
+    "source_model": "pythia-70m",
+    "transfer_above_floor": true,
+    "transfer_contract_pass": true,
+    "transfer_effect": 0.4490987014770508,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "pythia-160m",
+    "transfer_positive": true,
+    "transfer_same_direction": true
+  },
+  {
+    "hypothesis_id": "h_dla_country_capital_v0_001",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_gpt2-small_lane_c",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 2.2439505965621382,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_dla_country_capital_v0_002",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_gpt2-small_lane_c",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.7637178929394515,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_dla_country_capital_v0_003",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_gpt2-small_lane_c",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 1.4296843658679377,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  }
+]

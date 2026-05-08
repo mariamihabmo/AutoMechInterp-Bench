@@ -1,0 +1,256 @@
+{
+  "claims_with_failed_gates": 97,
+  "diagonal_check": {
+    "baseline_superiority": 19,
+    "causal_effect": 46,
+    "confirmatory_ci": 41,
+    "cross_model_transfer": 28,
+    "effect_size_practical": 18,
+    "method_sensitivity": 29,
+    "multiplicity": 48,
+    "negative_controls": 40,
+    "power_adequacy": 33,
+    "robustness": 47
+  },
+  "diagonal_check_complete": true,
+  "dominant_fragility_cluster": {
+    "claims_with_this_pattern": 14,
+    "failed_gates": [
+      "cross_model_transfer"
+    ],
+    "fraction_of_all_claims": 0.12844036697247707,
+    "fraction_of_claims_with_failed_gates": 0.14432989690721648,
+    "size": 1
+  },
+  "gates": [
+    "baseline_superiority",
+    "causal_effect",
+    "confirmatory_ci",
+    "cross_model_transfer",
+    "effect_size_practical",
+    "method_sensitivity",
+    "multiplicity",
+    "negative_controls",
+    "power_adequacy",
+    "robustness"
+  ],
+  "marginal_failed_gate_counts": {
+    "baseline_superiority": 19,
+    "causal_effect": 46,
+    "confirmatory_ci": 41,
+    "cross_model_transfer": 28,
+    "effect_size_practical": 18,
+    "method_sensitivity": 29,
+    "multiplicity": 48,
+    "negative_controls": 40,
+    "power_adequacy": 33,
+    "robustness": 47
+  },
+  "matrix": [
+    [
+      19,
+      14,
+      13,
+      2,
+      12,
+      0,
+      13,
+      19,
+      16,
+      15
+    ],
+    [
+      14,
+      46,
+      34,
+      5,
+      18,
+      14,
+      36,
+      19,
+      25,
+      46
+    ],
+    [
+      13,
+      34,
+      41,
+      4,
+      18,
+      16,
+      41,
+      20,
+      19,
+      35
+    ],
+    [
+      2,
+      5,
+      4,
+      28,
+      1,
+      5,
+      6,
+      7,
+      2,
+      5
+    ],
+    [
+      12,
+      18,
+      18,
+      1,
+      18,
+      0,
+      18,
+      13,
+      18,
+      18
+    ],
+    [
+      0,
+      14,
+      16,
+      5,
+      0,
+      29,
+      23,
+      3,
+      0,
+      14
+    ],
+    [
+      13,
+      36,
+      41,
+      6,
+      18,
+      23,
+      48,
+      22,
+      19,
+      37
+    ],
+    [
+      19,
+      19,
+      20,
+      7,
+      13,
+      3,
+      22,
+      40,
+      20,
+      20
+    ],
+    [
+      16,
+      25,
+      19,
+      2,
+      18,
+      0,
+      19,
+      20,
+      33,
+      26
+    ],
+    [
+      15,
+      46,
+      35,
+      5,
+      18,
+      14,
+      37,
+      20,
+      26,
+      47
+    ]
+  ],
+  "n_claims": 109,
+  "n_failed": 83,
+  "source": "all_failed_combinations",
+  "top_failed_combinations": [
+    {
+      "count": 14,
+      "failed_checks": [
+        "cross_model_transfer"
+      ]
+    },
+    {
+      "count": 12,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "method_sensitivity",
+        "multiplicity",
+        "robustness"
+      ]
+    },
+    {
+      "count": 11,
+      "failed_checks": [
+        "baseline_superiority",
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 5,
+      "failed_checks": [
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 5,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "cross_model_transfer",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "causal_effect",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "method_sensitivity"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "method_sensitivity",
+        "multiplicity"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "power_adequacy"
+      ]
+    }
+  ]
+}

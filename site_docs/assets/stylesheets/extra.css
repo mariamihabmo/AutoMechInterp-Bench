@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  --md-text-font: "Source Sans 3", "Segoe UI", sans-serif;
+  --md-code-font: "IBM Plex Mono", Menlo, monospace;
+}
+
+body {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(13, 148, 136, 0.08) 0, rgba(13, 148, 136, 0) 32%),
+    radial-gradient(circle at 100% 0%, rgba(245, 158, 11, 0.07) 0, rgba(245, 158, 11, 0) 30%),
+    #ffffff;
+}
+
+.md-header,
+.md-tabs {
+  background: linear-gradient(110deg, #0f766e 0%, #115e59 52%, #134e4a 100%);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: "Sora", "Source Sans 3", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h1 {
+  font-size: 2.15rem;
+  margin-bottom: 0.45rem;
+}
+
+.md-main__inner {
+  margin-top: 1rem;
+}
+
+.md-typeset .hero {
+  margin: 0.35rem 0 1.4rem;
+  padding: 1.45rem 1.5rem;
+  border-radius: 18px;
+  border: 1px solid #a7f3d0;
+  background:
+    radial-gradient(circle at 90% 12%, rgba(245, 158, 11, 0.18) 0, transparent 35%),
+    radial-gradient(circle at 8% 85%, rgba(20, 184, 166, 0.18) 0, transparent 30%),
+    linear-gradient(160deg, rgba(15, 118, 110, 0.08) 0%, rgba(255, 255, 255, 0.95) 100%);
+  box-shadow: 0 16px 48px -35px rgba(15, 23, 42, 0.55);
+}
+
+.md-typeset .hero p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+.md-typeset .hero .cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.58rem;
+  margin-top: 0.75rem;
+}
+
+.md-typeset .hero .cta-row a {
+  display: inline-block;
+  border-radius: 999px;
+  border: 1px solid #0f766e;
+  color: #0f766e;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 0.88rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.md-typeset .hero .cta-row a:hover {
+  background: #0f766e;
+  color: #fff;
+}
+
+.md-typeset .snapshot-strip {
+  margin: 1rem 0 1.45rem;
+  border-radius: 14px;
+  border: 1px solid #bfdbfe;
+  background: #f8fbff;
+  padding: 0.86rem 1rem;
+}
+
+.md-typeset .snapshot-strip strong {
+  color: #0f172a;
+  font-size: 1.05rem;
+}
+
+.md-typeset .grid.cards > ul {
+  gap: 0.95rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px -20px rgba(15, 23, 42, 0.45);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-1px);
+  border-color: #14b8a6;
+  box-shadow: 0 12px 34px -22px rgba(15, 23, 42, 0.55);
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: #ecfeff;
+  color: #0f172a;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background: #fbfdff;
+}
+
+.md-typeset .callout {
+  border-left: 4px solid #0f766e;
+  background: #f0fdfa;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+}
+
+.md-typeset blockquote {
+  border-left: 4px solid #14b8a6;
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 0.55rem 0.85rem;
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-typeset h1 {
+    font-size: 1.78rem;
+  }
+
+  .md-typeset .hero {
+    padding: 1.1rem 1rem;
+  }
+}

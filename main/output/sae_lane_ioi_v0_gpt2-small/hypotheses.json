@@ -1,0 +1,29 @@
+[
+  {
+    "hypothesis_id": "h_sae_ioi_v0_001",
+    "feature_id": 171,
+    "hook_point": "blocks.8.hook_resid_pre",
+    "claim_text": "SAE feature 171 at blocks.8.hook_resid_pre increases in clean vs corrupt with mean diff +2.1205, suggesting it encodes information relevant to ioi_v0.",
+    "mean_diff": 2.1204539835453033,
+    "abs_mean_diff": 2.1204539835453033,
+    "std_diff": 1.2615841625769868
+  },
+  {
+    "hypothesis_id": "h_sae_ioi_v0_002",
+    "feature_id": 11919,
+    "hook_point": "blocks.8.hook_resid_pre",
+    "claim_text": "SAE feature 11919 at blocks.8.hook_resid_pre decreases in clean vs corrupt with mean diff -1.3546, suggesting it encodes information relevant to ioi_v0.",
+    "mean_diff": -1.3545744299888611,
+    "abs_mean_diff": 1.3545744299888611,
+    "std_diff": 0.37387975060646406
+  },
+  {
+    "hypothesis_id": "h_sae_ioi_v0_003",
+    "feature_id": 6406,
+    "hook_point": "blocks.8.hook_resid_pre",
+    "claim_text": "SAE feature 6406 at blocks.8.hook_resid_pre increases in clean vs corrupt with mean diff +1.1105, suggesting it encodes information relevant to ioi_v0.",
+    "mean_diff": 1.1105230569839477,
+    "abs_mean_diff": 1.1105230569839477,
+    "std_diff": 0.49337429662982113
+  }
+]

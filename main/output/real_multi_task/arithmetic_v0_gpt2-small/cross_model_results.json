@@ -1,0 +1,68 @@
+[
+  {
+    "hypothesis_id": "h_arithmetic_v0_001",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 8,
+        "head": 8
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 16,
+        "head": 8
+      }
+    ],
+    "transfer_effect": -0.00021200180053710939,
+    "n_examples": 10,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_arithmetic_v0_002",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 2
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 20,
+        "head": 2
+      }
+    ],
+    "transfer_effect": -0.00033502578735351564,
+    "n_examples": 10,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_arithmetic_v0_003",
+    "source_model": "gpt2-small",
+    "transfer_model": "gpt2-medium",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 1
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 18,
+        "head": 1
+      }
+    ],
+    "transfer_effect": -0.0003719329833984375,
+    "n_examples": 10,
+    "transfer_positive": false
+  }
+]

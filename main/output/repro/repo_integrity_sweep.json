@@ -1,0 +1,178 @@
+{
+  "archival_docs": [
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "PROJECT_DEEP_DIVE.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "PROJECT_STATUS_AND_PATH_TO_RELEASE.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "MERGE_REVIEW_AND_COMPARISON.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "docs/reference/open_item_cross_model_transfer.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "methodology/gap_analysis_2026-04-22_merged.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "methodology/audit/v2_audit_report.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "methodology/audit/session_log.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "methodology/audit/next_session_backlog.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "methodology/audit/findings_inventory.md"
+    },
+    {
+      "contains_stale_current_transfer_fraction": false,
+      "has_status_banner": true,
+      "path": "methodology/gap_analysis_2026-04-18.md"
+    }
+  ],
+  "command_checks": [
+    {
+      "command": [
+        "python",
+        "tools/check_headline_numbers.py"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "check_headline_numbers: all headline numbers match the canonical artifacts.\n  bundles=36, claims=109, accepted=26, tasks_with_accepted=8/8, transfer_confirmed=12/26\n"
+    }
+  ],
+  "current_facing_docs": [
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": true,
+      "path": "README.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": false,
+      "path": "REMAINING_BLOCKERS_RELEASE_EXECUTION_PLAN.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": false,
+      "mentions_current_readiness_docs": false,
+      "path": "docs/reference/reproducibility_runbook.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": false,
+      "path": "methodology/README.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": false,
+      "path": "methodology/latest_gap_analysis.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": true,
+      "path": "methodology/audit/verdict.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": false,
+      "path": "papers/submissions/neurips2026_maintrack/paper_body.tex",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": false,
+      "path": "papers/submissions/neurips2026_dnb/paper_body.tex",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": false,
+      "mentions_current_readiness_docs": true,
+      "path": "release-findings.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": false,
+      "mentions_current_readiness_docs": true,
+      "path": "release_takeaways.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": true,
+      "path": "site_docs/generated/release-findings.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": true,
+      "path": "main/output/repro/release_takeaways.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": true,
+      "mentions_current_readiness_docs": false,
+      "path": "main/output/repro/release_readiness_report.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": false,
+      "mentions_current_readiness_docs": false,
+      "path": "main/output/repro/direct_blocker_closure_report.md",
+      "stale_hits": []
+    },
+    {
+      "contains_current_transfer_fraction": false,
+      "mentions_current_readiness_docs": false,
+      "path": "main/output/repro/prompt_holdout_transfer_control.md",
+      "stale_hits": []
+    }
+  ],
+  "generated_by": "main/repo_integrity_sweep.py",
+  "headline": {
+    "accepted": 26,
+    "audit_command_count": 43,
+    "bundles": 36,
+    "claims": 109,
+    "prompt_variant_affected_accepted_claims": 25,
+    "transfer_confirmed_claims": 12,
+    "transfer_tested_claims": 26
+  },
+  "holdout_summary_consistency": {
+    "counts_match": true,
+    "maintainer_pilot_n_submissions": 2,
+    "pilot_summary_n_submissions": 2
+  },
+  "status": "pass",
+  "zero_task_repair_schema": {
+    "bundles_repaired_matches_rows": true,
+    "row_count": 10,
+    "rows_or_bundles_present": true
+  }
+}

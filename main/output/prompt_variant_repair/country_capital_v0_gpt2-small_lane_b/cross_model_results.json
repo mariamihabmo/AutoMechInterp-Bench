@@ -1,0 +1,31 @@
+[
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_neuron_country_capital_v0_002",
+    "mapped_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 18,
+        "neuron": 840
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 9,
+        "neuron": 840
+      }
+    ],
+    "source_effect_mean": 0.04586534462277851,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 0.00014575481414794923,
+    "transfer_intervention_kind": "mlp_neuron",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "aggregate": {
+    "failed_gate_counts": {},
+    "multi_gate_count": 0,
+    "n_claims": 0,
+    "n_failed": 0,
+    "n_passed": 0,
+    "rejected_with_no_failed_gate": 0,
+    "single_gate_only_by_gate": {},
+    "single_gate_only_count": 0,
+    "top_failed_combinations": []
+  },
+  "generated_by": "main/zero_task_gate_breakdown.py",
+  "interpretation_notes": [
+    "single_gate_only_count is the UPPER BOUND on how many claims a single-gate relaxation could affect: a claim that failed exactly one gate is the only kind of claim that a one-gate change can possibly flip. It is NOT a count of claims that would pass under any specific relaxation; the killing gate may be failing for a principled reason that no defensible relaxation addresses (e.g., causal_effect below a floor that is itself the contract's minimum viable effect size).",
+    "multi_gate_count is a hard lower bound on how many claims cannot be rescued by any single-gate change. If this dominates for a given task, the F-019 fix path of 'targeted re-discovery to find one accepted claim' is low-yield for that task and an operator should instead invest in the discovery lane that produced the claims (e.g., B3 for fact_recall_v0).",
+    "top_failed_combinations surfaces whether multi-gate failures cluster in a coherent pattern (e.g., 'robustness + confirmatory_ci' co-fail, suggesting an underpowered bundle) or spread across unrelated gates (suggesting the claim is simply wrong).",
+    "rejected_with_no_failed_gate counts claims that were rejected without a named failed gate (typically via tier-gating or not-evaluated paths). These are not rescuable by any gate relaxation.",
+    "Diagnostic artifact only. This script does NOT promote any claim, does NOT lower any gate, and does NOT change headline numbers; it only reflects the current released bundle surface.",
+    "method_sensitivity_forensics records raw per-method treatment effects for residual zero-task method-sensitivity failures. A large activation-patching versus ablation gap is evidence for method-dependent causal structure, not a reason to delete the robustness gate post hoc."
+  ],
+  "method_sensitivity_forensics": {
+    "description": "Raw per-method treatment-effect forensics for claims in zero-accepted tasks that fail method_sensitivity. These rows explain residual instability; they do not relax or reinterpret the gate.",
+    "max_margin_over_threshold": null,
+    "n_method_sensitivity_failed_claims": 0,
+    "per_task": {}
+  },
+  "per_task": {},
+  "schema_version": 2,
+  "source_artifacts": [
+    "main/output/real_multi_task/**",
+    "main/output/real_multilane/**",
+    "main/output/zero_task_real_repair/**"
+  ],
+  "task_acceptance_counts": {
+    "arithmetic_v0": {
+      "accepted": 4,
+      "claims": 6
+    },
+    "country_capital_v0": {
+      "accepted": 11,
+      "claims": 24
+    },
+    "docstring_v0": {
+      "accepted": 2,
+      "claims": 15
+    },
+    "fact_recall_v0": {
+      "accepted": 2,
+      "claims": 9
+    },
+    "gendered_pronoun_v0": {
+      "accepted": 1,
+      "claims": 6
+    },
+    "greater_than_v0": {
+      "accepted": 1,
+      "claims": 6
+    },
+    "ioi_v0": {
+      "accepted": 3,
+      "claims": 19
+    },
+    "sentiment_v0": {
+      "accepted": 2,
+      "claims": 24
+    }
+  },
+  "zero_task_set": []
+}

@@ -1,0 +1,1371 @@
+{
+  "bundles_rerun": 17,
+  "claim_boundary": "This prospective diagnostic covers every current canonical bundle with accepted claims and multiple prompt variants. It must be reported as a high-power robustness frontier, not as external validation or a silent contract migration.",
+  "completion_status": "complete",
+  "examples_per_cell": 40,
+  "failing_or_demoted_original_claims": [
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "failed_holdouts": [
+        "base",
+        "worded"
+      ],
+      "hypothesis_id": "h_arithmetic_v0_001",
+      "retained": false
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "failed_holdouts": [
+        "worded"
+      ],
+      "hypothesis_id": "h_arithmetic_v0_003",
+      "retained": true
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "failed_holdouts": [
+        "base"
+      ],
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "retained": false
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small",
+      "failed_holdouts": [
+        "structural"
+      ],
+      "hypothesis_id": "h_ioi_v0_001",
+      "retained": true
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "failed_holdouts": [
+        "structural"
+      ],
+      "hypothesis_id": "h_sweep_ioi_v0_001",
+      "retained": true
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "failed_holdouts": [
+        "structural"
+      ],
+      "hypothesis_id": "h_dla_ioi_v0_002",
+      "retained": true
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "failed_holdouts": [
+        "review"
+      ],
+      "hypothesis_id": "h_dla_sentiment_v0_003",
+      "retained": false
+    }
+  ],
+  "generated_by": "main/prompt_holdout_high_power_rerun.py",
+  "original_accepted_claims_covered": 26,
+  "original_accepted_claims_demoted": 3,
+  "original_accepted_claims_retained": 23,
+  "passing_holdout_checks_on_retained_claims": 59,
+  "planned_bundles": 17,
+  "retained_original_accepted_claims_failing_any_holdout": 4,
+  "retained_original_accepted_claims_passing_all_holdouts": 19,
+  "rows": [
+    {
+      "accepted_after": 2,
+      "accepted_before": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "demoted_originally_accepted": 1,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.04915064573287964,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 2.457532286643982,
+              "same_direction": false,
+              "source_mean": -0.010240175894328525
+            },
+            {
+              "above_floor": false,
+              "holdout_mean": -0.010240175894328525,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 0.20834265230168267,
+              "same_direction": false,
+              "source_mean": 0.04915064573287964
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_001",
+          "retained": false
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.07014221804482597,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.6100975925752632,
+              "same_direction": true,
+              "source_mean": 0.11496884907994952
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.11496884907994952,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 1.6390820291208368,
+              "same_direction": true,
+              "source_mean": 0.07014221804482597
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_002",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.05925479105540685,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 2.9627395527703424,
+              "same_direction": true,
+              "source_mean": 0.011071903364998954
+            },
+            {
+              "above_floor": false,
+              "holdout_mean": 0.011071903364998954,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 0.18685245813534382,
+              "same_direction": true,
+              "source_mean": 0.05925479105540685
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/arithmetic_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 2,
+      "source_bundle": "main/output/prompt_variant_repair/arithmetic_v0_gpt2-small",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 0,
+      "accepted_before": 1,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "demoted_originally_accepted": 1,
+      "examples_per_cell": 40,
+      "model": "pythia-70m",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": false,
+              "holdout_mean": 0.018554891858782088,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 0.2862176824035237,
+              "same_direction": true,
+              "source_mean": 0.06482790197644915
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.06482790197644915,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 3.2413950988224576,
+              "same_direction": true,
+              "source_mean": 0.018554891858782088
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_002",
+          "retained": false
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/arithmetic_v0_pythia-70m",
+      "retained_and_prompt_holdout_pass": 0,
+      "retained_originally_accepted": 0,
+      "source_bundle": "main/output/prompt_variant_repair/arithmetic_v0_pythia-70m",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 3,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 2.3558547080509245,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.02854598721389,
+              "same_direction": true,
+              "source_mean": 2.2904709534985677
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.7039791014459398,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.6512663959775542,
+              "same_direction": true,
+              "source_mean": 2.6164087568010603
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 2.8769628055511958,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.417281071368652,
+              "same_direction": true,
+              "source_mean": 2.0299169047484322
+            }
+          ],
+          "hypothesis_id": "h_sweep_country_capital_v0_001",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.7196007011428712,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.9008015047754997,
+              "same_direction": true,
+              "source_mean": 0.7988449145877172
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.894455337335193,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.2572859340931541,
+              "same_direction": true,
+              "source_mean": 0.7114175964915563
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.7032344918402414,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.8713879506975974,
+              "same_direction": true,
+              "source_mean": 0.8070280192390321
+            }
+          ],
+          "hypothesis_id": "h_sweep_country_capital_v0_002",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.6202716363800896,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.3472111629602114,
+              "same_direction": true,
+              "source_mean": 1.786439212068679
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.4117276034657917,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.0151119617853677,
+              "same_direction": true,
+              "source_mean": 1.3907112285258278
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 2.161150820671566,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 2.1271177452167556,
+              "same_direction": true,
+              "source_mean": 1.0159996199229406
+            }
+          ],
+          "hypothesis_id": "h_sweep_country_capital_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/country_capital_v0_gpt2-small_lane_a",
+      "retained_and_prompt_holdout_pass": 3,
+      "retained_originally_accepted": 3,
+      "source_bundle": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_a",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.04662186096584986,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.0765802149273502,
+              "same_direction": true,
+              "source_mean": 0.043305515296875485
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.025855020871238102,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.48157075020188844,
+              "same_direction": true,
+              "source_mean": 0.053688935344181364
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.06075600972251287,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.6765624619193462,
+              "same_direction": true,
+              "source_mean": 0.03623844091854398
+            }
+          ],
+          "hypothesis_id": "h_neuron_country_capital_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/country_capital_v0_gpt2-small_lane_b",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_b",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 3,
+      "accepted_before": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 2.360083166568998,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.074929386388572,
+              "same_direction": true,
+              "source_mean": 2.195570422070367
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.6784003963546148,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.661722355811885,
+              "same_direction": true,
+              "source_mean": 2.5364118071775588
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 2.712740447786119,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.3434450855222808,
+              "same_direction": true,
+              "source_mean": 2.0192417814618064
+            }
+          ],
+          "hypothesis_id": "h_dla_country_capital_v0_001",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.7198936456725711,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.8931560012545703,
+              "same_direction": true,
+              "source_mean": 0.8060110939873589
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.9140816766118246,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.2894056361613817,
+              "same_direction": true,
+              "source_mean": 0.7089170785177321
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.6979405113628933,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.8542852536929755,
+              "same_direction": true,
+              "source_mean": 0.8169876611421979
+            }
+          ],
+          "hypothesis_id": "h_dla_country_capital_v0_002",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.6226882877803984,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.34586399414436075,
+              "same_direction": true,
+              "source_mean": 1.8003848284956008
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.4662986634269592,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.0636300001586119,
+              "same_direction": true,
+              "source_mean": 1.3785796406723203
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 2.1344709935642423,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 2.0435465069138865,
+              "same_direction": true,
+              "source_mean": 1.0444934756036788
+            }
+          ],
+          "hypothesis_id": "h_dla_country_capital_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/country_capital_v0_gpt2-small_lane_c",
+      "retained_and_prompt_holdout_pass": 3,
+      "retained_originally_accepted": 3,
+      "source_bundle": "main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_c",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 2,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "pythia-70m",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 1.4913665737424577,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.1501337802498754,
+              "same_direction": true,
+              "source_mean": 1.2966896541534907
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.3432860979958186,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.979978700259894,
+              "same_direction": true,
+              "source_mean": 1.3707298920268105
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.250093210311163,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.8820080306661177,
+              "same_direction": true,
+              "source_mean": 1.4173263358691381
+            }
+          ],
+          "hypothesis_id": "h_sweep_country_capital_v0_001",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 1.2063058955328805,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.0865367073044718,
+              "same_direction": true,
+              "source_mean": 1.1102302273114522
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.1319304515445043,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.9865023047874507,
+              "same_direction": true,
+              "source_mean": 1.1474179493056402
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.0885300030784002,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.9310692688863371,
+              "same_direction": true,
+              "source_mean": 1.1691181735386924
+            }
+          ],
+          "hypothesis_id": "h_sweep_country_capital_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/country_capital_v0_pythia-70m_lane_a",
+      "retained_and_prompt_holdout_pass": 2,
+      "retained_originally_accepted": 2,
+      "source_bundle": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_a",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 2,
+      "accepted_before": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "pythia-70m",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 1.5081729661850702,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.186748056592981,
+              "same_direction": true,
+              "source_mean": 1.270845111400362
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.362646948723566,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.0141699267124062,
+              "same_direction": true,
+              "source_mean": 1.343608120131114
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.1790432740771581,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.8213982827374117,
+              "same_direction": true,
+              "source_mean": 1.4354099574543182
+            }
+          ],
+          "hypothesis_id": "h_dla_country_capital_v0_001",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 1.217477418127514,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.1209863166648548,
+              "same_direction": true,
+              "source_mean": 1.0860769663538252
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.1443903200210086,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.0193919533049303,
+              "same_direction": true,
+              "source_mean": 1.1226205154070779
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.0277636126866416,
+              "holdout_prompt_variant": "fill_blank",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.870297346533307,
+              "same_direction": true,
+              "source_mean": 1.1809338690742615
+            }
+          ],
+          "hypothesis_id": "h_dla_country_capital_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/country_capital_v0_pythia-70m_lane_c",
+      "retained_and_prompt_holdout_pass": 2,
+      "retained_originally_accepted": 2,
+      "source_bundle": "main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_c",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.43054957474981037,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.035136725860695,
+              "same_direction": true,
+              "source_mean": 0.4159349813347771
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.5272959697814215,
+              "holdout_prompt_variant": "detailed",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.4345777852713897,
+              "same_direction": true,
+              "source_mean": 0.36756178381897153
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.30457399288813275,
+              "holdout_prompt_variant": "brief",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.6359563807068515,
+              "same_direction": true,
+              "source_mean": 0.4789227722656159
+            }
+          ],
+          "hypothesis_id": "h_sweep_docstring_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "detailed",
+        "brief"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/docstring_v0_gpt2-small_lane_a",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/real_multilane/docstring_v0_gpt2-small_lane_a",
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.4887052509519789,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.386767246566109,
+              "same_direction": true,
+              "source_mean": 0.35240611008235384
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.48574455579121906,
+              "holdout_prompt_variant": "detailed",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.3726000113125287,
+              "same_direction": true,
+              "source_mean": 0.35388645766273374
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.21906766437348865,
+              "holdout_prompt_variant": "brief",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.44962329071757046,
+              "same_direction": true,
+              "source_mean": 0.487224903371599
+            }
+          ],
+          "hypothesis_id": "h_dla_docstring_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "detailed",
+        "brief"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/docstring_v0_gpt2-small_lane_c",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/real_multilane/docstring_v0_gpt2-small_lane_c",
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.10048122491155352,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 1.0428082272735608,
+              "same_direction": true,
+              "source_mean": 0.0963563791343144
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.0963563791343144,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.9589490894356639,
+              "same_direction": true,
+              "source_mean": 0.10048122491155352
+            }
+          ],
+          "hypothesis_id": "h_fact_recall_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/fact_recall_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/zero_task_real_repair/fact_recall_v0_gpt2-small",
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "pythia-70m",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.6578566942896162,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 1.2618423460188741,
+              "same_direction": true,
+              "source_mean": 0.5213461858885629
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.5213461858885629,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.792492028148374,
+              "same_direction": true,
+              "source_mean": 0.6578566942896162
+            }
+          ],
+          "hypothesis_id": "h_fact_recall_v0_001",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/fact_recall_v0_pythia-70m",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/zero_task_real_repair/fact_recall_v0_pythia-70m",
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.3212565396513258,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 3.9655500330930815,
+              "same_direction": true,
+              "source_mean": 0.08101184879030501
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.08101184879030501,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.2521718277804736,
+              "same_direction": true,
+              "source_mean": 0.3212565396513258
+            }
+          ],
+          "hypothesis_id": "h_gendered_pronoun_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/gendered_pronoun_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/zero_task_real_repair/gendered_pronoun_v0_gpt2-small",
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "greater_than_v0_gpt2-small",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.03305670193263463,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.8903094185027322,
+              "same_direction": true,
+              "source_mean": 0.037129453250340054
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.037129453250340054,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 1.1232050107722535,
+              "same_direction": true,
+              "source_mean": 0.03305670193263463
+            }
+          ],
+          "hypothesis_id": "h_greater_than_v0_003",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/greater_than_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/zero_task_real_repair/greater_than_v0_gpt2-small",
+      "task": "greater_than_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": -2.690098565722269,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 16.72851858028557,
+              "same_direction": true,
+              "source_mean": -0.1608091327879164
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": -1.3831905580702282,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.69870217117054,
+              "same_direction": true,
+              "source_mean": -0.8142631366139367
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.0615722924943953,
+              "holdout_prompt_variant": "structural",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": false,
+              "retention_ratio": 0.5212359153656161,
+              "same_direction": false,
+              "source_mean": -2.0366445618962485
+            }
+          ],
+          "hypothesis_id": "h_ioi_v0_001",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/ioi_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 0,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": -2.5349006274389843,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 11.988277539091824,
+              "same_direction": true,
+              "source_mean": -0.21144827679982262
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": -1.4410999199700734,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.9003132094466602,
+              "same_direction": true,
+              "source_mean": -0.758348630534278
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.0182033663704282,
+              "holdout_prompt_variant": "structural",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": false,
+              "retention_ratio": 0.5121746610593078,
+              "same_direction": false,
+              "source_mean": -1.9880002737045288
+            }
+          ],
+          "hypothesis_id": "h_sweep_ioi_v0_001",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/ioi_v0_gpt2-small_lane_a",
+      "retained_and_prompt_holdout_pass": 0,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_a",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": -2.543688495953878,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 10.170831240945056,
+              "same_direction": true,
+              "source_mean": -0.2500964213931371
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": -1.5182078528025793,
+              "holdout_prompt_variant": "paraphrase",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.99021332781384,
+              "same_direction": true,
+              "source_mean": -0.7628367429687863
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 1.018015010016305,
+              "holdout_prompt_variant": "structural",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": false,
+              "retention_ratio": 0.5012511017559415,
+              "same_direction": false,
+              "source_mean": -2.0309481743782287
+            }
+          ],
+          "hypothesis_id": "h_dla_ioi_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/ioi_v0_gpt2-small_lane_c",
+      "retained_and_prompt_holdout_pass": 0,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_c",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 2,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "demoted_originally_accepted": 1,
+      "examples_per_cell": 40,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.17026045208885557,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.4679244525496926,
+              "same_direction": true,
+              "source_mean": 0.11598720342393905
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.1372924286221701,
+              "holdout_prompt_variant": "review",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.036394423189703,
+              "same_direction": true,
+              "source_mean": 0.13247121515728177
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.09468197822570801,
+              "holdout_prompt_variant": "statement",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 0.6157118607168598,
+              "same_direction": true,
+              "source_mean": 0.15377644035551283
+            }
+          ],
+          "hypothesis_id": "h_dla_sentiment_v0_001",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.22378663789658318,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 3.020804491419244,
+              "same_direction": true,
+              "source_mean": 0.07408180123283749
+            },
+            {
+              "above_floor": false,
+              "holdout_mean": 0.013912802650814965,
+              "holdout_prompt_variant": "review",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": false,
+              "retention_ratio": 0.07771702724578122,
+              "same_direction": true,
+              "source_mean": 0.1790187188557216
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.13425079981486002,
+              "holdout_prompt_variant": "statement",
+              "n_holdout_cells": 18,
+              "n_source_cells": 36,
+              "passes": true,
+              "retention_ratio": 1.1295844828720991,
+              "same_direction": true,
+              "source_mean": 0.11884972027369908
+            }
+          ],
+          "hypothesis_id": "h_dla_sentiment_v0_003",
+          "retained": false
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n40/sentiment_v0_gpt2-small_lane_c",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c",
+      "task": "sentiment_v0"
+    }
+  ],
+  "schema_version": 1,
+  "status": "diagnostic high-power prompt-holdout rerun; complete; not a released-contract change",
+  "total_holdout_checks_on_retained_claims": 63
+}

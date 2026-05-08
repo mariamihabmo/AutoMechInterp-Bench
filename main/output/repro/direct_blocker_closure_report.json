@@ -1,0 +1,150 @@
+{
+  "contract_hardening_v1": {
+    "accepted_claim_retention_rate": 0.038461538461538464,
+    "accepted_claims_after_total": 1,
+    "accepted_claims_before_total": 26,
+    "agnostic_far": 0.0,
+    "agnostic_far_ci95": {
+      "high": 0.018846005918320894,
+      "label": "[0.0%, 1.9%]",
+      "low": 0.0
+    },
+    "agnostic_far_upper_bound_below_5pct": true,
+    "agnostic_replicate_namespace_count": 2,
+    "agnostic_worst_ci95_high": 0.018846005918320894,
+    "cross_model_confirmed_after_total": 0,
+    "second_cross_model_confirmed_claim": false,
+    "tasks_with_accepted_after": [
+      "fact_recall_v0"
+    ],
+    "tasks_with_accepted_after_count": 1
+  },
+  "honest_bottom_line": "Task-level breadth, docstring acceptance, and the basic cross-model count blocker are materially closed on current released artifacts, and same-family transfer is now operationally unblocked locally. A targeted n=100 docstring transfer rerun moves one accepted docstring claim over the frozen transfer floor, but the second accepted docstring claim remains below floor and the positive transfer set is still concentrated. The next top sentiment near-miss was preregistered and rerun at n=200; it stayed same-direction but below the frozen floor, so the current transfer tail is observed negative evidence rather than a missing local queue. Release-grade fresh agnostic stress is now at the floor under the released contract (0/200 false accepts, Wilson 95% CI [0.0%, 1.9%]) under the full statistical budget on the release_grade_2026q2 namespace; under a reduced rehearsal budget (128/128) on the rotated_2026q2 namespace the same generator family leaks 49/200 (24.5%, [19.1%, 30.9%]). The two cells differ on both budget AND seed namespace, so the spread is not a clean budget-only ablation; we publish both. The 0/200 is therefore a within-generator floor signal, not an external Goodhart-resistance proof. Contract-hardening V1 sharply reduces agnostic false accepts in two release-grade rotated diagnostics, but it is a migration tradeoff that demotes accepted claims (1/26 retained, 1/8 tasks with accepted) and reduces accepted-task breadth; the migration decision defers adoption because independent evidence is absent. Prompt-variant repair is closed for canonical unsupported-prompt aliasing, but the n=40 high-power prompt-holdout diagnostic shows remaining arithmetic, IOI, and sentiment fragility. External blinded evidence, operational holdout execution, independent Goodhart validation, broader transfer breadth, additional docstring transfer robustness, and task-model uniformity still require empirical inputs.",
+  "open_blocker_names": [
+    "independent_agnostic_validation_missing",
+    "task_model_grid_uniformity_gap",
+    "external_blinded_submission_missing",
+    "operational_holdout_execution_missing",
+    "broader_transfer_breadth_missing",
+    "runtime_measurement_coverage_incomplete",
+    "high_power_prompt_holdout_frontier_incomplete"
+  ],
+  "released_contract": {
+    "accepted_claims_in_at_least_5_of_8_tasks": true,
+    "agnostic_far_upper_below_5pct": true,
+    "cross_model_confirmed_claims": 12,
+    "fresh_agnostic_release_grade_ci95": {
+      "high": 0.018846005918320894,
+      "label": "[0.0%, 1.9%]",
+      "low": 0.0
+    },
+    "fresh_agnostic_release_grade_far": 0.0,
+    "remaining_zero_tasks": [],
+    "second_cross_model_confirmed_claim": true,
+    "tasks_total": 8,
+    "tasks_with_accepted": 8,
+    "zero_task_real_repair_accepted_claims": 7,
+    "zero_task_real_repair_tasks_with_accepts": [
+      "arithmetic_v0",
+      "fact_recall_v0",
+      "gendered_pronoun_v0",
+      "greater_than_v0"
+    ]
+  },
+  "schema_version": 2,
+  "still_open": {
+    "docstring_distributed_repair_accepted_claims": 0,
+    "docstring_distributed_repair_gate_failures": {
+      "method_sensitivity": 8,
+      "negative_controls": 1
+    },
+    "docstring_method_sensitivity_diagnosis_counts": {},
+    "docstring_method_sensitivity_failed_claims": 0,
+    "docstring_method_sensitivity_max_margin": null,
+    "docstring_task_still_zero_accepted": false,
+    "external_blinded_submission_missing": true,
+    "high_power_prompt_holdout_bundles_rerun": 17,
+    "high_power_prompt_holdout_examples_per_cell": 40,
+    "high_power_prompt_holdout_incomplete": true,
+    "high_power_prompt_holdout_original_claims_covered": 26,
+    "high_power_prompt_holdout_original_claims_demoted": 3,
+    "high_power_prompt_holdout_original_claims_retained": 23,
+    "high_power_prompt_holdout_planned_bundles": 17,
+    "high_power_prompt_holdout_retained_claims_failing_any": 4,
+    "high_power_prompt_holdout_retained_claims_passing_all": 19,
+    "independent_agnostic_validation_missing": true,
+    "operational_holdout_execution_missing": true,
+    "prompt_variant_aliasing_affected_accepted_claims": 25,
+    "prompt_variant_canonical_affected_accepted_claims": 0,
+    "prompt_variant_canonical_unsupported_files": 0,
+    "prompt_variant_repair_accepted_claims_covered": 25,
+    "prompt_variant_repair_bundles_rerun": 21,
+    "prompt_variant_repair_demoted_claims": 6,
+    "prompt_variant_repair_incomplete": false,
+    "prompt_variant_repair_planned_bundles": 21,
+    "prompt_variant_repair_retained_claims": 19,
+    "runtime_measured_bundles": 8,
+    "runtime_measurement_coverage": 0.2222222222222222,
+    "runtime_measurement_sources": {
+      "estimated": 28,
+      "measured_experiment_summary": 1,
+      "measured_zero_task_real_repair": 7
+    },
+    "same_family_already_scored": 4,
+    "same_family_blocked": 13,
+    "same_family_live_transfer_weights_missing": true,
+    "same_family_missing_eligible_rows": 0,
+    "same_family_ready_to_run": 0,
+    "task_model_grid_uniformity_gap": true,
+    "task_model_total_cells": 16,
+    "task_model_zero_acceptance_cells": 5,
+    "transfer_candidates_blocked_missing_local_snapshot": 13,
+    "transfer_non_country_candidate_claims": 11,
+    "transfer_top_candidate": {
+      "all_holdouts_pass": true,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "current_transfer_status": "near_miss_below_floor",
+      "floor_fraction": 0.6996111869812012,
+      "holdout_pass_count": 3,
+      "holdout_total": 3,
+      "hypothesis_id": "h_dla_sentiment_v0_001",
+      "priority_reasons": [
+        "non-country-capital task",
+        "passes all prompt-holdout checks",
+        "existing cross-model near miss",
+        "floor_fraction=0.700",
+        "scientifically queued; blocked only by local target-model snapshot",
+        "source effect unstable; transfer result may be harder to interpret"
+      ],
+      "priority_score": 213,
+      "proposed_same_family_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "same_family_eligible_claim_ids_missing_rows": [],
+      "same_family_eligible_claim_ids_with_rows": [
+        "h_dla_sentiment_v0_001"
+      ],
+      "same_family_existing_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002",
+        "h_dla_sentiment_v0_003"
+      ],
+      "same_family_existing_rows": 3,
+      "same_family_status": "blocked_missing_local_model_snapshot",
+      "same_family_target_model": "gpt2-medium",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_sentiment_v0_003"
+      ],
+      "source_effect_cv_abs": 0.8853391545418869,
+      "source_model": "gpt2-small",
+      "source_stability": "unstable",
+      "task": "sentiment_v0",
+      "transfer_effect": 0.013992223739624023,
+      "transfer_to_source_ratio": 0.1036227882952885
+    },
+    "v1_migration_decision_status": "deferred_pending_external_validation"
+  }
+}

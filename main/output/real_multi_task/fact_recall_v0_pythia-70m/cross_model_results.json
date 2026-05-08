@@ -1,0 +1,68 @@
+[
+  {
+    "hypothesis_id": "h_fact_recall_v0_001",
+    "source_model": "pythia-70m",
+    "transfer_model": "pythia-160m",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 3,
+        "head": 3
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 6,
+        "head": 3
+      }
+    ],
+    "transfer_effect": -0.014948654174804687,
+    "n_examples": 10,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_fact_recall_v0_002",
+    "source_model": "pythia-70m",
+    "transfer_model": "pythia-160m",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 2,
+        "head": 3
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 4,
+        "head": 3
+      }
+    ],
+    "transfer_effect": 0.016904067993164063,
+    "n_examples": 10,
+    "transfer_positive": false
+  },
+  {
+    "hypothesis_id": "h_fact_recall_v0_003",
+    "source_model": "pythia-70m",
+    "transfer_model": "pythia-160m",
+    "source_components": [
+      {
+        "component_type": "head",
+        "layer": 0,
+        "head": 1
+      }
+    ],
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "layer": 0,
+        "head": 1
+      }
+    ],
+    "transfer_effect": -0.0004930496215820312,
+    "n_examples": 10,
+    "transfer_positive": false
+  }
+]

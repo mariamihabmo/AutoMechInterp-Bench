@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AutoMechInterp Blinded Holdout Author Attestation",
+  "description": "Sworn statement an external Holdout Author submits to the Custodian alongside each sealed bundle, per methodology/blinded_holdout_protocol.md.",
+  "type": "object",
+  "required": [
+    "submission_id",
+    "submission_kind",
+    "submitted_at_utc",
+    "author_institution",
+    "contract_pin",
+    "attestation_text",
+    "attestation_signature"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "submission_id": {
+      "type": "string",
+      "description": "Custodian-issued opaque identifier for this submission. Must match the directory name under holdout/submissions/ (for external_blinded) or holdout/pilot/submissions/ (for maintainer_pilot).",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "submission_kind": {
+      "type": "string",
+      "enum": ["external_blinded", "maintainer_pilot"],
+      "description": "Classifies this submission. Only 'external_blinded' submissions count as external evidence; 'maintainer_pilot' submissions exist only to validate the Custodian pipeline end-to-end and are always reported as a separate, non-evidence slice in holdout/results_summary.json."
+    },
+    "submitted_at_utc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC timestamp at which the Author transmitted the sealed bundle to the Custodian."
+    },
+    "author_institution": {
+      "type": "string",
+      "description": "Free-text identifier of the authoring institution. Sufficient to confirm institutional independence from the AutoMechInterp maintainers; need not identify a specific person."
+    },
+    "contract_pin": {
+      "type": "object",
+      "required": ["evaluator_version", "constants_sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "evaluator_version": {
+          "type": "string",
+          "description": "Pinned evaluator package version, e.g. 'automechinterp-evaluator==0.7.0'."
+        },
+        "constants_sha256": {
+          "type": "string",
+          "description": "SHA-256 of packages/evaluator/src/automechinterp_evaluator/constants.py at the pin.",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "attestation_text": {
+      "type": "string",
+      "description": "Author-supplied sworn statement. For submission_kind='external_blinded': must affirm that the bundle was authored using only the publicly released contract specification, that no AutoMechInterp maintainer was consulted about acceptance heuristics or accepted-claim examples during authoring, and that the bundle has not been pre-evaluated against the pinned evaluator before submission. For submission_kind='maintainer_pilot': must explicitly disclaim blinded authorship and state the pilot exists solely to exercise the Custodian evaluation pipeline."
+    },
+    "attestation_signature": {
+      "description": "Cryptographic or institutional signature over (submission_id, submission_kind, submitted_at_utc, author_institution, contract_pin, attestation_text). For ``submission_kind=='external_blinded'`` this MUST be a JSON object of the form ``{\"scheme\": <ed25519|rsa-pss-sha256|institutional-pgp>, \"signature\": <base64>, \"public_key\": <base64>, \"canonicalization\": <sorted-json|jcs>}`` (see CUSTODIAN_RUNBOOK.md \u00a7Attestation Signature Scheme). For ``submission_kind=='maintainer_pilot'`` the literal sentinel string ``\"PILOT-NO-SIGNATURE: ...\"`` is permitted because pilot submissions are never counted as external evidence; the Custodian rejects any ``external_blinded`` submission whose signature is a bare string.",
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["scheme", "signature", "public_key"],
+          "additionalProperties": false,
+          "properties": {
+            "scheme": {"type": "string", "enum": ["ed25519", "rsa-pss-sha256", "institutional-pgp"]},
+            "signature": {"type": "string"},
+            "public_key": {"type": "string"},
+            "canonicalization": {"type": "string", "enum": ["sorted-json", "jcs"]}
+          }
+        },
+        {"type": "string", "pattern": "^PILOT-NO-SIGNATURE: "}
+      ]
+    }
+  }
+}

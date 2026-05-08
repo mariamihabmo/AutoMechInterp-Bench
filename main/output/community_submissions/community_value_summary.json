@@ -1,0 +1,314 @@
+{
+  "bundle_summaries": [
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "country_capital_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "country_capital_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "ioi_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "greater_than_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "greater_than_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 3,
+      "blocked_from_claims": 0,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 3,
+      "blocked_from_claims": 0,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 3,
+      "blocked_from_claims": 0,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 2,
+      "blocked_from_claims": 1,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 2,
+      "blocked_from_claims": 1,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "docstring_v0_gpt2-small",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "docstring_v0_pythia-70m",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 3,
+      "bundle": "ioi_v0_gpt2-small",
+      "discovery_candidates": 4,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 1,
+      "blocked_from_claims": 2,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 2,
+      "blocked_from_claims": 1,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "discovery_candidates": 3,
+      "stable": true
+    },
+    {
+      "accepted_for_claims": 0,
+      "blocked_from_claims": 3,
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "discovery_candidates": 3,
+      "stable": true
+    }
+  ],
+  "bundles_reviewed": 36,
+  "determinism_source": "bundle_submission_review_artifacts",
+  "stable_bundles": 36,
+  "top_failed_gates": [
+    [
+      "multiplicity",
+      48
+    ],
+    [
+      "robustness",
+      47
+    ],
+    [
+      "causal_effect",
+      46
+    ],
+    [
+      "confirmatory_ci",
+      41
+    ],
+    [
+      "negative_controls",
+      40
+    ],
+    [
+      "power_adequacy",
+      33
+    ],
+    [
+      "method_sensitivity",
+      29
+    ],
+    [
+      "cross_model_transfer",
+      28
+    ],
+    [
+      "baseline_superiority",
+      19
+    ],
+    [
+      "effect_size_practical",
+      18
+    ]
+  ],
+  "workflow_decision_counts": {
+    "causal_tested_unstable": 3,
+    "cross_model_confirmed": 12,
+    "rejected": 67,
+    "single_model_confirmed": 14,
+    "suggestive": 13
+  },
+  "workflow_totals": {
+    "accepted_for_claims": 26,
+    "blocked_from_claims": 83,
+    "decision_change_rate": 0.7614678899082569,
+    "discovery_candidates": 109
+  }
+}

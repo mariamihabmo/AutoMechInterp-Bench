@@ -1,0 +1,203 @@
+{
+  "bundles_rerun": 2,
+  "claim_boundary": "This prospective diagnostic covers every current canonical bundle with accepted claims and multiple prompt variants. It must be reported as a high-power robustness frontier, not as external validation or a silent contract migration.",
+  "completion_status": "partial",
+  "examples_per_cell": 100,
+  "failing_or_demoted_original_claims": [
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "failed_holdouts": [
+        "base",
+        "worded"
+      ],
+      "hypothesis_id": "h_arithmetic_v0_001",
+      "retained": false
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "failed_holdouts": [
+        "worded"
+      ],
+      "hypothesis_id": "h_arithmetic_v0_003",
+      "retained": false
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "failed_holdouts": [
+        "base"
+      ],
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "retained": true
+    }
+  ],
+  "generated_by": "main/prompt_holdout_high_power_rerun.py",
+  "original_accepted_claims_covered": 4,
+  "original_accepted_claims_demoted": 2,
+  "original_accepted_claims_retained": 2,
+  "passing_holdout_checks_on_retained_claims": 3,
+  "planned_bundles": 14,
+  "retained_original_accepted_claims_failing_any_holdout": 1,
+  "retained_original_accepted_claims_passing_all_holdouts": 1,
+  "rows": [
+    {
+      "accepted_after": 1,
+      "accepted_before": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "demoted_originally_accepted": 2,
+      "examples_per_cell": 100,
+      "model": "gpt2-small",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.0542266743523734,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 4.613833832650286,
+              "same_direction": false,
+              "source_mean": -0.011753061839512417
+            },
+            {
+              "above_floor": false,
+              "holdout_mean": -0.011753061839512417,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 0.21673949177003157,
+              "same_direction": false,
+              "source_mean": 0.0542266743523734
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_001",
+          "retained": false
+        },
+        {
+          "all_holdouts_pass": true,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.0411766733442034,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 0.24822267670364837,
+              "same_direction": true,
+              "source_mean": 0.16588602576936995
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.16588602576936995,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 4.0286407885041635,
+              "same_direction": true,
+              "source_mean": 0.0411766733442034
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_002",
+          "retained": true
+        },
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": true,
+              "holdout_mean": 0.06577208723340716,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 9.363053581831453,
+              "same_direction": true,
+              "source_mean": 0.0070246406963893355
+            },
+            {
+              "above_floor": false,
+              "holdout_mean": 0.0070246406963893355,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 0.10680276378429053,
+              "same_direction": true,
+              "source_mean": 0.06577208723340716
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_003",
+          "retained": false
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n100/arithmetic_v0_gpt2-small",
+      "retained_and_prompt_holdout_pass": 1,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/arithmetic_v0_gpt2-small",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_after": 1,
+      "accepted_before": 1,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "demoted_originally_accepted": 0,
+      "examples_per_cell": 100,
+      "model": "pythia-70m",
+      "originally_accepted_claims": [
+        {
+          "all_holdouts_pass": false,
+          "holdouts": [
+            {
+              "above_floor": false,
+              "holdout_mean": 0.012407711574009488,
+              "holdout_prompt_variant": "base",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": false,
+              "retention_ratio": 0.16612559516724879,
+              "same_direction": true,
+              "source_mean": 0.07468874113900321
+            },
+            {
+              "above_floor": true,
+              "holdout_mean": 0.07468874113900321,
+              "holdout_prompt_variant": "worded",
+              "n_holdout_cells": 4,
+              "n_source_cells": 4,
+              "passes": true,
+              "retention_ratio": 6.0195420157456105,
+              "same_direction": true,
+              "source_mean": 0.012407711574009488
+            }
+          ],
+          "hypothesis_id": "h_arithmetic_v0_002",
+          "retained": true
+        }
+      ],
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "rerun_bundle": "main/output/prompt_holdout_high_power_n100/arithmetic_v0_pythia-70m",
+      "retained_and_prompt_holdout_pass": 0,
+      "retained_originally_accepted": 1,
+      "source_bundle": "main/output/prompt_variant_repair/arithmetic_v0_pythia-70m",
+      "task": "arithmetic_v0"
+    }
+  ],
+  "schema_version": 1,
+  "status": "diagnostic high-power prompt-holdout rerun; partial; not a released-contract change",
+  "total_holdout_checks_on_retained_claims": 4
+}

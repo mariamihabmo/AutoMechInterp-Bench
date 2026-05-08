@@ -1,0 +1,31 @@
+[
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_ioi_v0_001",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 7,
+        "layer": 20
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 7,
+        "layer": 10
+      }
+    ],
+    "source_effect_mean": -1.0054434619883381,
+    "source_model": "gpt2-small",
+    "transfer_above_floor": true,
+    "transfer_contract_pass": false,
+    "transfer_effect": 0.13764806747436523,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "gpt2-medium",
+    "transfer_positive": true,
+    "transfer_same_direction": false
+  }
+]

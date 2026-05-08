@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Community Submissions · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Independent Contributor Path</span>
+    <h1>Community Submission Workflow</h1>
+    <p>How independent users submit bundles and receive stable, interpretable failure reports that change real experimentation workflows.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Submission Contract</h2>
+      <p>Required bundle files:</p>
+      <ul>
+        <li><code>protocol.yaml</code></li>
+        <li><code>hypothesis.jsonl</code></li>
+        <li><code>evaluation_result.json</code></li>
+        <li><code>manifest.json</code></li>
+      </ul>
+      <p>Optional: <code>cross_model_results.json</code> for transfer evidence.</p>
+      <p>Formal spec: <a href="../reference/claim_bundle_spec_v1.md">Claim Bundle Specification v1.0</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Minimal End-to-End Commands</h2>
+      <pre><code>python -m automechinterp_evaluator.cli evaluate --bundle /path/to/bundle --output result.json
+python -m automechinterp_evaluator.cli report --bundle /path/to/bundle --output stage_gate_report.md
+
+python -m automechinterp_evaluator.cli submission-review \
+  --bundle /path/to/bundle \
+  --reruns 3 \
+  --output-json submission_review.json \
+  --output-md submission_review.md</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>How Review Output Changes Workflow</h2>
+      <table>
+        <tr><th>Tier</th><th>Decision</th><th>Next Step</th></tr>
+        <tr><td><code>cross_model_confirmed</code></td><td class="good">Ready to share</td><td>Include as cross-model claim</td></tr>
+        <tr><td><code>single_model_confirmed</code></td><td class="good">Ready to share</td><td>Include as single-model claim and collect transfer evidence</td></tr>
+        <tr><td><code>causal_tested_unstable</code></td><td class="warn">Hold</td><td>Run robustness and sensitivity follow-up</td></tr>
+        <tr><td><code>suggestive</code></td><td class="warn">Hold</td><td>Run confirmatory split and multiplicity-aware rerun</td></tr>
+        <tr><td><code>rejected</code></td><td class="warn">Do not publish</td><td>Address failed gates before resubmission</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Bundle-Level Community Demonstration</h2>
+      <pre><code>python main/run_community_submission_demo.py</code></pre>
+      <p>Outputs are written under <code>main/output/community_submissions</code>, including aggregate workflow decision-change rates and per-claim remediation actions.</p>
+    </section>
+
+    <section class="card">
+      <h2>Multi-Lab Expansion Roadmap</h2>
+      <p>Contributor governance and externalization plan:</p>
+      <ul>
+        <li><a href="../reference/open_item_third_party_bundle_ecosystem.md">Third-Party Bundle Ecosystem Plan</a></li>
+        <li><a href="../reference/holdout_stress_governance_plan.md">Holdout Stress Governance Plan</a></li>
+        <li><a href="../reference/independent_researcher_external_evidence_playbook.md">Independent Researcher External Evidence Playbook</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Deep contract details: <a href="../reference/BENCHMARK_CONTRACT.md">Benchmark Contract</a> and <a href="../reference/claim_bundle_spec_v1.md">Claim Bundle Spec</a>.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,419 @@
+[
+  {
+    "problem_id": "P0033",
+    "source_id": "AF-2.11",
+    "title": "Choosing the right pronouns (he vs she vs it vs they)",
+    "task_id": "gendered_pronoun_v0",
+    "model_id": "gpt2-small",
+    "n_examples": 10,
+    "top_10_heads": [
+      {
+        "layer": 4,
+        "head": 3,
+        "mean_effect": 0.4138041019439697
+      },
+      {
+        "layer": 11,
+        "head": 1,
+        "mean_effect": 0.3672978401184082
+      },
+      {
+        "layer": 11,
+        "head": 8,
+        "mean_effect": 0.3158099174499512
+      },
+      {
+        "layer": 10,
+        "head": 9,
+        "mean_effect": 0.3136556625366211
+      },
+      {
+        "layer": 6,
+        "head": 0,
+        "mean_effect": 0.19713740348815917
+      },
+      {
+        "layer": 3,
+        "head": 6,
+        "mean_effect": 0.1582277774810791
+      },
+      {
+        "layer": 9,
+        "head": 7,
+        "mean_effect": 0.14397530555725097
+      },
+      {
+        "layer": 11,
+        "head": 7,
+        "mean_effect": 0.14034228324890136
+      },
+      {
+        "layer": 9,
+        "head": 4,
+        "mean_effect": 0.138045072555542
+      },
+      {
+        "layer": 4,
+        "head": 4,
+        "mean_effect": -0.08797154426574708
+      }
+    ],
+    "known_component_check": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 9,
+        "note": "Often involved in name/gender tracking",
+        "exploration_rank": 144,
+        "in_top_10": false
+      },
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 7,
+        "note": "Name mover analogue for pronouns",
+        "exploration_rank": 112,
+        "in_top_10": false
+      }
+    ]
+  },
+  {
+    "problem_id": "P0028",
+    "source_id": "AF-2.6",
+    "title": "Interpret factual recall (ROME-style causal tracing)",
+    "task_id": "fact_recall_v0",
+    "model_id": "gpt2-small",
+    "n_examples": 10,
+    "top_10_heads": [
+      {
+        "layer": 9,
+        "head": 0,
+        "mean_effect": 0.5269948244094849
+      },
+      {
+        "layer": 11,
+        "head": 3,
+        "mean_effect": 0.39515516757965086
+      },
+      {
+        "layer": 5,
+        "head": 10,
+        "mean_effect": 0.3037005662918091
+      },
+      {
+        "layer": 10,
+        "head": 0,
+        "mean_effect": 0.26113808155059814
+      },
+      {
+        "layer": 0,
+        "head": 3,
+        "mean_effect": 0.25074520111083987
+      },
+      {
+        "layer": 0,
+        "head": 7,
+        "mean_effect": 0.23598690032958985
+      },
+      {
+        "layer": 6,
+        "head": 7,
+        "mean_effect": 0.20095832347869874
+      },
+      {
+        "layer": 8,
+        "head": 8,
+        "mean_effect": 0.19467108249664306
+      },
+      {
+        "layer": 9,
+        "head": 2,
+        "mean_effect": 0.17842540740966797
+      },
+      {
+        "layer": 4,
+        "head": 3,
+        "mean_effect": 0.1440657615661621
+      }
+    ],
+    "known_component_check": [
+      {
+        "component_type": "head",
+        "layer": 11,
+        "head": 10,
+        "note": "Late attention heads for entity extraction",
+        "exploration_rank": 53,
+        "in_top_10": false
+      }
+    ]
+  },
+  {
+    "problem_id": "P0039",
+    "source_id": "AF-2.17",
+    "title": "IOI in Stanford Mistral models \u2014 does the same circuit arise?",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "n_examples": 10,
+    "top_10_heads": [
+      {
+        "layer": 10,
+        "head": 7,
+        "mean_effect": -4.166829204559326
+      },
+      {
+        "layer": 8,
+        "head": 6,
+        "mean_effect": 2.683840847015381
+      },
+      {
+        "layer": 8,
+        "head": 10,
+        "mean_effect": 2.585529899597168
+      },
+      {
+        "layer": 5,
+        "head": 5,
+        "mean_effect": 2.4192700386047363
+      },
+      {
+        "layer": 9,
+        "head": 9,
+        "mean_effect": 2.172466850280762
+      },
+      {
+        "layer": 11,
+        "head": 10,
+        "mean_effect": -1.8214272499084472
+      },
+      {
+        "layer": 7,
+        "head": 9,
+        "mean_effect": 1.4960391998291016
+      },
+      {
+        "layer": 3,
+        "head": 0,
+        "mean_effect": 1.2723307609558105
+      },
+      {
+        "layer": 7,
+        "head": 3,
+        "mean_effect": 1.1530547142028809
+      },
+      {
+        "layer": 10,
+        "head": 0,
+        "mean_effect": 1.083088207244873
+      }
+    ],
+    "known_component_check": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 9,
+        "note": "Name mover",
+        "exploration_rank": 5,
+        "in_top_10": true
+      },
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 6,
+        "note": "Name mover",
+        "exploration_rank": 22,
+        "in_top_10": false
+      },
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 0,
+        "note": "Name mover",
+        "exploration_rank": 10,
+        "in_top_10": true
+      }
+    ]
+  },
+  {
+    "problem_id": "P0025",
+    "source_id": "AF-2.3",
+    "title": "Number comparison (continuing common sequences)",
+    "task_id": "greater_than_v0",
+    "model_id": "gpt2-small",
+    "n_examples": 10,
+    "top_10_heads": [
+      {
+        "layer": 10,
+        "head": 7,
+        "mean_effect": -0.06160669326782227
+      },
+      {
+        "layer": 10,
+        "head": 1,
+        "mean_effect": 0.05504150390625
+      },
+      {
+        "layer": 4,
+        "head": 11,
+        "mean_effect": 0.044384002685546875
+      },
+      {
+        "layer": 6,
+        "head": 7,
+        "mean_effect": -0.025769996643066406
+      },
+      {
+        "layer": 3,
+        "head": 6,
+        "mean_effect": 0.023036670684814454
+      },
+      {
+        "layer": 4,
+        "head": 7,
+        "mean_effect": -0.02167987823486328
+      },
+      {
+        "layer": 5,
+        "head": 10,
+        "mean_effect": -0.0191009521484375
+      },
+      {
+        "layer": 8,
+        "head": 9,
+        "mean_effect": -0.018668746948242186
+      },
+      {
+        "layer": 6,
+        "head": 4,
+        "mean_effect": -0.017931461334228516
+      },
+      {
+        "layer": 2,
+        "head": 2,
+        "mean_effect": 0.015885162353515624
+      }
+    ],
+    "known_component_check": []
+  },
+  {
+    "problem_id": "P0057",
+    "source_id": "AF-2.35",
+    "title": "How does addition work?",
+    "task_id": "arithmetic_v0",
+    "model_id": "gpt2-small",
+    "n_examples": 10,
+    "top_10_heads": [
+      {
+        "layer": 8,
+        "head": 8,
+        "mean_effect": 0.14201784133911133
+      },
+      {
+        "layer": 10,
+        "head": 2,
+        "mean_effect": 0.11835098266601562
+      },
+      {
+        "layer": 9,
+        "head": 1,
+        "mean_effect": 0.11236658096313476
+      },
+      {
+        "layer": 9,
+        "head": 9,
+        "mean_effect": 0.06360054016113281
+      },
+      {
+        "layer": 2,
+        "head": 2,
+        "mean_effect": 0.059239864349365234
+      },
+      {
+        "layer": 6,
+        "head": 7,
+        "mean_effect": 0.046751880645751955
+      },
+      {
+        "layer": 8,
+        "head": 11,
+        "mean_effect": 0.03987722396850586
+      },
+      {
+        "layer": 7,
+        "head": 11,
+        "mean_effect": 0.03670969009399414
+      },
+      {
+        "layer": 8,
+        "head": 10,
+        "mean_effect": -0.03607120513916016
+      },
+      {
+        "layer": 4,
+        "head": 4,
+        "mean_effect": -0.029216670989990236
+      }
+    ],
+    "known_component_check": []
+  },
+  {
+    "problem_id": "P0050",
+    "source_id": "AF-2.28",
+    "title": "GPT-2 Small's performance is ruined if you ablate MLP0. Why?",
+    "task_id": "ioi_v0",
+    "model_id": "gpt2-small",
+    "n_examples": 10,
+    "top_10_heads": [
+      {
+        "layer": 10,
+        "head": 7,
+        "mean_effect": -4.166829204559326
+      },
+      {
+        "layer": 8,
+        "head": 6,
+        "mean_effect": 2.683840847015381
+      },
+      {
+        "layer": 8,
+        "head": 10,
+        "mean_effect": 2.585529899597168
+      },
+      {
+        "layer": 5,
+        "head": 5,
+        "mean_effect": 2.4192700386047363
+      },
+      {
+        "layer": 9,
+        "head": 9,
+        "mean_effect": 2.172466850280762
+      },
+      {
+        "layer": 11,
+        "head": 10,
+        "mean_effect": -1.8214272499084472
+      },
+      {
+        "layer": 7,
+        "head": 9,
+        "mean_effect": 1.4960391998291016
+      },
+      {
+        "layer": 3,
+        "head": 0,
+        "mean_effect": 1.2723307609558105
+      },
+      {
+        "layer": 7,
+        "head": 3,
+        "mean_effect": 1.1530547142028809
+      },
+      {
+        "layer": 10,
+        "head": 0,
+        "mean_effect": 1.083088207244873
+      }
+    ],
+    "known_component_check": []
+  }
+]

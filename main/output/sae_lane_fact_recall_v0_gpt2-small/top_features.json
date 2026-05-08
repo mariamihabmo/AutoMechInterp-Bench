@@ -1,0 +1,72 @@
+[
+  {
+    "feature_id": 12309,
+    "mean_diff": 1.454921793937683,
+    "abs_mean_diff": 1.454921793937683,
+    "std_diff": 2.899449268133879,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 4755,
+    "mean_diff": 1.1005454897880553,
+    "abs_mean_diff": 1.1005454897880553,
+    "std_diff": 1.7030412287346193,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 13505,
+    "mean_diff": -0.9216130495071411,
+    "abs_mean_diff": 0.9216130495071411,
+    "std_diff": 0.9817554666604248,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 12974,
+    "mean_diff": 0.848056723177433,
+    "abs_mean_diff": 0.848056723177433,
+    "std_diff": 3.980391577516754,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 3513,
+    "mean_diff": 0.8330968156456947,
+    "abs_mean_diff": 0.8330968156456947,
+    "std_diff": 1.861733315830971,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 11955,
+    "mean_diff": -0.7299542784690857,
+    "abs_mean_diff": 0.7299542784690857,
+    "std_diff": 2.03941681477582,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 14909,
+    "mean_diff": 0.6907121896743774,
+    "abs_mean_diff": 0.6907121896743774,
+    "std_diff": 1.3858119538627043,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 5139,
+    "mean_diff": -0.5723968893289566,
+    "abs_mean_diff": 0.5723968893289566,
+    "std_diff": 0.8624691772512736,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 6354,
+    "mean_diff": 0.5258003234863281,
+    "abs_mean_diff": 0.5258003234863281,
+    "std_diff": 1.5869525808860854,
+    "n_examples": 10
+  },
+  {
+    "feature_id": 14686,
+    "mean_diff": -0.5016057014465332,
+    "abs_mean_diff": 0.5016057014465332,
+    "std_diff": 0.7662153653000527,
+    "n_examples": 10
+  }
+]

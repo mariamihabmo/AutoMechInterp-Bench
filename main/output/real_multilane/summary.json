@@ -1,0 +1,45 @@
+{
+  "bundles": [
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "task": "docstring_v0",
+      "model": "gpt2-small",
+      "lane": "A",
+      "claims": 3,
+      "accepted": 1,
+      "tiers": {
+        "h_sweep_docstring_v0_001": "rejected",
+        "h_sweep_docstring_v0_002": "single_model_confirmed",
+        "h_sweep_docstring_v0_003": "rejected"
+      }
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "task": "docstring_v0",
+      "model": "gpt2-small",
+      "lane": "B",
+      "claims": 3,
+      "accepted": 0,
+      "tiers": {
+        "h_neuron_docstring_v0_001": "rejected",
+        "h_neuron_docstring_v0_002": "rejected",
+        "h_neuron_docstring_v0_003": "rejected"
+      }
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "task": "docstring_v0",
+      "model": "gpt2-small",
+      "lane": "C",
+      "claims": 3,
+      "accepted": 1,
+      "tiers": {
+        "h_dla_docstring_v0_001": "rejected",
+        "h_dla_docstring_v0_002": "rejected",
+        "h_dla_docstring_v0_003": "single_model_confirmed"
+      }
+    }
+  ],
+  "mode": "real",
+  "device": "mps"
+}

@@ -1,0 +1,20 @@
+{
+  "base_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "families": {
+    "plausible_but_wrong": {
+      "target_suite": "statistical_rigor",
+      "full_far": 0.0,
+      "suite_ablated_far": 1.0
+    },
+    "method_sensitive": {
+      "target_suite": "robustness",
+      "full_far": 0.0,
+      "suite_ablated_far": 1.0
+    },
+    "control_leaking": {
+      "target_suite": "controls",
+      "full_far": 0.0,
+      "suite_ablated_far": 1.0
+    }
+  }
+}

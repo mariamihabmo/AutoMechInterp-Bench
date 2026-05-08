@@ -1,0 +1,1329 @@
+{
+  "already_scored": [
+    {
+      "accepted_claims_with_multi_prompt": 2,
+      "blocked_claim_ids": [],
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "claims_passing_all_holdouts": 2,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "existing_same_family_rows": 2,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 6,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_c --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_country_capital_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_country_capital_v0_002"
+      ],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 2,
+      "blocked_claim_ids": [],
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "claims_passing_all_holdouts": 2,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "existing_same_family_rows": 2,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 6,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_a --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_country_capital_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_sweep_country_capital_v0_002"
+      ],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "bundle": "fact_recall_v0_pythia-70m",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_fact_recall_v0_001"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_fact_recall_v0_001"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/fact_recall_v0_pythia-70m --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "fact_recall_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "bundle": "arithmetic_v0_pythia-70m",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_arithmetic_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/arithmetic_v0_pythia-70m --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "arithmetic_v0",
+      "total_holdout_checks": 2
+    }
+  ],
+  "already_scored_count": 4,
+  "blocked": [
+    {
+      "accepted_claims_with_multi_prompt": 3,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 3,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 9,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 9
+    },
+    {
+      "accepted_claims_with_multi_prompt": 3,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "claims_passing_all_holdouts": 3,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 9,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_a --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 9
+    },
+    {
+      "accepted_claims_with_multi_prompt": 2,
+      "blocked_claim_ids": [
+        "h_dla_sentiment_v0_003"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_sentiment_v0_001"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_sentiment_v0_001"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002",
+        "h_dla_sentiment_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 5,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_sentiment_v0_003"
+      ],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "sentiment_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_docstring_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_docstring_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_docstring_v0_001",
+        "h_dla_docstring_v0_002",
+        "h_dla_docstring_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/real_multilane/docstring_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_docstring_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_docstring_v0_002",
+        "h_dla_docstring_v0_003"
+      ],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "docstring_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_sweep_docstring_v0_001",
+        "h_sweep_docstring_v0_002",
+        "h_sweep_docstring_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/real_multilane/docstring_v0_gpt2-small_lane_a --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_docstring_v0_001",
+        "h_sweep_docstring_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_sweep_docstring_v0_003"
+      ],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "docstring_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_b --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 3,
+      "blocked_claim_ids": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_003"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "arithmetic_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_arithmetic_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/arithmetic_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "arithmetic_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "greater_than_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_greater_than_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_greater_than_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_greater_than_v0_001",
+        "h_greater_than_v0_002",
+        "h_greater_than_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/greater_than_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_greater_than_v0_001",
+        "h_greater_than_v0_002",
+        "h_greater_than_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "greater_than_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_gendered_pronoun_v0_001",
+        "h_gendered_pronoun_v0_002",
+        "h_gendered_pronoun_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/gendered_pronoun_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_gendered_pronoun_v0_001",
+        "h_gendered_pronoun_v0_002",
+        "h_gendered_pronoun_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "gendered_pronoun_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "fact_recall_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_fact_recall_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_fact_recall_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/fact_recall_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "fact_recall_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [
+        "h_dla_ioi_v0_002"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 0,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [],
+      "existing_same_family_claim_ids": [
+        "h_dla_ioi_v0_002"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_ioi_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "claims_passing_all_holdouts": 0,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [],
+      "existing_same_family_claim_ids": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_a --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [
+        "h_ioi_v0_001"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "ioi_v0_gpt2-small",
+      "claims_passing_all_holdouts": 0,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [],
+      "existing_same_family_claim_ids": [
+        "h_ioi_v0_001"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/ioi_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_ioi_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0",
+      "total_holdout_checks": 3
+    }
+  ],
+  "blocked_count": 13,
+  "generated_by": "main/same_family_transfer_preflight.py",
+  "missing_eligible_same_family_rows_count": 0,
+  "notes": [
+    "This is a preflight and prioritization artifact, not a transfer result.",
+    "Candidates are ranked by prompt-holdout robustness because within-model held-out prompt stability is the best released triage signal for next same-family transfer runs.",
+    "ready_to_run_missing_rows means at least one prompt-holdout-passing accepted claim lacks a same-family row and local weights are available.",
+    "already_scored means the eligible prompt-holdout-passing accepted claims already have same-family rows; re-running them may check variance but is not missing evidence.",
+    "blocked_missing_local_model_snapshot means the software stack is present but no local target-model weights were found under the discovered cache/model roots."
+  ],
+  "prompt_holdout_source": "main/output/repro/prompt_holdout_transfer_control.json",
+  "ranked_candidates": [
+    {
+      "accepted_claims_with_multi_prompt": 3,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 3,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 9,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 9
+    },
+    {
+      "accepted_claims_with_multi_prompt": 3,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "claims_passing_all_holdouts": 3,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 9,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_a --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 9
+    },
+    {
+      "accepted_claims_with_multi_prompt": 2,
+      "blocked_claim_ids": [],
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "claims_passing_all_holdouts": 2,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "existing_same_family_rows": 2,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 6,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_c --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_country_capital_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_country_capital_v0_002"
+      ],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 2,
+      "blocked_claim_ids": [],
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "claims_passing_all_holdouts": 2,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "existing_same_family_rows": 2,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 6,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_pythia-70m_lane_a --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_country_capital_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_sweep_country_capital_v0_002"
+      ],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 2,
+      "blocked_claim_ids": [
+        "h_dla_sentiment_v0_003"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_sentiment_v0_001"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_sentiment_v0_001"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002",
+        "h_dla_sentiment_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 5,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/sentiment_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_sentiment_v0_003"
+      ],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "sentiment_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_dla_docstring_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_dla_docstring_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_dla_docstring_v0_001",
+        "h_dla_docstring_v0_002",
+        "h_dla_docstring_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/real_multilane/docstring_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_docstring_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_dla_docstring_v0_002",
+        "h_dla_docstring_v0_003"
+      ],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "docstring_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_sweep_docstring_v0_001",
+        "h_sweep_docstring_v0_002",
+        "h_sweep_docstring_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/real_multilane/docstring_v0_gpt2-small_lane_a --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_docstring_v0_001",
+        "h_sweep_docstring_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [
+        "h_sweep_docstring_v0_003"
+      ],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "docstring_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/country_capital_v0_gpt2-small_lane_b --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "country_capital_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 3,
+      "blocked_claim_ids": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_003"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "arithmetic_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_arithmetic_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 3,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/arithmetic_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "arithmetic_v0",
+      "total_holdout_checks": 6
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "greater_than_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_greater_than_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_greater_than_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_greater_than_v0_001",
+        "h_greater_than_v0_002",
+        "h_greater_than_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/greater_than_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_greater_than_v0_001",
+        "h_greater_than_v0_002",
+        "h_greater_than_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "greater_than_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_gendered_pronoun_v0_001",
+        "h_gendered_pronoun_v0_002",
+        "h_gendered_pronoun_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/gendered_pronoun_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_gendered_pronoun_v0_001",
+        "h_gendered_pronoun_v0_002",
+        "h_gendered_pronoun_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "gendered_pronoun_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "bundle": "fact_recall_v0_pythia-70m",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_fact_recall_v0_001"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_fact_recall_v0_001"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/fact_recall_v0_pythia-70m --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "fact_recall_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "fact_recall_v0_gpt2-small",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [
+        "h_fact_recall_v0_003"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_fact_recall_v0_003"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "existing_same_family_rows": 3,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/zero_task_real_repair/fact_recall_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_fact_recall_v0_001",
+        "h_fact_recall_v0_002",
+        "h_fact_recall_v0_003"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "fact_recall_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [],
+      "bundle": "arithmetic_v0_pythia-70m",
+      "claims_passing_all_holdouts": 1,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m",
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "eligible_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [
+        "h_arithmetic_v0_002"
+      ],
+      "existing_same_family_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [
+        "~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46"
+      ],
+      "missing_row_count": 0,
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/arithmetic_v0_pythia-70m --transfer-model pythia-160m --device cpu --local-only --local-model-dir ~/.cache/huggingface/hub/models--EleutherAI--pythia-160m/snapshots/50f5173d932e8e61f858120bcb800b97af589f46",
+      "same_family_transfer_failed_claim_ids": [
+        "h_arithmetic_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "pythia-70m",
+      "status": "already_scored",
+      "target_model": "pythia-160m",
+      "task": "arithmetic_v0",
+      "total_holdout_checks": 2
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [
+        "h_dla_ioi_v0_002"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "claims_passing_all_holdouts": 0,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [],
+      "existing_same_family_claim_ids": [
+        "h_dla_ioi_v0_002"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_c --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_dla_ioi_v0_002"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "claims_passing_all_holdouts": 0,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [],
+      "existing_same_family_claim_ids": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/ioi_v0_gpt2-small_lane_a --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0",
+      "total_holdout_checks": 3
+    },
+    {
+      "accepted_claims_with_multi_prompt": 1,
+      "blocked_claim_ids": [
+        "h_ioi_v0_001"
+      ],
+      "blocked_reason": "no_loadable_local_snapshot_for_gpt2-medium; huggingface_dns_resolves=True",
+      "bundle": "ioi_v0_gpt2-small",
+      "claims_passing_all_holdouts": 0,
+      "discovered_local_dirs": [
+        "~/.cache/huggingface/hub/models--gpt2-medium",
+        "~/.cache/huggingface/hub/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da"
+      ],
+      "eligible_claim_ids": [],
+      "eligible_claim_ids_missing_same_family_rows": [],
+      "eligible_claim_ids_with_same_family_rows": [],
+      "existing_same_family_claim_ids": [
+        "h_ioi_v0_001"
+      ],
+      "existing_same_family_rows": 1,
+      "loadable_local_dirs": [],
+      "passing_holdout_checks": 2,
+      "proposed_command": "python main/run_transfer_release.py --bundle-dir main/output/prompt_variant_repair/ioi_v0_gpt2-small --transfer-model gpt2-medium --device cpu --local-only --local-model-dir <path-to-local-model-snapshot>",
+      "same_family_transfer_failed_claim_ids": [
+        "h_ioi_v0_001"
+      ],
+      "same_family_transfer_passed_claim_ids": [],
+      "source_model": "gpt2-small",
+      "status": "blocked_missing_local_model_snapshot",
+      "target_model": "gpt2-medium",
+      "task": "ioi_v0",
+      "total_holdout_checks": 3
+    }
+  ],
+  "ready_to_run": [],
+  "ready_to_run_count": 0,
+  "runtime": {
+    "huggingface_dns_resolves": true,
+    "python_version": "3.9.6",
+    "runtime_ready_for_transfer": true,
+    "search_roots": [
+      "~/.cache/huggingface/hub",
+      "models",
+      "model_cache",
+      "artifacts/models",
+      "/models",
+      "/root/.cache/huggingface/hub"
+    ],
+    "transformer_lens_importable": true,
+    "transformers_importable": true
+  }
+}

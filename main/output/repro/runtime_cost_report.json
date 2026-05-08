@@ -1,0 +1,418 @@
+{
+  "bundles": [
+    {
+      "bundle": "country_capital_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 12,
+      "runtime_seconds_mean": 18.305384997278452,
+      "seconds_per_claim": 6.101794999092817,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 12,
+      "runtime_seconds_mean": 18.305384997278452,
+      "seconds_per_claim": 6.101794999092817,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "ioi_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 12,
+      "runtime_seconds_mean": 18.305384997278452,
+      "seconds_per_claim": 6.101794999092817,
+      "source": "estimated",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 12,
+      "runtime_seconds_mean": 18.305384997278452,
+      "seconds_per_claim": 6.101794999092817,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 12,
+      "runtime_seconds_mean": 18.305384997278452,
+      "seconds_per_claim": 6.101794999092817,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 171.1879551410675,
+      "seconds_per_claim": 57.06265171368917,
+      "source": "measured_zero_task_real_repair",
+      "task": "fact_recall_v0"
+    },
+    {
+      "bundle": "fact_recall_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 41.30741310119629,
+      "seconds_per_claim": 13.769137700398764,
+      "source": "measured_zero_task_real_repair",
+      "task": "fact_recall_v0"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 69.61238098144531,
+      "seconds_per_claim": 23.204126993815105,
+      "source": "measured_zero_task_real_repair",
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 161.1182816028595,
+      "seconds_per_claim": 53.706093867619835,
+      "source": "measured_zero_task_real_repair",
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "bundle": "greater_than_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 73.22153998911381,
+      "seconds_per_claim": 24.40717999637127,
+      "source": "estimated",
+      "task": "greater_than_v0"
+    },
+    {
+      "bundle": "greater_than_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 162.442045211792,
+      "seconds_per_claim": 54.147348403930664,
+      "source": "measured_zero_task_real_repair",
+      "task": "greater_than_v0"
+    },
+    {
+      "bundle": "arithmetic_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 73.22153998911381,
+      "seconds_per_claim": 24.40717999637127,
+      "source": "estimated",
+      "task": "arithmetic_v0"
+    },
+    {
+      "bundle": "arithmetic_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 73.22153998911381,
+      "seconds_per_claim": 24.40717999637127,
+      "source": "estimated",
+      "task": "arithmetic_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 154.3316011428833,
+      "seconds_per_claim": 51.44386704762777,
+      "source": "measured_zero_task_real_repair",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "docstring_v0_pythia-70m",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 48,
+      "runtime_seconds_mean": 163.47925758361816,
+      "seconds_per_claim": 54.493085861206055,
+      "source": "measured_zero_task_real_repair",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "fact_recall_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small",
+      "claims": 4,
+      "model": "gpt2-small",
+      "raw_cells": 432,
+      "runtime_seconds_mean": 248.06570506095886,
+      "seconds_per_claim": 62.016426265239716,
+      "source": "measured_experiment_summary",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "model": "gpt2-small",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "claims": 3,
+      "model": "pythia-70m",
+      "raw_cells": 324,
+      "runtime_seconds_mean": 494.2453949265182,
+      "seconds_per_claim": 164.74846497550607,
+      "source": "estimated",
+      "task": "sentiment_v0"
+    }
+  ],
+  "bundles_estimated": 28,
+  "bundles_measured": 8,
+  "bundles_profiled": 36,
+  "by_model": {
+    "gpt2-small": {
+      "bundles": 22,
+      "claims": 67,
+      "measured_bundles": 4,
+      "runtime_seconds_mean_per_bundle": 352.0766827850179,
+      "seconds_per_1000_cells": 1480.4447670623842,
+      "seconds_per_claim": 115.60726897418499
+    },
+    "pythia-70m": {
+      "bundles": 14,
+      "claims": 42,
+      "measured_bundles": 4,
+      "runtime_seconds_mean_per_bundle": 258.71121871710886,
+      "seconds_per_1000_cells": 1631.512190107894,
+      "seconds_per_claim": 86.23707290570296
+    }
+  },
+  "measurement_coverage": 0.2222222222222222,
+  "measurement_sources": {
+    "estimated": 28,
+    "measured_experiment_summary": 1,
+    "measured_zero_task_real_repair": 7
+  },
+  "notes": [
+    "Observed runtime comes from main/output/real_multi_task/experiment_summary.json when available.",
+    "Measured real zero-task repair replacement bundle runtimes are included when runtime_seconds is positive in main/output/repro/zero_task_real_repair.json.",
+    "Zero-valued repair runtimes are treated as missing measurements, not as zero-cost evaluations.",
+    "Each (task, model) measurement is counted exactly once (attributed to the canonical bundle when present).",
+    "Bundles without a recorded wall-clock time are extrapolated from the per-cell rate of the measured bundles only.",
+    "This is a runtime envelope, not a cloud-price quotation. Coverage is reported via 'bundles_measured' and 'measurement_coverage'."
+  ],
+  "reruns": 3,
+  "totals": {
+    "bundles": 36,
+    "cells": 7452,
+    "claims": 109,
+    "estimated_runtime_minutes": 189.46073472183198,
+    "estimated_runtime_seconds": 11367.644083309919,
+    "estimated_runtime_seconds_for_unmeasured_bundles": 10196.099443484098,
+    "estimated_runtime_with_reruns_minutes": 568.382204165496,
+    "estimated_runtime_with_reruns_seconds": 34102.932249929756,
+    "observed_runtime_seconds": 1171.544639825821,
+    "observed_runtime_seconds_all_sources": 1171.544639825821,
+    "observed_runtime_seconds_distinct_measurements": 248.06570506095886,
+    "observed_seconds_per_cell": 1.5254487497732043,
+    "raw_cells": 7452,
+    "runtime_seconds_mean_sum": 11367.644083309919,
+    "seconds_per_1000_cells": 1525.4487497732043,
+    "seconds_per_claim": 104.29031269091668
+  }
+}

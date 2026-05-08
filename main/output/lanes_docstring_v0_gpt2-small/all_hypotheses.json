@@ -1,0 +1,212 @@
+[
+  {
+    "hypothesis_id": "h_sweep_docstring_v0_001",
+    "protocol_id": "lane_a_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "L10H1 causally increases docstring_v0 (sweep effect=1.3077)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 1
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation"
+    ],
+    "provider_id": "circuit_sweep_real",
+    "discovery_lane": "A"
+  },
+  {
+    "hypothesis_id": "h_sweep_docstring_v0_002",
+    "protocol_id": "lane_a_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "L9H2 causally increases docstring_v0 (sweep effect=0.7722)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 9,
+        "head": 2
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation"
+    ],
+    "provider_id": "circuit_sweep_real",
+    "discovery_lane": "A"
+  },
+  {
+    "hypothesis_id": "h_sweep_docstring_v0_003",
+    "protocol_id": "lane_a_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "L8H11 causally increases docstring_v0 (sweep effect=0.7057)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 8,
+        "head": 11
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 5.0,
+    "expected_failure_modes": [
+      "distributed_computation"
+    ],
+    "provider_id": "circuit_sweep_real",
+    "discovery_lane": "A"
+  },
+  {
+    "hypothesis_id": "h_neuron_docstring_v0_001",
+    "protocol_id": "lane_b_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L9N840 contributes to docstring_v0 (mean_act=4.343)",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 9,
+        "neuron": 840
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.01,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "polysemanticity",
+      "distributed_computation"
+    ],
+    "provider_id": "neuron_dla_real",
+    "discovery_lane": "B"
+  },
+  {
+    "hypothesis_id": "h_neuron_docstring_v0_002",
+    "protocol_id": "lane_b_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L8N1253 contributes to docstring_v0 (mean_act=4.164)",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 8,
+        "neuron": 1253
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.01,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "polysemanticity",
+      "distributed_computation"
+    ],
+    "provider_id": "neuron_dla_real",
+    "discovery_lane": "B"
+  },
+  {
+    "hypothesis_id": "h_neuron_docstring_v0_003",
+    "protocol_id": "lane_b_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "MLP neuron L10N379 contributes to docstring_v0 (mean_act=3.480)",
+    "candidate_components": [
+      {
+        "component_type": "mlp_neuron",
+        "layer": 10,
+        "neuron": 379
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.01,
+    "predicted_specificity_ratio": 2.0,
+    "expected_failure_modes": [
+      "polysemanticity",
+      "distributed_computation"
+    ],
+    "provider_id": "neuron_dla_real",
+    "discovery_lane": "B"
+  },
+  {
+    "hypothesis_id": "h_dla_docstring_v0_001",
+    "protocol_id": "lane_c_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "L11H7 has high DLA for docstring_v0 (decrease, mean_dla=-4.0168)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 11,
+        "head": 7
+      }
+    ],
+    "predicted_effect_direction": "decrease",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "correlation_not_causation"
+    ],
+    "provider_id": "behavioral_dla_real",
+    "discovery_lane": "C"
+  },
+  {
+    "hypothesis_id": "h_dla_docstring_v0_002",
+    "protocol_id": "lane_c_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "L11H8 has high DLA for docstring_v0 (increase, mean_dla=2.9210)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 11,
+        "head": 8
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "correlation_not_causation"
+    ],
+    "provider_id": "behavioral_dla_real",
+    "discovery_lane": "C"
+  },
+  {
+    "hypothesis_id": "h_dla_docstring_v0_003",
+    "protocol_id": "lane_c_docstring_v0_gpt2-small",
+    "task_id": "docstring_v0",
+    "model_id": "gpt2-small",
+    "metric_id": "logit_diff",
+    "claim_text": "L10H1 has high DLA for docstring_v0 (increase, mean_dla=2.8200)",
+    "candidate_components": [
+      {
+        "component_type": "head",
+        "layer": 10,
+        "head": 1
+      }
+    ],
+    "predicted_effect_direction": "increase",
+    "predicted_min_effect": 0.02,
+    "predicted_specificity_ratio": 3.0,
+    "expected_failure_modes": [
+      "correlation_not_causation"
+    ],
+    "provider_id": "behavioral_dla_real",
+    "discovery_lane": "C"
+  }
+]

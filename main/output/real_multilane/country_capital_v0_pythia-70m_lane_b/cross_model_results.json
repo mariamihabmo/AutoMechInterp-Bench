@@ -1,0 +1,26 @@
+[
+  {
+    "hypothesis_id": "h_neuron_country_capital_v0_002",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_gpt2-small_lane_b",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.03479814529418945,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_neuron_country_capital_v0_003",
+    "n_examples": 54,
+    "paired_bundle": "country_capital_v0_gpt2-small_lane_b",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.1348572572072347,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  }
+]

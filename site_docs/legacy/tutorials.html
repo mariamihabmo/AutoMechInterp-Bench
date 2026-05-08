@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tutorials · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Practical Workflows</span>
+    <h1>Tutorials</h1>
+    <p>End-to-end workflows for coverage analysis, stress testing, standards checks, and reproducible reporting.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Tutorial A: Coverage + Failure Analysis</h2>
+      <pre><code>python main/summarize_real_multi_task.py
+python main/analyze_real_bundle_failures.py</code></pre>
+      <p>Outputs:</p>
+      <ul>
+        <li><code>main/output/real_multi_task/coverage_summary.json</code></li>
+        <li><code>main/output/real_multi_task/failure_mode_summary.json</code></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Tutorial B: Multi-Lane Bundle Build</h2>
+      <pre><code>python main/build_multilane_real_bundles.py
+python main/summarize_benchmark_breadth.py</code></pre>
+      <p>Builds evaluated multi-lane bundles from real artifacts and summarizes breadth across task/model/lane/provider strata.</p>
+    </section>
+
+    <section class="card">
+      <h2>Tutorial C: Community Workflow Impact</h2>
+      <pre><code>python main/run_community_submission_demo.py</code></pre>
+      <p>Shows deterministic review outputs that alter practical decisions (publish, hold, or reject).</p>
+    </section>
+
+    <section class="card">
+      <h2>Tutorial D: Stress and Ablation Diagnostics</h2>
+      <pre><code>python main/stress_test_ablation.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/stress_test_agnostic.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/stress_test_red_team.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small
+python main/gate_ablation_study.py --bundle-dir main/output/real_multi_task/ioi_v0_gpt2-small</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Tutorial E: Reporting and Summaries</h2>
+      <pre><code>python main/field_level_findings.py
+python main/runtime_cost_report.py --reruns 3</code></pre>
+      <p>Produces stratified findings, policy sensitivity tables, and runtime/cost summaries for sharing results.</p>
+    </section>
+
+    <section class="card">
+      <h2>Tutorial F: Standards Interop Check</h2>
+      <pre><code>python -m automechinterp_evaluator.cli reference-vectors</code></pre>
+      <p>Use these vectors to validate compatible third-party evaluator implementations.</p>
+    </section>
+  </main>
+
+  <footer>
+    For exact run order and expected outputs, see <a href="reproducibility.html">Reproducibility</a>.
+  </footer>
+</body>
+</html>

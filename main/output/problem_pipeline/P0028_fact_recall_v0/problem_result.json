@@ -1,0 +1,70 @@
+{
+  "problem_id": "P0028",
+  "source_id": "AF-2.6",
+  "title": "Interpret factual recall (ROME-style causal tracing)",
+  "task_id": "fact_recall_v0",
+  "model_id": "gpt2-small",
+  "n_examples": 10,
+  "top_10_heads": [
+    {
+      "layer": 9,
+      "head": 0,
+      "mean_effect": 0.5269948244094849
+    },
+    {
+      "layer": 11,
+      "head": 3,
+      "mean_effect": 0.39515516757965086
+    },
+    {
+      "layer": 5,
+      "head": 10,
+      "mean_effect": 0.3037005662918091
+    },
+    {
+      "layer": 10,
+      "head": 0,
+      "mean_effect": 0.26113808155059814
+    },
+    {
+      "layer": 0,
+      "head": 3,
+      "mean_effect": 0.25074520111083987
+    },
+    {
+      "layer": 0,
+      "head": 7,
+      "mean_effect": 0.23598690032958985
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "mean_effect": 0.20095832347869874
+    },
+    {
+      "layer": 8,
+      "head": 8,
+      "mean_effect": 0.19467108249664306
+    },
+    {
+      "layer": 9,
+      "head": 2,
+      "mean_effect": 0.17842540740966797
+    },
+    {
+      "layer": 4,
+      "head": 3,
+      "mean_effect": 0.1440657615661621
+    }
+  ],
+  "known_component_check": [
+    {
+      "component_type": "head",
+      "layer": 11,
+      "head": 10,
+      "note": "Late attention heads for entity extraction",
+      "exploration_rank": 53,
+      "in_top_10": false
+    }
+  ]
+}

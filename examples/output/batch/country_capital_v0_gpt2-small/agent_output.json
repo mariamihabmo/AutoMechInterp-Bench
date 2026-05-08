@@ -1,0 +1,99 @@
+{
+  "agent_metadata": {
+    "component_catalog_used": false,
+    "components_per_hypothesis": 2,
+    "exploration_input_used": false,
+    "exploration_records": 0,
+    "generator": "automechinterp_evaluator.generate_agent_output",
+    "hypothesis_count": 3,
+    "metric_id": "logit_diff_io_minus_s",
+    "model_id": "gpt2-small",
+    "model_shape": {
+      "n_heads": 12,
+      "n_layers": 12
+    },
+    "protocol_id": "country_capital_v0_gpt2-small_batch",
+    "source_mode": "template",
+    "task_id": "country_capital_v0"
+  },
+  "hypotheses": [
+    {
+      "components": [
+        {
+          "component_type": "head",
+          "head": 11,
+          "layer": 8,
+          "selection_source": "deterministic_fallback"
+        },
+        {
+          "component_type": "head",
+          "head": 1,
+          "layer": 1,
+          "selection_source": "deterministic_fallback"
+        }
+      ],
+      "failure_modes": [
+        "prompt_template_overfitting",
+        "distributed_backup_components",
+        "method_sensitivity_instability"
+      ],
+      "hypothesis_id": "h_country_capital_v0_001",
+      "mechanistic_claim": "Candidate components are predicted to increase logit_diff_io_minus_s for task country_capital_v0 on model gpt2-small.",
+      "predicted_effect_direction": "increase",
+      "predicted_effect_size": 0.05,
+      "specificity_ratio": 5.0
+    },
+    {
+      "components": [
+        {
+          "component_type": "head",
+          "head": 2,
+          "layer": 4,
+          "selection_source": "deterministic_fallback"
+        },
+        {
+          "component_type": "head",
+          "head": 8,
+          "layer": 9,
+          "selection_source": "deterministic_fallback"
+        }
+      ],
+      "failure_modes": [
+        "prompt_template_overfitting",
+        "distributed_backup_components",
+        "method_sensitivity_instability"
+      ],
+      "hypothesis_id": "h_country_capital_v0_002",
+      "mechanistic_claim": "Candidate components are predicted to increase logit_diff_io_minus_s for task country_capital_v0 on model gpt2-small.",
+      "predicted_effect_direction": "increase",
+      "predicted_effect_size": 0.05,
+      "specificity_ratio": 5.0
+    },
+    {
+      "components": [
+        {
+          "component_type": "head",
+          "head": 1,
+          "layer": 10,
+          "selection_source": "deterministic_fallback"
+        },
+        {
+          "component_type": "head",
+          "head": 3,
+          "layer": 10,
+          "selection_source": "deterministic_fallback"
+        }
+      ],
+      "failure_modes": [
+        "prompt_template_overfitting",
+        "distributed_backup_components",
+        "method_sensitivity_instability"
+      ],
+      "hypothesis_id": "h_country_capital_v0_003",
+      "mechanistic_claim": "Candidate components are predicted to increase logit_diff_io_minus_s for task country_capital_v0 on model gpt2-small.",
+      "predicted_effect_direction": "increase",
+      "predicted_effect_size": 0.05,
+      "specificity_ratio": 5.0
+    }
+  ]
+}

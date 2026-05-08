@@ -1,0 +1,19 @@
+{
+  "lane_a": {
+    "hypotheses": 3,
+    "time": 15.24923300743103
+  },
+  "lane_b": {
+    "hypotheses": 3,
+    "time": 0.6724028587341309
+  },
+  "lane_b3_sae": {
+    "hypotheses": 0,
+    "time": 0,
+    "note": "requires_sae_models"
+  },
+  "lane_c": {
+    "hypotheses": 3,
+    "time": 0.5867881774902344
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "protocol_id": "ioi_gpt2small_v1",
+  "protocol_sha256": "3d1bc1f6bfe4f4f16d030b6c32d5fecd7ab8a194fe14adc08880f556f3236715",
+  "hypothesis_results": [
+    {
+      "hypothesis_id": "h_ioi_name_movers",
+      "raw_cells": [
+        {
+          "seed": 101,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.12,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.007,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.108,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.007,
+            "random_component": 0.009,
+            "mismatched_source": 0.008
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "base",
+          "resample_id": 1,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.118,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.006,
+            "random_component": 0.007,
+            "mismatched_source": 0.006
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "base",
+          "resample_id": 1,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.109,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.007,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.116,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.007,
+            "random_component": 0.007,
+            "mismatched_source": 0.006
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.105,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.006,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "paraphrase",
+          "resample_id": 1,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.117,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.006,
+            "random_component": 0.007,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 101,
+          "prompt_variant": "paraphrase",
+          "resample_id": 1,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.106,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.007,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 101,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.121,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.007,
+            "random_component": 0.009,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.11,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.007,
+            "random_component": 0.009,
+            "mismatched_source": 0.008
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "base",
+          "resample_id": 1,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.119,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.006,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "base",
+          "resample_id": 1,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.109,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.006,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "base"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.117,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.006,
+            "random_component": 0.007,
+            "mismatched_source": 0.006
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "paraphrase",
+          "resample_id": 0,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.104,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.006,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "paraphrase",
+          "resample_id": 1,
+          "method": "mean_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.118,
+          "control_effects": {
+            "wrong_position": 0.006,
+            "wrong_layer": 0.006,
+            "random_component": 0.007,
+            "mismatched_source": 0.006
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "paraphrase"
+        },
+        {
+          "seed": 202,
+          "prompt_variant": "paraphrase",
+          "resample_id": 1,
+          "method": "zero_ablation",
+          "slice": "confirmatory",
+          "treatment_effect": 0.105,
+          "control_effects": {
+            "wrong_position": 0.005,
+            "wrong_layer": 0.006,
+            "random_component": 0.008,
+            "mismatched_source": 0.007
+          },
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.1.0",
+          "pipeline_sha": "dev-pipeline-sha",
+          "model_ref": "gpt2-small",
+          "dataset_seed": 202,
+          "prompt_template_id": "paraphrase"
+        }
+      ]
+    }
+  ]
+}

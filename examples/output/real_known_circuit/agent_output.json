@@ -1,0 +1,65 @@
+{
+  "hypotheses": [
+    {
+      "hypothesis_id": "h_ioi_name_movers",
+      "protocol_id": "ioi_known_circuit_real_v1",
+      "task_id": "ioi_v0",
+      "model_id": "gpt2-small",
+      "metric_id": "logit_diff_io_minus_s",
+      "claim_text": "Name mover heads (L9H9, L9H6) causally contribute to IOI logit difference",
+      "candidate_components": [
+        {
+          "component_type": "head",
+          "layer": 9,
+          "head": 9,
+          "site": "z",
+          "patch_mode": "clean"
+        },
+        {
+          "component_type": "head",
+          "layer": 9,
+          "head": 6,
+          "site": "z",
+          "patch_mode": "clean"
+        }
+      ],
+      "predicted_effect_direction": "increase",
+      "predicted_min_effect": 0.05,
+      "predicted_specificity_ratio": 2.0,
+      "expected_failure_modes": [
+        "distributed_computation",
+        "compensatory_mechanism"
+      ]
+    },
+    {
+      "hypothesis_id": "h_ioi_random_baseline",
+      "protocol_id": "ioi_known_circuit_real_v1",
+      "task_id": "ioi_v0",
+      "model_id": "gpt2-small",
+      "metric_id": "logit_diff_io_minus_s",
+      "claim_text": "Random heads (L2H3, L4H1) do NOT causally contribute to IOI",
+      "candidate_components": [
+        {
+          "component_type": "head",
+          "layer": 2,
+          "head": 3,
+          "site": "z",
+          "patch_mode": "clean"
+        },
+        {
+          "component_type": "head",
+          "layer": 4,
+          "head": 1,
+          "site": "z",
+          "patch_mode": "clean"
+        }
+      ],
+      "predicted_effect_direction": "increase",
+      "predicted_min_effect": 0.05,
+      "predicted_specificity_ratio": 2.0,
+      "expected_failure_modes": [
+        "false_positive"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1028 @@
+{
+  "auxiliary_lane_artifacts": [
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_country_capital_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_country_capital_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_country_capital_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_country_capital_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_country_capital_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_country_capital_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_country_capital_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_country_capital_v0_gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "model": "pythia-70m",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_country_capital_v0_002",
+      "model": "pythia-70m",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_country_capital_v0_003",
+      "model": "pythia-70m",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_country_capital_v0_001",
+      "model": "pythia-70m",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_country_capital_v0_002",
+      "model": "pythia-70m",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_country_capital_v0_003",
+      "model": "pythia-70m",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "pythia-70m",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_country_capital_v0_002",
+      "model": "pythia-70m",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_country_capital_v0_003",
+      "model": "pythia-70m",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_country_capital_v0_pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_docstring_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_docstring_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_docstring_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_docstring_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_docstring_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_docstring_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_docstring_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_docstring_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_docstring_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_docstring_v0_gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_ioi_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_ioi_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_ioi_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_ioi_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_ioi_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_ioi_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_ioi_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_ioi_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_ioi_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_sentiment_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_sentiment_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_sentiment_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_sentiment_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_sentiment_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_sentiment_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_sentiment_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_sentiment_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_sentiment_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_sentiment_v0_gpt2-small",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_sentiment_v0_001",
+      "model": "pythia-70m",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_sentiment_v0_002",
+      "model": "pythia-70m",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "A",
+      "hypothesis_id": "h_sweep_sentiment_v0_003",
+      "model": "pythia-70m",
+      "provider_id": "circuit_sweep_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_sentiment_v0_001",
+      "model": "pythia-70m",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_sentiment_v0_002",
+      "model": "pythia-70m",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B",
+      "hypothesis_id": "h_neuron_sentiment_v0_003",
+      "model": "pythia-70m",
+      "provider_id": "neuron_dla_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_sentiment_v0_001",
+      "model": "pythia-70m",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_sentiment_v0_002",
+      "model": "pythia-70m",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "C",
+      "hypothesis_id": "h_dla_sentiment_v0_003",
+      "model": "pythia-70m",
+      "provider_id": "behavioral_dla_real",
+      "source_dir": "lanes_sentiment_v0_pythia-70m",
+      "task": "sentiment_v0"
+    },
+    {
+      "discovery_lane": "B3",
+      "hypothesis_id": "h_sae_fact_recall_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "sae_autointerp_local",
+      "source_dir": "sae_lane_fact_recall_v0_gpt2-small",
+      "task": "fact_recall_v0"
+    },
+    {
+      "discovery_lane": "B3",
+      "hypothesis_id": "h_sae_fact_recall_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "sae_autointerp_local",
+      "source_dir": "sae_lane_fact_recall_v0_gpt2-small",
+      "task": "fact_recall_v0"
+    },
+    {
+      "discovery_lane": "B3",
+      "hypothesis_id": "h_sae_fact_recall_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "sae_autointerp_local",
+      "source_dir": "sae_lane_fact_recall_v0_gpt2-small",
+      "task": "fact_recall_v0"
+    },
+    {
+      "discovery_lane": "B3",
+      "hypothesis_id": "h_sae_ioi_v0_001",
+      "model": "gpt2-small",
+      "provider_id": "sae_autointerp_local",
+      "source_dir": "sae_lane_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "B3",
+      "hypothesis_id": "h_sae_ioi_v0_002",
+      "model": "gpt2-small",
+      "provider_id": "sae_autointerp_local",
+      "source_dir": "sae_lane_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "discovery_lane": "B3",
+      "hypothesis_id": "h_sae_ioi_v0_003",
+      "model": "gpt2-small",
+      "provider_id": "sae_autointerp_local",
+      "source_dir": "sae_lane_ioi_v0_gpt2-small",
+      "task": "ioi_v0"
+    }
+  ],
+  "bundle_count": 36,
+  "bundles": [
+    {
+      "bundle": "country_capital_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "ioi_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "canonical_runner": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "fact_recall_v0"
+    },
+    {
+      "bundle": "fact_recall_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "fact_recall_v0"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "bundle": "greater_than_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "greater_than_v0"
+    },
+    {
+      "bundle": "greater_than_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "greater_than_v0"
+    },
+    {
+      "bundle": "arithmetic_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "arithmetic_v0"
+    },
+    {
+      "bundle": "arithmetic_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "arithmetic_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_b",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "docstring_v0_pythia-70m",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "canonical_real_repair_v1": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "zero_task_real_repair_v1": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "docstring_v0"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small_lane_b3",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B3": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "sae_autointerp_local": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "fact_recall_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small",
+      "claims": 4,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "prompt_variant_repair_v1": 4
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "prompt_variant_repair_v1": 4
+      },
+      "source": "evaluated_bundle",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_b3",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B3": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "sae_autointerp_local": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_a",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_b",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "gpt2-small",
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_a",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "A": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "circuit_sweep_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_b",
+      "claims": 3,
+      "has_cross_model_results": false,
+      "lane_counts": {
+        "B": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "neuron_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    },
+    {
+      "bundle": "sentiment_v0_pythia-70m_lane_c",
+      "claims": 3,
+      "has_cross_model_results": true,
+      "lane_counts": {
+        "C": 3
+      },
+      "model": "pythia-70m",
+      "provider_counts": {
+        "behavioral_dla_real": 3
+      },
+      "source": "evaluated_bundle",
+      "task": "sentiment_v0"
+    }
+  ],
+  "claim_count": 109,
+  "claims_by_lane": {
+    "A": 18,
+    "B": 18,
+    "B3": 6,
+    "C": 18,
+    "canonical_real": 15,
+    "canonical_real_repair_v1": 30,
+    "prompt_variant_repair_v1": 4
+  },
+  "claims_by_model": {
+    "gpt2-small": 67,
+    "pythia-70m": 42
+  },
+  "claims_by_task": {
+    "arithmetic_v0": 6,
+    "country_capital_v0": 24,
+    "docstring_v0": 15,
+    "fact_recall_v0": 9,
+    "gendered_pronoun_v0": 6,
+    "greater_than_v0": 6,
+    "ioi_v0": 19,
+    "sentiment_v0": 24
+  },
+  "discovery_lane_count": 7,
+  "model_count": 2,
+  "provider_count": 7,
+  "provider_counts": {
+    "behavioral_dla_real": 18,
+    "canonical_runner": 15,
+    "circuit_sweep_real": 18,
+    "neuron_dla_real": 18,
+    "prompt_variant_repair_v1": 4,
+    "sae_autointerp_local": 6,
+    "zero_task_real_repair_v1": 30
+  },
+  "task_count": 8
+}

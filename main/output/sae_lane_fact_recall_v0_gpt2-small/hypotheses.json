@@ -1,0 +1,29 @@
+[
+  {
+    "hypothesis_id": "h_sae_fact_recall_v0_001",
+    "feature_id": 12309,
+    "hook_point": "blocks.8.hook_resid_pre",
+    "claim_text": "SAE feature 12309 at blocks.8.hook_resid_pre increases in clean vs corrupt with mean diff +1.4549, suggesting it encodes information relevant to fact_recall_v0.",
+    "mean_diff": 1.454921793937683,
+    "abs_mean_diff": 1.454921793937683,
+    "std_diff": 2.899449268133879
+  },
+  {
+    "hypothesis_id": "h_sae_fact_recall_v0_002",
+    "feature_id": 4755,
+    "hook_point": "blocks.8.hook_resid_pre",
+    "claim_text": "SAE feature 4755 at blocks.8.hook_resid_pre increases in clean vs corrupt with mean diff +1.1005, suggesting it encodes information relevant to fact_recall_v0.",
+    "mean_diff": 1.1005454897880553,
+    "abs_mean_diff": 1.1005454897880553,
+    "std_diff": 1.7030412287346193
+  },
+  {
+    "hypothesis_id": "h_sae_fact_recall_v0_003",
+    "feature_id": 13505,
+    "hook_point": "blocks.8.hook_resid_pre",
+    "claim_text": "SAE feature 13505 at blocks.8.hook_resid_pre decreases in clean vs corrupt with mean diff -0.9216, suggesting it encodes information relevant to fact_recall_v0.",
+    "mean_diff": -0.9216130495071411,
+    "abs_mean_diff": 0.9216130495071411,
+    "std_diff": 0.9817554666604248
+  }
+]

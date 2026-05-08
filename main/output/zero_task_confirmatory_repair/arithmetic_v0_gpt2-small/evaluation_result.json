@@ -1,0 +1,1989 @@
+{
+  "hypothesis_results": [
+    {
+      "hypothesis_id": "h_arithmetic_v0_001",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.0072,
+            "mismatched_source": 0.0075,
+            "random_component": 0.0071,
+            "shuffled_token": 0.0051,
+            "wrong_layer": 0.0066,
+            "wrong_position": 0.0057
+          },
+          "dataset_seed": 2829610351,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.09709999999999999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0072,
+            "mismatched_source": 0.0075,
+            "random_component": 0.0071,
+            "shuffled_token": 0.0051,
+            "wrong_layer": 0.0066,
+            "wrong_position": 0.0057
+          },
+          "dataset_seed": 2829610351,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.09509999999999999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0071,
+            "mismatched_source": 0.0066,
+            "random_component": 0.0066,
+            "shuffled_token": 0.0044,
+            "wrong_layer": 0.0077,
+            "wrong_position": 0.0069
+          },
+          "dataset_seed": 977391799,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.0819
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0071,
+            "mismatched_source": 0.0066,
+            "random_component": 0.0066,
+            "shuffled_token": 0.0044,
+            "wrong_layer": 0.0077,
+            "wrong_position": 0.0069
+          },
+          "dataset_seed": 977391799,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0799
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0063,
+            "mismatched_source": 0.0063,
+            "random_component": 0.0084,
+            "shuffled_token": 0.0053,
+            "wrong_layer": 0.0057,
+            "wrong_position": 0.005
+          },
+          "dataset_seed": 1197008280,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.09
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0063,
+            "mismatched_source": 0.0063,
+            "random_component": 0.0084,
+            "shuffled_token": 0.0053,
+            "wrong_layer": 0.0057,
+            "wrong_position": 0.005
+          },
+          "dataset_seed": 1197008280,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.088
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.007,
+            "mismatched_source": 0.005,
+            "random_component": 0.0062,
+            "shuffled_token": 0.004,
+            "wrong_layer": 0.0061,
+            "wrong_position": 0.006500000000000001
+          },
+          "dataset_seed": 1721733300,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.072
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.007,
+            "mismatched_source": 0.005,
+            "random_component": 0.0062,
+            "shuffled_token": 0.004,
+            "wrong_layer": 0.0061,
+            "wrong_position": 0.006500000000000001
+          },
+          "dataset_seed": 1721733300,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.06999999999999999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0058000000000000005,
+            "mismatched_source": 0.0079,
+            "random_component": 0.0086,
+            "shuffled_token": 0.0054,
+            "wrong_layer": 0.0066,
+            "wrong_position": 0.0054
+          },
+          "dataset_seed": 4099414818,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0638
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0058000000000000005,
+            "mismatched_source": 0.0079,
+            "random_component": 0.0086,
+            "shuffled_token": 0.0054,
+            "wrong_layer": 0.0066,
+            "wrong_position": 0.0054
+          },
+          "dataset_seed": 4099414818,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0618
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.007,
+            "mismatched_source": 0.0074,
+            "random_component": 0.0068000000000000005,
+            "shuffled_token": 0.0043,
+            "wrong_layer": 0.0055,
+            "wrong_position": 0.0072
+          },
+          "dataset_seed": 112725691,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0711
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.007,
+            "mismatched_source": 0.0074,
+            "random_component": 0.0068000000000000005,
+            "shuffled_token": 0.0043,
+            "wrong_layer": 0.0055,
+            "wrong_position": 0.0072
+          },
+          "dataset_seed": 112725691,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0691
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0067,
+            "mismatched_source": 0.0064,
+            "random_component": 0.0086,
+            "shuffled_token": 0.0051,
+            "wrong_layer": 0.0066,
+            "wrong_position": 0.0054
+          },
+          "dataset_seed": 3678792738,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0958
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0067,
+            "mismatched_source": 0.0064,
+            "random_component": 0.0086,
+            "shuffled_token": 0.0051,
+            "wrong_layer": 0.0066,
+            "wrong_position": 0.0054
+          },
+          "dataset_seed": 3678792738,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0938
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0055,
+            "mismatched_source": 0.0077,
+            "random_component": 0.008,
+            "shuffled_token": 0.0041,
+            "wrong_layer": 0.0072,
+            "wrong_position": 0.005
+          },
+          "dataset_seed": 2635491243,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0663
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0055,
+            "mismatched_source": 0.0077,
+            "random_component": 0.008,
+            "shuffled_token": 0.0041,
+            "wrong_layer": 0.0072,
+            "wrong_position": 0.005
+          },
+          "dataset_seed": 2635491243,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0643
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.0051,
+            "mismatched_source": 0.0059,
+            "random_component": 0.0068000000000000005,
+            "shuffled_token": 0.0044,
+            "wrong_layer": 0.0055,
+            "wrong_position": 0.007
+          },
+          "dataset_seed": 3000939440,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.086
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0051,
+            "mismatched_source": 0.0059,
+            "random_component": 0.0068000000000000005,
+            "shuffled_token": 0.0044,
+            "wrong_layer": 0.0055,
+            "wrong_position": 0.007
+          },
+          "dataset_seed": 3000939440,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.08399999999999999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0062,
+            "mismatched_source": 0.0057,
+            "random_component": 0.0061,
+            "shuffled_token": 0.0051,
+            "wrong_layer": 0.0054,
+            "wrong_position": 0.0067
+          },
+          "dataset_seed": 3683483591,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.1011
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0062,
+            "mismatched_source": 0.0057,
+            "random_component": 0.0061,
+            "shuffled_token": 0.0051,
+            "wrong_layer": 0.0054,
+            "wrong_position": 0.0067
+          },
+          "dataset_seed": 3683483591,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0991
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.005,
+            "mismatched_source": 0.0058000000000000005,
+            "random_component": 0.0063,
+            "shuffled_token": 0.0042,
+            "wrong_layer": 0.006500000000000001,
+            "wrong_position": 0.0052
+          },
+          "dataset_seed": 1597442170,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.079
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.005,
+            "mismatched_source": 0.0058000000000000005,
+            "random_component": 0.0063,
+            "shuffled_token": 0.0042,
+            "wrong_layer": 0.006500000000000001,
+            "wrong_position": 0.0052
+          },
+          "dataset_seed": 1597442170,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.077
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.007,
+            "mismatched_source": 0.0054,
+            "random_component": 0.0079,
+            "shuffled_token": 0.0041,
+            "wrong_layer": 0.0068000000000000005,
+            "wrong_position": 0.0064
+          },
+          "dataset_seed": 3596268779,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.0999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.007,
+            "mismatched_source": 0.0054,
+            "random_component": 0.0079,
+            "shuffled_token": 0.0041,
+            "wrong_layer": 0.0068000000000000005,
+            "wrong_position": 0.0064
+          },
+          "dataset_seed": 3596268779,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0979
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.005,
+            "mismatched_source": 0.0079,
+            "random_component": 0.0088,
+            "shuffled_token": 0.0042,
+            "wrong_layer": 0.0073,
+            "wrong_position": 0.0053
+          },
+          "dataset_seed": 2942261653,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0673
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.005,
+            "mismatched_source": 0.0079,
+            "random_component": 0.0088,
+            "shuffled_token": 0.0042,
+            "wrong_layer": 0.0073,
+            "wrong_position": 0.0053
+          },
+          "dataset_seed": 2942261653,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0653
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0073,
+            "mismatched_source": 0.0059,
+            "random_component": 0.0067,
+            "shuffled_token": 0.0054,
+            "wrong_layer": 0.0079,
+            "wrong_position": 0.0078
+          },
+          "dataset_seed": 2999188313,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0933
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0073,
+            "mismatched_source": 0.0059,
+            "random_component": 0.0067,
+            "shuffled_token": 0.0054,
+            "wrong_layer": 0.0079,
+            "wrong_position": 0.0078
+          },
+          "dataset_seed": 2999188313,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.09129999999999999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0067,
+            "mismatched_source": 0.006500000000000001,
+            "random_component": 0.0063,
+            "shuffled_token": 0.0048000000000000004,
+            "wrong_layer": 0.0062,
+            "wrong_position": 0.0068000000000000005
+          },
+          "dataset_seed": 218899393,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0813
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0067,
+            "mismatched_source": 0.006500000000000001,
+            "random_component": 0.0063,
+            "shuffled_token": 0.0048000000000000004,
+            "wrong_layer": 0.0062,
+            "wrong_position": 0.0068000000000000005
+          },
+          "dataset_seed": 218899393,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0793
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0062,
+            "mismatched_source": 0.0064,
+            "random_component": 0.0088,
+            "shuffled_token": 0.0048000000000000004,
+            "wrong_layer": 0.0074,
+            "wrong_position": 0.0057
+          },
+          "dataset_seed": 3393995429,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0849
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0062,
+            "mismatched_source": 0.0064,
+            "random_component": 0.0088,
+            "shuffled_token": 0.0048000000000000004,
+            "wrong_layer": 0.0074,
+            "wrong_position": 0.0057
+          },
+          "dataset_seed": 3393995429,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0829
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_arithmetic_v0_003",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.0054,
+            "mismatched_source": 0.0066,
+            "random_component": 0.006500000000000001,
+            "shuffled_token": 0.0056,
+            "wrong_layer": 0.0071,
+            "wrong_position": 0.0074
+          },
+          "dataset_seed": 2868445778,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.0798
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0054,
+            "mismatched_source": 0.0066,
+            "random_component": 0.006500000000000001,
+            "shuffled_token": 0.0056,
+            "wrong_layer": 0.0071,
+            "wrong_position": 0.0074
+          },
+          "dataset_seed": 2868445778,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0778
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0066,
+            "mismatched_source": 0.0071,
+            "random_component": 0.0084,
+            "shuffled_token": 0.0047,
+            "wrong_layer": 0.0057,
+            "wrong_position": 0.0078
+          },
+          "dataset_seed": 2804702994,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.0814
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0066,
+            "mismatched_source": 0.0071,
+            "random_component": 0.0084,
+            "shuffled_token": 0.0047,
+            "wrong_layer": 0.0057,
+            "wrong_position": 0.0078
+          },
+          "dataset_seed": 2804702994,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0794
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0069,
+            "mismatched_source": 0.0052,
+            "random_component": 0.007,
+            "shuffled_token": 0.0058,
+            "wrong_layer": 0.0061,
+            "wrong_position": 0.006500000000000001
+          },
+          "dataset_seed": 1699715221,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.06409999999999999
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0069,
+            "mismatched_source": 0.0052,
+            "random_component": 0.007,
+            "shuffled_token": 0.0058,
+            "wrong_layer": 0.0061,
+            "wrong_position": 0.006500000000000001
+          },
+          "dataset_seed": 1699715221,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.062099999999999995
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0067,
+            "mismatched_source": 0.0053,
+            "random_component": 0.0074,
+            "shuffled_token": 0.0048000000000000004,
+            "wrong_layer": 0.0079,
+            "wrong_position": 0.0076
+          },
+          "dataset_seed": 346284465,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.0685
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0067,
+            "mismatched_source": 0.0053,
+            "random_component": 0.0074,
+            "shuffled_token": 0.0048000000000000004,
+            "wrong_layer": 0.0079,
+            "wrong_position": 0.0076
+          },
+          "dataset_seed": 346284465,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0665
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0066,
+            "mismatched_source": 0.0055,
+            "random_component": 0.0082,
+            "shuffled_token": 0.0046,
+            "wrong_layer": 0.0078,
+            "wrong_position": 0.0075
+          },
+          "dataset_seed": 1735850383,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.1003
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0066,
+            "mismatched_source": 0.0055,
+            "random_component": 0.0082,
+            "shuffled_token": 0.0046,
+            "wrong_layer": 0.0078,
+            "wrong_position": 0.0075
+          },
+          "dataset_seed": 1735850383,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0983
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0055,
+            "mismatched_source": 0.0057,
+            "random_component": 0.0061,
+            "shuffled_token": 0.0041,
+            "wrong_layer": 0.0054,
+            "wrong_position": 0.0068000000000000005
+          },
+          "dataset_seed": 3465648075,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0695
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0055,
+            "mismatched_source": 0.0057,
+            "random_component": 0.0061,
+            "shuffled_token": 0.0041,
+            "wrong_layer": 0.0054,
+            "wrong_position": 0.0068000000000000005
+          },
+          "dataset_seed": 3465648075,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0675
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0071,
+            "mismatched_source": 0.0063,
+            "random_component": 0.0083,
+            "shuffled_token": 0.0045000000000000005,
+            "wrong_layer": 0.0052,
+            "wrong_position": 0.0058000000000000005
+          },
+          "dataset_seed": 2567051074,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.08940000000000001
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0071,
+            "mismatched_source": 0.0063,
+            "random_component": 0.0083,
+            "shuffled_token": 0.0045000000000000005,
+            "wrong_layer": 0.0052,
+            "wrong_position": 0.0058000000000000005
+          },
+          "dataset_seed": 2567051074,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.0874
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0064,
+            "mismatched_source": 0.0055,
+            "random_component": 0.0083,
+            "shuffled_token": 0.0058,
+            "wrong_layer": 0.0053,
+            "wrong_position": 0.0064
+          },
+          "dataset_seed": 526396376,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.0996
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.0064,
+            "mismatched_source": 0.0055,
+            "random_component": 0.0083,
+            "shuffled_token": 0.0058,
+            "wrong_layer": 0.0053,
+            "wrong_position": 0.0064
+          },
+          "dataset_seed": 526396376,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "determinism_pins": {
+              "canonical_seed": "0",
+              "cudnn_benchmark": "False",
+              "cudnn_deterministic": "True",
+              "determinism_surface": "cpu_canonical_gpu_approximate",
+              "device": "cpu",
+              "numpy_seed": "0",
+              "python_random_seed": "0",
+              "torch_deterministic_warn_only": "True",
+              "torch_manual_seed": "0",
+              "torch_use_deterministic_algorithms": "True (warn_only)"
+            },
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+            "torch_version": "2.8.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "gpt2-small",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "worded",
+          "prompt_variant": "worded",
+          "resample_id": 0,
+          "runner_id": "stage2_mock_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.09759999999999999
+        }
+      ]
+    }
+  ],
+  "protocol_id": "real_arithmetic_v0_gpt2-small_confirmatory_repair_mock",
+  "protocol_sha256": "f6e569e03eaf36e539aeb3f760dd06cf8861d1c1f8adf5c3d7d9019192a719ae"
+}

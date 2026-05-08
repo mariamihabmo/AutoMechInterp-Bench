@@ -1,0 +1,32 @@
+{
+  "claim_boundary": "This is benchmark-authored rehearsal output, not independent Goodhart evidence.",
+  "contract": "current",
+  "generated_by": "main/run_independent_agnostic_stress.py",
+  "negative_set_validation": null,
+  "required_for_claim_upgrade": [
+    "externally authored negative set frozen before scoring",
+    "same negative set scored under current and V1 candidate contracts",
+    "false-accept rates with Wilson confidence intervals",
+    "accepted-claim and accepted-task retention under V1",
+    "migration decision recorded before paper claim upgrade"
+  ],
+  "scoring_available": true,
+  "status": "benchmark_authored_rehearsal_not_independent_evidence",
+  "stress_result": {
+    "false_accept_rate": 0.0,
+    "false_accept_rate_ci95": {
+      "high": 0.018846005918320894,
+      "label": "[0.0%, 1.9%]",
+      "low": 0.0
+    },
+    "false_accepts": 0,
+    "generator_regime": "fresh_v2",
+    "negatives": 200,
+    "seed_namespace": "release_grade_2026q2",
+    "source_artifact": "main/output/repro/stress_test_agnostic_fresh_release_grade.json",
+    "statistical_budget": {
+      "bootstrap_resamples": null,
+      "permutation_iterations": null
+    }
+  }
+}

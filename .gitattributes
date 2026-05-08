@@ -1,0 +1,205 @@
+# Excludes from `git archive` (the artifact tarball used for OpenReview
+# supplementary uploads). Keep the paths below in lock-step with the
+# pre-submission checklist in `senior_researcher_preflight_checklist.md`.
+
+# Obsolete pre-audit paper snapshot. Retained on disk for diff-based
+# audit trails but must never appear in a release tarball.
+papers/submissions/_obsolete_pre_audit_20260505_DO_NOT_CITE/ export-ignore
+
+# Pre-v3 polish paper backup. Retained on disk so paper edits remain
+# diffable, but must never appear in a release tarball
+# (critical_audit.md §3.6, 2026-05-05).
+papers/submissions/_backup_pre_v3_polish_2026-05-05/ export-ignore
+
+# Locally-rendered docs site. Anonymisation review in
+# `latest_opus_audit.md` §P2-A.2 — keep out of supplementary tarball
+# until the `mkdocs.yml` `site_url` / `repo_url` keys are scrubbed.
+site_build/ export-ignore
+
+# Editor + tooling clutter that should never reach reviewers.
+.venv/ export-ignore
+**/__pycache__/ export-ignore
+**/*.pyc export-ignore
+.pytest_cache/ export-ignore
+
+# final_gpt_audit F14: defensively export-ignore on-disk model weights
+# and temporary debug bundles even though `.gitignore` already keeps
+# them untracked. Belt-and-braces for `git archive` based tarballs.
+model_cache/ export-ignore
+main/output/tmp_debug_repair/ export-ignore
+main/output/tmp_debug_repair2/ export-ignore
+
+# LaTeX build droppings inside the live paper directories. The compiled
+# `main.pdf` is the supplementary deliverable; `.aux`, `.log`, `.out`,
+# `.fls`, `.fdb_latexmk`, `.toc`, `.bbl`, `.blg`, `.synctex.gz`, and the
+# `build/` working subdirectory are intermediates and never need to ship.
+# (critical_audit_v2.md follow-up, 2026-05-05.)
+papers/submissions/*/build/ export-ignore
+papers/submissions/*/*.aux export-ignore
+papers/submissions/*/*.log export-ignore
+papers/submissions/*/*.out export-ignore
+papers/submissions/*/*.fls export-ignore
+papers/submissions/*/*.fdb_latexmk export-ignore
+papers/submissions/*/*.toc export-ignore
+papers/submissions/*/*.bbl export-ignore
+papers/submissions/*/*.blg export-ignore
+papers/submissions/*/*.synctex.gz export-ignore
+
+# Phase 8 audit (2026-05-06): internal audit drafts, planning records,
+# and intermediate decision logs accumulated at repo root during the
+# multi-phase audit cycle. Retained on disk for traceability but must
+# never appear in the OpenReview supplementary tarball — reviewers see
+# only README.md, LICENSE, LICENSE-DATA.md, criteria.md, and
+# implementation_journal.md (the canonical audit trail).
+final_opus_audit*.md export-ignore
+final_critical_audit*.md export-ignore
+final_critical_*_audit.md export-ignore
+final_lastminute_*_audit.md export-ignore
+truefinal_*_audit.md export-ignore
+hoursleft_*_audit.md export-ignore
+neurips2026_guidelines_audit.md export-ignore
+critical_audit*.md export-ignore
+final_gpt_audit.md export-ignore
+latest_opus_audit*.md export-ignore
+opus_audit*.md export-ignore
+Opus_audit*.md export-ignore
+opus_reaudit.md export-ignore
+gpt_audit*.md export-ignore
+gpt_reaudit.md export-ignore
+gemini_audit*.md export-ignore
+EXECUTED_*.md export-ignore
+REMAINING_*.md export-ignore
+DIRECT_*.md export-ignore
+MERGE_*.md export-ignore
+PROJECT_*.md export-ignore
+advisor_guidance.md export-ignore
+leftover.md export-ignore
+pitfalls.md export-ignore
+release_takeaways.md export-ignore
+release-findings.md export-ignore
+thorough_explainer.md export-ignore
+senior_researcher_preflight_checklist.md export-ignore
+
+# Phase 12 audit (2026-05-06): final pre-submission leak sweep.
+# `.github/skills/` contains internal authoring tooling that is not
+# part of the released benchmark surface and must not ship with the
+# supplementary tarball under the anonymity norm.
+# `implementation_journal.md` is an internal multi-phase development
+# log whose narrative reveals non-anonymous project metadata and is
+# not part of the canonical released surface. Retained locally for
+# development traceability but never shipped to reviewers. Rest of
+# the canonical surface stays the same: README.md, LICENSE,
+# LICENSE-DATA.md, criteria.md.
+.github/ export-ignore
+implementation_journal.md export-ignore
+automechinterp_supplementary.tar.gz export-ignore
+
+# Internal-only submission instructions for the human author. Not part
+# of the released supplementary surface.
+SUBMISSION_GUIDE.md export-ignore
+REVIEW_PROMPT_FOR_ADVANCED_AGENT.md export-ignore
+FINAL_PREFLIGHT_AGENT_PROMPT.md export-ignore
+FINAL_PREFLIGHT_AUDIT_ONLY_PROMPT.md export-ignore
+PREFLIGHT_FINDINGS.md export-ignore
+
+# =====================================================================
+# Phase 13 audit (2026-05-06): comprehensive surface-area cleanup.
+# The user (correctly) flagged that the Phase 11/12 tarballs still
+# contained large categories of internal/dev material that has no place
+# in a public benchmark release. This block excludes them.
+# =====================================================================
+
+# Editor / IDE configuration
+.vscode/ export-ignore
+.idea/ export-ignore
+
+# Internal product-management notes and dev todo lists. These describe
+# the dev plan ("portfolio -> EA Forum -> publishable") and personal
+# workflow, NOT the benchmark.
+problems-to-projects/ export-ignore
+
+# Methodology iteration history (V1 through V21+). The published paper
+# is the canonical methodology document; the version history is dev
+# trail and must not ship.
+docs/methodology_versions/ export-ignore
+
+# Internal dev artifacts under docs/reference/ — these are agent
+# execution prompts, requirements/traceability matrices, comparison
+# notes between iteration versions, and roadmap docs. Not part of the
+# public spec surface (which is `claim_bundle_spec_v1.md`,
+# `BENCHMARK_CONTRACT.md`, `LANES.md`, the protocol/governance docs,
+# and the open-item disclosures).
+docs/reference/improved_prompt.md export-ignore
+docs/reference/iteration_log.md export-ignore
+docs/reference/comparison_v6_vs_criteria.md export-ignore
+docs/reference/requirements_traceability.md export-ignore
+docs/reference/implementation_roadmap.md export-ignore
+
+# Methodology dev iteration logs ("gap analyses"). The paper's
+# limitations + future-work sections are the canonical disclosure;
+# the dated dev iteration logs are scaffolding.
+methodology/gap_analysis_*.md export-ignore
+methodology/latest_gap_analysis.md export-ignore
+methodology/audit/ export-ignore
+methodology/README.md export-ignore
+# Preregistration that is not cited from the paper (the cited
+# preregistrations are `targeted_transfer_rerun_preregistrations.md`
+# and `targeted_zero_cell_rerun_preregistrations.md`).
+methodology/targeted_task_model_breadth_rerun_preregistrations.md export-ignore
+
+# Paper sources, paper PDFs, and paper-process docs. The PDFs go to
+# OpenReview as the paper artifact directly, NOT inside the
+# supplementary tarball. Reports / release manifests / submission
+# packets are internal author documents.
+papers/ export-ignore
+
+# Internal merge/refresh status outputs and dev backup snapshots.
+main/output/**/*backup*.json export-ignore
+main/output/repro/post_merge_refresh_status.json export-ignore
+main/output/repro/post_merge_refresh_status.md export-ignore
+main/output/repro/executed_remaining_gaps.json export-ignore
+main/output/repro/repo_diff_inventory.json export-ignore
+# Orphan dev artifact from initial snapshot — no longer regenerated by any
+# pipeline; its body still cites stale 9/26 transfer numbers and stale
+# blocker status. Excluded from the reviewer-facing tarball.
+main/output/repro/remaining_blockers_execution_sweep.md export-ignore
+main/output/repro/remaining_blockers_execution_sweep.json export-ignore
+
+# OS-level metadata files and interrupted-run breadcrumbs that occasionally
+# get committed under main/output/. They contribute no reviewer signal.
+**/.DS_Store export-ignore
+main/output/**/RUN_INTERRUPTED.md export-ignore
+PROJECT_STATUS_AND_PATH_TO_RELEASE.md export-ignore
+REMAINING_BLOCKERS_RELEASE_EXECUTION_PLAN.md export-ignore
+
+# Internal author-process artifacts: multi-round audit trails, gap analyses,
+# per-session backlogs, advisor self-help, pitfalls memo, version-history
+# methodology snapshots. None of these are cited from the paper or required
+# for reproducibility. Retained on disk for development traceability but
+# excluded from the reviewer-facing supplementary tarball.
+methodology/audit/ export-ignore
+methodology/gap_analysis_*.md export-ignore
+methodology/latest_gap_analysis.md export-ignore
+docs/reference/advisor_guidance.md export-ignore
+docs/reference/pitfalls.md export-ignore
+docs/methodology_versions/ export-ignore
+
+# Last-pass exclusions: internal acceptance rubric, lockfiles, internal
+# overclaim/headline guards, duplicate docs. Not needed by reviewers.
+criteria.md export-ignore
+docs/reference/criteria.md export-ignore
+tools/check_release_overclaims.py export-ignore
+tools/check_headline_numbers.py export-ignore
+requirements-stage1.in export-ignore
+requirements-stage1.lock.txt export-ignore
+requirements-stage2-cpu.in export-ignore
+requirements-stage2-cpu.lock.txt export-ignore
+docs/reference/independent_researcher_external_evidence_playbook.md export-ignore
+docs/reference/external_bundle_invitation.md export-ignore
+docs/reference/open_item_broad_external_validity.md export-ignore
+docs/reference/open_item_third_party_bundle_ecosystem.md export-ignore
+holdout/external_partner_packet/independent_researcher_external_evidence_playbook.md export-ignore
+holdout/external_partner_packet/external_bundle_invitation.md export-ignore
+main/output/repro/quality_dashboard_baseline_2026-05-04_pre_final_pass.json export-ignore
+main/output/community_submissions/maintainer_rehearsal_2026-04-25/ export-ignore
+automechinterp/ export-ignore

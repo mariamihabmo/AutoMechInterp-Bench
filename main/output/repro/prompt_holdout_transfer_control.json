@@ -1,0 +1,1877 @@
+{
+  "accepted_claims_with_multi_prompt": 26,
+  "bundle_summaries": [
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "claims": [
+        "h_sweep_docstring_v0_002"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "claims": [
+        "h_dla_docstring_v0_003"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "docstring_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "claims": [
+        "h_fact_recall_v0_003"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "claims": [
+        "h_fact_recall_v0_001"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "pythia-70m",
+      "task": "fact_recall_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "claims": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "greater_than_v0_gpt2-small",
+      "claims": [
+        "h_greater_than_v0_003"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "greater_than_v0"
+    },
+    {
+      "accepted_claims_tested": 3,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "claims": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "claims": [
+        "h_arithmetic_v0_002"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "pythia-70m",
+      "task": "arithmetic_v0"
+    },
+    {
+      "accepted_claims_tested": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "claims": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002",
+        "h_sweep_country_capital_v0_003"
+      ],
+      "claims_passing_all_holdouts": 3,
+      "model": "gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "claims": [
+        "h_neuron_country_capital_v0_002"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims_tested": 3,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "claims": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002",
+        "h_dla_country_capital_v0_003"
+      ],
+      "claims_passing_all_holdouts": 3,
+      "model": "gpt2-small",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims_tested": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "claims": [
+        "h_sweep_country_capital_v0_001",
+        "h_sweep_country_capital_v0_002"
+      ],
+      "claims_passing_all_holdouts": 2,
+      "model": "pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims_tested": 2,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "claims": [
+        "h_dla_country_capital_v0_001",
+        "h_dla_country_capital_v0_002"
+      ],
+      "claims_passing_all_holdouts": 2,
+      "model": "pythia-70m",
+      "task": "country_capital_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "ioi_v0_gpt2-small",
+      "claims": [
+        "h_ioi_v0_001"
+      ],
+      "claims_passing_all_holdouts": 0,
+      "model": "gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "claims": [
+        "h_sweep_ioi_v0_001"
+      ],
+      "claims_passing_all_holdouts": 0,
+      "model": "gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_claims_tested": 1,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "claims": [
+        "h_dla_ioi_v0_002"
+      ],
+      "claims_passing_all_holdouts": 0,
+      "model": "gpt2-small",
+      "task": "ioi_v0"
+    },
+    {
+      "accepted_claims_tested": 2,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "claims": [
+        "h_dla_sentiment_v0_001",
+        "h_dla_sentiment_v0_003"
+      ],
+      "claims_passing_all_holdouts": 1,
+      "model": "gpt2-small",
+      "task": "sentiment_v0"
+    }
+  ],
+  "by_model": {
+    "gpt2-small": {
+      "claims_passing_all_holdouts": 14,
+      "claims_tested": 20
+    },
+    "pythia-70m": {
+      "claims_passing_all_holdouts": 6,
+      "claims_tested": 6
+    }
+  },
+  "by_task": {
+    "arithmetic_v0": {
+      "claims_passing_all_holdouts": 2,
+      "claims_tested": 4
+    },
+    "country_capital_v0": {
+      "claims_passing_all_holdouts": 11,
+      "claims_tested": 11
+    },
+    "docstring_v0": {
+      "claims_passing_all_holdouts": 2,
+      "claims_tested": 2
+    },
+    "fact_recall_v0": {
+      "claims_passing_all_holdouts": 2,
+      "claims_tested": 2
+    },
+    "gendered_pronoun_v0": {
+      "claims_passing_all_holdouts": 1,
+      "claims_tested": 1
+    },
+    "greater_than_v0": {
+      "claims_passing_all_holdouts": 1,
+      "claims_tested": 1
+    },
+    "ioi_v0": {
+      "claims_passing_all_holdouts": 0,
+      "claims_tested": 3
+    },
+    "sentiment_v0": {
+      "claims_passing_all_holdouts": 1,
+      "claims_tested": 2
+    }
+  },
+  "claims": [
+    {
+      "all_holdouts_pass": true,
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H2 causally increases docstring_v0 (sweep effect=0.7722)",
+      "discovery_lane": "A",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.422838947129628,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0884663241714918,
+          "same_direction": true,
+          "source_mean": 0.3884722363381159
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.43543969638763913,
+          "holdout_prompt_variant": "detailed",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.139381885522157,
+          "same_direction": true,
+          "source_mean": 0.3821718617091103
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.3415047762885926,
+          "holdout_prompt_variant": "brief",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.7957899893421316,
+          "same_direction": true,
+          "source_mean": 0.42913932175863356
+        }
+      ],
+      "hypothesis_id": "h_sweep_docstring_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "detailed",
+        "brief"
+      ],
+      "task": "docstring_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H1 has high DLA for docstring_v0 (increase, mean_dla=2.8200)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.45365462227473186,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.2927518340837154,
+          "same_direction": true,
+          "source_mean": 0.35092166208085557
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.49720868610200425,
+          "holdout_prompt_variant": "detailed",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.5106085305095247,
+          "same_direction": true,
+          "source_mean": 0.3291446301672194
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.2046346380597069,
+          "holdout_prompt_variant": "brief",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.4304186232804553,
+          "same_direction": true,
+          "source_mean": 0.4754316541883681
+        }
+      ],
+      "hypothesis_id": "h_dla_docstring_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "detailed",
+        "brief"
+      ],
+      "task": "docstring_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "fact_recall_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L5H10 is causal for fact_recall_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.10251337815733517,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 0.9038215166299355,
+          "same_direction": true,
+          "source_mean": 0.11342214836793788
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.11342214836793788,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 1.1064131375503026,
+          "same_direction": true,
+          "source_mean": 0.10251337815733517
+        }
+      ],
+      "hypothesis_id": "h_fact_recall_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "task": "fact_recall_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "fact_recall_v0_pythia-70m",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L3H3 is causal for fact_recall_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.6704329953474157,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 1.3881924904251766,
+          "same_direction": true,
+          "source_mean": 0.4829539130715763
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.4829539130715763,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 0.7203611940687846,
+          "same_direction": true,
+          "source_mean": 0.6704329953474157
+        }
+      ],
+      "hypothesis_id": "h_fact_recall_v0_001",
+      "model": "pythia-70m",
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "task": "fact_recall_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L11H1 is causal for gendered_pronoun_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.33465229062473073,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 4.299043614762896,
+          "same_direction": true,
+          "source_mean": 0.07784342765808105
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.07784342765808105,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 0.232609875500217,
+          "same_direction": true,
+          "source_mean": 0.33465229062473073
+        }
+      ],
+      "hypothesis_id": "h_gendered_pronoun_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "task": "gendered_pronoun_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "greater_than_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L4H11 is causal for greater_than_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.03299482663472493,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 0.9000402141430214,
+          "same_direction": true,
+          "source_mean": 0.0366592804590861
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.0366592804590861,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 1.1110614662392124,
+          "same_direction": true,
+          "source_mean": 0.03299482663472493
+        }
+      ],
+      "hypothesis_id": "h_greater_than_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase"
+      ],
+      "task": "greater_than_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L8H8 is causal for arithmetic_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.10479387215205602,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": false,
+          "retention_ratio": 11.761286999368311,
+          "same_direction": false,
+          "source_mean": -0.008910068443843297
+        },
+        {
+          "above_floor": false,
+          "holdout_mean": -0.008910068443843297,
+          "holdout_prompt_variant": "worded",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": false,
+          "retention_ratio": 0.0850247086100109,
+          "same_direction": false,
+          "source_mean": 0.10479387215205602
+        }
+      ],
+      "hypothesis_id": "h_arithmetic_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "task": "arithmetic_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H2 is causal for arithmetic_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.0941232783453805,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 0.5064988217159829,
+          "same_direction": true,
+          "source_mean": 0.1858311891555786
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.1858311891555786,
+          "holdout_prompt_variant": "worded",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 1.9743382553429627,
+          "same_direction": true,
+          "source_mean": 0.0941232783453805
+        }
+      ],
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "task": "arithmetic_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H1 is causal for arithmetic_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.0775376558303833,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 7.1637309677815235,
+          "same_direction": true,
+          "source_mean": 0.0108236415045602
+        },
+        {
+          "above_floor": false,
+          "holdout_mean": 0.0108236415045602,
+          "holdout_prompt_variant": "worded",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": false,
+          "retention_ratio": 0.13959206515396008,
+          "same_direction": true,
+          "source_mean": 0.0775376558303833
+        }
+      ],
+      "hypothesis_id": "h_arithmetic_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "task": "arithmetic_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "arithmetic_v0_pythia-70m",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L3H3 is causal for arithmetic_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.027464628219604492,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 0.18935552220503557,
+          "same_direction": true,
+          "source_mean": 0.14504265785217285
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.14504265785217285,
+          "holdout_prompt_variant": "worded",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 5.281071227049785,
+          "same_direction": true,
+          "source_mean": 0.027464628219604492
+        }
+      ],
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "model": "pythia-70m",
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "task": "arithmetic_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H8 causally increases country_capital_v0 (sweep effect=4.2255)",
+      "discovery_lane": "A",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 2.246235665820894,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.9981279309131189,
+          "same_direction": true,
+          "source_mean": 2.2504486611911227
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.662488585426694,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.6539252123585673,
+          "same_direction": true,
+          "source_mean": 2.542322201388223
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 2.838408736955552,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.452345345696662,
+          "same_direction": true,
+          "source_mean": 1.9543621256237937
+        }
+      ],
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L11H2 causally increases country_capital_v0 (sweep effect=0.9519)",
+      "discovery_lane": "A",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.7121455801857842,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.8940043953300163,
+          "same_direction": true,
+          "source_mean": 0.7965795066621568
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.8917320531512064,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.2616714426622986,
+          "same_direction": true,
+          "source_mean": 0.7067862701794457
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.7014269601731074,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.8746639339482959,
+          "same_direction": true,
+          "source_mean": 0.8019388166684953
+        }
+      ],
+      "hypothesis_id": "h_sweep_country_capital_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H0 causally increases country_capital_v0 (sweep effect=0.9155)",
+      "discovery_lane": "A",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.6445647232116215,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.35847531711573927,
+          "same_direction": true,
+          "source_mean": 1.7980728168336173
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.3946482037741041,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.9800546360188873,
+          "same_direction": true,
+          "source_mean": 1.423031076552376
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 2.2014974298931302,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 2.159163862448917,
+          "same_direction": true,
+          "source_mean": 1.0196064634928628
+        }
+      ],
+      "hypothesis_id": "h_sweep_country_capital_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "causal_effect_floor": 0.02,
+      "claim_text": "MLP neuron L9N840 contributes to country_capital_v0 (mean_act=4.003)",
+      "discovery_lane": "B",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.04745287176162478,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0528335295238578,
+          "same_direction": true,
+          "source_mean": 0.04507158105335538
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.02758113353971451,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.5014072358803767,
+          "same_direction": true,
+          "source_mean": 0.055007450164310516
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.06256202856699626,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.6675646812600469,
+          "same_direction": true,
+          "source_mean": 0.037517002650669644
+        }
+      ],
+      "hypothesis_id": "h_neuron_country_capital_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H8 has high DLA for country_capital_v0 (increase, mean_dla=27.9283)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 2.2853538516968017,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0279342905666902,
+          "same_direction": true,
+          "source_mean": 2.2232489689948065
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.70221417669266,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.6768734877817424,
+          "same_direction": true,
+          "source_mean": 2.5148188064968773
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 2.7442837612969533,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.3764197835668484,
+          "same_direction": true,
+          "source_mean": 1.9937840141947307
+        }
+      ],
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L11H2 has high DLA for country_capital_v0 (increase, mean_dla=8.0853)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.7113458958883134,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.9005474002273782,
+          "same_direction": true,
+          "source_mean": 0.7899038914650206
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.8875049182346889,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.2645683780116705,
+          "same_direction": true,
+          "source_mean": 0.7018243802918328
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.6923028646953522,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.8660005781403595,
+          "same_direction": true,
+          "source_mean": 0.7994254070615011
+        }
+      ],
+      "hypothesis_id": "h_dla_country_capital_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H0 has high DLA for country_capital_v0 (increase, mean_dla=7.1508)",
+      "discovery_lane": "C",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.6003571900110396,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.32551189095055005,
+          "same_direction": true,
+          "source_mean": 1.8443479537963867
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.4522185760831077,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.023830304564001,
+          "same_direction": true,
+          "source_mean": 1.4184172607603527
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 2.2364773315096658,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 2.179191013022107,
+          "same_direction": true,
+          "source_mean": 1.0262878830470736
+        }
+      ],
+      "hypothesis_id": "h_dla_country_capital_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L4H6 causally increases country_capital_v0 (sweep effect=2.0263)",
+      "discovery_lane": "A",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 1.4323066643306188,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.1265682384247644,
+          "same_direction": true,
+          "source_mean": 1.2713891759751335
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.3331689834594727,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0092440235776348,
+          "same_direction": true,
+          "source_mean": 1.3209580164107064
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.2096093684907943,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.8747929995025634,
+          "same_direction": true,
+          "source_mean": 1.3827378238950456
+        }
+      ],
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "model": "pythia-70m",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L4H4 causally increases country_capital_v0 (sweep effect=1.8269)",
+      "discovery_lane": "A",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 1.1818507890852672,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.092172686118709,
+          "same_direction": true,
+          "source_mean": 1.0821098202750796
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.1267467377677796,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0153964848810122,
+          "same_direction": true,
+          "source_mean": 1.1096618459338234
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.0374729027823797,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.898790621331563,
+          "same_direction": true,
+          "source_mean": 1.1542987634265234
+        }
+      ],
+      "hypothesis_id": "h_sweep_country_capital_v0_002",
+      "model": "pythia-70m",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L4H6 has high DLA for country_capital_v0 (increase, mean_dla=3.4981)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 1.4623671297043088,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.1308733756497498,
+          "same_direction": true,
+          "source_mean": 1.2931307440712339
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.393022900535947,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0491187689914874,
+          "same_direction": true,
+          "source_mean": 1.327802858655415
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.1932385876065208,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.8357797533572816,
+          "same_direction": true,
+          "source_mean": 1.4276950151201278
+        }
+      ],
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "pythia-70m",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L4H4 has high DLA for country_capital_v0 (increase, mean_dla=2.9996)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 1.1745382717677524,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0946122762124795,
+          "same_direction": true,
+          "source_mean": 1.0730176312582833
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.124967336654663,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0247441803262909,
+          "same_direction": true,
+          "source_mean": 1.097803098814828
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.0210679258619035,
+          "holdout_prompt_variant": "fill_blank",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.8880760474095222,
+          "same_direction": true,
+          "source_mean": 1.1497528042112077
+        }
+      ],
+      "hypothesis_id": "h_dla_country_capital_v0_002",
+      "model": "pythia-70m",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "fill_blank"
+      ],
+      "task": "country_capital_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H7 is causal for ioi_v0 (decrease)",
+      "discovery_lane": "prompt_variant_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": -2.6598314595600914,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 14.921960558944129,
+          "same_direction": true,
+          "source_mean": -0.17824946320246138
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": -1.3490074816204252,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.6181718347481215,
+          "same_direction": true,
+          "source_mean": -0.8336614521722945
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.9925085552155025,
+          "holdout_prompt_variant": "structural",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.49516010484733025,
+          "same_direction": false,
+          "source_mean": -2.0044194705902583
+        }
+      ],
+      "hypothesis_id": "h_ioi_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "task": "ioi_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H7 causally decreases ioi_v0 (sweep effect=-4.1668)",
+      "discovery_lane": "A",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": -2.5867659440116277,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 14.6503947829395,
+          "same_direction": true,
+          "source_mean": -0.17656629615359834
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": -1.3589542744651673,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.7191678508283315,
+          "same_direction": true,
+          "source_mean": -0.7904721309268286
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.0058216821579706,
+          "holdout_prompt_variant": "structural",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.5098291954142952,
+          "same_direction": false,
+          "source_mean": -1.9728601092383975
+        }
+      ],
+      "hypothesis_id": "h_sweep_ioi_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "task": "ioi_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H7 has high DLA for ioi_v0 (decrease, mean_dla=-41.3548)",
+      "discovery_lane": "C",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": -2.53088184765407,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 12.589015841508727,
+          "same_direction": true,
+          "source_mean": -0.20103889609140066
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": -1.4159968126387823,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.8668839964314796,
+          "same_direction": true,
+          "source_mean": -0.7584814135990445
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.0139190204559811,
+          "holdout_prompt_variant": "structural",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.5137827167865099,
+          "same_direction": false,
+          "source_mean": -1.9734393301464261
+        }
+      ],
+      "hypothesis_id": "h_dla_ioi_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "task": "ioi_v0"
+    },
+    {
+      "all_holdouts_pass": true,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L8H4 has high DLA for sentiment_v0 (increase, mean_dla=3.4573)",
+      "discovery_lane": "C",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.16972899058508495,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.458230312905083,
+          "same_direction": true,
+          "source_mean": 0.11639381590343657
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.13725205830165318,
+          "holdout_prompt_variant": "review",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.0348314617321295,
+          "same_direction": true,
+          "source_mean": 0.13263228204515246
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.09553557350521996,
+          "holdout_prompt_variant": "statement",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 0.622420008346953,
+          "same_direction": true,
+          "source_mean": 0.15349052444336905
+        }
+      ],
+      "hypothesis_id": "h_dla_sentiment_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "task": "sentiment_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H3 has high DLA for sentiment_v0 (increase, mean_dla=2.1069)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.22453974920605857,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 3.0339478947637684,
+          "same_direction": true,
+          "source_mean": 0.07400909870389909
+        },
+        {
+          "above_floor": false,
+          "holdout_mean": 0.014427991140456427,
+          "holdout_prompt_variant": "review",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.080574053747526,
+          "same_direction": true,
+          "source_mean": 0.17906497773670016
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.13359020626734175,
+          "holdout_prompt_variant": "statement",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.118060589045445,
+          "same_direction": true,
+          "source_mean": 0.1194838701732575
+        }
+      ],
+      "hypothesis_id": "h_dla_sentiment_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "task": "sentiment_v0"
+    }
+  ],
+  "claims_failing_any_holdout": 6,
+  "claims_passing_all_holdouts": 20,
+  "failing_claims": [
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L8H8 is causal for arithmetic_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.10479387215205602,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": false,
+          "retention_ratio": 11.761286999368311,
+          "same_direction": false,
+          "source_mean": -0.008910068443843297
+        },
+        {
+          "above_floor": false,
+          "holdout_mean": -0.008910068443843297,
+          "holdout_prompt_variant": "worded",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": false,
+          "retention_ratio": 0.0850247086100109,
+          "same_direction": false,
+          "source_mean": 0.10479387215205602
+        }
+      ],
+      "hypothesis_id": "h_arithmetic_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "task": "arithmetic_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "arithmetic_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H1 is causal for arithmetic_v0 (increase)",
+      "discovery_lane": "canonical_real_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.0775376558303833,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": true,
+          "retention_ratio": 7.1637309677815235,
+          "same_direction": true,
+          "source_mean": 0.0108236415045602
+        },
+        {
+          "above_floor": false,
+          "holdout_mean": 0.0108236415045602,
+          "holdout_prompt_variant": "worded",
+          "n_holdout_cells": 4,
+          "n_source_cells": 4,
+          "passes": false,
+          "retention_ratio": 0.13959206515396008,
+          "same_direction": true,
+          "source_mean": 0.0775376558303833
+        }
+      ],
+      "hypothesis_id": "h_arithmetic_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "worded"
+      ],
+      "task": "arithmetic_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H7 is causal for ioi_v0 (decrease)",
+      "discovery_lane": "prompt_variant_repair_v1",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": -2.6598314595600914,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 14.921960558944129,
+          "same_direction": true,
+          "source_mean": -0.17824946320246138
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": -1.3490074816204252,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.6181718347481215,
+          "same_direction": true,
+          "source_mean": -0.8336614521722945
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.9925085552155025,
+          "holdout_prompt_variant": "structural",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.49516010484733025,
+          "same_direction": false,
+          "source_mean": -2.0044194705902583
+        }
+      ],
+      "hypothesis_id": "h_ioi_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "task": "ioi_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H7 causally decreases ioi_v0 (sweep effect=-4.1668)",
+      "discovery_lane": "A",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": -2.5867659440116277,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 14.6503947829395,
+          "same_direction": true,
+          "source_mean": -0.17656629615359834
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": -1.3589542744651673,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.7191678508283315,
+          "same_direction": true,
+          "source_mean": -0.7904721309268286
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.0058216821579706,
+          "holdout_prompt_variant": "structural",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.5098291954142952,
+          "same_direction": false,
+          "source_mean": -1.9728601092383975
+        }
+      ],
+      "hypothesis_id": "h_sweep_ioi_v0_001",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "task": "ioi_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L10H7 has high DLA for ioi_v0 (decrease, mean_dla=-41.3548)",
+      "discovery_lane": "C",
+      "evidence_tier": "single_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": -2.53088184765407,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 12.589015841508727,
+          "same_direction": true,
+          "source_mean": -0.20103889609140066
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": -1.4159968126387823,
+          "holdout_prompt_variant": "paraphrase",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.8668839964314796,
+          "same_direction": true,
+          "source_mean": -0.7584814135990445
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 1.0139190204559811,
+          "holdout_prompt_variant": "structural",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.5137827167865099,
+          "same_direction": false,
+          "source_mean": -1.9734393301464261
+        }
+      ],
+      "hypothesis_id": "h_dla_ioi_v0_002",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "paraphrase",
+        "structural"
+      ],
+      "task": "ioi_v0"
+    },
+    {
+      "all_holdouts_pass": false,
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "causal_effect_floor": 0.02,
+      "claim_text": "L9H3 has high DLA for sentiment_v0 (increase, mean_dla=2.1069)",
+      "discovery_lane": "C",
+      "evidence_tier": "cross_model_confirmed",
+      "holdouts": [
+        {
+          "above_floor": true,
+          "holdout_mean": 0.22453974920605857,
+          "holdout_prompt_variant": "base",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 3.0339478947637684,
+          "same_direction": true,
+          "source_mean": 0.07400909870389909
+        },
+        {
+          "above_floor": false,
+          "holdout_mean": 0.014427991140456427,
+          "holdout_prompt_variant": "review",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": false,
+          "retention_ratio": 0.080574053747526,
+          "same_direction": true,
+          "source_mean": 0.17906497773670016
+        },
+        {
+          "above_floor": true,
+          "holdout_mean": 0.13359020626734175,
+          "holdout_prompt_variant": "statement",
+          "n_holdout_cells": 18,
+          "n_source_cells": 36,
+          "passes": true,
+          "retention_ratio": 1.118060589045445,
+          "same_direction": true,
+          "source_mean": 0.1194838701732575
+        }
+      ],
+      "hypothesis_id": "h_dla_sentiment_v0_003",
+      "model": "gpt2-small",
+      "prompt_variants": [
+        "base",
+        "review",
+        "statement"
+      ],
+      "task": "sentiment_v0"
+    }
+  ],
+  "generated_by": "main/prompt_holdout_transfer_control.py",
+  "notes": [
+    "This is a within-model prompt generalization control built from released raw cells.",
+    "It does not alter evidence tiers and does not replace cross-model transfer.",
+    "A claim passes the prompt-holdout control only if every held-out prompt variant matches the source direction and exceeds the bundle's causal-effect floor."
+  ],
+  "passing_holdout_checks": 63,
+  "prompt_variant_aliasing": {
+    "affected_accepted_claims_in_existing_artifacts": 25,
+    "canonical_affected_accepted_claims": 0,
+    "canonical_files_with_unsupported_prompt_variants": 0,
+    "claim_boundary": "The current canonical prompt-holdout surface has no unsupported prompt variants in accepted bundles.",
+    "repair_covered_accepted_claims": 25,
+    "repair_demoted_previously_accepted": 6,
+    "repair_retained_previously_accepted": 19,
+    "status": "pass"
+  },
+  "schema_version": 1,
+  "strongest_holdouts": [
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "holdout_mean": 2.838408736955552,
+      "holdout_prompt_variant": "fill_blank",
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 1.452345345696662,
+      "source_mean": 1.9543621256237937,
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "holdout_mean": 2.7442837612969533,
+      "holdout_prompt_variant": "fill_blank",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 1.3764197835668484,
+      "source_mean": 1.9937840141947307,
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small",
+      "holdout_mean": -2.6598314595600914,
+      "holdout_prompt_variant": "base",
+      "hypothesis_id": "h_ioi_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 14.921960558944129,
+      "source_mean": -0.17824946320246138,
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "holdout_mean": -2.5867659440116277,
+      "holdout_prompt_variant": "base",
+      "hypothesis_id": "h_sweep_ioi_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 14.6503947829395,
+      "source_mean": -0.17656629615359834,
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "holdout_mean": -2.53088184765407,
+      "holdout_prompt_variant": "base",
+      "hypothesis_id": "h_dla_ioi_v0_002",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 12.589015841508727,
+      "source_mean": -0.20103889609140066,
+      "task": "ioi_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "holdout_mean": 2.2853538516968017,
+      "holdout_prompt_variant": "base",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 1.0279342905666902,
+      "source_mean": 2.2232489689948065,
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "holdout_mean": 2.246235665820894,
+      "holdout_prompt_variant": "base",
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 0.9981279309131189,
+      "source_mean": 2.2504486611911227,
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "holdout_mean": 2.2364773315096658,
+      "holdout_prompt_variant": "fill_blank",
+      "hypothesis_id": "h_dla_country_capital_v0_003",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 2.179191013022107,
+      "source_mean": 1.0262878830470736,
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "holdout_mean": 2.2014974298931302,
+      "holdout_prompt_variant": "fill_blank",
+      "hypothesis_id": "h_sweep_country_capital_v0_003",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 2.159163862448917,
+      "source_mean": 1.0196064634928628,
+      "task": "country_capital_v0"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "holdout_mean": 1.70221417669266,
+      "holdout_prompt_variant": "paraphrase",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "model": "gpt2-small",
+      "passes": true,
+      "retention_ratio": 0.6768734877817424,
+      "source_mean": 2.5148188064968773,
+      "task": "country_capital_v0"
+    }
+  ],
+  "total_holdout_checks": 70
+}

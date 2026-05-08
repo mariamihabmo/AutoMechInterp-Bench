@@ -1,0 +1,32 @@
+{
+  "base_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "negatives": 200,
+  "seed_namespace": "release_grade_2026q2",
+  "generator_regime": "fresh_v2",
+  "stress_source": "internal_maintainer",
+  "stress_source_note": "'agnostic' = evaluator-internals-blind (no suite labels / no threshold lookups), NOT author-independent. The generator is maintainer-authored; see methodology/independent_agnostic_stress_protocol.md for the future external-author protocol.",
+  "statistical_budget": {
+    "bootstrap_resamples": null,
+    "permutation_iterations": null
+  },
+  "namespace_budget_confound_pair": "stress_test_agnostic_fresh.json",
+  "namespace_budget_confound_warning": "Quote alongside the paired artifact named in namespace_budget_confound_pair: this file's leak rate reflects a specific (seed_namespace, statistical_budget) cell and is not a stand-alone Goodhart-resistance number.",
+  "conditions": {
+    "full_contract": {
+      "leaked": 0,
+      "total": 200,
+      "false_accept_rate": 0.0,
+      "false_accept_rate_ci95": {
+        "low": 0.0,
+        "high": 0.018846005918320894,
+        "label": "[0.0%, 1.9%]"
+      },
+      "leaked_negatives": []
+    }
+  },
+  "notes": [
+    "Latent factors control signal strength, control leakage, confirmatory decay, and method dispersion.",
+    "This generator is less suite-labeled than the targeted stress regime, but it is still benchmark-authored synthetic data.",
+    "fresh_v2 adds prompt-instability structure and rotated RNG namespaces for a less overfit latent stress refresh."
+  ]
+}

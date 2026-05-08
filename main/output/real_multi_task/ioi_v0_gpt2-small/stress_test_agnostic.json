@@ -1,0 +1,228 @@
+{
+  "base_bundle": "main/output/real_multi_task/ioi_v0_gpt2-small",
+  "negatives": 40,
+  "conditions": {
+    "full_contract": {
+      "leaked": 4,
+      "total": 40,
+      "false_accept_rate": 0.1,
+      "false_accept_rate_ci95": {
+        "low": 0.03957888759557486,
+        "high": 0.23052074380473897,
+        "label": "[4.0%, 23.1%]"
+      },
+      "leaked_negatives": [
+        {
+          "hypothesis_id": "latent_018",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05293504213516951,
+          "latent_control": 0.026574331078812095,
+          "latent_method_dispersion": 0.15271190266420875,
+          "latent_confirmatory_decay": 0.5847588383091518,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m5_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_028",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.012531033801504186,
+          "latent_control": 0.011051903160068184,
+          "latent_method_dispersion": 0.10343982287529851,
+          "latent_confirmatory_decay": 0.5707751450992131,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_031",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06431105179812552,
+          "latent_control": 0.02506426602021425,
+          "latent_method_dispersion": 0.21794131513869885,
+          "latent_confirmatory_decay": 1.1118227462544623,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m7_d7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_032",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06870183886697094,
+          "latent_control": 0.05185470158044592,
+          "latent_method_dispersion": 0.2862559374273419,
+          "latent_confirmatory_decay": 0.5918253603372317,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m9_d4_stable"
+          ]
+        }
+      ]
+    },
+    "no_controls_suite": {
+      "leaked": 5,
+      "total": 40,
+      "false_accept_rate": 0.125,
+      "false_accept_rate_ci95": {
+        "low": 0.05459419773541284,
+        "high": 0.26112420670238146,
+        "label": "[5.5%, 26.1%]"
+      },
+      "leaked_negatives": [
+        {
+          "hypothesis_id": "latent_008",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.010295133574468814,
+          "latent_control": 0.022637001888974807,
+          "latent_method_dispersion": 0.11553295221308547,
+          "latent_confirmatory_decay": 0.6503903927864485,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_018",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05293504213516951,
+          "latent_control": 0.026574331078812095,
+          "latent_method_dispersion": 0.15271190266420875,
+          "latent_confirmatory_decay": 0.5847588383091518,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m5_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_028",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.012531033801504186,
+          "latent_control": 0.011051903160068184,
+          "latent_method_dispersion": 0.10343982287529851,
+          "latent_confirmatory_decay": 0.5707751450992131,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_031",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06431105179812552,
+          "latent_control": 0.02506426602021425,
+          "latent_method_dispersion": 0.21794131513869885,
+          "latent_confirmatory_decay": 1.1118227462544623,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m7_d7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_032",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06870183886697094,
+          "latent_control": 0.05185470158044592,
+          "latent_method_dispersion": 0.2862559374273419,
+          "latent_confirmatory_decay": 0.5918253603372317,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m9_d4_stable"
+          ]
+        }
+      ]
+    },
+    "no_robustness_suite": {
+      "leaked": 4,
+      "total": 40,
+      "false_accept_rate": 0.1,
+      "false_accept_rate_ci95": {
+        "low": 0.03957888759557486,
+        "high": 0.23052074380473897,
+        "label": "[4.0%, 23.1%]"
+      },
+      "leaked_negatives": [
+        {
+          "hypothesis_id": "latent_018",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.05293504213516951,
+          "latent_control": 0.026574331078812095,
+          "latent_method_dispersion": 0.15271190266420875,
+          "latent_confirmatory_decay": 0.5847588383091518,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m5_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_028",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.012531033801504186,
+          "latent_control": 0.011051903160068184,
+          "latent_method_dispersion": 0.10343982287529851,
+          "latent_confirmatory_decay": 0.5707751450992131,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m3_d4_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_031",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06431105179812552,
+          "latent_control": 0.02506426602021425,
+          "latent_method_dispersion": 0.21794131513869885,
+          "latent_confirmatory_decay": 1.1118227462544623,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m7_d7_stable"
+          ]
+        },
+        {
+          "hypothesis_id": "latent_032",
+          "evidence_tier": "single_model_confirmed",
+          "latent_signal": 0.06870183886697094,
+          "latent_control": 0.05185470158044592,
+          "latent_method_dispersion": 0.2862559374273419,
+          "latent_confirmatory_decay": 0.5918253603372317,
+          "latent_direction_flip": false,
+          "expected_failure_modes": [
+            "distributed_computation",
+            "latent_synthetic_negative",
+            "profile_s0_c0_m9_d4_stable"
+          ]
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Latent factors control signal strength, control leakage, confirmatory decay, and method dispersion.",
+    "This generator is less suite-labeled than the targeted stress regime, but it is still benchmark-authored synthetic data."
+  ]
+}

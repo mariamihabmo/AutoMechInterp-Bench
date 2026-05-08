@@ -1,0 +1,95 @@
+{
+  "accepted_breadth_map": {
+    "arithmetic_v0": {
+      "gpt2-small": {
+        "canonical_real_repair_v1": 3
+      },
+      "pythia-70m": {
+        "canonical_real_repair_v1": 1
+      }
+    },
+    "country_capital_v0": {
+      "gpt2-small": {
+        "A": 3,
+        "B": 1,
+        "C": 3,
+        "canonical_real": 0
+      },
+      "pythia-70m": {
+        "A": 2,
+        "B": 0,
+        "C": 2,
+        "canonical_real": 0
+      }
+    },
+    "docstring_v0": {
+      "gpt2-small": {
+        "A": 1,
+        "B": 0,
+        "C": 1,
+        "canonical_real_repair_v1": 0
+      },
+      "pythia-70m": {
+        "canonical_real_repair_v1": 0
+      }
+    },
+    "fact_recall_v0": {
+      "gpt2-small": {
+        "B3": 0,
+        "canonical_real_repair_v1": 1
+      },
+      "pythia-70m": {
+        "canonical_real_repair_v1": 1
+      }
+    },
+    "gendered_pronoun_v0": {
+      "gpt2-small": {
+        "canonical_real_repair_v1": 1
+      },
+      "pythia-70m": {
+        "canonical_real_repair_v1": 0
+      }
+    },
+    "greater_than_v0": {
+      "gpt2-small": {
+        "canonical_real_repair_v1": 1
+      },
+      "pythia-70m": {
+        "canonical_real_repair_v1": 0
+      }
+    },
+    "ioi_v0": {
+      "gpt2-small": {
+        "A": 1,
+        "B": 0,
+        "B3": 0,
+        "C": 1,
+        "prompt_variant_repair_v1": 1
+      },
+      "pythia-70m": {
+        "canonical_real": 0
+      }
+    },
+    "sentiment_v0": {
+      "gpt2-small": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "canonical_real": 0
+      },
+      "pythia-70m": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "canonical_real": 0
+      }
+    }
+  },
+  "failure_family_counts": {
+    "causal": 46,
+    "controls": 59,
+    "robustness": 76,
+    "statistics": 140,
+    "transfer": 28
+  }
+}

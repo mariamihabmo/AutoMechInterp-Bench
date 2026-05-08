@@ -1,0 +1,146 @@
+[
+  {
+    "task": "ioi_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "ioi_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "greater_than_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "greater_than_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "gendered_pronoun_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "gendered_pronoun_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "country_capital_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "country_capital_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "sentiment_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "sentiment_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "docstring_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "docstring_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "fact_recall_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "fact_recall_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "arithmetic_v0",
+    "model": "gpt2-small",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  },
+  {
+    "task": "arithmetic_v0",
+    "model": "pythia-70m",
+    "hypotheses": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "all_pass": true,
+    "status": "\u2705"
+  }
+]

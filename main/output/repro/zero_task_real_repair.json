@@ -1,0 +1,609 @@
+{
+  "aggregate": {
+    "accepted_after_real_total": 7,
+    "accepted_before_total": 0,
+    "bundles_run": 10,
+    "confirmatory_ci_failures_after_real": 9,
+    "confirmatory_ci_failures_before": 23,
+    "confirmatory_present_failures_after_real": 0,
+    "confirmatory_present_failures_before": 0,
+    "runtime_seconds": 923.4789347648621,
+    "tasks_with_any_real_accept_after": [
+      "arithmetic_v0",
+      "fact_recall_v0",
+      "gendered_pronoun_v0",
+      "greater_than_v0"
+    ]
+  },
+  "generated_by": "main/zero_task_real_repair.py",
+  "release_status": "Real Stage-2 repair reruns. In canonical aggregate reporting, same-named legacy zero-task bundles from main/output/real_multi_task are superseded by these reruns, so headline bundle and claim counts remain stable while repaired evidence is counted.",
+  "rows": [
+    {
+      "accepted_after_real": 3,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [
+        "h_arithmetic_v0_001",
+        "h_arithmetic_v0_002",
+        "h_arithmetic_v0_003"
+      ],
+      "bundle": "arithmetic_v0_gpt2-small",
+      "candidate_bundle": "main/output/zero_task_real_repair/arithmetic_v0_gpt2-small",
+      "confirmatory_ci_failures_after_real": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after_real": {
+        "cross_model_transfer": 3
+      },
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "real",
+      "model": "gpt2-small",
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multi_task/arithmetic_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "arithmetic_v0",
+      "tiers_after_real": {
+        "h_arithmetic_v0_001": "single_model_confirmed",
+        "h_arithmetic_v0_002": "single_model_confirmed",
+        "h_arithmetic_v0_003": "single_model_confirmed"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 0,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "arithmetic_v0_pythia-70m",
+      "candidate_bundle": "main/output/zero_task_real_repair/arithmetic_v0_pythia-70m",
+      "confirmatory_ci_failures_after_real": 2,
+      "confirmatory_ci_failures_before": 2,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after_real": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "multiplicity": 2,
+        "negative_controls": 3,
+        "robustness": 2
+      },
+      "failed_gates_before": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 3,
+        "robustness": 2
+      },
+      "mode": "real",
+      "model": "pythia-70m",
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multi_task/arithmetic_v0_pythia-70m",
+      "stage2_cell_count": 48,
+      "task": "arithmetic_v0",
+      "tiers_after_real": {
+        "h_arithmetic_v0_001": "rejected",
+        "h_arithmetic_v0_002": "rejected",
+        "h_arithmetic_v0_003": "rejected"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 0,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "docstring_v0_gpt2-small",
+      "candidate_bundle": "main/output/zero_task_real_repair/docstring_v0_gpt2-small",
+      "confirmatory_ci_failures_after_real": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "mps",
+      "examples_per_cell": 48,
+      "failed_gates_after_real": {
+        "method_sensitivity": 3
+      },
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "negative_controls": 1,
+        "robustness": 3
+      },
+      "mode": "real",
+      "model": "gpt2-small",
+      "runtime_seconds": 154.3316011428833,
+      "source_bundle": "main/output/real_multi_task/docstring_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "docstring_v0",
+      "tiers_after_real": {
+        "h_docstring_v0_001": "suggestive",
+        "h_docstring_v0_002": "suggestive",
+        "h_docstring_v0_003": "suggestive"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 0,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "docstring_v0_pythia-70m",
+      "candidate_bundle": "main/output/zero_task_real_repair/docstring_v0_pythia-70m",
+      "confirmatory_ci_failures_after_real": 1,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "cuda",
+      "examples_per_cell": 48,
+      "failed_gates_after_real": {
+        "confirmatory_ci": 1,
+        "method_sensitivity": 3,
+        "multiplicity": 1
+      },
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "real",
+      "model": "pythia-70m",
+      "runtime_seconds": 163.47925758361816,
+      "source_bundle": "main/output/real_multi_task/docstring_v0_pythia-70m",
+      "stage2_cell_count": 48,
+      "task": "docstring_v0",
+      "tiers_after_real": {
+        "h_docstring_v0_001": "suggestive",
+        "h_docstring_v0_002": "suggestive",
+        "h_docstring_v0_003": "suggestive"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "detailed"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 1,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [
+        "h_fact_recall_v0_003"
+      ],
+      "bundle": "fact_recall_v0_gpt2-small",
+      "candidate_bundle": "main/output/zero_task_real_repair/fact_recall_v0_gpt2-small",
+      "confirmatory_ci_failures_after_real": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "mps",
+      "examples_per_cell": 48,
+      "failed_gates_after_real": {
+        "cross_model_transfer": 3,
+        "method_sensitivity": 2
+      },
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "real",
+      "model": "gpt2-small",
+      "runtime_seconds": 171.1879551410675,
+      "source_bundle": "main/output/real_multi_task/fact_recall_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "fact_recall_v0",
+      "tiers_after_real": {
+        "h_fact_recall_v0_001": "suggestive",
+        "h_fact_recall_v0_002": "suggestive",
+        "h_fact_recall_v0_003": "single_model_confirmed"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 1,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [
+        "h_fact_recall_v0_001"
+      ],
+      "bundle": "fact_recall_v0_pythia-70m",
+      "candidate_bundle": "main/output/zero_task_real_repair/fact_recall_v0_pythia-70m",
+      "confirmatory_ci_failures_after_real": 0,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "mps",
+      "examples_per_cell": 24,
+      "failed_gates_after_real": {
+        "cross_model_transfer": 3,
+        "negative_controls": 2
+      },
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "negative_controls": 1,
+        "robustness": 3
+      },
+      "mode": "real",
+      "model": "pythia-70m",
+      "runtime_seconds": 41.30741310119629,
+      "source_bundle": "main/output/real_multi_task/fact_recall_v0_pythia-70m",
+      "stage2_cell_count": 48,
+      "task": "fact_recall_v0",
+      "tiers_after_real": {
+        "h_fact_recall_v0_001": "single_model_confirmed",
+        "h_fact_recall_v0_002": "rejected",
+        "h_fact_recall_v0_003": "rejected"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 1,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [
+        "h_gendered_pronoun_v0_002"
+      ],
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "candidate_bundle": "main/output/zero_task_real_repair/gendered_pronoun_v0_gpt2-small",
+      "confirmatory_ci_failures_after_real": 1,
+      "confirmatory_ci_failures_before": 3,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "mps",
+      "examples_per_cell": 24,
+      "failed_gates_after_real": {
+        "causal_effect": 2,
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 1,
+        "multiplicity": 2,
+        "robustness": 2
+      },
+      "failed_gates_before": {
+        "causal_effect": 3,
+        "confirmatory_ci": 3,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 3,
+        "multiplicity": 3,
+        "robustness": 3
+      },
+      "mode": "real",
+      "model": "gpt2-small",
+      "runtime_seconds": 69.61238098144531,
+      "source_bundle": "main/output/real_multi_task/gendered_pronoun_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "gendered_pronoun_v0",
+      "tiers_after_real": {
+        "h_gendered_pronoun_v0_001": "rejected",
+        "h_gendered_pronoun_v0_002": "single_model_confirmed",
+        "h_gendered_pronoun_v0_003": "rejected"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 0,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "gendered_pronoun_v0_pythia-70m",
+      "candidate_bundle": "main/output/zero_task_real_repair/gendered_pronoun_v0_pythia-70m",
+      "confirmatory_ci_failures_after_real": 2,
+      "confirmatory_ci_failures_before": 2,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "cuda",
+      "examples_per_cell": 48,
+      "failed_gates_after_real": {
+        "causal_effect": 2,
+        "confirmatory_ci": 2,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "negative_controls": 3,
+        "robustness": 2
+      },
+      "failed_gates_before": {
+        "confirmatory_ci": 2,
+        "method_sensitivity": 3,
+        "multiplicity": 3
+      },
+      "mode": "real",
+      "model": "pythia-70m",
+      "runtime_seconds": 161.1182816028595,
+      "source_bundle": "main/output/real_multi_task/gendered_pronoun_v0_pythia-70m",
+      "stage2_cell_count": 48,
+      "task": "gendered_pronoun_v0",
+      "tiers_after_real": {
+        "h_gendered_pronoun_v0_001": "rejected",
+        "h_gendered_pronoun_v0_002": "rejected",
+        "h_gendered_pronoun_v0_003": "rejected"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 1,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [
+        "h_greater_than_v0_003"
+      ],
+      "bundle": "greater_than_v0_gpt2-small",
+      "candidate_bundle": "main/output/zero_task_real_repair/greater_than_v0_gpt2-small",
+      "confirmatory_ci_failures_after_real": 1,
+      "confirmatory_ci_failures_before": 0,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "unknown_existing",
+      "examples_per_cell": "unknown_existing",
+      "failed_gates_after_real": {
+        "confirmatory_ci": 1,
+        "cross_model_transfer": 3,
+        "method_sensitivity": 2,
+        "multiplicity": 2
+      },
+      "failed_gates_before": {
+        "cross_model_transfer": 3,
+        "method_sensitivity": 2,
+        "multiplicity": 3
+      },
+      "mode": "real",
+      "model": "gpt2-small",
+      "runtime_seconds": 0.0,
+      "source_bundle": "main/output/real_multi_task/greater_than_v0_gpt2-small",
+      "stage2_cell_count": 48,
+      "task": "greater_than_v0",
+      "tiers_after_real": {
+        "h_greater_than_v0_001": "suggestive",
+        "h_greater_than_v0_002": "suggestive",
+        "h_greater_than_v0_003": "single_model_confirmed"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    },
+    {
+      "accepted_after_real": 0,
+      "accepted_before": 0,
+      "accepted_hypotheses_after_real": [],
+      "bundle": "greater_than_v0_pythia-70m",
+      "candidate_bundle": "main/output/zero_task_real_repair/greater_than_v0_pythia-70m",
+      "confirmatory_ci_failures_after_real": 2,
+      "confirmatory_ci_failures_before": 1,
+      "confirmatory_present_failures_after_real": 0,
+      "confirmatory_present_failures_before": 0,
+      "device": "cuda",
+      "examples_per_cell": 48,
+      "failed_gates_after_real": {
+        "confirmatory_ci": 2,
+        "method_sensitivity": 1,
+        "multiplicity": 3,
+        "negative_controls": 3
+      },
+      "failed_gates_before": {
+        "causal_effect": 2,
+        "confirmatory_ci": 1,
+        "method_sensitivity": 2,
+        "multiplicity": 3,
+        "robustness": 2
+      },
+      "mode": "real",
+      "model": "pythia-70m",
+      "runtime_seconds": 162.442045211792,
+      "source_bundle": "main/output/real_multi_task/greater_than_v0_pythia-70m",
+      "stage2_cell_count": 48,
+      "task": "greater_than_v0",
+      "tiers_after_real": {
+        "h_greater_than_v0_001": "rejected",
+        "h_greater_than_v0_002": "rejected",
+        "h_greater_than_v0_003": "rejected"
+      },
+      "upgraded_protocol": {
+        "execution_grid": {
+          "methods": [
+            "activation_patching",
+            "zero_ablation"
+          ],
+          "prompt_variants": [
+            "base",
+            "paraphrase"
+          ],
+          "resample_ids": [
+            0
+          ],
+          "seeds": [
+            42,
+            123
+          ]
+        },
+        "exploratory_fraction": 0.3,
+        "require_confirmatory_split": true
+      }
+    }
+  ]
+}

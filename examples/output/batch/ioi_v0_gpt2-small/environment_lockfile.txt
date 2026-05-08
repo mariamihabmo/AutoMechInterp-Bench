@@ -1,0 +1,478 @@
+accelerate==1.12.0
+aiobotocore @ <local-file-url-redacted>
+aiohappyeyeballs==2.6.1
+aiohttp==3.13.3
+aioitertools @ <local-file-url-redacted>
+aiosignal==1.4.0
+alabaster @ <local-file-url-redacted>
+altair @ <local-file-url-redacted>
+anaconda-anon-usage @ <local-file-url-redacted>
+anaconda-catalogs @ <local-file-url-redacted>
+anaconda-client @ <local-file-url-redacted>
+anaconda-cloud-auth @ <local-file-url-redacted>
+anaconda-navigator @ <local-file-url-redacted>
+anaconda-project @ <local-file-url-redacted>
+anndata==0.11.4
+annotated-types @ <local-file-url-redacted>
+anyio==4.12.1
+appdirs==1.4.4
+applaunchservices @ <local-file-url-redacted>
+appnope @ <local-file-url-redacted>
+appscript @ <local-file-url-redacted>
+archspec @ <local-file-url-redacted>
+argon2-cffi @ <local-file-url-redacted>
+argon2-cffi-bindings @ <local-file-url-redacted>
+array_api_compat==1.11.2
+arrow @ <local-file-url-redacted>
+astor==0.8.1
+astroid @ <local-file-url-redacted>
+astropy @ <local-file-url-redacted>
+astropy-iers-data @ <local-file-url-redacted>
+asttokens @ <local-file-url-redacted>
+async-lru @ <local-file-url-redacted>
+atomicwrites==1.4.0
+attrs @ <local-file-url-redacted>
+Automat @ <local-file-url-redacted>
+# Editable install with no version control (automechinterp-evaluator==0.1.0)
+-e <local-user-path-redacted>
+# Editable install with no version control (automechinterp-runner==0.1.0)
+-e <local-user-path-redacted>
+# Editable install with no version control (automechinterp-stage1==0.1.0)
+-e <local-user-path-redacted>
+autopep8 @ <local-file-url-redacted>
+autoviz==0.1.905
+Babel @ <local-file-url-redacted>
+bcrypt @ <local-file-url-redacted>
+beartype==0.14.1
+beautifulsoup4 @ <local-file-url-redacted>
+better-abc==0.0.3
+binaryornot @ <local-file-url-redacted>
+black @ <local-file-url-redacted>
+bleach @ <local-file-url-redacted>
+blinker @ <local-file-url-redacted>
+bokeh @ <local-file-url-redacted>
+boltons @ <local-file-url-redacted>
+botocore @ <local-file-url-redacted>
+Bottleneck @ <local-file-url-redacted>
+Brotli @ <local-file-url-redacted>
+bs4==0.0.2
+cachetools @ <local-file-url-redacted>
+certifi @ <local-file-url-redacted>
+cffi @ <local-file-url-redacted>
+chardet @ <local-file-url-redacted>
+charset-normalizer @ <local-file-url-redacted>
+click @ <local-file-url-redacted>
+cloudpickle @ <local-file-url-redacted>
+colorama @ <local-file-url-redacted>
+colorcet @ <local-file-url-redacted>
+comm @ <local-file-url-redacted>
+conda @ <local-file-url-redacted>
+conda-build @ <local-file-url-redacted>
+conda-content-trust @ <local-file-url-redacted>
+conda-libmamba-solver @ <local-file-url-redacted>
+conda-pack @ <local-file-url-redacted>
+conda-package-handling @ <local-file-url-redacted>
+conda-repo-cli @ <local-file-url-redacted>
+conda-token @ <local-file-url-redacted>
+conda_index @ <local-file-url-redacted>
+conda_package_streaming @ <local-file-url-redacted>
+constantly @ <local-file-url-redacted>
+contourpy @ <local-file-url-redacted>
+cookiecutter @ <local-file-url-redacted>
+coverage==7.9.1
+cryptography @ <local-file-url-redacted>
+cssselect @ <local-file-url-redacted>
+cycler @ <local-file-url-redacted>
+Cython==3.0.12
+cytoolz @ <local-file-url-redacted>
+dabl==0.3.2
+dacite==1.9.2
+dash==3.0.0
+dash-bootstrap-components==2.0.0
+dash_colorscales==0.0.4
+dash_daq==0.6.0
+dask @ <local-file-url-redacted>
+dask-expr @ <local-file-url-redacted>
+datasets==4.5.0
+datashader @ <local-file-url-redacted>
+datatile==1.0.3
+debugpy @ <local-file-url-redacted>
+decorator @ <local-file-url-redacted>
+defusedxml @ <local-file-url-redacted>
+diff-match-patch @ <local-file-url-redacted>
+dill==0.4.0
+distributed @ <local-file-url-redacted>
+distro @ <local-file-url-redacted>
+dmglib @ <local-file-url-redacted>
+docker-pycreds==0.4.0
+docstring-to-markdown @ <local-file-url-redacted>
+docutils @ <local-file-url-redacted>
+dtale==3.16.1
+einops==0.8.1
+emoji==2.14.1
+et-xmlfile @ <local-file-url-redacted>
+executing @ <local-file-url-redacted>
+fancy-einsum==0.0.3
+fastjsonschema @ <local-file-url-redacted>
+filelock @ <local-file-url-redacted>
+flake8 @ <local-file-url-redacted>
+Flask @ <local-file-url-redacted>
+Flask-Compress==1.17
+fonttools @ <local-file-url-redacted>
+fqdn==1.5.1
+frozendict @ <local-file-url-redacted>
+frozenlist @ <local-file-url-redacted>
+fsspec @ <local-file-url-redacted>
+future==1.0.0
+gensim @ <local-file-url-redacted>
+gitdb @ <local-file-url-redacted>
+GitPython @ <local-file-url-redacted>
+google-auth==2.48.0
+google-genai==1.64.0
+greenlet @ <local-file-url-redacted>
+h11 @ <local-file-url-redacted>
+h5py @ <local-file-url-redacted>
+HeapDict @ <local-file-url-redacted>
+hf-xet==1.2.0
+holoviews @ <local-file-url-redacted>
+htmlmin==0.1.12
+httpcore @ <local-file-url-redacted>
+httpx==0.28.1
+huggingface_hub==0.36.2
+hvplot @ <local-file-url-redacted>
+hyperlink @ <local-file-url-redacted>
+icd9cms==0.2.1
+idna @ <local-file-url-redacted>
+imagecodecs @ <local-file-url-redacted>
+ImageHash==4.3.1
+imageio @ <local-file-url-redacted>
+imagesize @ <local-file-url-redacted>
+imbalanced-learn @ <local-file-url-redacted>
+importlib-metadata @ <local-file-url-redacted>
+importlib_resources==6.5.2
+incremental @ <local-file-url-redacted>
+inflection @ <local-file-url-redacted>
+iniconfig @ <local-file-url-redacted>
+intake @ <local-file-url-redacted>
+intervaltree @ <local-file-url-redacted>
+ipykernel @ <local-file-url-redacted>
+ipython @ <local-file-url-redacted>
+ipython-genutils @ <local-file-url-redacted>
+ipywidgets @ <local-file-url-redacted>
+isoduration==20.11.0
+isort @ <local-file-url-redacted>
+itemadapter @ <local-file-url-redacted>
+itemloaders @ <local-file-url-redacted>
+itsdangerous @ <local-file-url-redacted>
+jaraco.classes @ <local-file-url-redacted>
+jaxtyping==0.2.36
+jedi @ <local-file-url-redacted>
+jellyfish @ <local-file-url-redacted>
+Jinja2 @ <local-file-url-redacted>
+jmespath @ <local-file-url-redacted>
+joblib==1.4.2
+json5 @ <local-file-url-redacted>
+jsonpatch @ <local-file-url-redacted>
+jsonpointer==2.1
+jsonschema @ <local-file-url-redacted>
+jsonschema-specifications @ <local-file-url-redacted>
+jupyter @ <local-file-url-redacted>
+jupyter-console @ <local-file-url-redacted>
+jupyter-events @ <local-file-url-redacted>
+jupyter-lsp @ <local-file-url-redacted>
+jupyter-summarytools==0.2.3
+jupyter_client @ <local-file-url-redacted>
+jupyter_core @ <local-file-url-redacted>
+jupyter_server @ <local-file-url-redacted>
+jupyter_server_terminals @ <local-file-url-redacted>
+jupyterlab @ <local-file-url-redacted>
+jupyterlab-pygments @ <local-file-url-redacted>
+jupyterlab-widgets @ <local-file-url-redacted>
+jupyterlab_server @ <local-file-url-redacted>
+kaleido==0.2.1
+keyring @ <local-file-url-redacted>
+kiwisolver @ <local-file-url-redacted>
+klib==1.3.2
+lazy-object-proxy @ <local-file-url-redacted>
+lazy_loader @ <local-file-url-redacted>
+lckr_jupyterlab_variableinspector @ <local-file-url-redacted>
+legacy-api-wrap==1.4.1
+libarchive-c @ <local-file-url-redacted>
+libmambapy @ <local-file-url-redacted>
+lightning-utilities==0.14.3
+linkify-it-py @ <local-file-url-redacted>
+llvmlite @ <local-file-url-redacted>
+lmdb @ <local-file-url-redacted>
+locket @ <local-file-url-redacted>
+lxml @ <local-file-url-redacted>
+lz4 @ <local-file-url-redacted>
+Markdown @ <local-file-url-redacted>
+markdown-it-py @ <local-file-url-redacted>
+MarkupSafe @ <local-file-url-redacted>
+matplotlib==3.9.2
+matplotlib-inline @ <local-file-url-redacted>
+mccabe @ <local-file-url-redacted>
+mdit-py-plugins @ <local-file-url-redacted>
+mdurl @ <local-file-url-redacted>
+menuinst @ <local-file-url-redacted>
+missingno==0.5.2
+mistune @ <local-file-url-redacted>
+more-itertools @ <local-file-url-redacted>
+mpmath @ <local-file-url-redacted>
+msgpack @ <local-file-url-redacted>
+multidict @ <local-file-url-redacted>
+multimethod==1.12
+multipledispatch @ <local-file-url-redacted>
+multiprocess==0.70.18
+mypy @ <local-file-url-redacted>
+mypy-extensions @ <local-file-url-redacted>
+natsort==8.4.0
+navigator-updater @ <local-file-url-redacted>
+nbclient @ <local-file-url-redacted>
+nbconvert @ <local-file-url-redacted>
+nbformat @ <local-file-url-redacted>
+nest-asyncio @ <local-file-url-redacted>
+networkx @ <local-file-url-redacted>
+nltk @ <local-file-url-redacted>
+notebook @ <local-file-url-redacted>
+notebook_shim @ <local-file-url-redacted>
+numba @ <local-file-url-redacted>
+numexpr @ <local-file-url-redacted>
+numpy @ <local-file-url-redacted>
+numpydoc @ <local-file-url-redacted>
+openpyxl @ <local-file-url-redacted>
+optional-django==0.3.0
+overrides @ <local-file-url-redacted>
+packaging==25.0
+pandas==2.0.3
+pandas-dq==1.29
+pandas-profiling==3.2.0
+pandasgui==0.2.14
+pandocfilters @ <local-file-url-redacted>
+panel @ <local-file-url-redacted>
+param @ <local-file-url-redacted>
+parsel @ <local-file-url-redacted>
+parso @ <local-file-url-redacted>
+partd @ <local-file-url-redacted>
+pathspec @ <local-file-url-redacted>
+patsy @ <local-file-url-redacted>
+pexpect @ <local-file-url-redacted>
+phik==0.12.4
+pickleshare @ <local-file-url-redacted>
+pillow @ <local-file-url-redacted>
+pkce @ <local-file-url-redacted>
+pkginfo @ <local-file-url-redacted>
+platformdirs @ <local-file-url-redacted>
+plotly @ <local-file-url-redacted>
+pluggy==1.6.0
+ply @ <local-file-url-redacted>
+prometheus-client @ <local-file-url-redacted>
+prompt-toolkit @ <local-file-url-redacted>
+propcache==0.4.1
+Protego @ <local-file-url-redacted>
+protobuf==4.25.3
+psutil @ <local-file-url-redacted>
+ptyprocess @ <local-file-url-redacted>
+pure-eval @ <local-file-url-redacted>
+puremagic==1.28
+py-cpuinfo @ <local-file-url-redacted>
+pyamg==5.2.1
+pyarrow==23.0.1
+pyasn1 @ <local-file-url-redacted>
+pyasn1-modules==0.2.8
+pycodestyle @ <local-file-url-redacted>
+pycosat @ <local-file-url-redacted>
+pycparser @ <local-file-url-redacted>
+pyct @ <local-file-url-redacted>
+pycurl @ <local-file-url-redacted>
+pydantic==2.12.5
+pydantic-settings==2.8.1
+pydantic_core==2.41.5
+pydeck @ <local-file-url-redacted>
+PyDispatcher @ <local-file-url-redacted>
+pydocstyle @ <local-file-url-redacted>
+pyerfa @ <local-file-url-redacted>
+pyflakes @ <local-file-url-redacted>
+Pygments @ <local-file-url-redacted>
+PyJWT @ <local-file-url-redacted>
+pylint @ <local-file-url-redacted>
+pylint-venv @ <local-file-url-redacted>
+pyls-spyder==0.4.0
+pymlrf @ git+https://github.com/joshuaspear/pymlrf.git@2e86313edd7900c1b5621b4e31368a36328b69f8
+pynndescent==0.5.13
+pynput==1.8.1
+pyobjc-core==11.0
+pyobjc-framework-ApplicationServices==11.0
+pyobjc-framework-Cocoa==11.0
+pyobjc-framework-CoreServices @ <local-file-url-redacted>
+pyobjc-framework-CoreText==11.0
+pyobjc-framework-FSEvents @ <local-file-url-redacted>
+pyobjc-framework-Quartz==11.0
+pyodbc @ <local-file-url-redacted>
+pyOpenSSL @ <local-file-url-redacted>
+pyparsing @ <local-file-url-redacted>
+PyQt5==5.15.10
+PyQt5-sip @ <local-file-url-redacted>
+PyQtWebEngine==5.15.6
+PySocks @ <local-file-url-redacted>
+pytest @ <local-file-url-redacted>
+pytest-cov==6.2.1
+python-dateutil @ <local-file-url-redacted>
+python-dotenv @ <local-file-url-redacted>
+python-json-logger @ <local-file-url-redacted>
+python-lsp-black @ <local-file-url-redacted>
+python-lsp-jsonrpc @ <local-file-url-redacted>
+python-lsp-server @ <local-file-url-redacted>
+python-slugify @ <local-file-url-redacted>
+pytoolconfig @ <local-file-url-redacted>
+pytorch-lightning==2.5.1.post0
+pytz @ <local-file-url-redacted>
+pyviz_comms @ <local-file-url-redacted>
+PyWavelets @ <local-file-url-redacted>
+PyYAML @ <local-file-url-redacted>
+pyzmq @ <local-file-url-redacted>
+QDarkStyle @ <local-file-url-redacted>
+qstylizer @ <local-file-url-redacted>
+QtAwesome @ <local-file-url-redacted>
+qtconsole @ <local-file-url-redacted>
+QtPy @ <local-file-url-redacted>
+qtstylish==0.1.5
+queuelib @ <local-file-url-redacted>
+react==4.3.0
+referencing @ <local-file-url-redacted>
+regex @ <local-file-url-redacted>
+requests @ <local-file-url-redacted>
+requests-file @ <local-file-url-redacted>
+requests-toolbelt @ <local-file-url-redacted>
+retrying==1.3.4
+rfc3339-validator @ <local-file-url-redacted>
+rfc3986-validator @ <local-file-url-redacted>
+rich @ <local-file-url-redacted>
+rope @ <local-file-url-redacted>
+rpds-py @ <local-file-url-redacted>
+rsa==4.9.1
+Rtree @ <local-file-url-redacted>
+ruamel-yaml-conda @ <local-file-url-redacted>
+ruamel.yaml @ <local-file-url-redacted>
+ruamel.yaml.clib @ <local-file-url-redacted>
+s3fs @ <local-file-url-redacted>
+safetensors==0.7.0
+scanpy==1.11.1
+scikit-image @ <local-file-url-redacted>
+scikit-learn==1.5.2
+scipy @ <local-file-url-redacted>
+scprep==1.2.3
+Scrapy @ <local-file-url-redacted>
+screeninfo==0.8.1
+seaborn @ <local-file-url-redacted>
+semver @ <local-file-url-redacted>
+Send2Trash @ <local-file-url-redacted>
+sentencepiece==0.2.1
+sentry-sdk==2.19.2
+service-identity @ <local-file-url-redacted>
+session-info2==0.1.2
+setproctitle==1.3.4
+setuptools==75.1.0
+shap==0.47.1
+sip @ <local-file-url-redacted>
+six @ <local-file-url-redacted>
+slicer==0.0.8
+smart-open @ <local-file-url-redacted>
+smmap @ <local-file-url-redacted>
+sniffio @ <local-file-url-redacted>
+snowballstemmer @ <local-file-url-redacted>
+-e git+https://anonymous.example.org/redacted-during-anonymisation@REDACTED#egg=so_survey_analyzer
+sortedcontainers @ <local-file-url-redacted>
+soupsieve @ <local-file-url-redacted>
+Sphinx @ <local-file-url-redacted>
+sphinxcontrib-applehelp @ <local-file-url-redacted>
+sphinxcontrib-devhelp @ <local-file-url-redacted>
+sphinxcontrib-htmlhelp @ <local-file-url-redacted>
+sphinxcontrib-jsmath @ <local-file-url-redacted>
+sphinxcontrib-qthelp @ <local-file-url-redacted>
+sphinxcontrib-serializinghtml @ <local-file-url-redacted>
+spyder @ <local-file-url-redacted>
+spyder-kernels @ <local-file-url-redacted>
+SQLAlchemy @ <local-file-url-redacted>
+squarify==0.4.4
+stack-data @ <local-file-url-redacted>
+statsmodels @ <local-file-url-redacted>
+streamlit @ <local-file-url-redacted>
+stringcase==1.2.0
+strsimpy==0.2.1
+sweetviz==2.3.1
+sympy==1.14.0
+tables @ <local-file-url-redacted>
+tabulate @ <local-file-url-redacted>
+tangled-up-in-unicode==0.2.0
+tblib @ <local-file-url-redacted>
+tenacity @ <local-file-url-redacted>
+terminado @ <local-file-url-redacted>
+text-unidecode @ <local-file-url-redacted>
+textblob==0.19.0
+textdistance @ <local-file-url-redacted>
+threadpoolctl @ <local-file-url-redacted>
+three-merge @ <local-file-url-redacted>
+tifffile @ <local-file-url-redacted>
+tinycss2 @ <local-file-url-redacted>
+tldextract @ <local-file-url-redacted>
+tokenizers==0.22.2
+toml @ <local-file-url-redacted>
+tomli @ <local-file-url-redacted>
+tomlkit @ <local-file-url-redacted>
+toolz @ <local-file-url-redacted>
+torch==2.10.0
+torchinfo==1.8.0
+torchmetrics==1.7.1
+torchsummary==1.5.1
+tornado @ <local-file-url-redacted>
+tqdm @ <local-file-url-redacted>
+traceml==1.0.8
+traitlets @ <local-file-url-redacted>
+transformer-lens==2.17.0
+transformers==4.57.6
+transformers-stream-generator==0.0.5
+truststore @ <local-file-url-redacted>
+Twisted @ <local-file-url-redacted>
+typeguard==4.4.2
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata @ <local-file-url-redacted>
+uc-micro-py @ <local-file-url-redacted>
+ujson @ <local-file-url-redacted>
+umap-learn==0.5.7
+unicodedata2 @ <local-file-url-redacted>
+Unidecode @ <local-file-url-redacted>
+uri-template==1.3.0
+urllib3 @ <local-file-url-redacted>
+utils==1.0.2
+visions==0.8.1
+vit-pytorch==1.10.1
+w3lib @ <local-file-url-redacted>
+wandb==0.19.1
+watchdog @ <local-file-url-redacted>
+wcwidth @ <local-file-url-redacted>
+webcolors==25.10.0
+webencodings @ <local-file-url-redacted>
+websocket-client @ <local-file-url-redacted>
+websockets==15.0.1
+Werkzeug @ <local-file-url-redacted>
+whatthepatch @ <local-file-url-redacted>
+wheel==0.44.0
+widgetsnbextension @ <local-file-url-redacted>
+wordcloud==1.9.4
+wrapt @ <local-file-url-redacted>
+wurlitzer @ <local-file-url-redacted>
+xarray @ <local-file-url-redacted>
+xgboost==1.6.2
+xlrd==2.0.1
+xlwings @ <local-file-url-redacted>
+xxhash==3.6.0
+xyzservices @ <local-file-url-redacted>
+yapf @ <local-file-url-redacted>
+yarl==1.22.0
+ydata-profiling==4.14.0
+zict @ <local-file-url-redacted>
+zipp @ <local-file-url-redacted>
+zope.interface @ <local-file-url-redacted>
+zstandard @ <local-file-url-redacted>

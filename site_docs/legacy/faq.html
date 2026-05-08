@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ · AutoMechInterp</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <span class="kicker">Community FAQ</span>
+    <h1>Frequently Asked Questions</h1>
+    <p>Concise answers to common community and contributor questions.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quickstart.html">Quickstart</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="community-submissions.html">Community Submissions</a>
+      <a href="reproducibility.html">Reproducibility</a>
+      <a href="significance.html">Significance</a>
+      <a href="standards.html">Standards</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Is low acceptance automatically bad?</h2>
+      <p>No. In a verifier-first benchmark, low acceptance can indicate strict false-accept control. What matters is transparent failure decomposition and actionable remediation.</p>
+    </section>
+
+    <section class="card">
+      <h2>Are synthetic stress tests vulnerable to Goodharting?</h2>
+      <p>Potentially yes. The project now includes suite-targeted, evaluator-agnostic, and adaptive red-team stress regimes, plus a holdout governance roadmap for hidden stress suites.</p>
+    </section>
+
+    <section class="card">
+      <h2>Can external users submit bundles from any discovery method?</h2>
+      <p>Yes. Discovery is decoupled from verification. Provide the bundle contract and optional lane/provider metadata for stratified reporting.</p>
+    </section>
+
+    <section class="card">
+      <h2>What if model downloads are unavailable?</h2>
+      <p>Real Stage-2 runs require model availability. You can still validate schema, evaluator behavior, and reproducibility flows in mock mode.</p>
+    </section>
+
+    <section class="card">
+      <h2>How is GitHub Pages deployment handled?</h2>
+      <p>The repo includes <code>.github/workflows/pages.yml</code> to deploy <code>docs/website</code> on push to <code>main</code> when docs files change.</p>
+    </section>
+  </main>
+
+  <footer>
+    Additional guidance: <a href="../reference/BENCHMARK_CONTRACT.md">Benchmark Contract</a> and <a href="../reference/reproducibility_runbook.md">Reproducibility Runbook</a>.
+  </footer>
+</body>
+</html>

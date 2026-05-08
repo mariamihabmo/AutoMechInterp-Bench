@@ -1,0 +1,271 @@
+{
+  "accepted_claims_below_floor_or_direction_failure": 14,
+  "accepted_claims_in_transfer_tested_bundles": 26,
+  "accepted_claims_not_evaluated_in_transfer_bundles": 0,
+  "accepted_claims_tested": 26,
+  "accepted_claims_with_transfer_effect": 26,
+  "bundles_tested": 19,
+  "claims": [
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_a",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_sweep_docstring_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.007126235961914062,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "docstring_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_dla_docstring_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.02059758186340332,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "fact_recall_v0_gpt2-small",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_fact_recall_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": -0.0015985202789306641,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "fact_recall_v0_pythia-70m",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_fact_recall_v0_001",
+      "source_model": "pythia-70m",
+      "transfer_effect": 0.006474151611328125,
+      "transfer_model": "pythia-160m",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "gendered_pronoun_v0_gpt2-small",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_gendered_pronoun_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": -0.0007079696655273438,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "greater_than_v0_gpt2-small",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_greater_than_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": -0.0036739158630371095,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "arithmetic_v0_gpt2-small",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_arithmetic_v0_001",
+      "source_model": "gpt2-small",
+      "transfer_effect": 6.918907165527343e-05,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "arithmetic_v0_gpt2-small",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.08625364303588867,
+      "transfer_model": "pythia-70m",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "arithmetic_v0_gpt2-small",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_arithmetic_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": 2.567291259765625e-05,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "arithmetic_v0_pythia-70m",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_arithmetic_v0_002",
+      "source_model": "pythia-70m",
+      "transfer_effect": 0.13997723375047957,
+      "transfer_model": "gpt2-small",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "source_model": "gpt2-small",
+      "transfer_effect": 1.3250283387602952,
+      "transfer_model": "pythia-70m",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_sweep_country_capital_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": 1.1153568098784754,
+      "transfer_model": "pythia-70m",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_a",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_sweep_country_capital_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.010134110450744629,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_b",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_neuron_country_capital_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.00014575481414794923,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "source_model": "gpt2-small",
+      "transfer_effect": 1.3495428726155922,
+      "transfer_model": "pythia-70m",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_dla_country_capital_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": 1.1068578447614397,
+      "transfer_model": "pythia-70m",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_dla_country_capital_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.010134110450744629,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_sweep_country_capital_v0_001",
+      "source_model": "pythia-70m",
+      "transfer_effect": 2.2490443294010465,
+      "transfer_model": "gpt2-small",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_a",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_sweep_country_capital_v0_002",
+      "source_model": "pythia-70m",
+      "transfer_effect": 0.768434864503366,
+      "transfer_model": "gpt2-small",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_dla_country_capital_v0_001",
+      "source_model": "pythia-70m",
+      "transfer_effect": 2.2439505965621382,
+      "transfer_model": "gpt2-small",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "country_capital_v0_pythia-70m_lane_c",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_dla_country_capital_v0_002",
+      "source_model": "pythia-70m",
+      "transfer_effect": 0.7637178929394515,
+      "transfer_model": "gpt2-small",
+      "why_not_transfer_confirmed": "passed"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_ioi_v0_001",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.13764806747436523,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_a",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_sweep_ioi_v0_001",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.13764806747436523,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "ioi_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_dla_ioi_v0_002",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.13764806747436523,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": false,
+      "evidence_tier": "single_model_confirmed",
+      "hypothesis_id": "h_dla_sentiment_v0_001",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.013992223739624023,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "below_floor_or_direction_failure"
+    },
+    {
+      "bundle": "sentiment_v0_gpt2-small_lane_c",
+      "cross_model_transfer_gate": true,
+      "evidence_tier": "cross_model_confirmed",
+      "hypothesis_id": "h_dla_sentiment_v0_003",
+      "source_model": "gpt2-small",
+      "transfer_effect": 0.12612079620361327,
+      "transfer_model": "gpt2-medium",
+      "why_not_transfer_confirmed": "passed"
+    }
+  ],
+  "transfer_confirmed_claims": 12
+}

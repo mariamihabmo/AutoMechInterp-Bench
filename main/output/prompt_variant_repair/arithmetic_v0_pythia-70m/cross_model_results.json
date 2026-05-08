@@ -1,0 +1,67 @@
+[
+  {
+    "cross_model_effect_floor": 0.02,
+    "hypothesis_id": "h_arithmetic_v0_002",
+    "mapped_components": [
+      {
+        "component_type": "head",
+        "head": 3,
+        "layer": 6
+      }
+    ],
+    "n_examples": 100,
+    "source_components": [
+      {
+        "component_type": "head",
+        "head": 3,
+        "layer": 3
+      }
+    ],
+    "source_effect_mean": 0.08625364303588867,
+    "source_model": "pythia-70m",
+    "transfer_above_floor": false,
+    "transfer_contract_pass": false,
+    "transfer_effect": 0.00089447021484375,
+    "transfer_intervention_kind": "head",
+    "transfer_mapping_version": "type_aware_v1",
+    "transfer_model": "pythia-160m",
+    "transfer_positive": false,
+    "transfer_same_direction": true
+  },
+  {
+    "hypothesis_id": "h_arithmetic_v0_001",
+    "n_examples": 8,
+    "paired_bundle": "arithmetic_v0_gpt2-small",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.04794190185410636,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_arithmetic_v0_002",
+    "n_examples": 8,
+    "paired_bundle": "arithmetic_v0_gpt2-small",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "cross_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.13997723375047957,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  },
+  {
+    "hypothesis_id": "h_arithmetic_v0_003",
+    "n_examples": 8,
+    "paired_bundle": "arithmetic_v0_gpt2-small",
+    "paired_bundle_claim_passed": true,
+    "paired_bundle_claim_tier": "single_model_confirmed",
+    "source_model": "pythia-70m",
+    "transfer_effect": 0.04418064866747175,
+    "transfer_family": "paired_bundle_replication",
+    "transfer_model": "gpt2-small",
+    "transfer_positive": true
+  }
+]

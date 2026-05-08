@@ -1,0 +1,446 @@
+{
+  "all_failed_combinations": [
+    {
+      "count": 14,
+      "failed_checks": [
+        "cross_model_transfer"
+      ]
+    },
+    {
+      "count": 12,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "method_sensitivity",
+        "multiplicity",
+        "robustness"
+      ]
+    },
+    {
+      "count": 11,
+      "failed_checks": [
+        "baseline_superiority",
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 5,
+      "failed_checks": [
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 5,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "cross_model_transfer",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "causal_effect",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "method_sensitivity"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "method_sensitivity",
+        "multiplicity"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "power_adequacy"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "negative_controls",
+        "power_adequacy"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "causal_effect",
+        "robustness"
+      ]
+    },
+    {
+      "count": 2,
+      "failed_checks": [
+        "confirmatory_ci",
+        "method_sensitivity",
+        "multiplicity"
+      ]
+    },
+    {
+      "count": 2,
+      "failed_checks": [
+        "cross_model_transfer",
+        "method_sensitivity"
+      ]
+    },
+    {
+      "count": 2,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "multiplicity",
+        "negative_controls",
+        "robustness"
+      ]
+    },
+    {
+      "count": 2,
+      "failed_checks": [
+        "confirmatory_ci",
+        "multiplicity",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 2,
+      "failed_checks": [
+        "baseline_superiority",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 2,
+      "failed_checks": [
+        "baseline_superiority",
+        "causal_effect",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "baseline_superiority",
+        "cross_model_transfer",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "cross_model_transfer",
+        "multiplicity",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "causal_effect",
+        "cross_model_transfer",
+        "method_sensitivity",
+        "multiplicity",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "confirmatory_ci",
+        "method_sensitivity",
+        "multiplicity",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "causal_effect",
+        "method_sensitivity",
+        "multiplicity",
+        "negative_controls",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "cross_model_transfer",
+        "method_sensitivity",
+        "multiplicity"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "confirmatory_ci",
+        "cross_model_transfer",
+        "method_sensitivity",
+        "multiplicity"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "method_sensitivity",
+        "multiplicity",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "cross_model_transfer",
+        "multiplicity",
+        "negative_controls",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "causal_effect",
+        "cross_model_transfer",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "baseline_superiority",
+        "confirmatory_ci",
+        "multiplicity",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "baseline_superiority",
+        "negative_controls",
+        "power_adequacy"
+      ]
+    },
+    {
+      "count": 1,
+      "failed_checks": [
+        "baseline_superiority",
+        "causal_effect",
+        "confirmatory_ci",
+        "cross_model_transfer",
+        "effect_size_practical",
+        "multiplicity",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    }
+  ],
+  "failed_gate_counts": {
+    "baseline_superiority": 19,
+    "causal_effect": 46,
+    "confirmatory_ci": 41,
+    "cross_model_transfer": 28,
+    "effect_size_practical": 18,
+    "method_sensitivity": 29,
+    "multiplicity": 48,
+    "negative_controls": 40,
+    "power_adequacy": 33,
+    "robustness": 47
+  },
+  "failed_gate_family_counts": {
+    "causal": 46,
+    "controls": 59,
+    "robustness": 76,
+    "statistics": 140,
+    "transfer": 28
+  },
+  "n_claims": 109,
+  "n_failed": 83,
+  "n_passed": 26,
+  "not_evaluated_gate_counts": {
+    "cross_model_transfer": 63
+  },
+  "policy_sensitivity": {
+    "conditions": {
+      "full_contract": {
+        "acceptance_rate": 0.23853211009174313,
+        "accepted": 26,
+        "disabled_gates": [],
+        "tier_changes": 0
+      },
+      "no_controls_suite": {
+        "acceptance_rate": 0.3486238532110092,
+        "accepted": 38,
+        "disabled_gates": [
+          "negative_controls",
+          "baseline_superiority"
+        ],
+        "tier_changes": 21
+      },
+      "no_robustness_suite": {
+        "acceptance_rate": 0.29357798165137616,
+        "accepted": 32,
+        "disabled_gates": [
+          "robustness",
+          "method_sensitivity",
+          "bidirectional",
+          "rank_stability"
+        ],
+        "tier_changes": 13
+      },
+      "no_stat_rigor": {
+        "acceptance_rate": 0.26605504587155965,
+        "accepted": 29,
+        "disabled_gates": [
+          "confirmatory_ci",
+          "multiplicity",
+          "power_adequacy",
+          "effect_size_practical"
+        ],
+        "tier_changes": 3
+      }
+    },
+    "full_acceptance_rate": 0.23853211009174313,
+    "most_sensitive_counterfactual": {
+      "acceptance_rate": 0.3486238532110092,
+      "name": "no_controls_suite",
+      "tier_changes": 21
+    }
+  },
+  "tier_counts": {
+    "causal_tested_unstable": 3,
+    "cross_model_confirmed": 12,
+    "rejected": 67,
+    "single_model_confirmed": 14,
+    "suggestive": 13
+  },
+  "top_failed_combinations": [
+    {
+      "count": 14,
+      "failed_checks": [
+        "cross_model_transfer"
+      ]
+    },
+    {
+      "count": 12,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "method_sensitivity",
+        "multiplicity",
+        "robustness"
+      ]
+    },
+    {
+      "count": 11,
+      "failed_checks": [
+        "baseline_superiority",
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "negative_controls",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 5,
+      "failed_checks": [
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 5,
+      "failed_checks": [
+        "causal_effect",
+        "confirmatory_ci",
+        "effect_size_practical",
+        "multiplicity",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "cross_model_transfer",
+        "negative_controls"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "causal_effect",
+        "power_adequacy",
+        "robustness"
+      ]
+    },
+    {
+      "count": 4,
+      "failed_checks": [
+        "method_sensitivity"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "method_sensitivity",
+        "multiplicity"
+      ]
+    },
+    {
+      "count": 3,
+      "failed_checks": [
+        "power_adequacy"
+      ]
+    }
+  ]
+}

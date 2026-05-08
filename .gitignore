@@ -1,0 +1,65 @@
+# Local automation + coordination state (never commit)
+.context/
+
+# Per-project planning/tasking scratch files (never commit)
+**/plan.md
+**/tasks.md
+**/todo.md
+
+# Local prompt/catalog/lessons files (never commit)
+**/prompt.md
+**/problems.md
+**/lessons.md
+
+# Python cache artifacts
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+
+# Local virtualenvs (regenerated via `make venv`).
+.venv/
+venv/
+
+# Editable-install metadata (regenerated on `pip install -e .`)
+**/*.egg-info/
+
+# Vendored model weights (audit-final §1.14). Fetch via ``make download-models``
+# rather than committing to the repo.
+model_cache/
+**/*.safetensors
+**/*.bin
+
+# Regeneratable release archives (audit-final §1.14). Build via
+# ``make external-packet`` or attach to a GitHub Release rather than commit.
+holdout/external_partner_packet.zip
+holdout/external_partner_packet/
+
+# Security-sensitive (audit-3 §D10). Authoring an attestation, signing keys,
+# institutional credentials, or partner API keys must never enter the repo.
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+.DS_Store
+
+
+# Locally-rendered docs site (regenerable via `mkdocs build`).
+# Excluded from git to prevent committing stale anonymisation state
+# (see latest_opus_audit.md §P2-A.2).
+site_build/
+automechinterp_supplementary.tar.gz
+Submission/
+
+# Pre-submission audit + prompt scratch files (never commit)
+*PREFLIGHT*.md
+*preflight*.md
+*audit*.md
+*AUDIT*.md
+hoursleft_*.md
+final_lastminute_*.md
+truefinal_lastminute_*.md
+
+# Generated submission archives
+automechinterp-ed-main.zip
+supplementary.tar.gz

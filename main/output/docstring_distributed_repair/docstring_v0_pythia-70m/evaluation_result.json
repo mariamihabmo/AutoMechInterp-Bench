@@ -1,0 +1,1882 @@
+{
+  "hypothesis_results": [
+    {
+      "hypothesis_id": "h_docstring_distributed_001",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.5020771503448487,
+            "mismatched_source": 2.1654934247334796,
+            "random_component": -0.0184386412302653,
+            "shuffled_token": 5.675260464350383,
+            "wrong_layer": 0.2502395470937093,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 815705010,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 2.346389166514079
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.45693085534232003,
+            "mismatched_source": 2.1650375366210937,
+            "random_component": -0.025887502942766462,
+            "shuffled_token": 5.274498551232474,
+            "wrong_layer": 0.23960974557059153,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 815705010,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 2.40817448752267
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.3601113160451253,
+            "mismatched_source": -0.45745789210001625,
+            "random_component": -0.45745789210001625,
+            "shuffled_token": -0.7636017958323161,
+            "wrong_layer": -0.0029522577921549478,
+            "wrong_position": 0.008774693806966145
+          },
+          "dataset_seed": 453530132,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.3029813607533773
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.5422891957419259,
+            "mismatched_source": -0.3688578946249826,
+            "random_component": -0.3688578946249826,
+            "shuffled_token": -0.9642093317849295,
+            "wrong_layer": -0.08325731413705008,
+            "wrong_position": 0.0015610899244035993
+          },
+          "dataset_seed": 453530132,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.21279287338256836
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.07748190561930339,
+            "mismatched_source": 1.700136089324951,
+            "random_component": 0.01660467783610026,
+            "shuffled_token": 7.224028364817301,
+            "wrong_layer": 0.11714560190836588,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1143257395,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 1.7438432375590007
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.12516959054129465,
+            "mismatched_source": 1.9028643880571638,
+            "random_component": 0.0042907169886997765,
+            "shuffled_token": 7.450675071988787,
+            "wrong_layer": 0.18792476654052734,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1143257395,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 2.1901679583958216
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.2384521166483561,
+            "mismatched_source": 0.08940544128417968,
+            "random_component": 0.08940544128417968,
+            "shuffled_token": -4.114139548937479,
+            "wrong_layer": -0.08365364074707031,
+            "wrong_position": 0.017059834798177083
+          },
+          "dataset_seed": 1867361988,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.3140005111694336
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.1429821286882673,
+            "mismatched_source": 0.05236418587820871,
+            "random_component": 0.05236418587820871,
+            "shuffled_token": -2.8820145879473005,
+            "wrong_layer": -0.12411212921142578,
+            "wrong_position": 0.019714954921177457
+          },
+          "dataset_seed": 1867361988,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.14068846021379744
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.5053961435953777,
+            "mismatched_source": 2.2802858352661133,
+            "random_component": 0.2843584378560384,
+            "shuffled_token": 6.052779126167297,
+            "wrong_layer": 0.26078104972839355,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 997451270,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 2.7054735660552978
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.381706462587629,
+            "mismatched_source": 2.123150335039411,
+            "random_component": 0.19078762190682547,
+            "shuffled_token": 4.692210480145046,
+            "wrong_layer": 0.20696280343191964,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 997451270,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 2.143541649409703
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.5017891565958659,
+            "mismatched_source": -0.09668205579121908,
+            "random_component": -0.09668205579121908,
+            "shuffled_token": -0.8382898251215617,
+            "wrong_layer": -0.05952647527058919,
+            "wrong_position": 0.006046072642008463
+          },
+          "dataset_seed": 1260367152,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.030040566126505533
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.49984542301722934,
+            "mismatched_source": -0.20746581213814871,
+            "random_component": -0.20746581213814871,
+            "shuffled_token": -1.267907064301627,
+            "wrong_layer": -0.053514936992100304,
+            "wrong_position": 0.007649946212768555
+          },
+          "dataset_seed": 1260367152,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.48771239008222306
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.10649232864379883,
+            "mismatched_source": 1.7767420450846354,
+            "random_component": 0.008089192708333333,
+            "shuffled_token": 6.47744099299113,
+            "wrong_layer": 0.15802895228068034,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 683980775,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 2.023074722290039
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.09771268027169364,
+            "mismatched_source": 1.8960408074515207,
+            "random_component": 0.011533887045724051,
+            "shuffled_token": 6.524136257171631,
+            "wrong_layer": 0.14470032283238002,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 683980775,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 1.9154093742370606
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.2624297777811686,
+            "mismatched_source": 0.2607259432474772,
+            "random_component": 0.2607259432474772,
+            "shuffled_token": -4.433280221621195,
+            "wrong_layer": -0.060137335459391275,
+            "wrong_position": 0.011614004770914713
+          },
+          "dataset_seed": 1866404018,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.25761067072550453
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.1760721342904227,
+            "mismatched_source": 0.16379859106881278,
+            "random_component": 0.16379859106881278,
+            "shuffled_token": -2.885779459135873,
+            "wrong_layer": -0.05164843967982701,
+            "wrong_position": 0.013954203469412667
+          },
+          "dataset_seed": 1866404018,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.09506164278302874
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_docstring_distributed_002",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.12944766680399578,
+            "mismatched_source": 1.5548673788706462,
+            "random_component": 0.22787121136983235,
+            "shuffled_token": 4.296071338653564,
+            "wrong_layer": 0.15858893394470214,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 430313910,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 1.650953753789266
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.13618576186043876,
+            "mismatched_source": 1.5310963698795863,
+            "random_component": 0.2252649784088135,
+            "shuffled_token": 4.589502266475132,
+            "wrong_layer": 0.18373757089887346,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 430313910,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 1.693658890042986
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.5829963684082031,
+            "mismatched_source": -0.6310921986897786,
+            "random_component": -0.6310921986897786,
+            "shuffled_token": -1.8769337733586628,
+            "wrong_layer": -0.05729902585347493,
+            "wrong_position": 0.0036836465199788413
+          },
+          "dataset_seed": 205519231,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.4593846162160238
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.6048130307878766,
+            "mismatched_source": -0.6619133676801409,
+            "random_component": -0.6619133676801409,
+            "shuffled_token": -1.5040883915764944,
+            "wrong_layer": -0.00792766979762486,
+            "wrong_position": 0.0028546810150146484
+          },
+          "dataset_seed": 205519231,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.04346186774117606
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.04381720225016276,
+            "mismatched_source": 1.5158787409464518,
+            "random_component": 0.7793170928955078,
+            "shuffled_token": 5.46424241065979,
+            "wrong_layer": 0.2312670389811198,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1559630553,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 1.6517674446105957
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.05081462860107422,
+            "mismatched_source": 1.459586661202567,
+            "random_component": 0.7087997436523438,
+            "shuffled_token": 6.487746783665249,
+            "wrong_layer": 0.16353070395333427,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1559630553,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 1.501249040876116
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.03871320088704427,
+            "mismatched_source": 0.15595086415608725,
+            "random_component": 0.15595086415608725,
+            "shuffled_token": -4.461400127410888,
+            "wrong_layer": -0.02437451680501302,
+            "wrong_position": 0.012018871307373048
+          },
+          "dataset_seed": 85717655,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.04669621785481771
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.11068262372698102,
+            "mismatched_source": 0.13198055539812362,
+            "random_component": 0.13198055539812362,
+            "shuffled_token": -3.0995503085000173,
+            "wrong_layer": 0.01805760519845145,
+            "wrong_position": 0.017294366019112724
+          },
+          "dataset_seed": 85717655,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.25578768593924384
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.1398197809855143,
+            "mismatched_source": 1.649832820892334,
+            "random_component": -3.833770751953125e-05,
+            "shuffled_token": 5.689408079783122,
+            "wrong_layer": 0.2260951042175293,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3917449449,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 1.8625641504923502
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.18076998846871511,
+            "mismatched_source": 1.8605221135275705,
+            "random_component": -0.005841977255684989,
+            "shuffled_token": 5.368212127685547,
+            "wrong_layer": 0.20384965624128068,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3917449449,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 2.0090401104518345
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.49111925760904945,
+            "mismatched_source": -0.0942294438680013,
+            "random_component": -0.0942294438680013,
+            "shuffled_token": -1.40212824344635,
+            "wrong_layer": -0.01435077985127767,
+            "wrong_position": 0.014092302322387696
+          },
+          "dataset_seed": 1754425299,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.14722673098246256
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.5161388056618826,
+            "mismatched_source": -0.07818761553083148,
+            "random_component": -0.07818761553083148,
+            "shuffled_token": -1.0561229842049735,
+            "wrong_layer": -0.011404568808419363,
+            "wrong_position": 0.008944858823503767
+          },
+          "dataset_seed": 1754425299,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.08688968930925642
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.06218436559041341,
+            "mismatched_source": 1.5253565788269043,
+            "random_component": -0.0041585604349772135,
+            "shuffled_token": 6.992264636357626,
+            "wrong_layer": 0.21222931543986004,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2751702797,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 1.775597381591797
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.05515820639474051,
+            "mismatched_source": 1.4645783015659877,
+            "random_component": 0.009054851531982423,
+            "shuffled_token": 7.093490035193307,
+            "wrong_layer": 0.18893514360700334,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2751702797,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 1.5605074337550573
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.14668760299682618,
+            "mismatched_source": -0.15733556747436522,
+            "random_component": -0.15733556747436522,
+            "shuffled_token": -3.7925015449523927,
+            "wrong_layer": -0.0255860964457194,
+            "wrong_position": 0.002689520517985026
+          },
+          "dataset_seed": 3024582949,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.20597337086995443
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.10555147443498884,
+            "mismatched_source": -0.13305753980364118,
+            "random_component": -0.13305753980364118,
+            "shuffled_token": -2.7315955911363874,
+            "wrong_layer": -0.0016350746154785156,
+            "wrong_position": 0.012685789380754743
+          },
+          "dataset_seed": 3024582949,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.18496409824916293
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_docstring_distributed_003",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.2848613421122233,
+            "mismatched_source": 1.7257760683695476,
+            "random_component": -0.00013977686564127604,
+            "shuffled_token": 4.421963739395141,
+            "wrong_layer": 0.4331315676371256,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1528536127,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 1.7797799110412598
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.23924617086138045,
+            "mismatched_source": 1.6528602259499685,
+            "random_component": -0.00023861612592424665,
+            "shuffled_token": 4.249775491441999,
+            "wrong_layer": 0.40678559030805317,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1528536127,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 1.7079350675855365
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.1727883497873942,
+            "mismatched_source": 0.1882397174835205,
+            "random_component": 0.1882397174835205,
+            "shuffled_token": -0.6118055423100789,
+            "wrong_layer": 0.016641839345296224,
+            "wrong_position": 0.00013667742411295573
+          },
+          "dataset_seed": 247637215,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.33638030687967935
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.1267118385859898,
+            "mismatched_source": -0.055311666216169085,
+            "random_component": -0.055311666216169085,
+            "shuffled_token": -0.6398422241210937,
+            "wrong_layer": -0.07805777277265276,
+            "wrong_position": -0.001570694787161691
+          },
+          "dataset_seed": 247637215,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.01840331895010812
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.043323548634847005,
+            "mismatched_source": 1.1776879946390788,
+            "random_component": 0.002826658884684245,
+            "shuffled_token": 6.2517606576283775,
+            "wrong_layer": 0.3535433451334635,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 4213443057,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 1.2347100575764973
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.042264393397739956,
+            "mismatched_source": 1.2580954279218401,
+            "random_component": 0.0055933543613978795,
+            "shuffled_token": 6.852573684283665,
+            "wrong_layer": 0.32469314847673686,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 4213443057,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 1.3383803367614746
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.03820616404215495,
+            "mismatched_source": -0.08785470326741536,
+            "random_component": -0.08785470326741536,
+            "shuffled_token": -2.882790780067444,
+            "wrong_layer": -0.12033920288085938,
+            "wrong_position": -0.0002902666727701823
+          },
+          "dataset_seed": 2518722749,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.025026257832845053
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.004564230782645089,
+            "mismatched_source": -0.13024753843035017,
+            "random_component": -0.13024753843035017,
+            "shuffled_token": -3.115124103001186,
+            "wrong_layer": -0.08633465085710798,
+            "wrong_position": 0.0014595440455845423
+          },
+          "dataset_seed": 2518722749,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 0.07611658913748605
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.28302927017211915,
+            "mismatched_source": 1.8537338256835938,
+            "random_component": -0.012211847305297851,
+            "shuffled_token": 4.858893712361653,
+            "wrong_layer": 0.4497366905212402,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 43290217,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 1.9322683016459148
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.20781730924333844,
+            "mismatched_source": 1.5620231696537563,
+            "random_component": -0.023343767438616072,
+            "shuffled_token": 4.208049637930734,
+            "wrong_layer": 0.39076671600341795,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 43290217,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 1.6328205108642577
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.167922576268514,
+            "mismatched_source": -0.1594279925028483,
+            "random_component": -0.1594279925028483,
+            "shuffled_token": -0.6243227005004883,
+            "wrong_layer": -0.1739395300547282,
+            "wrong_position": -0.003075679143269857
+          },
+          "dataset_seed": 2015734200,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.09025723139444987
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.11343881743294852,
+            "mismatched_source": -0.0374298095703125,
+            "random_component": -0.0374298095703125,
+            "shuffled_token": -0.20699400901794435,
+            "wrong_layer": -0.05816875866481236,
+            "wrong_position": -0.001003122329711914
+          },
+          "dataset_seed": 2015734200,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.15710029602050782
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.05103158950805664,
+            "mismatched_source": 1.3372373580932617,
+            "random_component": 0.10190362930297851,
+            "shuffled_token": 7.57198748588562,
+            "wrong_layer": 0.34074827829996746,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3090036644,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 1.4432812372843424
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.03857179369245257,
+            "mismatched_source": 1.2189737183707101,
+            "random_component": 0.10416389192853655,
+            "shuffled_token": 6.794006729125977,
+            "wrong_layer": 0.31768172127859934,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3090036644,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 1.2071410042898996
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.11861867904663086,
+            "mismatched_source": -0.09617013931274414,
+            "random_component": -0.09617013931274414,
+            "shuffled_token": -2.8477018594741823,
+            "wrong_layer": -0.19670966466267903,
+            "wrong_position": 0.0006209691365559896
+          },
+          "dataset_seed": 926290286,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 0.04993359247843424
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.05979937144688197,
+            "mismatched_source": -0.044395460401262556,
+            "random_component": -0.044395460401262556,
+            "shuffled_token": -2.1929109845842634,
+            "wrong_layer": -0.07746422631399973,
+            "wrong_position": 0.0010867255074637277
+          },
+          "dataset_seed": 926290286,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.07205087116786411
+        }
+      ]
+    },
+    {
+      "hypothesis_id": "h_docstring_distributed_004",
+      "raw_cells": [
+        {
+          "control_effects": {
+            "adjacent_head": 0.3629358609517415,
+            "mismatched_source": 2.9579551855723065,
+            "random_component": 0.15601007143656412,
+            "shuffled_token": 4.821505037943522,
+            "wrong_layer": 0.4021529833475749,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1719341656,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 2.8911744594573974
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.4113998821803502,
+            "mismatched_source": 2.8309284550803047,
+            "random_component": 0.20839860779898509,
+            "shuffled_token": 5.088510288511004,
+            "wrong_layer": 0.45440216064453126,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 1719341656,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 3.0824333395276753
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.4424579620361328,
+            "mismatched_source": 0.8645296732584635,
+            "random_component": 0.8645296732584635,
+            "shuffled_token": -0.7187268575032552,
+            "wrong_layer": -0.11654650370279948,
+            "wrong_position": -0.00030651092529296873
+          },
+          "dataset_seed": 3925457874,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": -0.3508215268452962
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.6144941398075648,
+            "mismatched_source": 1.1022217614310128,
+            "random_component": 1.1022217614310128,
+            "shuffled_token": -1.6052754436220442,
+            "wrong_layer": -0.053758341925484794,
+            "wrong_position": 0.0034791673932756694
+          },
+          "dataset_seed": 3925457874,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.39838579041617256
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.09787505467732747,
+            "mismatched_source": 2.281306680043538,
+            "random_component": 0.9299671808878581,
+            "shuffled_token": 7.056899038950602,
+            "wrong_layer": 0.3219380696614583,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2201433136,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 2.427465025583903
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.09982694898332868,
+            "mismatched_source": 2.2765248162405833,
+            "random_component": 0.9383404867989676,
+            "shuffled_token": 7.126541655404227,
+            "wrong_layer": 0.3319662230355399,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 2201433136,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": 2.405332211085728
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.07317256927490234,
+            "mismatched_source": 0.14166453679402669,
+            "random_component": 0.14166453679402669,
+            "shuffled_token": -3.4945615609486897,
+            "wrong_layer": -0.14924548467000326,
+            "wrong_position": 0.024831072489420573
+          },
+          "dataset_seed": 281376812,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "exploratory",
+          "treatment_effect": 0.15724061330159506
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.13541532244001117,
+            "mismatched_source": 0.08246856416974749,
+            "random_component": 0.08246856416974749,
+            "shuffled_token": -3.453810661179679,
+            "wrong_layer": -0.06892738342285157,
+            "wrong_position": 0.009996141706194197
+          },
+          "dataset_seed": 281376812,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 42,
+          "slice": "confirmatory",
+          "treatment_effect": -0.005343914031982422
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.3692660331726074,
+            "mismatched_source": 2.7589528560638428,
+            "random_component": 1.168095842997233,
+            "shuffled_token": 4.997322209676107,
+            "wrong_layer": 0.39210112889607746,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3606605665,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 2.7191954612731934
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.34880835669381277,
+            "mismatched_source": 2.793990898132324,
+            "random_component": 1.0708062444414412,
+            "shuffled_token": 4.589016791752407,
+            "wrong_layer": 0.3846423421587263,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 3606605665,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 2.811598927634103
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.543313757578532,
+            "mismatched_source": -0.0838993231455485,
+            "random_component": -0.0838993231455485,
+            "shuffled_token": -1.7432555596033732,
+            "wrong_layer": -0.18432264328002929,
+            "wrong_position": -0.001669470469156901
+          },
+          "dataset_seed": 904234199,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.7871356646219889
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.5958858762468611,
+            "mismatched_source": -0.03909393719264439,
+            "random_component": -0.03909393719264439,
+            "shuffled_token": -0.722435348374503,
+            "wrong_layer": -0.06702507563999721,
+            "wrong_position": 0.011139283861432757
+          },
+          "dataset_seed": 904234199,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "base",
+          "prompt_variant": "base",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": -0.03748576300484793
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.09276927312215169,
+            "mismatched_source": 2.415014298756917,
+            "random_component": 0.00016501744588216146,
+            "shuffled_token": 6.9530105272928875,
+            "wrong_layer": 0.2824509302775065,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 901921143,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": 2.4597486813863116
+        },
+        {
+          "control_effects": {
+            "adjacent_head": 0.09832694189889091,
+            "mismatched_source": 2.2533463205610005,
+            "random_component": 0.00028172901698521205,
+            "shuffled_token": 6.640503828866141,
+            "wrong_layer": 0.3170083182198661,
+            "wrong_position": 0.0
+          },
+          "dataset_seed": 901921143,
+          "direction": "sufficiency_patch",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "activation_patching",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 2.4061391966683523
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.04400332768758138,
+            "mismatched_source": -0.19441820780436198,
+            "random_component": -0.19441820780436198,
+            "shuffled_token": -3.67364768187205,
+            "wrong_layer": -0.047204144795735675,
+            "wrong_position": 0.014574591318766277
+          },
+          "dataset_seed": 3052802872,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "exploratory",
+          "treatment_effect": -0.24092321395874022
+        },
+        {
+          "control_effects": {
+            "adjacent_head": -0.15444916316441126,
+            "mismatched_source": 0.11911344528198242,
+            "random_component": 0.11911344528198242,
+            "shuffled_token": -2.7832513400486536,
+            "wrong_layer": -0.08640097209385462,
+            "wrong_position": 0.015850652967180523
+          },
+          "dataset_seed": 3052802872,
+          "direction": "necessity_ablate",
+          "hardware_info": {
+            "gpu_name": "none",
+            "platform": "macOS-26.4.1-arm64-arm-64bit",
+            "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+            "torch_version": "2.10.0"
+          },
+          "method": "zero_ablation",
+          "model_ref": "pythia-70m",
+          "pipeline_sha": "unknown",
+          "prompt_template_id": "detailed",
+          "prompt_variant": "detailed",
+          "resample_id": 0,
+          "runner_id": "stage2_tl_runner",
+          "runner_version": "0.2.0",
+          "seed": 123,
+          "slice": "confirmatory",
+          "treatment_effect": 0.19298430851527623
+        }
+      ]
+    }
+  ],
+  "protocol_id": "real_docstring_v0_pythia-70m_confirmatory_repair_real_distributed_repair_v1",
+  "protocol_sha256": "2c0668895d68028c58cef2b1025e85e59484b34795c5d509d59cfebee765c3ab"
+}

@@ -1,0 +1,205 @@
+{
+  "acceptance_by_component_type": {
+    "head": {
+      "acceptance_rate": 0.2976190476190476,
+      "accepted": 25,
+      "claims": 84
+    },
+    "mlp": {
+      "acceptance_rate": 0.0,
+      "accepted": 0,
+      "claims": 1
+    },
+    "mlp_neuron": {
+      "acceptance_rate": 0.05555555555555555,
+      "accepted": 1,
+      "claims": 18
+    },
+    "sae_feature": {
+      "acceptance_rate": 0.0,
+      "accepted": 0,
+      "claims": 6
+    }
+  },
+  "acceptance_by_lane": {
+    "A": {
+      "acceptance_rate": 0.3888888888888889,
+      "accepted": 7,
+      "claims": 18
+    },
+    "B": {
+      "acceptance_rate": 0.05555555555555555,
+      "accepted": 1,
+      "claims": 18
+    },
+    "B3": {
+      "acceptance_rate": 0.0,
+      "accepted": 0,
+      "claims": 6
+    },
+    "C": {
+      "acceptance_rate": 0.5,
+      "accepted": 9,
+      "claims": 18
+    },
+    "canonical_real": {
+      "acceptance_rate": 0.0,
+      "accepted": 0,
+      "claims": 15
+    },
+    "canonical_real_repair_v1": {
+      "acceptance_rate": 0.26666666666666666,
+      "accepted": 8,
+      "claims": 30
+    },
+    "prompt_variant_repair_v1": {
+      "acceptance_rate": 0.25,
+      "accepted": 1,
+      "claims": 4
+    }
+  },
+  "acceptance_by_model": {
+    "gpt2-small": {
+      "acceptance_rate": 0.29850746268656714,
+      "accepted": 20,
+      "claims": 67
+    },
+    "pythia-70m": {
+      "acceptance_rate": 0.14285714285714285,
+      "accepted": 6,
+      "claims": 42
+    }
+  },
+  "acceptance_by_task": {
+    "arithmetic_v0": {
+      "acceptance_rate": 0.6666666666666666,
+      "accepted": 4,
+      "claims": 6
+    },
+    "country_capital_v0": {
+      "acceptance_rate": 0.4583333333333333,
+      "accepted": 11,
+      "claims": 24
+    },
+    "docstring_v0": {
+      "acceptance_rate": 0.13333333333333333,
+      "accepted": 2,
+      "claims": 15
+    },
+    "fact_recall_v0": {
+      "acceptance_rate": 0.2222222222222222,
+      "accepted": 2,
+      "claims": 9
+    },
+    "gendered_pronoun_v0": {
+      "acceptance_rate": 0.16666666666666666,
+      "accepted": 1,
+      "claims": 6
+    },
+    "greater_than_v0": {
+      "acceptance_rate": 0.16666666666666666,
+      "accepted": 1,
+      "claims": 6
+    },
+    "ioi_v0": {
+      "acceptance_rate": 0.15789473684210525,
+      "accepted": 3,
+      "claims": 19
+    },
+    "sentiment_v0": {
+      "acceptance_rate": 0.08333333333333333,
+      "accepted": 2,
+      "claims": 24
+    }
+  },
+  "direction_fragility": {
+    "bidirectional_failed_claims": 0,
+    "missing_necessity_claims": 15,
+    "missing_sufficiency_claims": 15
+  },
+  "failed_gate_counts": {
+    "baseline_superiority": 19,
+    "causal_effect": 46,
+    "confirmatory_ci": 41,
+    "cross_model_transfer": 28,
+    "effect_size_practical": 18,
+    "method_sensitivity": 29,
+    "multiplicity": 48,
+    "negative_controls": 40,
+    "power_adequacy": 33,
+    "robustness": 47
+  },
+  "gate_family_failure_counts": {
+    "causal": 46,
+    "controls": 59,
+    "robustness": 76,
+    "statistics": 140,
+    "transfer": 28
+  },
+  "policy_sensitivity": {
+    "conditions": {
+      "full_contract": {
+        "acceptance_rate": 0.23853211009174313,
+        "accepted": 26,
+        "disabled_gates": [],
+        "tier_changes": 0
+      },
+      "no_controls_suite": {
+        "acceptance_rate": 0.3486238532110092,
+        "accepted": 38,
+        "disabled_gates": [
+          "negative_controls",
+          "baseline_superiority"
+        ],
+        "tier_changes": 21
+      },
+      "no_robustness_suite": {
+        "acceptance_rate": 0.29357798165137616,
+        "accepted": 32,
+        "disabled_gates": [
+          "robustness",
+          "method_sensitivity",
+          "bidirectional",
+          "rank_stability"
+        ],
+        "tier_changes": 13
+      },
+      "no_stat_rigor": {
+        "acceptance_rate": 0.26605504587155965,
+        "accepted": 29,
+        "disabled_gates": [
+          "confirmatory_ci",
+          "multiplicity",
+          "power_adequacy",
+          "effect_size_practical"
+        ],
+        "tier_changes": 3
+      }
+    },
+    "full_acceptance_rate": 0.23853211009174313,
+    "most_sensitive_counterfactual": {
+      "acceptance_rate": 0.3486238532110092,
+      "name": "no_controls_suite",
+      "tier_changes": 21
+    }
+  },
+  "tier_counts": {
+    "causal_tested_unstable": 3,
+    "cross_model_confirmed": 12,
+    "rejected": 67,
+    "single_model_confirmed": 14,
+    "suggestive": 13
+  },
+  "totals": {
+    "acceptance_rate": 0.23853211009174313,
+    "acceptance_rate_ci95": {
+      "high": 0.3265716491399448,
+      "label": "[16.8%, 32.7%]",
+      "low": 0.16829549205620986
+    },
+    "acceptance_rate_pct": "23.9%",
+    "accepted": 26,
+    "claims": 109,
+    "rejected": 83
+  }
+}

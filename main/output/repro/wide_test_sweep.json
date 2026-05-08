@@ -1,0 +1,43 @@
+{
+  "generated_by": "manual grouped sweep after repo_integrity_sweep",
+  "all_commands_passed": true,
+  "commands": [
+    {
+      "name": "evaluator_group_1",
+      "command": "python -m pytest -q packages/evaluator/tests/test_bundle_analysis_cached_results.py packages/evaluator/tests/test_bundle_analysis_consistency.py packages/evaluator/tests/test_bundle_analysis_failure_mode.py packages/evaluator/tests/test_causal_and_robustness_gates.py packages/evaluator/tests/test_cli_report_generation.py packages/evaluator/tests/test_co_failure_matrix.py packages/evaluator/tests/test_diagnostic_scripts.py",
+      "returncode": 0,
+      "notes": "Grouped evaluator sweep, file cluster 1/4."
+    },
+    {
+      "name": "evaluator_group_2",
+      "command": "python -m pytest -q packages/evaluator/tests/test_duplicate_claim_protection.py packages/evaluator/tests/test_duplicate_claims_rejected.py packages/evaluator/tests/test_evidence_tier_classifier.py packages/evaluator/tests/test_execution_grid_and_controls.py packages/evaluator/tests/test_forensic_analyzers.py packages/evaluator/tests/test_full_valid_bundle_passes.py packages/evaluator/tests/test_generate_agent_output.py",
+      "returncode": 0,
+      "notes": "Grouped evaluator sweep, file cluster 2/4."
+    },
+    {
+      "name": "evaluator_group_3",
+      "command": "python -m pytest -q packages/evaluator/tests/test_generate_hypotheses.py packages/evaluator/tests/test_holdout_author_tools.py packages/evaluator/tests/test_holdout_scaffolding.py packages/evaluator/tests/test_loader.py packages/evaluator/tests/test_norm_ppf_parity.py packages/evaluator/tests/test_protocol_and_hypothesis_constraints.py packages/evaluator/tests/test_protocol_critic.py",
+      "returncode": 0,
+      "notes": "Grouped evaluator sweep, file cluster 3/4."
+    },
+    {
+      "name": "evaluator_group_4_without_stress",
+      "command": "python -m pytest -q packages/evaluator/tests/test_protocol_hash_and_manifest.py packages/evaluator/tests/test_reporting.py packages/evaluator/tests/test_reproducibility_audit_helpers.py packages/evaluator/tests/test_sensitivity_ci_and_multiplicity.py packages/evaluator/tests/test_submission_review_and_vectors.py packages/evaluator/tests/test_zero_task_repair_schema.py",
+      "returncode": 0,
+      "notes": "Grouped evaluator sweep, file cluster 4/4 excluding the slower stress file."
+    },
+    {
+      "name": "evaluator_stress_agnostic",
+      "command": "python -m pytest -q packages/evaluator/tests/test_stress_agnostic.py",
+      "returncode": 0,
+      "notes": "Run separately because the full-suite invocation in this environment occasionally hangs after this file despite per-file success."
+    },
+    {
+      "name": "runner_package",
+      "command": "pytest packages/runner -q",
+      "returncode": 0,
+      "notes": "Broad runner-package sweep."
+    }
+  ],
+  "environment_note": "A single monolithic pytest invocation for packages/evaluator intermittently hung near the end in this container, so the wide sweep was executed as grouped per-file clusters plus a separate stress-agnostic run."
+}
